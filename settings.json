@@ -1,5 +1,5 @@
 {
-    "window.title": "${activeEditorLong}${separator}${rootName}",
+    "window.title": "${activeEditorFull}${separator}${rootName}",
     "window.zoomLevel": 0,
     "vscode_custom_css.imports": [
         "file:///Users/rolle/Projects/vscode-settings/synthwave84.css"
@@ -21,17 +21,17 @@
     },
     "saveAndRun": {
         "commands": [
-          {
-            "match": "\\.scss?$",
-            "cmd": "cd ${fileDirname} && stylefmt -c ~/Projects/devpackages/.stylelintrc ${fileBasename}",
-            "useShortcut": false,
-            "silent": true
-          },
+            {
+                "match": "\\.scss?$",
+                "cmd": "cd ${fileDirname} && stylefmt -c ~/Projects/devpackages/.stylelintrc ${fileBasename}",
+                "useShortcut": false,
+                "silent": true
+            },
         ]
     },
     "files.autoSaveDelay": 0,
     "editor.scrollbar.verticalScrollbarSize": 5,
-    "editor.scrollbar.horizontalScrollbarSize": 5,   
+    "editor.scrollbar.horizontalScrollbarSize": 5,
     "customizeUI.activityBar": "bottom",
     "window.titleBarStyle": "native",
     "customizeUI.titleBar": "frameless",
@@ -120,4 +120,11 @@
         "quickInput.foreground": "#9ca2b0",
     },
     "workbench.colorTheme": "Monokai",
+    "window.closeWhenEmpty": false,
+    "editor.mouseWheelScrollSensitivity": 0,
+    "editor.wordSeparators": "./\\()\"':,.;<>~!@#%^&*|+=[]{}`~?",
+    "editor.formatOnPaste": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "workbench.iconTheme": "material-icon-theme",
 }
