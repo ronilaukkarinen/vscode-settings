@@ -9,6 +9,10 @@
   text-shadow: 0 0 2px #f9267225, 0 0 3px #f9267225, 0 0 5px #f9267225, 0 0 8px #f9267225;
 }
 
+.monaco-list.list_id_4 .monaco-tl-indent > .indent-guide.active {
+  border-color: #363c4c !important;
+}
+
 .panel.bottom select {
   background: #4e5766 !important;
 }
