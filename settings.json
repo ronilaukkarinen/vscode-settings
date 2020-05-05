@@ -11,6 +11,7 @@
     "editor.fontLigatures": true,
     "editor.fontSize": 14,
     "codestats.apikey": "SFMyNTY.Y205c2JHVT0jI05qWXhPQT09.ORJkNVcSU9GrW5x1Q5Tw2Y_8s2HTAjd4We8-BFLqgEE",
+    "codestats.username": "rolle",
     "css.validate": false,
     "less.validate": false,
     "scss.validate": true,
@@ -45,6 +46,7 @@
     "customizeUI.activityBar": "bottom",
     "window.titleBarStyle": "native",
     "customizeUI.titleBar": "frameless",
+    "customizeUI.activityBarHideSettings": true,
     "workbench.colorCustomizations": {
         "activityBar.background": "#232830",
         "list.activeSelectionForeground": "#ffffff",

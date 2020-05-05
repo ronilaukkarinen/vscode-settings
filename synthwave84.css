@@ -1,3 +1,9 @@
+/*
+ * @Author: Roni Laukkarinen
+ * @Date:   2020-05-05 22:48:18
+ * @Last Modified by:   Roni Laukkarinen
+ * @Last Modified time: 2020-05-05 22:48:18
+ */
 /* Glows */
 .mtk6,
 span span:nth-child(3).mtk5 {
@@ -96,8 +102,12 @@ span span:nth-child(3).mtk5 {
 /* Selected activity */
 .monaco-workbench .activitybar > .content .monaco-action-bar .action-item.checked {
   background: transparent !important;
-  box-shadow: none;
+  box-shadow: none !important;
   border: 0;
+}
+
+.monaco-workbench .activitybar > .content .monaco-action-bar .action-item.checked a {
+  color: #fff !important;
 }
 
 .monaco-workbench .activitybar > .content .monaco-action-bar .action-item.checked::after {
