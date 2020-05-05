@@ -37,6 +37,8 @@
             },
         ]
     },
+    "fileheader.author": "Roni Laukkarinen",
+    "fileheader.save": true,
     "files.autoSaveDelay": 0,
     "editor.scrollbar.verticalScrollbarSize": 5,
     "editor.scrollbar.horizontalScrollbarSize": 5,
