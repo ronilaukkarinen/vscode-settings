@@ -1,0 +1,134 @@
+{
+  "fileTypes": ["source.css"],
+  "injectionSelector": "L:source.css",
+  "name": "Modular CSS",
+  "scopeName": "modular-css.injection",
+  "patterns": [
+    {
+      "include": "#at-value"
+    },
+    {
+      "include": "#composes"
+    },
+    {
+      "include": "#global"
+    },
+    {
+      "include": "#external"
+    }
+  ],
+  "repository": {
+    "import": {
+      "patterns": [
+        {
+          "match": "(from\\b)",
+          "name": "keyword.control.css"
+        },
+        {
+          "include": "source.css#string"
+        },
+        {
+          "match": "([A-Za-z-_]+)\\b",
+          "name": "meta.property-value.css"
+        }
+      ]
+    },
+    "composes": {
+      "captures": {
+        "1": {
+          "name": "support.type.property-name.css"
+        },
+        "2": {
+          "patterns": [
+            {
+              "include": "#import"
+            }
+          ]
+        },
+        "3": {
+          "name": "punctuation.terminator.rule.css"
+        }
+      },
+      "match": "\\b(composes)\\b(.+)(?=;|\\})"
+    },
+    "at-value": {
+      "begin": "\\s*((@)value\\b)\\s*",
+      "captures": {
+        "1": {
+          "name": "keyword.control.at-rule.value.css"
+        },
+        "2": {
+          "name": "punctuation.definition.keyword.css"
+        }
+      },
+      "end": "\\s*((?=;|$))",
+      "name": "meta.at-rule.value.css",
+      "patterns": [
+        {
+          "match": "([A-Za-z-_]+\\b)(?=.*(?:from|:))",
+          "name": "variable.css"
+        },
+        {
+          "begin": "(:)\\s*",
+          "beginCaptures": {
+            "1": {
+              "name": "punctuation.seperator.key-value.css"
+            }
+          },
+          "end": "\\s*((?=;|\\}))",
+          "endCaptures": {
+            "1": {
+              "name": "punctuation.terminator.rule.css"
+            }
+          },
+          "name": "meta.property-value.css",
+          "patterns": [
+            {
+              "include": "source.css#property-values"
+            }
+          ]
+        },
+        {
+          "match": ",",
+          "name": "punctuation.separator.key.css"
+        },
+        {
+          "match": "(from\\b)",
+          "name": "keyword.control.css"
+        },
+        {
+          "include": "source.css#string"
+        }
+      ]
+    },
+    "global": {
+      "captures": {
+        "1": {
+          "name": "punctuation.definition.entity.css"
+        },
+        "2": {
+          "name": "entity.other.attribute-name.pseudo-class.css"
+        }
+      },
+      "match": "(:)(global)\\b"
+    },
+    "external": {
+      "captures": {
+        "1": {
+          "name": "punctuation.definition.entity.css"
+        },
+        "2": {
+          "name": "entity.other.attribute-name.pseudo-class.css"
+        },
+        "3": {
+          "patterns": [
+            {
+              "include": "#import"
+            }
+          ]
+        }
+      },
+      "match": "(:)(external)\\b\\s*\\(([^\\)]+)\\)"
+    }
+  }
+}

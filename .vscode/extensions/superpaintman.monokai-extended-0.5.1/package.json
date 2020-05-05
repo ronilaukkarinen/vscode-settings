@@ -1,0 +1,56 @@
+{
+	"name": "monokai-extended",
+	"displayName": "Monokai Extended",
+	"description": "Extends Monokai Theme (based on Monokai TextMate Theme)",
+	"version": "0.5.1",
+	"license": "MIT",
+	"publisher": "SuperPaintman",
+	"bugs": {
+		"url": "https://github.com/SuperPaintman/vscode-monokai-extended/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/SuperPaintman/vscode-monokai-extended"
+	},
+	"scripts": {
+		"build": "node ./scripts/build.js",
+		"vscode:prepublish": "npm run build"
+	},
+	"engines": {
+		"vscode": "^1.13.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Monokai Extended",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Monokai-Extended.json"
+			}
+		]
+	},
+	"icon": "logo.png",
+	"galleryBanner": {
+		"color": "#272822",
+		"theme": "dark"
+	},
+	"keywords": [
+		"monokai",
+		"monokai sublime",
+		"monokai textmate",
+		"monokai extended",
+		"theme"
+	],
+	"devDependencies": {
+		"handlebars": "4.0.10",
+		"js-yaml": "3.8.4",
+		"tinycolor2": "1.4.1"
+	},
+	"__metadata": {
+		"id": "bd877f13-934b-4180-9c7f-328ce5df57db",
+		"publisherId": "7ddf89c3-94af-4cbf-8d06-42388769f5ce",
+		"publisherDisplayName": "SuperPaintman"
+	}
+}
