@@ -12,6 +12,8 @@
     "css.validate": false,
     "less.validate": false,
     "scss.validate": true,
+    "phpcs.standard": "${workspaceFolder}/content/themes/${workspaceFolderBasename}/phpcs.xml",
+    "phpcs.showSources": true,
     "editor.formatOnSave": false,
     "scssLint.runOnTextChange": true,
     "editor.codeActionsOnSave": {
@@ -28,6 +30,8 @@
         ]
     },
     "files.autoSaveDelay": 0,
+    "editor.scrollbar.verticalScrollbarSize": 5,
+    "editor.scrollbar.horizontalScrollbarSize": 5,    
     "workbench.colorCustomizations": {
         "activityBar.background": "#232830",
         "list.activeSelectionForeground": "#ffffff",
