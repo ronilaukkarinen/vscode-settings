@@ -183,6 +183,30 @@
                     "foreground": "#e3e3dd",
                 },
             },
+            {
+                "scope": "punctuation.separator.key-value.scss",
+                "settings": {
+                    "foreground": "#e3e3dd",
+                },
+            },
+            {
+                "scope": "support.constant.font-name.css",
+                "settings": {
+                    "foreground": "#ae81ff",
+                },
+            },
+            {
+                "scope": "support.constant.property-value.css",
+                "settings": {
+                    "foreground": "#ae81ff",
+                },
+            },
+            {
+                "scope": "entity.name.function.scss",
+                "settings": {
+                    "foreground": "#66d9ef",
+                },
+            },
         ],
     },
     "workbench.colorTheme": "Monokai Extended",
