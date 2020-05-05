@@ -47,6 +47,10 @@
   font-size: 13px !important;
 }
 
+.monaco-workbench .part.panel.bottom .composite.title {
+  border-color: #232830 !important;
+}
+
 /* Selected activity */
 .monaco-workbench .activitybar > .content .monaco-action-bar .action-item.checked {
   background: transparent !important;
