@@ -1,0 +1,82 @@
+{
+	"name": "vscode-fileheader",
+	"displayName": "vscode-fileheader",
+	"description": "insert header comment,and automatically update the time.",
+	"version": "0.0.2",
+	"publisher": "mikey",
+	"author": {
+		"name": "mikey.zhaopeng",
+		"url": "http://zhaopeng.me"
+	},
+	"galleryBanner": {
+		"color": "#3B4859",
+		"theme": "dark"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/zhaopengme/vscode-fileheader.git"
+	},
+	"bugs": {
+		"url": "https://github.com/zhaopengme/vscode-fileheader/issues",
+		"email": "imzhpe@qq.com"
+	},
+	"icon": "images/icon.png",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:extension.fileheader",
+		"onLanguage:javascript"
+	],
+	"main": "./extension",
+	"contributes": {
+		"configuration": {
+			"type": "object",
+			"title": "File header Configuration",
+			"properties": {
+				"fileheader.Author": {
+					"type": "string",
+					"default": "mikey.zhaopeng",
+					"description": "By default, create file  username"
+				},
+				"fileheader.tpl": {
+					"type": "string",
+					"default": "/*\r\n * @Author: {author} \r\n * @Date: {createTime} \r\n * @Last Modified by:   {lastModifiedBy} \r\n * @Last Modified time: {updateTime} \r\n */\r\n",
+					"description": "By default, common template. Do not modify it!!!!!"
+				},
+				"fileheader.LastModifiedBy": {
+					"type": "string",
+					"default": "mikey.zhaopeng",
+					"description": "By default, update file  username."
+				}
+			}
+		},
+		"commands": [
+			{
+				"command": "extension.fileheader",
+				"title": "fileheader"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "extension.fileheader",
+				"key": "ctrl+alt+i",
+				"when": "editorTextFocus"
+			}
+		]
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"devDependencies": {
+		"vscode": "^0.11.0"
+	},
+	"__metadata": {
+		"id": "b3abc059-1ff4-4741-b367-1c9fe6c15855",
+		"publisherId": "5886de37-d70f-4f92-9cc9-5dd61c8aa7e1",
+		"publisherDisplayName": "mikey"
+	}
+}
