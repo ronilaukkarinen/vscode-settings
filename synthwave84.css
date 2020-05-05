@@ -11,7 +11,7 @@
 
 .view-line span span:nth-child(4).mtk8 {
   color: #66d9ef;
-  text-shadow: 0 0 2px #66d9ef, 0 0 0px #66d9ef75, 0 0 7px #66d9ef75, 0 0 9px #66d9ef75;
+  text-shadow: 0 0 0 #66d9ef, 0 0 0px #66d9ef75, 0 0 7px #66d9ef75, 0 0 9px #66d9ef75;
 }
 
 .monaco-list.list_id_4 .monaco-tl-indent > .indent-guide.active {
