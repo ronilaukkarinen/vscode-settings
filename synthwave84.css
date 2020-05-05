@@ -1,12 +1,17 @@
 /* Glows */
-.mtk6 {
-  color: #ae81ff;
-  text-shadow: 0 0 2px #001716, 0 0 3px #ae81ff75, 0 0 5px #ae81ff75, 0 0 8px #ae81ff75;
+.mtk6,
+span span:nth-child(3).mtk5 {
+  /* color: #ae81ff; */
+  /* text-shadow: 0 0 2px #001716, 0 0 3px #ae81ff75, 0 0 5px #ae81ff75, 0 0 8px #ae81ff75; */
+  color: #e3e3dd;
+  text-shadow: 0 0 0 #001716, 0 0 3px #e3e3dd75, 0 0 5px #e3e3dd75, 0 0 8px #e3e3dd75;
 }
 
 .mtk5 {
-  color: #f92672;
-  text-shadow: 0 0 2px #f9267225, 0 0 3px #f9267225, 0 0 5px #f9267225, 0 0 8px #f9267225;
+  color: #ae81ff;
+  text-shadow: 0 0 2px #001716, 0 0 3px #ae81ff75, 0 0 5px #ae81ff75, 0 0 8px #ae81ff75;
+  /* color: #f92672; */
+  /* text-shadow: 0 0 2px #f9267225, 0 0 3px #f9267225, 0 0 5px #f9267225, 0 0 8px #f9267225; */
 }
 
 .view-line span span:nth-child(4).mtk8 {
