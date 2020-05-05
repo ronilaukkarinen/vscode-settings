@@ -73,6 +73,21 @@
   border-color: #363c49 !important;
 }
 
+.monaco-workbench {
+  color: #98a2b1 !important;
+}
+
+.monaco-workbench ::selection,
+.monaco-workbench ::placeholder,
+.panel.bottom .composite.title .monaco-inputbox::placeholder {
+  color: #4e5766 !important;
+}
+
+.panel.bottom .composite.title input,
+.panel.bottom .composite.title .monaco-inputbox {
+  background-color: transparent !important;
+}
+
 /* Selected activity */
 .monaco-workbench .activitybar > .content .monaco-action-bar .action-item.checked {
   background: transparent !important;
