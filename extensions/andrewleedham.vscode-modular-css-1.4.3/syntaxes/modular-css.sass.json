@@ -1,0 +1,143 @@
+{
+  "fileTypes": ["source.sass"],
+  "injectionSelector": "L:source.sass",
+  "name": "Modular CSS",
+  "scopeName": "modular-css.sass.injection",
+  "patterns": [
+    {
+      "include": "#at-value"
+    },
+    {
+      "include": "#composes"
+    },
+    {
+      "include": "#global"
+    },
+    {
+      "include": "#external"
+    }
+  ],
+  "repository": {
+    "import": {
+      "patterns": [
+        {
+          "match": "(from\\b)",
+          "name": "keyword.control.css.sass"
+        },
+        {
+          "include": "source.sass#double-quoted"
+        },
+        {
+          "include": "source.sass#single-quoted"
+        },
+        {
+          "match": "([A-Za-z-_]+)\\b",
+          "name": "meta.property-value.css.sass"
+        }
+      ]
+    },
+    "composes": {
+      "captures": {
+        "1": {
+          "name": "support.type.property-name.sass"
+        },
+        "2": {
+          "patterns": [
+            {
+              "include": "#import"
+            }
+          ]
+        }
+      },
+      "match": "\\b(composes)\\b(.+)(?=$)"
+    },
+    "at-value": {
+      "begin": "\\s*((@)value\\b)\\s*",
+      "captures": {
+        "1": {
+          "name": "keyword.control.at-rule.value.css.sass"
+        },
+        "2": {
+          "name": "punctuation.definition.keyword.css.sass"
+        }
+      },
+      "end": "\\s*((?=$))",
+      "name": "meta.at-rule.value.sass",
+      "patterns": [
+        {
+          "match": "([A-Za-z-_]+\\b)(?=.*(?:from|:))",
+          "name": "variable.css.sass"
+        },
+        {
+          "begin": "(:)\\s*",
+          "beginCaptures": {
+            "1": {
+              "name": "punctuation.seperator.key-value.css.sass"
+            }
+          },
+          "end": "\\s*((?=$))",
+          "endCaptures": {
+            "1": {
+              "name": "punctuation.terminator.rule.css.sass"
+            }
+          },
+          "name": "meta.property-value.css.sass",
+          "patterns": [
+            {
+              "include": "source.sass#double-quoted"
+            },
+            {
+              "include": "source.sass#single-quoted"
+            },
+            {
+              "include": "source.css#property-values"
+            }
+          ]
+        },
+        {
+          "match": ",",
+          "name": "punctuation.separator.key.sass"
+        },
+        {
+          "match": "(from\\b)",
+          "name": "keyword.control.sass"
+        },
+        {
+          "include": "source.sass#double-quoted"
+        },
+        {
+          "include": "source.sass#single-quoted"
+        }
+      ]
+    },
+    "global": {
+      "captures": {
+        "1": {
+          "name": "punctuation.definition.entity.css"
+        },
+        "2": {
+          "name": "entity.other.attribute-name.pseudo-class.css"
+        }
+      },
+      "match": "(:)(global)\\b"
+    },
+    "external": {
+      "captures": {
+        "1": {
+          "name": "punctuation.definition.entity.css.sass"
+        },
+        "2": {
+          "name": "entity.other.attribute-name.pseudo-class.css.sass"
+        },
+        "3": {
+          "patterns": [
+            {
+              "include": "#import"
+            }
+          ]
+        }
+      },
+      "match": "(:)(external)\\b\\s*\\(([^\\)]+)\\)"
+    }
+  }
+}

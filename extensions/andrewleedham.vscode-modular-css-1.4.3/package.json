@@ -1,0 +1,58 @@
+{
+	"name": "vscode-modular-css",
+	"displayName": "Modular CSS Syntax Highlighter",
+	"version": "1.4.3",
+	"description": "An extension to add Modular-CSS syntax highlighting to VSCode.",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/AndrewLeedham/vscode-extensions"
+	},
+	"publisher": "andrewleedham",
+	"author": "Andrew Leedham <andrewleedham.me>",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.20.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"grammars": [
+			{
+				"scopeName": "modular-css.injection",
+				"path": "./syntaxes/modular-css.json",
+				"injectTo": [
+					"source.css"
+				]
+			},
+			{
+				"scopeName": "modular-css.sass.injection",
+				"path": "./syntaxes/modular-css.sass.json",
+				"injectTo": [
+					"source.sass"
+				]
+			}
+		]
+	},
+	"keywords": [
+		"language support",
+		"vscode",
+		"extension",
+		"css",
+		"modular-css",
+		"scss",
+		"sass"
+	],
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#DFDFDF"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"__metadata": {
+		"id": "b63ac517-4b52-4825-a0ac-348c5bd02850",
+		"publisherId": "7138678a-562c-4e76-9d46-e146e64a50c3",
+		"publisherDisplayName": "Andrew Leedham"
+	}
+}

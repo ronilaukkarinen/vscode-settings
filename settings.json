@@ -31,7 +31,10 @@
     },
     "files.autoSaveDelay": 0,
     "editor.scrollbar.verticalScrollbarSize": 5,
-    "editor.scrollbar.horizontalScrollbarSize": 5,    
+    "editor.scrollbar.horizontalScrollbarSize": 5,   
+    "customizeUI.activityBar": "bottom",
+    "window.titleBarStyle": "native",
+    "customizeUI.titleBar": "frameless",
     "workbench.colorCustomizations": {
         "activityBar.background": "#232830",
         "list.activeSelectionForeground": "#ffffff",
