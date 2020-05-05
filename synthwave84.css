@@ -13,6 +13,11 @@
   background: #4e5766 !important;
 }
 
+.settings-editor > .settings-body > .settings-tree-container .setting-item-bool .setting-value-checkbox,
+.monaco-workbench select {
+  background: #232830 !important;
+}
+
 .panel.bottom .action-item a {
   color: #4e5766 !important;
 }
@@ -32,6 +37,14 @@
 .monaco-editor {
   background-color: #2b303c !important;
   background-image: none !important;
+}
+
+.quick-input-list .quick-input-list-separator {
+  color: #5d697b !important;
+}
+
+.quick-input-list .label-name {
+  font-size: 13px !important;
 }
 
 /* Selected activity */
