@@ -89,9 +89,40 @@
 
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab,
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container,
-.monaco-workbench .part.editor > .content .editor-group-container > .title.tabs > .tabs-and-actions-container {
-  height: 25px;
+.monaco-workbench .part.editor > .content .editor-group-container > .title.tabs > .tabs-and-actions-container,
+body.inline-title-bar .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab .monaco-icon-label:before,
+body.inline-title-bar .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container,
+body.inline-title-bar .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab,
+body.inline-title-bar .monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions,
+body.inline-title-bar .monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions .action-label,
+.monaco-workbench .part.editor>.content .editor-group-container>.title .title-actions .action-label {
+  height: 25px !important;
   overflow: visible !important;
+  line-height: 25px !important;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions {
+  padding: 7px 8.5px;
+}
+
+.monaco-pane-view .pane>.pane-header h3.title,
+.monaco-workbench .codicon {
+  opacity: .8 !important;
+  color: #757c82 !important;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions .action-label,
+.monaco-workbench .part.editor>.content .editor-group-container>.title .title-actions .action-label {
+  opacity: .7;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions .action-label:hover,
+.monaco-workbench .part.editor>.content .editor-group-container>.title .title-actions .action-label:hover {
+  opacity: 1 !important;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .title-label a, .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab .tab-label a {
+  font-size: 11px !important;
 }
 
 /* Line numbers */
