@@ -2,7 +2,7 @@
  * @Author: Roni Laukkarinen
  * @Date:   2020-05-05 22:48:18
  * @Last Modified by:   Roni Laukkarinen
- * @Last Modified time: 2020-05-05 22:48:18
+ * @Last Modified time: 2020-05-05 22:54:21
  */
 /* Glows */
 .mtk6,
@@ -151,12 +151,17 @@ body.inline-title-bar .monaco-workbench .part.editor>.content .editor-group-cont
 
 .monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions .action-label,
 .monaco-workbench .part.editor>.content .editor-group-container>.title .title-actions .action-label {
-  opacity: .7;
+  opacity: .3 !important;
 }
 
 .monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions .action-label:hover,
 .monaco-workbench .part.editor>.content .editor-group-container>.title .title-actions .action-label:hover {
   opacity: 1 !important;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions .action-label,
+.monaco-workbench .part.editor>.content .editor-group-container>.title .title-actions .action-label {
+    background-position: 8px 3px !important;
 }
 
 .monaco-workbench .part.editor > .content .editor-group-container > .title .title-label a, .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab .tab-label a {
