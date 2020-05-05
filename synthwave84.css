@@ -49,6 +49,10 @@
   background-image: none !important;
 }
 
+.monaco-breadcrumbs {
+  background-color: transparent !important;
+}
+
 .quick-input-list .quick-input-list-separator {
   color: #5d697b !important;
 }
