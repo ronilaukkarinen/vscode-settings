@@ -2,4 +2,4 @@
 
 This repository contains my Visual Studio Code settings. WIP.
 
-![Screenshot](https://i.imgur.com/UzB63uy.png "Screenshot")
+![Screenshot](https://i.imgur.com/HppZhNh.png "Screenshot")
