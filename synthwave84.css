@@ -24,6 +24,7 @@
 
 .panel.bottom .action-item a {
   color: #4e5766 !important;
+  border-bottom-color: transparent !important;
 }
 
 .panel.bottom .action-item a:hover,
@@ -34,6 +35,7 @@
 .panel.bottom .action-item:hover,
 .monaco-workbench .part.panel > .title > .panel-switcher-container > .monaco-action-bar .action-item:hover .action-label {
   color: #5c6980 !important;
+  border-bottom-color: transparent !important;
 }
 
 .monaco-editor-hover-content {
