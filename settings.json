@@ -10,7 +10,7 @@
     "editor.fontFamily": "Hack",
     "editor.fontLigatures": true,
     "editor.fontSize": 14,
-    "codestats.apikey": "",
+    "codestats.apikey": "SFMyNTY.Y205c2JHVT0jI05qWXhPQT09.ORJkNVcSU9GrW5x1Q5Tw2Y_8s2HTAjd4We8-BFLqgEE",
     "css.validate": false,
     "less.validate": false,
     "scss.validate": true,
@@ -29,17 +29,17 @@
     },
     "saveAndRun": {
         "commands": [
-          {
-            "match": "\\.scss?$",
-            "cmd": "cd ${fileDirname} && stylefmt -c ~/Projects/devpackages/.stylelintrc ${fileBasename}",
-            "useShortcut": false,
-            "silent": true
-          },
+            {
+                "match": "\\.scss?$",
+                "cmd": "cd ${fileDirname} && stylefmt -c ~/Projects/devpackages/.stylelintrc ${fileBasename}",
+                "useShortcut": false,
+                "silent": true
+            },
         ]
     },
     "files.autoSaveDelay": 0,
     "editor.scrollbar.verticalScrollbarSize": 5,
-    "editor.scrollbar.horizontalScrollbarSize": 5,   
+    "editor.scrollbar.horizontalScrollbarSize": 5,
     "customizeUI.activityBar": "bottom",
     "window.titleBarStyle": "native",
     "customizeUI.titleBar": "frameless",
@@ -146,7 +146,7 @@
                 "settings": {
                     "foreground": "#e3e3dd",
                 },
-            },     
+            },
             {
                 "scope": "punctuation.section.embedded.begin.php",
                 "settings": {
@@ -183,7 +183,6 @@
                     "foreground": "#e3e3dd",
                 },
             },
-        ],            
         ],
     },
     "workbench.colorTheme": "Monokai Extended",
