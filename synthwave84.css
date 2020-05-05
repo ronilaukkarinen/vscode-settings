@@ -22,7 +22,13 @@
   color: #4e5766 !important;
 }
 
-.panel.bottom .action-item a:hover {
+.panel.bottom .action-item a:hover,
+.panel.bottom .action-item:hover,
+.panel.bottom .action-item:hover a,
+.panel.bottom .action-item.clicked a,
+.panel.bottom .action-item.clicked,
+.panel.bottom .action-item:hover,
+.monaco-workbench .part.panel > .title > .panel-switcher-container > .monaco-action-bar .action-item:hover .action-label {
   color: #5c6980 !important;
 }
 
