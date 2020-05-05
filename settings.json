@@ -4,6 +4,8 @@
     "vscode_custom_css.imports": [
         "file:///Users/rolle/Projects/vscode-settings/synthwave84.css"
     ],
+    "powermode.enabled": true,
+    "powermode.presets": "magic",
     "vscode_custom_css.policy": true,
     "editor.fontFamily": "Hack",
     "editor.fontLigatures": true,
