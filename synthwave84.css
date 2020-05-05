@@ -11,6 +11,7 @@
 
 .monaco-list.list_id_4 .monaco-tl-indent > .indent-guide.active {
   border-color: #363c4c !important;
+  opacity: .5;
 }
 
 .panel.bottom select {
@@ -109,7 +110,7 @@ body.inline-title-bar .monaco-workbench .part.editor>.content .editor-group-cont
 
 .monaco-pane-view .pane>.pane-header h3.title,
 .monaco-workbench .codicon {
-  opacity: .8 !important;
+  opacity: .6 !important;
   color: #757c82 !important;
 }
 
