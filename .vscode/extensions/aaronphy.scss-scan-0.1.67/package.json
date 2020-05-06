@@ -1,0 +1,61 @@
+{
+	"name": "scss-scan",
+	"displayName": "scss-scan",
+	"description": "a plugin to scan & autocomplete the variables, mixins and placeholders among your .scss files",
+	"version": "0.1.67",
+	"publisher": "aaronphy",
+	"engines": {
+		"vscode": "^1.5.1"
+	},
+	"categories": [
+		"Languages",
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"icon": "images/icon.png",
+	"main": "./out/src/extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "scss-scan.cache",
+				"title": "Cache SCSS definitions"
+			}
+		],
+		"configuration": {
+			"type": "object",
+			"title": "scss scan configuration",
+			"properties": {
+				"scss-scan.customPaths": {
+					"type": "array",
+					"default": [],
+					"description": "Your unique scss files path in node_modules folders"
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "tsc -p ./",
+		"compile": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test"
+	},
+	"dependencies": {
+		"lodash": "^4.16.4",
+		"mocha": "^2.3.3",
+		"gonzales-pe": "^4.0.3"
+	},
+	"devDependencies": {
+		"@types/node": "^6.0.40",
+		"@types/mocha": "^2.2.32",
+		"@types/lodash": "^4.14.37",
+		"typescript": "^2.0.3",
+		"vscode": "1.1.0"
+	},
+	"__metadata": {
+		"id": "fc1aec11-20f6-451a-bd1b-e9d03bd4be79",
+		"publisherId": "83c7daf9-2f56-4620-b5f4-691ea3f7ff9d",
+		"publisherDisplayName": "aaronphy"
+	}
+}

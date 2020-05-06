@@ -1,0 +1,86 @@
+{
+	"name": "scss-refactoring",
+	"displayName": "SCSS Refactoring",
+	"description": "SCSS refactoring tools.",
+	"version": "0.1.4",
+	"publisher": "lukazakrajsek",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bancek/vscode-scss-refactoring"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://raw.githubusercontent.com/bancek/vscode-scss-refactoring/master/LICENSE.md"
+		}
+	],
+	"engines": {
+		"vscode": "^1.5.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"keywords": [
+		"SCSS",
+		"refactoring",
+		"refactor",
+		"variables",
+		"CSS"
+	],
+	"activationEvents": [
+		"onLanguage:scss"
+	],
+	"main": "./out/src/extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.scssRefactoringExtractVariable",
+				"title": "SCSS Refactoring: Extract Variable"
+			},
+			{
+				"command": "extension.scssRefactoringFormatVariables",
+				"title": "SCSS Refactoring: Format Variables"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "extension.scssRefactoringExtractVariable",
+				"key": "ctrl+alt+e",
+				"mac": "cmd+ctrl+e",
+				"when": "editorTextFocus"
+			}
+		],
+		"menus": {
+			"editor/context": [
+				{
+					"command": "extension.scssRefactoringFormatVariables",
+					"when": "editorHasSelection && editorLangId == scss",
+					"group": "ScssRefactor"
+				},
+				{
+					"command": "extension.scssRefactoringExtractVariable",
+					"when": "editorHasSelection && editorLangId == scss",
+					"group": "ScssRefactor"
+				}
+			]
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "tsc -p ./",
+		"compile": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"typescript": "^2.0.3",
+		"vscode": "^1.0.0",
+		"mocha": "^2.3.3",
+		"@types/node": "^6.0.40",
+		"@types/mocha": "^2.2.32"
+	},
+	"__metadata": {
+		"id": "47bc1036-991d-44b1-8392-d8a0a1091b45",
+		"publisherId": "5537ff6e-c1a0-44eb-86eb-d59864704763",
+		"publisherDisplayName": "Luka Zakrajsek"
+	}
+}
