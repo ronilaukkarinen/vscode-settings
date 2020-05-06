@@ -2,7 +2,7 @@
  * @Author: Roni Laukkarinen
  * @Date:   2020-05-05 22:48:18
  * @Last Modified by:   Roni Laukkarinen
- * @Last Modified time: 2020-05-06 09:51:23
+ * @Last Modified time: 2020-05-06 13:22:25
  */
 /* Glows */
 .mtk6,
@@ -85,8 +85,18 @@ span span:nth-child(3).mtk5 {
   padding: 8px;
 }
 
-.suggest-widget {
+.suggest-widget .tree {
   border-radius: 4px !important;
+  font-size: 14px !important;
+  padding: 8px !important;
+}
+
+.suggest-widget .tree * {
+  font-size: 14px !important;
+}
+
+.suggest-widget .tree .icon {
+  margin-right: 5px !important;
 }
 
 .monaco-editor {
