@@ -2,7 +2,7 @@
  * @Author: Roni Laukkarinen
  * @Date:   2020-05-05 22:48:18
  * @Last Modified by:   Roni Laukkarinen
- * @Last Modified time: 2020-05-06 09:37:36
+ * @Last Modified time: 2020-05-06 09:51:23
  */
 /* Glows */
 .mtk6,
@@ -30,7 +30,8 @@ span span:nth-child(3).mtk5 {
   opacity: .5;
 }
 
-.panel.bottom select {
+.panel.bottom select,
+.panel.right select {
   background: #4e5766 !important;
 }
 
@@ -39,7 +40,10 @@ span span:nth-child(3).mtk5 {
   background: #232830 !important;
 }
 
-.panel.bottom .action-item a {
+.panel.bottom .action-item a,
+.panel.right .action-item a,
+.monaco-workbench .part.panel > .title > .panel-switcher-container > .monaco-action-bar .action-item:hover .action-label,
+.monaco-workbench .part.panel>.composite.title>.panel-switcher-container>.monaco-action-bar .action-item .action-label {
   color: #4e5766 !important;
   border-bottom-color: transparent !important;
 }
@@ -50,9 +54,22 @@ span span:nth-child(3).mtk5 {
 .panel.bottom .action-item.clicked a,
 .panel.bottom .action-item.clicked,
 .panel.bottom .action-item:hover,
-.monaco-workbench .part.panel > .title > .panel-switcher-container > .monaco-action-bar .action-item:hover .action-label {
+.panel.right .action-item a:hover,
+.panel.right .action-item:hover,
+.panel.right .action-item:hover a,
+.panel.right .action-item.clicked a,
+.panel.right .action-item.clicked,
+.panel.right .action-item:hover {
   color: #5c6980 !important;
   border-bottom-color: transparent !important;
+}
+
+.badge-content {
+  opacity: .5 !important;
+}
+
+.badge-content:hover {
+  opacity: 1 !important;
 }
 
 .monaco-editor-hover-content {
