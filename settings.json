@@ -194,6 +194,18 @@
                 },
             },
             {
+                "scope": "support.type.property-name.json",
+                "settings": {
+                    "foreground": "#e6db74",
+                },
+            },
+            {
+                "scope": "string.quoted.double.json",
+                "settings": {
+                    "foreground": "#ece6b2",
+                },
+            },
+            {
                 "scope": "support.constant.font-name.css",
                 "settings": {
                     "foreground": "#ae81ff",
