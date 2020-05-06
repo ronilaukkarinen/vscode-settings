@@ -42,6 +42,8 @@
     "fileheader.save": true,
     "fileheader.ignore": [
         "*.txt",
+        "*.xml",
+        "*.svg",
         "style.css",
     ],
     "files.autoSaveDelay": 0,
