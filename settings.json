@@ -169,6 +169,12 @@
                 },
             },
             {
+                "scope": "punctuation.separator.key-value.html",
+                "settings": {
+                    "foreground": "#e3e3dd",
+                },
+            },
+            {
                 "scope": "punctuation.section.embedded.begin.php",
                 "settings": {
                     "foreground": "#e3e3dd",
