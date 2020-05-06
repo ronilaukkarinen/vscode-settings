@@ -22,6 +22,7 @@
     "phpcs.executablePath": "/Users/rolle/Projects/PHP_CodeSniffer/bin/phpcs",
     "phpcs.standard": "${workspaceFolder}/content/themes/${workspaceFolderBasename}/phpcs.xml",
     "phpcs.showSources": true,
+    "auto-close-tag.SublimeText3Mode": true,
     "scssLint.runOnTextChange": true,
     "editor.codeActionsOnSave": {
         "source.fixAll.stylelint": false
