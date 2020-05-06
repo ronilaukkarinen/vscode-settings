@@ -16,4 +16,8 @@
         "key": "shift+cmd+a",
         "command": "workbench.actions.view.problems"
     },
+    {
+        "key": "shift+cmd+z",
+        "command": "extension.vscode-git-automator.addAndCommitAllFiles"
+    },
 ]
