@@ -2,7 +2,7 @@
  * @Author: Roni Laukkarinen
  * @Date:   2020-05-05 22:48:18
  * @Last Modified by:   Roni Laukkarinen
- * @Last Modified time: 2020-05-06 09:26:46
+ * @Last Modified time: 2020-05-06 09:37:36
  */
 /* Glows */
 .mtk6,
@@ -61,6 +61,15 @@ span span:nth-child(3).mtk5 {
 
 .monaco-editor-hover * {
   font-size: 12px !important;
+}
+
+.monaco-editor .monaco-editor-hover {
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.suggest-widget {
+  border-radius: 4px !important;
 }
 
 .monaco-editor {
