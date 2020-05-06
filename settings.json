@@ -40,6 +40,10 @@
     },
     "fileheader.author": "Roni Laukkarinen",
     "fileheader.save": true,
+    "fileheader.ignore": [
+        "*.txt",
+        "style.css",
+    ],
     "files.autoSaveDelay": 0,
     "search.enableSearchEditorPreview": true,
     "editor.scrollbar.verticalScrollbarSize": 5,
