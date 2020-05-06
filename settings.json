@@ -39,6 +39,13 @@
             },
         ]
     },
+    "fileheader.custom_template_path": "/Users/rolle/Projects/vscode-settings/fileheaders/",
+    "fileheader.file_suffix_mapping": {
+        ".php": "PHP",
+        ".scss": "SCSS",
+        ".css": "CSS",
+    },
+    "fileheader.body": true,
     "fileheader.author": "Roni Laukkarinen",
     "fileheader.save": true,
     "fileheader.ignore": [
