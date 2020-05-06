@@ -5,6 +5,7 @@
         "file:///Users/rolle/Projects/vscode-settings/synthwave84.css"
     ],
     "powermode.enabled": true,
+    // Valid values: particles, fireworks, flames, magic, clippy, simple-rift, exploding-rift
     "powermode.presets": "magic",
     "vscode_custom_css.policy": true,
     // Fira Code, SF Mono or Hack
