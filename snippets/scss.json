@@ -3,6 +3,7 @@
         "prefix": "media",
         "body": [
             "@media(max-width: ${1:770}px) {",
+            "",
             "}",
         ],
     },
