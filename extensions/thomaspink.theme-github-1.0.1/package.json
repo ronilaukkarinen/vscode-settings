@@ -1,0 +1,29 @@
+{
+	"name": "theme-github",
+	"displayName": "Github Theme",
+	"description": "GitHub Theme for Visual Studio Code",
+	"icon": "icon.png",
+	"version": "1.0.1",
+	"publisher": "thomaspink",
+	"repository": "https://github.com/thomaspink/vscode-github-theme",
+	"engines": {
+		"vscode": "*"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Github",
+				"uiTheme": "vs",
+				"path": "./themes/github.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "043cbe69-59a0-4952-a548-2366587a1226",
+		"publisherId": "589972e6-94fd-413e-a160-4af5b4095235",
+		"publisherDisplayName": "Thomas Pink"
+	}
+}

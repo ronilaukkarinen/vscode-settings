@@ -1,0 +1,86 @@
+{
+	"name": "gitlink",
+	"displayName": "gitlink",
+	"description": "Goto/Copy current file's online link, supports multiple remote sources in GitHub/GitLab/BitBucket/VSTS/DevOps",
+	"version": "0.5.1",
+	"publisher": "qezhu",
+	"author": {
+		"name": "Qinen Zhu",
+		"email": "qezhu@outlook.com"
+	},
+	"icon": "images/logo.png",
+	"bugs": {
+		"url": "https://github.com/qinezh/vscode-gitlink/issues",
+		"email": "qezhu@outlook.com"
+	},
+	"homepage": "https://github.com/qinezh/vscode-gitlink/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/qinezh/vscode-gitlink.git"
+	},
+	"engines": {
+		"vscode": "^1.5.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:extension.gotoOnlineLink",
+		"onCommand:extension.copyOnlineLink"
+	],
+	"main": "./out/src/extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.gotoOnlineLink",
+				"title": "Goto Online Link"
+			},
+			{
+				"command": "extension.copyOnlineLink",
+				"title": "Copy Online Link"
+			}
+		],
+		"menus": {
+			"editor/context": [
+				{
+					"when": "editorTextFocus",
+					"command": "extension.gotoOnlineLink",
+					"group": "GitLink@1"
+				},
+				{
+					"when": "editorTextFocus",
+					"command": "extension.copyOnlineLink",
+					"group": "GitLink@2"
+				}
+			]
+		},
+		"configuration": {
+			"properties": {
+				"gitlink.defaultRemote": {
+					"type": "string",
+					"default": "",
+					"description": "The default remote source name used by GitLink extension, while the repo contains multiple remote sources."
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "tsc -p ./",
+		"compile": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"devDependencies": {
+		"typescript": "^2.1.5",
+		"vscode": "^1.1.1",
+		"@types/node": "^6.0.40"
+	},
+	"dependencies": {
+		"copy-paste": "^1.3.0",
+		"git-urls": "^0.3.0"
+	},
+	"__metadata": {
+		"id": "b29620d9-78be-492b-91ea-59cf2c5308b7",
+		"publisherId": "5cd2f7ac-2564-400b-9206-b8830479709a",
+		"publisherDisplayName": "Qinen Zhu"
+	}
+}

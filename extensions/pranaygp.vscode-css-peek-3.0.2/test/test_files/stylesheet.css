@@ -1,0 +1,15 @@
+h1 {
+   background: blue;
+}
+
+.test {
+  background-color: #fff; 
+}
+
+.container #test-2 {
+  background-color: #f00; 
+}
+
+h1.test {
+  color: #fff;
+}
