@@ -1,0 +1,313 @@
+{
+	"name": "local-history",
+	"displayName": "Local History",
+	"description": "Save files into local history",
+	"publisher": "xyz",
+	"version": "1.8.1",
+	"engines": {
+		"vscode": "^1.42.0"
+	},
+	"icon": "images/local-history.png",
+	"homepage": "https://github.com/zabel-xyz/local-history",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/zabel-xyz/local-history.git"
+	},
+	"bugs": {
+		"url": "https://github.com/zabel-xyz/local-history/issues"
+	},
+	"keywords": [
+		"local",
+		"history",
+		"save",
+		"backup",
+		"multi-root ready"
+	],
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"contributes": {
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "localHistory",
+					"icon": "resources/images/history.svg",
+					"title": "Local history"
+				}
+			]
+		},
+		"views": {
+			"localHistory": [
+				{
+					"id": "treeLocalHistory",
+					"name": "History",
+					"when": "local-history:treeLocation == localHistory"
+				}
+			],
+			"explorer": [
+				{
+					"id": "treeLocalHistoryExplorer",
+					"name": "Local history",
+					"when": "local-history:treeLocation == explorer"
+				}
+			]
+		},
+		"commands": [
+			{
+				"command": "treeLocalHistory.refresh",
+				"title": "Refresh",
+				"when": false,
+				"icon": "$(refresh)"
+			},
+			{
+				"command": "treeLocalHistory.more",
+				"title": "See more history",
+				"when": false,
+				"icon": "$(zoom-in)"
+			},
+			{
+				"command": "treeLocalHistory.deleteAll",
+				"title": "Delete history",
+				"when": false,
+				"icon": "$(trash)"
+			},
+			{
+				"command": "treeLocalHistory.forCurrentFile",
+				"title": "Current file",
+				"when": false
+			},
+			{
+				"command": "treeLocalHistory.forAll",
+				"title": "All",
+				"when": false
+			},
+			{
+				"command": "treeLocalHistory.forSpecificFile",
+				"title": "Specific file",
+				"when": false
+			},
+			{
+				"command": "treeLocalHistory.showSideEntry",
+				"title": "Open to the side",
+				"when": false
+			},
+			{
+				"command": "treeLocalHistory.deleteEntry",
+				"title": "Delete",
+				"when": false
+			},
+			{
+				"command": "treeLocalHistory.compareToCurrentEntry",
+				"title": "Compare with current version",
+				"when": false
+			},
+			{
+				"command": "treeLocalHistory.selectEntry",
+				"title": "Select for compare",
+				"when": false
+			},
+			{
+				"command": "treeLocalHistory.compareEntry",
+				"title": "Compare with selection",
+				"when": false
+			},
+			{
+				"command": "treeLocalHistory.restoreEntry",
+				"title": "Restore",
+				"when": false
+			},
+			{
+				"command": "local-history.showAll",
+				"title": "Local History: Show all"
+			},
+			{
+				"command": "local-history.showCurrent",
+				"title": "Local History: Show current version"
+			},
+			{
+				"command": "local-history.compareToCurrent",
+				"title": "Local History: Compare to current version"
+			},
+			{
+				"command": "local-history.compareToActive",
+				"title": "Local History: Compare to active file"
+			},
+			{
+				"command": "local-history.compareToPrevious",
+				"title": "Local History: Compare to previous"
+			}
+		],
+		"menus": {
+			"commandPalette": [
+				{
+					"command": "treeLocalHistory.forCurrentFile",
+					"when": "false"
+				},
+				{
+					"command": "treeLocalHistory.forAll",
+					"when": "false"
+				},
+				{
+					"command": "treeLocalHistory.forSpecificFile",
+					"when": "false"
+				}
+			],
+			"view/title": [
+				{
+					"command": "treeLocalHistory.refresh",
+					"when": "view == treeLocalHistory || view == treeLocalHistoryExplorer",
+					"group": "navigation@1"
+				},
+				{
+					"command": "treeLocalHistory.more",
+					"when": "view == treeLocalHistory || view == treeLocalHistoryExplorer",
+					"group": "navigation@2"
+				},
+				{
+					"command": "treeLocalHistory.deleteAll",
+					"when": "view == treeLocalHistory || view == treeLocalHistoryExplorer",
+					"group": "navigation@3"
+				},
+				{
+					"command": "treeLocalHistory.forCurrentFile",
+					"when": "view == treeLocalHistory || view == treeLocalHistoryExplorer",
+					"group": "navigation_filter"
+				},
+				{
+					"command": "treeLocalHistory.forAll",
+					"when": "view == treeLocalHistory || view == treeLocalHistoryExplorer",
+					"group": "navigation_filter"
+				},
+				{
+					"command": "treeLocalHistory.forSpecificFile",
+					"when": "view == treeLocalHistory || view == treeLocalHistoryExplorer",
+					"group": "navigation_filter"
+				}
+			],
+			"view/item/context": [
+				{
+					"command": "treeLocalHistory.showSideEntry",
+					"when": "view == treeLocalHistory && viewItem == localHistoryItem || view == treeLocalHistoryExplorer && viewItem == localHistoryItem",
+					"group": "1_tree-navigation@1"
+				},
+				{
+					"command": "treeLocalHistory.compareToCurrentEntry",
+					"when": "view == treeLocalHistory && viewItem == localHistoryItem || view == treeLocalHistoryExplorer && viewItem == localHistoryItem",
+					"group": "2_tree-compare@1"
+				},
+				{
+					"command": "treeLocalHistory.selectEntry",
+					"when": "view == treeLocalHistory && viewItem == localHistoryItem || view == treeLocalHistoryExplorer && viewItem == localHistoryItem",
+					"group": "2_tree-compare@2"
+				},
+				{
+					"command": "treeLocalHistory.compareEntry",
+					"when": "view == treeLocalHistory && viewItem == localHistoryItem || view == treeLocalHistoryExplorer && viewItem == localHistoryItem",
+					"group": "2_tree-compare@3"
+				},
+				{
+					"command": "treeLocalHistory.deleteEntry",
+					"when": "view == treeLocalHistory && viewItem == localHistoryItem || view == treeLocalHistoryExplorer && viewItem == localHistoryItem",
+					"group": "3_tree-action@1"
+				},
+				{
+					"command": "treeLocalHistory.deleteEntry",
+					"when": "view == treeLocalHistory && viewItem == localHistoryGrp || view == treeLocalHistoryExplorer && viewItem == localHistoryGrp",
+					"group": "3_tree-action@1"
+				},
+				{
+					"command": "treeLocalHistory.restoreEntry",
+					"when": "view == treeLocalHistory && viewItem == localHistoryItem || view == treeLocalHistoryExplorer && viewItem == localHistoryItem",
+					"group": "4_tree-action@1"
+				}
+			]
+		},
+		"configuration": {
+			"type": "object",
+			"title": "Local history configuration",
+			"properties": {
+				"local-history.saveDelay": {
+					"type": "number",
+					"default": 0,
+					"description": "Controls the delay in seconds after which local-history is saved. To avoid too many history files."
+				},
+				"local-history.daysLimit": {
+					"type": "number",
+					"default": 30,
+					"description": "A day number to purge local history. (0: no purge)"
+				},
+				"local-history.maxDisplay": {
+					"type": "number",
+					"default": 10,
+					"description": "A max files to display"
+				},
+				"local-history.dateLocale": {
+					"type": "string",
+					"default": "",
+					"description": "Specify locale to use when displaying date"
+				},
+				"local-history.exclude": {
+					"type": "array",
+					"default": [
+						"**/.history/**",
+						"**/.vscode/**",
+						"**/node_modules/**",
+						"**/typings/**",
+						"**/out/**",
+						"**/Code/User/**"
+					],
+					"description": "Files or folder to not save"
+				},
+				"local-history.enabled": {
+					"type": "number",
+					"default": 1,
+					"description": "Is save in local history enabled (Never=0, Always=1, Limited to workspaceFolder=2)"
+				},
+				"local-history.path": {
+					"type": "string",
+					"default": "",
+					"description": "Specify a location for .history folder (null: use workspaceFolder)"
+				},
+				"local-history.absolute": {
+					"type": "boolean",
+					"default": false,
+					"description": "Save absolute path in local-history.path"
+				},
+				"local-history.treeLocation": {
+					"type": "string",
+					"default": "explorer",
+					"enum": [
+						"explorer",
+						"localHistory"
+					],
+					"description": "Specify a location for tree view: explorer or localHistory"
+				}
+			}
+		}
+	},
+	"main": "./out/src/extension",
+	"scripts": {
+		"vscode:prepublish": "tsc -p ./",
+		"compile": "tsc -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"dependencies": {
+		"glob": "7.1.6",
+		"anymatch": "3.1.1",
+		"is-path-inside": "3.0.2",
+		"rimraf": "3.0.2"
+	},
+	"devDependencies": {
+		"typescript": "3.7.5",
+		"vscode": "1.1.36",
+		"@types/node": "13.7.1"
+	},
+	"__metadata": {
+		"id": "25adc849-5c3a-4dca-95b3-55a6461077ee",
+		"publisherId": "2a0c0493-25f5-40fa-9500-8d15c40b42e7",
+		"publisherDisplayName": "xyz"
+	}
+}
