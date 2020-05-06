@@ -15,8 +15,8 @@
     "Media query": {
         "prefix": "media",
         "body": [
-            "@media(max-width: 770px) {",
-			"	${1:}"
+            "@media(max-width: ${1:770}px) {",
+			"	"
 			"}",
         ],
     }
