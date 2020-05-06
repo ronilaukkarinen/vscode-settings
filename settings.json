@@ -41,6 +41,7 @@
     "fileheader.author": "Roni Laukkarinen",
     "fileheader.save": true,
     "files.autoSaveDelay": 0,
+    "search.enableSearchEditorPreview": true,
     "editor.scrollbar.verticalScrollbarSize": 5,
     "editor.scrollbar.horizontalScrollbarSize": 5,
     "customizeUI.activityBar": "bottom",
@@ -232,4 +233,5 @@
     "editor.formatOnPaste": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
+    "search.collapseResults": "alwaysCollapse",
 }
