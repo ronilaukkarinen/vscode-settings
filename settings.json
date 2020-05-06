@@ -4,6 +4,8 @@
     "vscode_custom_css.imports": [
         "file:///Users/rolle/Projects/vscode-settings/synthwave84.css"
     ],
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 3,
     "powermode.enabled": true,
     // Valid values: particles, fireworks, flames, magic, clippy, simple-rift, exploding-rift
     "powermode.presets": "magic",
@@ -117,7 +119,7 @@
         "activityBar.dropBackground": "#232830",
         "activityBarBadge.foreground": "#232830",
         "editorCursor.background": "#2b303c",
-        "editorCursor.foreground": "#d2d3ce",
+        "editorCursor.foreground": "#e2e2e2",
         "editor.wordHighlightBackground": "#674ba2",
         "editor.wordHighlightStrongBackground": "#674ba2",
         "editor.findMatchBackground": "#674ba2",
