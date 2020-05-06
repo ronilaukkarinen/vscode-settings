@@ -7,7 +7,9 @@
     "powermode.enabled": true,
     "powermode.presets": "magic",
     "vscode_custom_css.policy": true,
-    "editor.fontFamily": "Hack",
+    // Fira Code, SF Mono or Hack
+    "editor.fontFamily": "SF Mono",
+    "editor.lineHeight": 22,
     "editor.fontLigatures": true,
     "editor.fontSize": 14,
     "codestats.apikey": "",
@@ -17,13 +19,6 @@
     "scss.validate": true,
     "phpcs.standard": "${workspaceFolder}/content/themes/${workspaceFolderBasename}/phpcs.xml",
     "phpcs.showSources": true,
-    "editor.formatOnSave": false,
-    "phpfmt.detect_indent": false,
-    "phpfmt.psr2": false,
-    "phpfmt.indent_with_space": 2,
-    "[php]": {
-        "editor.formatOnSave": false,
-    },
     "scssLint.runOnTextChange": true,
     "editor.codeActionsOnSave": {
         "source.fixAll.stylelint": false
@@ -33,6 +28,12 @@
             {
                 "match": "\\.scss?$",
                 "cmd": "cd ${fileDirname} && stylefmt -c ~/Projects/devpackages/.stylelintrc ${fileBasename}",
+                "useShortcut": false,
+                "silent": true
+            },
+            {
+                "match": "\\.php?$",
+                "cmd": "cd ${fileDirname} && /Users/rolle/Projects/PHP_CodeSniffer/bin/phpcbf --standard=/Users/rolle/Projects/airdev/content/themes/air-light/phpcs.xml ${fileBasename}",
                 "useShortcut": false,
                 "silent": true
             },
@@ -240,4 +241,11 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
     "search.collapseResults": "alwaysCollapse",
+    "[php]": {
+        "editor.defaultFormatter": "persoderlind.vscode-phpcbf"
+    },
+    "theme-by-language.themes": {
+        "markdown": "Github",
+        "*": "Monokai Extended"
+    },
 }
