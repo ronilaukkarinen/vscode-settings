@@ -47,11 +47,12 @@
         ".scss": "SCSS",
         ".css": "CSS",
     },
-    "fileheader.body": true,
     "fileheader.author": "Roni Laukkarinen",
+    "fileheader.body": false,
     "fileheader.save": true,
     "fileheader.ignore": [
         "*.txt",
+        "*.scss",
         "*.xml",
         "*.svg",
         "style.css",
