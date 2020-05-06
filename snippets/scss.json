@@ -19,5 +19,11 @@
 			"	"
 			"}",
         ],
+    },
+    "CSS Grid": {
+        "prefix": "grid",
+        "body": [
+            "@include grid(${1:3}, \\$gutter_x: 50px, \\$gutter_y: 50px);",
+        ],
     }
 }
