@@ -20,4 +20,8 @@
         "key": "shift+cmd+z",
         "command": "extension.vscode-git-automator.addAndCommitAllFiles"
     },
+    {
+        "key": "shift+cmd+r",
+        "command": "editor.action.indentLines"
+    },
 ]
