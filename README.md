@@ -1,6 +1,11 @@
-# The ultimate VSCode config and theme by rolle
+# The ultimate Visual Studio Code
 
-This repository contains my Visual Studio Code settings used when coding [Digitoimisto Dude Oy's Projects](https://github.com/digitoimistodude). Strongly WIP.
+This repository contains a Visual Studio Code settings and theme.
+Used when coding [Digitoimisto Dude Oy's Projects](https://github.com/digitoimistodude).
+
+Strongly WIP.
+Updated regurarly.
+Aims to be minimal and usable.
 
 ## Features
 
@@ -14,7 +19,7 @@ Useful snippets like `media + tab` for media queries. Browse snippets [here](htt
 
 ### Key bindings
 
-Useful keybindings for different kind of tasks. Browse keybindings [here](https://github.com/ronilaukkarinen/vscode-settings/keybindings.json).
+Useful keybindings for different kind of tasks. Browse keybindings [here](https://github.com/ronilaukkarinen/vscode-settings/blob/master/keybindings.json).
 
 ### Pixel-perfect theme
 
@@ -26,7 +31,7 @@ Theme is based on Monokai Extended, Spacegray and Synthwave '84. Color overrides
 
 ![Screenshot](https://i.imgur.com/Aqrlf0C.png "Screenshot")
 
-### Screenshot
+### Full screenshot
 
 ![Screenshot](https://i.imgur.com/8m8ESKo.png "Screenshot")
 
