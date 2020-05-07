@@ -309,5 +309,5 @@
     "breadcrumbs.enabled": true,
     "editor.renderWhitespace": "all",
     "workbench.activityBar.visible": false,
-    "editor.matchBrackets": false,
+    "editor.matchBrackets": "never",
 }
