@@ -26,8 +26,19 @@
     "phpcs.showSources": true,
     "auto-close-tag.SublimeText3Mode": true,
     "scssLint.runOnTextChange": true,
+    "editor.acceptSuggestionOnEnter": "off",
     "editor.codeActionsOnSave": {
         "source.fixAll.stylelint": false
+    },
+    "files.exclude": {
+        "**/tmp/**": true,
+        "**/node_modules/**": true,
+        "**/bower_components/**": true
+    },
+    "files.watcherExclude": {
+        "**/tmp/**": true,
+        "**/node_modules/**": true,
+        "**/bower_components/**": true
     },
     "saveAndRun": {
         "commands": [
@@ -60,6 +71,32 @@
         "*.xml",
         "*.svg",
         "style.css",
+    ],
+    "activitusbar.views": [
+        {
+            "name": "explorer",
+            "codicon": "files"
+        },
+        {
+            "name": "search",
+            "codicon": "search"
+        },
+        {
+            "name": "scm",
+            "codicon": "source-control"
+        },
+        {
+            "name": "debug",
+            "codicon": "debug"
+        },
+        {
+            "name": "extensions",
+            "codicon": "extensions"
+        },
+        {
+            "name": "problems",
+            "codicon": "bug"
+        },
     ],
     "files.autoSaveDelay": 0,
     "search.enableSearchEditorPreview": true,
@@ -268,4 +305,8 @@
         "markdown": "Github",
         "*": "Monokai Extended"
     },
+    "git.autofetch": true,
+    "breadcrumbs.enabled": true,
+    "editor.renderWhitespace": "all",
+    "workbench.activityBar.visible": false,
 }

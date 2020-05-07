@@ -1,0 +1,72 @@
+{
+	"name": "tabnine-vscode",
+	"version": "2.8.2",
+	"displayName": "TabNine",
+	"description": "All-language autocompleter — TabNine uses machine learning to help you write code faster.",
+	"icon": "small_logo.png",
+	"author": "Jacob Jackson",
+	"publisher": "TabNine",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/codota/tabnine-vscode"
+	},
+	"bugs": {
+		"url": "https://github.com/codota/tabnine-vscode/issues"
+	},
+	"engines": {
+		"vscode": "^1.26.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./out/extension",
+	"scripts": {
+		"vscode:prepublish": "tsc -p ./",
+		"compile": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"tslint": "tslint -c tslint.json src/extension.ts",
+		"vscode:uninstall": "node ./out/uninstall"
+	},
+	"devDependencies": {
+		"@types/node": "^6.0.40",
+		"typescript": "^2.1.4",
+		"vscode": "^1.1.21"
+	},
+	"dependencies": {
+		"semver": "^5.1.1",
+		"await-semaphore": "^0.1.3"
+	},
+	"contributes": {
+		"commands": [
+			{
+				"command": "TabNine::config",
+				"title": "TabNine: config"
+			}
+		],
+		"configuration": [
+			{
+				"title": "TabNine",
+				"properties": {
+					"tabnine.disable_line_regex": {
+						"type": "array",
+						"default": [],
+						"description": "Disable TabNine when the current line contains a match of any of the provided regexes. For example, add \"require\" to disable TabNine when the current line contains the word 'require'."
+					},
+					"tabnine.disable_file_regex": {
+						"type": "array",
+						"default": [],
+						"description": "Disable TabNine when the file path contains a match of any of the provided regexes. For example, add \"[.]js$\" to disable TabNine in JavaScript files."
+					}
+				}
+			}
+		]
+	},
+	"__metadata": {
+		"id": "75da638c-c45a-44ea-aa3b-8570a3559810",
+		"publisherId": "1924b661-7c19-45d9-9800-edeb32848fd7",
+		"publisherDisplayName": "TabNine"
+	}
+}
