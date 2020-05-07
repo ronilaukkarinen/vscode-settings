@@ -1,4 +1,4 @@
-# The ultimate Visual Studio Code
+# The ultimate Visual Studio Code setup
 
 This repository contains a Visual Studio Code settings and theme.
 Used when coding [Digitoimisto Dude Oy's Projects](https://github.com/digitoimistodude).
