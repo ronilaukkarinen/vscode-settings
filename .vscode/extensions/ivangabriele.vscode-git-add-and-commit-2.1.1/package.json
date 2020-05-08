@@ -1,0 +1,260 @@
+{
+	"name": "vscode-git-add-and-commit",
+	"version": "2.1.1",
+	"displayName": "Git Automator",
+	"description": "Automate your commit messages & your Git workflow.",
+	"main": "./out/extension.js",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.36.0"
+	},
+	"activationEvents": [
+		"onCommand:extension.vscode-git-automator.addAndCommitAllFiles",
+		"onCommand:extension.vscode-git-automator.addAndCommitCurrentFile",
+		"onCommand:extension.vscode-git-automator.pushLocalCommits"
+	],
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.vscode-git-automator.addAndCommitAllFiles",
+				"title": "Add & Commit All Files"
+			},
+			{
+				"command": "extension.vscode-git-automator.addAndCommitCurrentFile",
+				"title": "Add & Commit Current File"
+			},
+			{
+				"command": "extension.vscode-git-automator.pushLocalCommits",
+				"title": "Push Local Commits"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "extension.vscode-git-automator.addAndCommitAllFiles",
+				"key": "ctrl+shift+a",
+				"mac": "cmd+shift+a"
+			},
+			{
+				"command": "extension.vscode-git-automator.addAndCommitCurrentFile",
+				"key": "ctrl+shift+z",
+				"mac": "cmd+shift+z"
+			},
+			{
+				"command": "extension.vscode-git-automator.pushLocalCommits",
+				"key": "ctrl+shift+x",
+				"mac": "cmd+shift+x"
+			}
+		],
+		"configuration": {
+			"type": "object",
+			"title": "Git Add & Commit configuration",
+			"properties": {
+				"gaac.disableOptionalMessages": {
+					"type": "boolean",
+					"default": true,
+					"description": "Show 'optional' warning and info messages in the status bar instead of the top modals."
+				},
+				"gaac.forceLowerCase": {
+					"type": "boolean",
+					"default": false,
+					"description": "Force all character in the prefilled commit message to be in lower case. Only works when 'gaac.withFileWorkspacePath' is TRUE. Output: 'README: ' => 'readme: '."
+				},
+				"gaac.ignoreFileExtension": {
+					"type": "boolean",
+					"default": true,
+					"description": "Ignore the file extension in the commit message. Output: 'res/icon.png: ' => 'res/icon: '."
+				},
+				"gaac.replacePatternWith": {
+					"type": "array",
+					"default": [
+						{
+							"pattern": "/^.editorconfig/",
+							"with": "editorconfig"
+						},
+						{
+							"pattern": "/^.gitignore/",
+							"with": "git"
+						},
+						{
+							"pattern": "/^.travis/",
+							"with": "travis"
+						},
+						{
+							"pattern": "/^.vscodeignore/",
+							"with": "vscode"
+						},
+						{
+							"pattern": "/^CHANGELOG[^:]*/",
+							"with": "changelog"
+						},
+						{
+							"pattern": "/^Godeps[^:]*/",
+							"with": "godep"
+						},
+						{
+							"pattern": "/^LICENSE[^:]*/",
+							"with": "license"
+						},
+						{
+							"pattern": "/^Makefile[^:]*/i",
+							"with": "makefile"
+						},
+						{
+							"pattern": "/^(npm-shrinkwrap|.npmignore|package(-lock)?)[^:]*/",
+							"with": "npm"
+						},
+						{
+							"pattern": "/^webpack[^:]*/",
+							"with": "webpack"
+						},
+						{
+							"pattern": "/^README[^:]*/",
+							"with": "readme"
+						},
+						{
+							"pattern": "/^src//",
+							"with": ""
+						}
+					],
+					"description": "Replace the commit message via a pattern (the pattern can be a string or a regex string). These replacements are executed after everything else, BUT before your own edit (in the prompt field). Example: [{ \"pattern\": \"/^package[^\\.]*\\.jso?n?/\", \"with\": \"npm\" }] will replace the prefilled commit message like: 'package-lock.json: ' => 'npm: '.",
+					"items": {
+						"type": "object",
+						"properties": {
+							"action": {
+								"type": "string"
+							},
+							"pattern": {
+								"type": "string",
+								"minLength": 1
+							},
+							"state": {
+								"enum": [
+									"ADDED",
+									"DELETED",
+									"MODIFIED",
+									"RENAMED"
+								]
+							}
+						}
+					}
+				},
+				"gaac.withFileWorkspacePath": {
+					"type": "boolean",
+					"default": true,
+					"description": "Prefill the commit message with the workspace relative file path, followed by ': '."
+				},
+				"gaac.withGuessedAction": {
+					"type": "boolean",
+					"default": true,
+					"description": "Try to guess the action when it's obvious and add it to the prefilled commit message."
+				},
+				"gaac.withGuessedCustomActions": {
+					"type": "array",
+					"default": [
+						{
+							"action": "ignore",
+							"pattern": "/^.(gitignore|npmignore|vscodeignore)/",
+							"state": "MODIFIED"
+						},
+						{
+							"action": "update",
+							"pattern": "/^CHANGELOG/",
+							"state": "MODIFIED"
+						},
+						{
+							"action": "update",
+							"pattern": "/^LICENSE/",
+							"state": "MODIFIED"
+						},
+						{
+							"action": "update",
+							"pattern": "/^README/",
+							"state": "MODIFIED"
+						}
+					],
+					"description": "Add a custom action for any prefilled commit matching a pattern and Git state. The `state` can be any one of: 'ADDED', 'DELETED', 'MODIFIED', 'RENAMED'.",
+					"items": {
+						"type": "object",
+						"properties": {
+							"action": {
+								"type": "string"
+							},
+							"pattern": {
+								"type": "string",
+								"minLength": 1
+							},
+							"state": {
+								"enum": [
+									"ADDED",
+									"DELETED",
+									"MODIFIED",
+									"RENAMED"
+								]
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"scripts": {
+		"compile": "rimraf ./out && rollup -c",
+		"compile:dev": "tsc -p ./",
+		"pretest": "rimraf ./out && yarn compile:dev",
+		"test": "node ./node_modules/vscode/bin/test",
+		"preversion": "yarn compile",
+		"postversion": "git push origin HEAD && git push --tags",
+		"vscode:prepublish": "yarn compile",
+		"watch": "rimraf ./out && yarn compile:dev --watch"
+	},
+	"dependencies": {
+		"await-to-js": "2.1.1",
+		"rorre": "1.1.0"
+	},
+	"devDependencies": {
+		"@types/fs-extra": "8.0.0",
+		"@types/mocha": "5.2.7",
+		"@types/node": "12.6.3",
+		"@types/vscode": "1.36.0",
+		"fs-extra": "8.1.0",
+		"rimraf": "2.6.3",
+		"rollup": "1.17.0",
+		"rollup-plugin-commonjs": "10.0.1",
+		"rollup-plugin-node-resolve": "5.2.0",
+		"rollup-plugin-typescript2": "0.22.0",
+		"tslint": "5.18.0",
+		"typescript": "3.5.3",
+		"vscode": "1.1.35"
+	},
+	"author": {
+		"name": "Ivan Gabriele",
+		"email": "ivan.gabriele@gmail.com",
+		"url": "https://www.ivangabriele.com"
+	},
+	"publisher": "ivangabriele",
+	"icon": "res/icon.png",
+	"categories": [
+		"Other",
+		"SCM Providers"
+	],
+	"keywords": [
+		"addon",
+		"extension",
+		"git",
+		"shortcut",
+		"vscode"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ivangabriele/vscode-git-automator-legacy.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ivangabriele/vscode-git-automator-legacy/issues"
+	},
+	"homepage": "https://github.com/ivangabriele/vscode-git-automator-legacy#readme",
+	"__metadata": {
+		"id": "117a5df4-a749-4500-a6d1-ecdd3ff732d0",
+		"publisherId": "deed7d07-8b79-4444-a8e5-b9308f8789a9",
+		"publisherDisplayName": "Ivan Gabriele"
+	}
+}
