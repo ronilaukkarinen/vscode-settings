@@ -27,9 +27,6 @@
     "auto-close-tag.SublimeText3Mode": true,
     "scssLint.runOnTextChange": true,
     "editor.acceptSuggestionOnEnter": "off",
-    "editor.codeActionsOnSave": {
-        "source.fixAll.stylelint": false
-    },
     "files.exclude": {
         "**/tmp/**": true,
         "**/node_modules/**": true,
@@ -310,4 +307,19 @@
     "editor.renderWhitespace": "all",
     "workbench.activityBar.visible": false,
     "editor.matchBrackets": "never",
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.tslint": true,
+        "source.fixAll.stylelint": true
+    },
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "[scss]": {
+        "editor.formatOnSave": true
+    },
+    "[json]": {
+        "editor.formatOnSave": true
+    }
 }
