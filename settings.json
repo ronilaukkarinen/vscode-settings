@@ -192,67 +192,67 @@
             {
                 "scope": "entity.name.function.php",
                 "settings": {
-                    "foreground": "#e3e3dd",
+                    "foreground": "#f8f8f0",
                 },
             },
             {
                 "scope": "punctuation.section.array.begin.php",
                 "settings": {
-                    "foreground": "#e3e3dd",
+                    "foreground": "#f8f8f0",
                 },
             },
             {
                 "scope": "punctuation.section.array.end.php",
                 "settings": {
-                    "foreground": "#e3e3dd",
+                    "foreground": "#f8f8f0",
                 },
             },
             {
                 "scope": "punctuation.separator.key-value.html",
                 "settings": {
-                    "foreground": "#e3e3dd",
+                    "foreground": "#f8f8f0",
                 },
             },
             {
                 "scope": "punctuation.section.embedded.begin.php",
                 "settings": {
-                    "foreground": "#e3e3dd",
+                    "foreground": "#f8f8f0",
                 },
             },
             {
                 "scope": "punctuation.section.embedded.end.php",
                 "settings": {
-                    "foreground": "#e3e3dd",
+                    "foreground": "#f8f8f0",
                 },
             },
             {
                 "scope": "punctuation.definition.string.begin.php",
                 "settings": {
-                    "foreground": "#e3e3dd",
+                    "foreground": "#f8f8f0",
                 },
             },
             {
                 "scope": "punctuation.definition.string.end.php",
                 "settings": {
-                    "foreground": "#e3e3dd",
+                    "foreground": "#f8f8f0",
                 },
             },
             {
                 "scope": "punctuation.definition.arguments.start.bracket.round.php",
                 "settings": {
-                    "foreground": "#e3e3dd",
+                    "foreground": "#f8f8f0",
                 },
             },
             {
                 "scope": "punctuation.definition.arguments.end.bracket.round.php",
                 "settings": {
-                    "foreground": "#e3e3dd",
+                    "foreground": "#f8f8f0",
                 },
             },
             {
                 "scope": "punctuation.separator.key-value.scss",
                 "settings": {
-                    "foreground": "#e3e3dd",
+                    "foreground": "#f8f8f0",
                 },
             },
             {
@@ -285,6 +285,12 @@
                     "foreground": "#66d9ef",
                 },
             },
+            {
+                "scope": "meta.namespace.php",
+                "settings": {
+                    "foreground": "#a6e22e",
+                },
+            },
         ],
     },
     "workbench.colorTheme": "Monokai Extended",
@@ -295,9 +301,6 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
     "search.collapseResults": "alwaysCollapse",
-    "[php]": {
-        "editor.defaultFormatter": "persoderlind.vscode-phpcbf"
-    },
     "theme-by-language.themes": {
         "markdown": "Github",
         "*": "Monokai Extended"
@@ -308,6 +311,17 @@
     "workbench.activityBar.visible": false,
     "editor.matchBrackets": "never",
     "editor.formatOnSave": false,
+    "editor.tabSize": 2,
+    "html.format.contentUnformatted": "pre,code,textarea",
+    "html.format.endWithNewline": true,
+    "html.format.extraLiners": "head, body, /html",
+    "html.format.indentHandlebars": false,
+    "html.format.indentInnerHtml": false,
+    "html.format.maxPreserveNewLines": null,
+    "html.format.preserveNewLines": true,
+    "html.format.wrapLineLength": 200,
+    "html.format.wrapAttributes": "auto",
+    "phpcbf.executablePath": "/Users/rolle/Projects/PHP_CodeSniffer/bin/phpcbf",
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true,
         "source.fixAll.tslint": true,
@@ -321,5 +335,12 @@
     },
     "[json]": {
         "editor.formatOnSave": true
-    }
+    },
+    "[php]": {
+        "editor.defaultFormatter": "rifi2k.format-html-in-php",
+        "editor.formatOnSave": true
+    },
+    "[html]": {
+        "editor.formatOnSave": true
+    },
 }
