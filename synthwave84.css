@@ -2,7 +2,7 @@
  * @Author: Roni Laukkarinen
  * @Date:   2020-05-05 22:48:18
  * @Last Modified by:   Roni Laukkarinen
- * @Last Modified time: 2020-05-11 13:26:27
+ * @Last Modified time: 2020-05-12 11:48:54
  */
 /* Glows */
 .mtk6,
@@ -10,7 +10,7 @@ span span:nth-child(3).mtk5 {
   /* color: #ae81ff; */
   /* text-shadow: 0 0 2px #001716, 0 0 3px #ae81ff75, 0 0 5px #ae81ff75, 0 0 8px #ae81ff75; */
   color: #f8f8f0;
-  text-shadow: 0 0 2px #001716, 0 0 4px #e3e3dd75, 0 0 6px #e3e3dd55, 0 0 8px #e3e3dd55;
+  /* text-shadow: 0 0 2px #001716, 0 0 4px #e3e3dd75, 0 0 6px #e3e3dd55, 0 0 8px #e3e3dd55; */
 }
 
 .mtk5 {
