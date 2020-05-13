@@ -1,0 +1,66 @@
+{
+	"name": "html-validate-vscode",
+	"displayName": "html-validate",
+	"description": "In-editor view of html-validate rules for your project.",
+	"publisher": "TobiasHansson",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hansson/html-validate-vscode.git"
+	},
+	"version": "0.2.0",
+	"engines": {
+		"vscode": "^1.34.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"configuration": {
+			"type": "object",
+			"title": "html-validate configuration",
+			"properties": {
+				"html-validate.runOnEdit": {
+					"type": "boolean",
+					"default": true,
+					"description": "Run html-valide while you are editing a document. If set to false html-validate will only when a document is opened or saved."
+				},
+				"html-validate.rulesPath": {
+					"type": "string",
+					"default": null,
+					"description": "Path to rules file, relative to workspace or absolute. The name of the file needs to be .htmlvalidate.json. If not set the plugin will search form the current file to the root to find a .htmlvalidate.json file.",
+					"examples": [
+						"config/.htmlvalidate.json",
+						"/home/user/.htmlvalidate.json"
+					]
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "npm run compile && node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"@types/estree": "0.0.39",
+		"@types/mocha": "^2.2.42",
+		"@types/node": "^10.14.15",
+		"tslint": "^5.18.0",
+		"typescript": "^3.5.3",
+		"vscode": "^1.1.36"
+	},
+	"dependencies": {
+		"html-validate": "^1.2.1"
+	},
+	"__metadata": {
+		"id": "c91d5784-e345-4740-b4d3-620629fa47fa",
+		"publisherId": "8d698645-30bc-48e0-80fe-3622cb2dcc74",
+		"publisherDisplayName": "Tobias Hansson"
+	}
+}
