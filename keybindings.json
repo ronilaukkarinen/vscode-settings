@@ -24,4 +24,8 @@
         "key": "shift+cmd+r",
         "command": "editor.action.indentLines"
     },
+    {
+        "key": "shift+cmd+f",
+        "command": "betterSearch.searchFull"
+    },
 ]
