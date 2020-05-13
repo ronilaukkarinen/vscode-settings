@@ -61,7 +61,7 @@
     },
     "fileheader.author": "Roni Laukkarinen",
     "fileheader.body": false,
-    "fileheader.save": true,
+    "fileheader.save": false,
     "fileheader.ignore": [
         "*.txt",
         "*.scss",
@@ -331,7 +331,7 @@
     "html.format.indentInnerHtml": false,
     "html.format.maxPreserveNewLines": null,
     "html.format.preserveNewLines": true,
-    "html.format.wrapLineLength": 200,
+    "html.format.wrapLineLength": 600,
     "html.format.wrapAttributes": "auto",
     "phpcbf.executablePath": "/Users/rolle/Projects/PHP_CodeSniffer/bin/phpcbf",
     "editor.codeActionsOnSave": {
@@ -343,7 +343,7 @@
         "editor.formatOnSave": true
     },
     "[scss]": {
-        "editor.formatOnSave": true
+        "editor.formatOnSave": false
     },
     "[json]": {
         "editor.formatOnSave": true
