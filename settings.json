@@ -39,18 +39,18 @@
     },
     "saveAndRun": {
         "commands": [
-            {
-                "match": "\\.scss?$",
-                "cmd": "cd ${fileDirname} && stylefmt -c ~/Projects/devpackages/.stylelintrc ${fileBasename}",
-                "useShortcut": false,
-                "silent": true
-            },
-            {
-                "match": "\\.php?$",
-                "cmd": "cd ${fileDirname} && /Users/rolle/Projects/PHP_CodeSniffer/bin/phpcbf --standard=/Users/rolle/Projects/airdev/content/themes/air-light/phpcs.xml ${fileBasename}",
-                "useShortcut": false,
-                "silent": true
-            },
+          {
+            "match": "\\.scss?$",
+            "cmd": "cd ${fileDirname} && stylefmt -c ~/Projects/devpackages/.stylelintrc ${fileBasename}",
+            "useShortcut": false,
+            "silent": true
+          },
+        {
+            "match": "\\.php?$",
+            "cmd": "cd ${fileDirname} && /Users/rolle/Projects/PHP_CodeSniffer/bin/phpcbf --standard=/Users/rolle/Projects/airdev/content/themes/air-light/phpcs.xml ${fileBasename}",
+            "useShortcut": false,
+            "silent": true
+        },          
         ]
     },
     "fileheader.custom_template_path": "/Users/rolle/Projects/vscode-settings/fileheaders/",
@@ -98,7 +98,7 @@
     "files.autoSaveDelay": 0,
     "search.enableSearchEditorPreview": true,
     "editor.scrollbar.verticalScrollbarSize": 5,
-    "editor.scrollbar.horizontalScrollbarSize": 5,
+    "editor.scrollbar.horizontalScrollbarSize": 5,   
     "customizeUI.activityBar": "bottom",
     "window.titleBarStyle": "native",
     "customizeUI.titleBar": "frameless",
@@ -254,7 +254,7 @@
                 "settings": {
                     "foreground": "#f8f8f0",
                 },
-            },
+            },                        
             {
                 "scope": "punctuation.definition.arguments.end.bracket.round.php",
                 "settings": {
@@ -278,7 +278,7 @@
                 "settings": {
                     "foreground": "#ece6b2",
                 },
-            },
+            },            
             {
                 "scope": "support.constant.font-name.css",
                 "settings": {
@@ -302,7 +302,7 @@
                 "settings": {
                     "foreground": "#a6e22e",
                 },
-            },
+            },            
         ],
     },
     "workbench.colorTheme": "Monokai Extended",
@@ -353,6 +353,6 @@
         "editor.formatOnSave": true
     },
     "[html]": {
-        "editor.formatOnSave": true
+      "editor.formatOnSave": true
     },
 }
