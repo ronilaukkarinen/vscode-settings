@@ -327,7 +327,7 @@
     "html.format.wrapLineLength": 600,
     "html.format.wrapAttributes": "auto",
     "phpcbf.executablePath": "/Users/rolle/Projects/PHP_CodeSniffer/bin/phpcbf",
-    "showErrorMessages": true,
+    "showErrorMessages": false,
     "editor.formatOnSave": false,
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true,
