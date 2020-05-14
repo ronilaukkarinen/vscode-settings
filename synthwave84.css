@@ -2,7 +2,7 @@
  * @Author: Roni Laukkarinen
  * @Date:   2020-05-05 22:48:18
  * @Last Modified by:   Roni Laukkarinen
- * @Last Modified time: 2020-05-13 15:03:13
+ * @Last Modified time: 2020-05-14 10:31:25
  */
 /* Glows */
 .mtk6,
@@ -15,7 +15,7 @@ span span:nth-child(3).mtk5 {
 
 .mtk5 {
   color: #ae81ff;
-  text-shadow: 0 0 2px #001716, 0 0 3px #ae81ff75, 0 0 5px #ae81ff75, 0 0 8px #ae81ff75;
+  text-shadow: 0 0 0 #001716, 0 0 0px #ae81ff75, 0 0 7px #ae81ff75, 0 0 9px #ae81ff75;
   /* color: #f92672; */
   /* text-shadow: 0 0 2px #f9267225, 0 0 3px #f9267225, 0 0 5px #f9267225, 0 0 8px #f9267225; */
 }
@@ -34,9 +34,13 @@ span span:nth-child(3).mtk5 {
   color: #ae81ff !important;
 }
 
+.view-line .mtk9 {
+  text-shadow: 0 0 0 #a6e22e, 0 0 3px #a6e22e65, 0 0 7px #a6e22e65, 0 0 12px #a6e22e65;
+}
+
 .view-line span span:nth-child(4).mtk8 {
-  color: #66d9ef;
-  text-shadow: 0 0 0 #66d9ef, 0 0 0px #66d9ef75, 0 0 7px #66d9ef75, 0 0 9px #66d9ef75;
+  /* color: #66d9ef; */
+  /* text-shadow: 0 0 0 #66d9ef, 0 0 0px #66d9ef75, 0 0 7px #66d9ef75, 0 0 9px #66d9ef75; */
 }
 
 .monaco-list.list_id_4 .monaco-tl-indent > .indent-guide.active {
