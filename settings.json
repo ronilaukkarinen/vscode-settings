@@ -339,7 +339,8 @@
     },
     "[scss]": {
         "editor.defaultFormatter": "mrmlnc.vscode-stylefmt",
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+        "showErrorMessages": false
     },
     "[json]": {
         "editor.formatOnSave": true
