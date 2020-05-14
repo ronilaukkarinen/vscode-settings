@@ -25,7 +25,7 @@
     "phpcs.standard": "${workspaceFolder}/content/themes/${workspaceFolderBasename}/phpcs.xml",
     "phpcs.showSources": true,
     "auto-close-tag.SublimeText3Mode": true,
-    "scssLint.runOnTextChange": true,
+    "scssLint.runOnTextChange": false,
     "editor.acceptSuggestionOnEnter": "off",
     "files.exclude": {
         "**/tmp/**": true,
@@ -39,25 +39,19 @@
     },
     "saveAndRun": {
         "commands": [
-          {
-            "match": "\\.scss?$",
-            "cmd": "cd ${fileDirname} && stylefmt -c ~/Projects/devpackages/.stylelintrc ${fileBasename}",
-            "useShortcut": false,
-            "silent": true
-          },
-        {
-            "match": "\\.php?$",
-            "cmd": "cd ${fileDirname} && /Users/rolle/Projects/PHP_CodeSniffer/bin/phpcbf --standard=/Users/rolle/Projects/airdev/content/themes/air-light/phpcs.xml ${fileBasename}",
-            "useShortcut": false,
-            "silent": true
-        },          
+            {
+                "match": "\\.php?$",
+                "cmd": "cd ${fileDirname} && /Users/rolle/Projects/PHP_CodeSniffer/bin/phpcbf --standard=/Users/rolle/Projects/airdev/content/themes/air-light/phpcs.xml ${fileBasename}",
+                "useShortcut": false,
+                "silent": true
+            }
         ]
     },
     "fileheader.custom_template_path": "/Users/rolle/Projects/vscode-settings/fileheaders/",
     "fileheader.file_suffix_mapping": {
         ".php": "PHP",
         ".scss": "SCSS",
-        ".css": "CSS",
+        ".css": "CSS"
     },
     "fileheader.author": "Roni Laukkarinen",
     "fileheader.body": false,
@@ -67,7 +61,7 @@
         "*.scss",
         "*.xml",
         "*.svg",
-        "style.css",
+        "style.css"
     ],
     "activitusbar.views": [
         {
@@ -93,12 +87,12 @@
         {
             "name": "problems",
             "codicon": "bug"
-        },
+        }
     ],
     "files.autoSaveDelay": 0,
     "search.enableSearchEditorPreview": true,
     "editor.scrollbar.verticalScrollbarSize": 5,
-    "editor.scrollbar.horizontalScrollbarSize": 5,   
+    "editor.scrollbar.horizontalScrollbarSize": 5,
     "customizeUI.activityBar": "bottom",
     "window.titleBarStyle": "native",
     "customizeUI.titleBar": "frameless",
@@ -185,125 +179,125 @@
         "peekViewResult.matchHighlightBackground": "#232830",
         "peekViewEditor.matchHighlightBackground": "#232830",
         "quickInput.background": "#333d46",
-        "quickInput.foreground": "#9ca2b0",
+        "quickInput.foreground": "#9ca2b0"
     },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
                 "scope": "entity.name.function.php",
                 "settings": {
-                    "foreground": "#f8f8f0",
-                },
+                    "foreground": "#f8f8f0"
+                }
             },
             {
                 "scope": "punctuation.section.array.begin.php",
                 "settings": {
-                    "foreground": "#f8f8f0",
-                },
+                    "foreground": "#f8f8f0"
+                }
             },
             {
                 "scope": "punctuation.section.array.end.php",
                 "settings": {
-                    "foreground": "#f8f8f0",
-                },
+                    "foreground": "#f8f8f0"
+                }
             },
             {
                 "scope": "punctuation.separator.key-value.html",
                 "settings": {
-                    "foreground": "#f8f8f0",
-                },
+                    "foreground": "#f8f8f0"
+                }
             },
             {
                 "scope": "punctuation.section.embedded.begin.php",
                 "settings": {
-                    "foreground": "#f8f8f0",
-                },
+                    "foreground": "#f8f8f0"
+                }
             },
             {
                 "scope": "punctuation.section.embedded.end.php",
                 "settings": {
-                    "foreground": "#f8f8f0",
-                },
+                    "foreground": "#f8f8f0"
+                }
             },
             {
                 "scope": "punctuation.definition.string.begin.php",
                 "settings": {
-                    "foreground": "#f8f8f0",
-                },
+                    "foreground": "#f8f8f0"
+                }
             },
             {
                 "scope": "punctuation.definition.string.end.php",
                 "settings": {
-                    "foreground": "#f8f8f0",
-                },
+                    "foreground": "#f8f8f0"
+                }
             },
             {
                 "scope": "punctuation.definition.arguments.start.bracket.round.php",
                 "settings": {
-                    "foreground": "#f8f8f0",
-                },
+                    "foreground": "#f8f8f0"
+                }
             },
             {
                 "scope": "punctuation.definition.arguments.begin.bracket.round.php",
                 "settings": {
-                    "foreground": "#f8f8f0",
-                },
+                    "foreground": "#f8f8f0"
+                }
             },
             {
                 "scope": "punctuation.definition.arguments.end.bracket.round.php",
                 "settings": {
-                    "foreground": "#f8f8f0",
-                },
-            },                        
+                    "foreground": "#f8f8f0"
+                }
+            },
             {
                 "scope": "punctuation.definition.arguments.end.bracket.round.php",
                 "settings": {
-                    "foreground": "#f8f8f0",
-                },
+                    "foreground": "#f8f8f0"
+                }
             },
             {
                 "scope": "punctuation.separator.key-value.scss",
                 "settings": {
-                    "foreground": "#f8f8f0",
-                },
+                    "foreground": "#f8f8f0"
+                }
             },
             {
                 "scope": "support.type.property-name.json",
                 "settings": {
-                    "foreground": "#e6db74",
-                },
+                    "foreground": "#e6db74"
+                }
             },
             {
                 "scope": "string.quoted.double.json",
                 "settings": {
-                    "foreground": "#ece6b2",
-                },
-            },            
+                    "foreground": "#ece6b2"
+                }
+            },
             {
                 "scope": "support.constant.font-name.css",
                 "settings": {
-                    "foreground": "#ae81ff",
-                },
+                    "foreground": "#ae81ff"
+                }
             },
             {
                 "scope": "support.constant.property-value.css",
                 "settings": {
-                    "foreground": "#ae81ff",
-                },
+                    "foreground": "#ae81ff"
+                }
             },
             {
                 "scope": "entity.name.function.scss",
                 "settings": {
-                    "foreground": "#66d9ef",
-                },
+                    "foreground": "#66d9ef"
+                }
             },
             {
                 "scope": "meta.namespace.php",
                 "settings": {
-                    "foreground": "#a6e22e",
-                },
-            },            
-        ],
+                    "foreground": "#a6e22e"
+                }
+            }
+        ]
     },
     "workbench.colorTheme": "Monokai Extended",
     "window.closeWhenEmpty": false,
@@ -322,7 +316,6 @@
     "editor.renderWhitespace": "all",
     "workbench.activityBar.visible": false,
     "editor.matchBrackets": "never",
-    "editor.formatOnSave": false,
     "editor.tabSize": 2,
     "html.format.contentUnformatted": "pre,code,textarea",
     "html.format.endWithNewline": true,
@@ -334,6 +327,8 @@
     "html.format.wrapLineLength": 600,
     "html.format.wrapAttributes": "auto",
     "phpcbf.executablePath": "/Users/rolle/Projects/PHP_CodeSniffer/bin/phpcbf",
+    "showErrorMessages": true,
+    "editor.formatOnSave": false,
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true,
         "source.fixAll.tslint": true,
@@ -343,7 +338,8 @@
         "editor.formatOnSave": true
     },
     "[scss]": {
-        "editor.formatOnSave": false
+        "editor.defaultFormatter": "mrmlnc.vscode-stylefmt",
+        "editor.formatOnSave": true
     },
     "[json]": {
         "editor.formatOnSave": true
@@ -353,6 +349,6 @@
         "editor.formatOnSave": true
     },
     "[html]": {
-      "editor.formatOnSave": true
-    },
+        "editor.formatOnSave": true
+    }
 }
