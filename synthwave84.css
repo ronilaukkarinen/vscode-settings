@@ -2,7 +2,7 @@
  * @Author: Roni Laukkarinen
  * @Date:   2020-05-05 22:48:18
  * @Last Modified by:   Roni Laukkarinen
- * @Last Modified time: 2020-05-14 10:50:30
+ * @Last Modified time: 2020-05-14 15:42:51
  */
 /* Glows */
 .mtk6,
@@ -20,16 +20,19 @@ span span:nth-child(3).mtk5 {
   /* text-shadow: 0 0 2px #f9267225, 0 0 3px #f9267225, 0 0 5px #f9267225, 0 0 8px #f9267225; */
 }
 
-.search-container .synthetic-focus {
+.search-container .synthetic-focus,
+.find-part .synthetic-focus {
   outline: 1px solid #ae81ff !important;
 }
 
-.search-container .synthetic-focus textarea::placeholder {
+.search-container .synthetic-focus textarea::placeholder,
+.find-part .synthetic-focus textarea::placeholder {
   opacity: 1 !important;;
   color: #ae81ff !important;
 }
 
-.search-container .synthetic-focus textarea {
+.search-container .synthetic-focus textarea,
+.find-part .synthetic-focus textarea {
   opacity: 1 !important;;
   color: #ae81ff !important;
 }
