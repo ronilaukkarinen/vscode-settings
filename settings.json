@@ -322,7 +322,7 @@
   "html.format.wrapAttributes": "auto",
   "phpcbf.executablePath": "/Users/rolle/Projects/PHP_CodeSniffer/bin/phpcbf",
   "showErrorMessages": false,
-  "stylefmt.showError": false,  
+  "stylefmt.showError": false,
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
@@ -345,5 +345,8 @@
   },
   "[html]": {
     "editor.formatOnSave": true
+  },
+  "[vue]": {
+    "editor.formatOnSave": false
   }
 }
