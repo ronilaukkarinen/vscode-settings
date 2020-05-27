@@ -341,12 +341,14 @@
   },
   "[php]": {
     "editor.defaultFormatter": "rifi2k.format-html-in-php",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": false
   },
   "[html]": {
     "editor.formatOnSave": true
   },
   "[vue]": {
     "editor.formatOnSave": false
-  }
+  },
+  "editor.wordWrap": "on",
 }
+
