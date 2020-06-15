@@ -162,5 +162,6 @@
     "editor.findMatchBackground": "#fffd99",
     "editor.findMatchHighlightBackground": "#fffd99",
     "editor.findRangeHighlightBackground": "#fffd99",
+    "editor.selectionBackground": "#fffd99",
   },
 }
