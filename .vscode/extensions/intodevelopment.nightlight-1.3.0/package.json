@@ -1,0 +1,118 @@
+{
+	"name": "nightlight",
+	"displayName": "Nightlight",
+	"description": "Automatically switch themes when it's getting dark",
+	"version": "1.3.0",
+	"publisher": "intodevelopment",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/intodevelopment/nightlight.git"
+	},
+	"engines": {
+		"vscode": "^1.26.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"night",
+		"night shift",
+		"night light",
+		"theme switch",
+		"dark"
+	],
+	"icon": "images/icon.png",
+	"galleryBanner": {
+		"color": "#091427",
+		"theme": "dark"
+	},
+	"activationEvents": [
+		"*"
+	],
+	"main": "./out/extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "nightlight.enableDayTheme",
+				"title": "Nightlight: Enable day theme"
+			},
+			{
+				"command": "nightlight.enableNightTheme",
+				"title": "Nightlight: Enable night theme"
+			},
+			{
+				"command": "nightlight.toggle",
+				"title": "Nightlight: Toggle between day/night theme"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "nightlight.toggle",
+				"key": "ctrl+alt+n"
+			}
+		],
+		"configuration": {
+			"type": "object",
+			"title": "Nightlight configuration",
+			"properties": {
+				"nightlight.nightTheme": {
+					"type": "string",
+					"default": "Default Dark+",
+					"description": "The theme to be displayed when it's night"
+				},
+				"nightlight.dayTheme": {
+					"type": "string",
+					"default": "Default Light+",
+					"description": "The theme to be displayed when it's day"
+				},
+				"nightlight.dayTimeStart": {
+					"type": "string",
+					"default": "10:00",
+					"description": "The time (format HH:mm) at which day time starts (if no GPS coordinates are configured)"
+				},
+				"nightlight.dayTimeEnd": {
+					"type": "string",
+					"default": "21:00",
+					"description": "The time (format HH:mm) at which day time ends (if no GPS coordinates are configured)"
+				},
+				"nightlight.gpsLong": {
+					"type": "number",
+					"default": null,
+					"description": "The GPS longitude coordinate. This is used to determine the sunrise and sunset locally on your device."
+				},
+				"nightlight.gpsLat": {
+					"type": "number",
+					"default": null,
+					"description": "The GPS latitude coordinate. This is used to determine the sunrise and sunset locally on your device."
+				},
+				"nightlight.overrideUntil": {
+					"type": "date",
+					"default": null,
+					"description": "An internal setting that is kept to prevent a manually set theme from switching when a new VS Code window is created."
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "npm run compile && node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"@types/mocha": "^2.2.42",
+		"@types/node": "^8.10.25",
+		"tslint": "^5.8.0",
+		"typescript": "^2.6.1",
+		"vscode": "^1.1.21"
+	},
+	"dependencies": {
+		"suncalc": "^1.8.0"
+	},
+	"__metadata": {
+		"id": "4f92356f-b913-406a-8e42-a40bfcaf1c3f",
+		"publisherId": "066b6d68-9db4-456d-9c10-a3713f7af4d6",
+		"publisherDisplayName": "Into Development"
+	}
+}

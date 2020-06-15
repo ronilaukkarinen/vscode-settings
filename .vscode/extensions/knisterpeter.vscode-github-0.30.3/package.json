@@ -1,0 +1,295 @@
+{
+	"name": "vscode-github",
+	"displayName": "GitHub",
+	"description": "Integrates github and its workflows into vscode",
+	"icon": "images/octocat.png",
+	"galleryBanner": {
+		"color": "#dddddd",
+		"theme": "light"
+	},
+	"version": "0.30.3",
+	"publisher": "KnisterPeter",
+	"engines": {
+		"vscode": "^1.18.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"git",
+		"github",
+		"gitlab",
+		"pull request"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./out/src/main",
+	"contributes": {
+		"configuration": {
+			"title": "GitHub configuration",
+			"type": "object",
+			"properties": {
+				"github.gitCommand": {
+					"type": "string",
+					"description": "Path to the git executable. If it is in the OS path, this should not be necessary to set.",
+					"scope": "window"
+				},
+				"github.preferedMergeMethod": {
+					"type": "string",
+					"description": "By default the extension asks the user during merge process. This could be set to on of 'merge', 'squash' or 'rebase' to define the prefered method and not to be asked every time.",
+					"scope": "resource"
+				},
+				"github.remoteName": {
+					"type": "string",
+					"description": "Defines the name of the git remote. Defaults to undefined which automatically tries to determine the proper remote name.",
+					"scope": "resource"
+				},
+				"github.upstream": {
+					"type": "string",
+					"description": "By default the extension get the repository and user from .git/config. For forks where upstream is a different repository this could be configured here (e.g. microsoft/typescript).",
+					"scope": "resource"
+				},
+				"github.customPullRequestTitle": {
+					"type": "boolean",
+					"default": false,
+					"description": "Ask the user for a custom title when creating the PR. If false, defaults to the last commit message.",
+					"scope": "resource"
+				},
+				"github.customPullRequestDescription": {
+					"type": "string",
+					"enum": [
+						"off",
+						"singleLine",
+						"gitEditor"
+					],
+					"default": "off",
+					"description": "By default the pull request description is the first commit message. When this property is set, the user is asked for a description when creating the PR. This can be a single-line description via an input dialog ('singleLine') or a multi-line markdown description via the editor configured in git ('gitEditor').",
+					"scope": "resource"
+				},
+				"github.autoPublish": {
+					"type": "boolean",
+					"description": "Automatically publish the current branch before creating a pull request. Defaults to false",
+					"default": false,
+					"scope": "resource"
+				},
+				"github.allowUnsafeSSL": {
+					"type": "boolean",
+					"description": "Allow SSL connnection with unauthorized self-signed certificates. Defaults to false",
+					"default": false,
+					"scope": "resource"
+				},
+				"github.statusbar.enabled": {
+					"type": "boolean",
+					"description": "True if the statusbar integration should be enabled. Defaults to true",
+					"default": true,
+					"scope": "window"
+				},
+				"github.statusbar.command": {
+					"type": [
+						"string",
+						"null"
+					],
+					"description": "Defines which command is executed when clicking the status bar item. Default behaviour is the create-pull-request-then-merge cycle (different command based on state). For example to open the current pull request set this to 'vscode-github.browserSimplePullRequest'",
+					"default": null,
+					"scope": "window"
+				},
+				"github.statusbar.refresh": {
+					"type": "number",
+					"default": 5,
+					"description": "Interval in seconds to refresh the current pull request status.",
+					"scope": "window"
+				},
+				"github.statusbar.color": {
+					"type": "boolean",
+					"default": true,
+					"description": "Enables or disables the coloring of the status bar based on the mergeable state.",
+					"scope": "window"
+				},
+				"github.statusbar.successText": {
+					"type": "string",
+					"description": "Overrides the default success text.",
+					"scope": "window"
+				},
+				"github.statusbar.pendingText": {
+					"type": "string",
+					"description": "Overrides the default pending text.",
+					"scope": "window"
+				},
+				"github.statusbar.failureText": {
+					"type": "string",
+					"description": "Overrides the default failure text.",
+					"scope": "window"
+				},
+				"gitlab.removeSourceBranch": {
+					"type": "boolean",
+					"description": "GitLab setting to 'remove_source_branch' per MergeRequest.",
+					"default": false,
+					"scope": "resource"
+				}
+			}
+		},
+		"commands": [
+			{
+				"command": "vscode-github.setGitHubToken",
+				"title": "Set Personal Access Token...",
+				"category": "GitHub"
+			},
+			{
+				"command": "vscode-github.setGitHubEnterpriseToken",
+				"title": "Setup GitHub Enterprise Token...",
+				"category": "GitHub"
+			},
+			{
+				"command": "vscode-github.setGitlabToken",
+				"title": "Setup Gitlab Token...",
+				"category": "GitHub"
+			},
+			{
+				"command": "vscode-github.clearToken",
+				"title": "Remove Token...",
+				"category": "GitHub"
+			},
+			{
+				"command": "vscode-github.browseProject",
+				"title": "Browse project",
+				"category": "GitHub"
+			},
+			{
+				"command": "vscode-github.createPullRequest",
+				"title": "Create pull request...",
+				"category": "GitHub"
+			},
+			{
+				"command": "vscode-github.createSimplePullRequest",
+				"title": "Create pull request from current branch in current repository (quick)",
+				"category": "GitHub"
+			},
+			{
+				"command": "vscode-github.checkoutPullRequests",
+				"title": "Checkout open pull request...",
+				"category": "GitHub"
+			},
+			{
+				"command": "vscode-github.browserSimplePullRequest",
+				"title": "Browse pull request of current branch",
+				"category": "GitHub"
+			},
+			{
+				"command": "vscode-github.browserPullRequest",
+				"title": "Browse open pull request...",
+				"category": "GitHub"
+			},
+			{
+				"command": "vscode-github.mergePullRequest",
+				"title": "Merge pull request (current branch)...",
+				"category": "GitHub"
+			},
+			{
+				"command": "vscode-github.addAssignee",
+				"title": "Add assignee to pull request...",
+				"category": "GitHub"
+			},
+			{
+				"command": "vscode-github.removeAssignee",
+				"title": "Remove assignee from pull request...",
+				"category": "GitHub"
+			},
+			{
+				"command": "vscode-github.requestReview",
+				"title": "Request a review for the current pull request...",
+				"category": "GitHub"
+			},
+			{
+				"command": "vscode-github.deleteReviewRequest",
+				"title": "Cancel a pull request review...",
+				"category": "GitHub"
+			},
+			{
+				"command": "vscode-github.browseOpenIssue",
+				"title": "Browse open issue...",
+				"category": "GitHub"
+			},
+			{
+				"command": "vscode-github.browseCurrentFile",
+				"title": "Browse current file",
+				"category": "GitHub"
+			}
+		]
+	},
+	"scripts": {
+		"linter": "tslint --project ./tsconfig.json",
+		"pretest": "rm -rf /tmp/test-workspace && mkdir /tmp/test-workspace && cd /tmp/test-workspace && git init && cd -",
+		"test": "CODE_TESTS_WORKSPACE=/tmp/test-workspace node ./node_modules/vscode/bin/test",
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"prerelease": "git checkout master && git pull origin master && npm run vscode:prepublish",
+		"release": "standard-version",
+		"postrelease": "git push --follow-tags origin master",
+		"publish-extension": "vsce publish $(node -e \"console.log(require('./package.json').version)\")"
+	},
+	"devDependencies": {
+		"@knisterpeter/standard-tslint": "1.7.2",
+		"@types/common-tags": "1.8.0",
+		"@types/lru-cache": "5.1.0",
+		"@types/mocha": "5.2.7",
+		"@types/node": "9.6.53",
+		"conventional-changelog-lint": "2.1.1",
+		"cz-customizable": "6.2.0",
+		"husky": "3.0.9",
+		"mocha": "6.2.2",
+		"standard-version": "7.0.0",
+		"tslint": "5.20.0",
+		"typescript": "3.6.4",
+		"vscode": "1.1.36"
+	},
+	"dependencies": {
+		"common-tags": "1.8.0",
+		"conventional-changelog-lint-config-angular": "1.0.0",
+		"decko": "1.2.0",
+		"execa": "3.2.0",
+		"https": "1.0.0",
+		"isomorphic-fetch": "2.2.1",
+		"lru-cache": "5.1.1",
+		"pretend": "3.0.0",
+		"sander": "0.6.0",
+		"tsdi": "0.21.0",
+		"vscode-extension-telemetry": "0.1.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/KnisterPeter/vscode-github.git"
+	},
+	"author": {
+		"name": "Markus Wolf",
+		"email": "knister.peter@shadowrun-clan.de"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/KnisterPeter/vscode-github/issues"
+	},
+	"homepage": "https://github.com/KnisterPeter/vscode-github",
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-customizable"
+		},
+		"cz-customizable": {
+			"config": "./.cz-config.js"
+		}
+	},
+	"prettier": {
+		"singleQuote": true
+	},
+	"husky": {
+		"hooks": {
+			"commit-msg": "conventional-changelog-lint -e"
+		}
+	},
+	"__metadata": {
+		"id": "8699dfcb-4beb-4760-b976-c46dcdd87df2",
+		"publisherId": "b0d75e1c-cb67-4716-ab82-786fa4c02e04",
+		"publisherDisplayName": "KnisterPeter"
+	}
+}

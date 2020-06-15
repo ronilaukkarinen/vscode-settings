@@ -1,0 +1,123 @@
+{
+	"name": "vscode-hacker-typer",
+	"displayName": "VSCode HackerTyper",
+	"description": "Hacker Typer extension for looking cool while live coding",
+	"version": "0.1.1",
+	"publisher": "jevakallio",
+	"author": {
+		"name": "Jani Eväkallio"
+	},
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.27.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jevakallio/vscode-hacker-typer"
+	},
+	"icon": "docs/hackertyper-icon.png",
+	"galleryBanner": {
+		"color": "#1D1D1D",
+		"theme": "dark"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:jevakallio.vscode-hacker-typer.recordMacro",
+		"onCommand:jevakallio.vscode-hacker-typer.playMacro",
+		"onCommand:jevakallio.vscode-hacker-typer.deleteMacro"
+	],
+	"main": "./out/extension",
+	"contributes": {
+		"keybindings": [
+			{
+				"command": "jevakallio.vscode-hacker-typer.backspace",
+				"when": "editorTextFocus",
+				"key": "cmd+shift+backspace"
+			},
+			{
+				"command": "jevakallio.vscode-hacker-typer.recordMacro",
+				"when": "editorTextFocus",
+				"key": "cmd+shift+t r"
+			},
+			{
+				"command": "jevakallio.vscode-hacker-typer.playMacro",
+				"key": "cmd+shift+t p"
+			},
+			{
+				"command": "jevakallio.vscode-hacker-typer.saveMacro",
+				"key": "cmd+shift+t s"
+			},
+			{
+				"command": "jevakallio.vscode-hacker-typer.insertStop",
+				"key": "cmd+shift+t i"
+			},
+			{
+				"command": "jevakallio.vscode-hacker-typer.insertNamedStop",
+				"key": "cmd+shift+t n"
+			}
+		],
+		"commands": [
+			{
+				"command": "jevakallio.vscode-hacker-typer.recordMacro",
+				"title": "Record Macro",
+				"category": "HackerTyper"
+			},
+			{
+				"command": "jevakallio.vscode-hacker-typer.playMacro",
+				"title": "Play Macro",
+				"category": "HackerTyper"
+			},
+			{
+				"command": "jevakallio.vscode-hacker-typer.saveMacro",
+				"title": "Save Macro",
+				"category": "HackerTyper"
+			},
+			{
+				"command": "jevakallio.vscode-hacker-typer.removeMacro",
+				"title": "Remove Macro",
+				"category": "HackerTyper"
+			},
+			{
+				"command": "jevakallio.vscode-hacker-typer.insertStop",
+				"title": "Insert Soft Stop Point",
+				"category": "HackerTyper"
+			},
+			{
+				"command": "jevakallio.vscode-hacker-typer.insertNamedStop",
+				"title": "Insert Named Stop Point",
+				"category": "HackerTyper"
+			},
+			{
+				"command": "jevakallio.vscode-hacker-typer.backspace",
+				"title": "Erase Previous Frame",
+				"category": "HackerTyper"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "npm run compile && node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"typescript": "^2.6.1",
+		"vscode": "^1.1.21",
+		"tslint": "^5.8.0",
+		"@types/node": "^8.10.25",
+		"@types/mocha": "^2.2.42",
+		"@types/promise-queue": "^2.2.0"
+	},
+	"dependencies": {
+		"promise-queue": "^2.2.5",
+		"vscode-cache": "^0.3.0"
+	},
+	"__metadata": {
+		"id": "65e3a4d3-aa36-48a6-bcb3-d68d87e455ad",
+		"publisherId": "0940e80a-24d2-48b6-8eb2-f3d12c3d7c56",
+		"publisherDisplayName": "jevakallio"
+	}
+}
