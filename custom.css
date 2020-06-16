@@ -1,0 +1,3 @@
+body.inline-title-bar:not(.activity-bar-at-bottom) .monaco-workbench:not(.fullscreen) div .activitybar:not(.right) .content {
+  margin-top: 6px !important;
+}
