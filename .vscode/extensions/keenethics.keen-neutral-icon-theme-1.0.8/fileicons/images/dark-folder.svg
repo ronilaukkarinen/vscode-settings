@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="12px" viewBox="0 0 15 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>folder</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dark" transform="translate(-16.000000, 0.000000)" fill-rule="nonzero">
+            <g id="folder" transform="translate(16.000000, 0.000000)">
+                <path d="M0.5,0.5 C0.5,0.737694974 0.5,1.11014072 0.5,1.92130326 C0.5,3.78052492 0.5,3.78052492 0.5,5.99917459 C0.5,9.93397483 0.5,10.4157096 0.5,11.4999999 C4.7574673,11.5 4.84328896,11.5 7.20402071,11.5 C8.86675192,11.5 8.86675192,11.5 11.25,11.5 C12.5863431,11.5 12.5863431,11.5 13.2524961,11.5 C13.6939227,11.5 13.6939227,11.5 14.3303571,11.5 C14.396458,11.5 14.4521286,11.5 14.5,11.5 C14.5,10.887079 14.5,10.7211225 14.5,9.82373944 C14.5,6.99661995 14.5,6.99661995 14.5,4.60509278 C14.5,3.26313165 14.5,2.84188609 14.5,2.5 C14.2244764,2.5 13.7599316,2.5 12.7174596,2.5 C10.097883,2.5 10.097883,2.5 6,2.5 L5.6096118,2.5 L5.1096118,0.5 C4.35586018,0.5 3.9854873,0.5 1.23062317,0.5 C0.846266025,0.5 0.698968342,0.5 0.5,0.5 Z" id="Combined-Shape" stroke="#949494" fill="#252526"></path>
+                <rect id="Path" fill="#949494" transform="translate(7.500000, 4.500000) scale(-1, 1) rotate(-180.000000) translate(-7.500000, -4.500000) " x="1" y="4" width="13" height="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
