@@ -1,0 +1,18 @@
+
+Lint/UselessAssignment:
+  Enabled: false
+
+Metrics/AbcSize:
+  Max: 40
+  Severity: refactor
+
+Metrics/BlockLength:
+  Enabled: true
+  CountComments: false
+  Max: 25
+  Exclude:
+    - "**/*.rake"
+    - "spec/**/*.rb"
+    - "/app/admin/*.rb"
+    - "app/controllers/api/**/*.rb"
+    - config/routes.rb

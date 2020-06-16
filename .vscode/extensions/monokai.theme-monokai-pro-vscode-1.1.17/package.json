@@ -1,0 +1,167 @@
+{
+	"name": "theme-monokai-pro-vscode",
+	"displayName": "Monokai Pro",
+	"description": "Professional theme and matching icons, from the author of the original Monokai color scheme.",
+	"publisher": "monokai",
+	"version": "1.1.17",
+	"engines": {
+		"vscode": "^1.14.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"commands": [
+			{
+				"command": "monokai_pro.enter_license",
+				"title": "Monokai Pro: enter license"
+			},
+			{
+				"command": "monokai_pro.select_theme",
+				"title": "Monokai Pro: select theme"
+			},
+			{
+				"command": "monokai_pro.activate_icons",
+				"title": "Monokai Pro: activate icons"
+			}
+		],
+		"themes": [
+			{
+				"label": "Monokai Pro",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Monokai Pro.json"
+			},
+			{
+				"label": "Monokai Pro (Filter Octagon)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Monokai Pro (Filter Octagon).json"
+			},
+			{
+				"label": "Monokai Pro (Filter Ristretto)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Monokai Pro (Filter Ristretto).json"
+			},
+			{
+				"label": "Monokai Pro (Filter Spectrum)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Monokai Pro (Filter Spectrum).json"
+			},
+			{
+				"label": "Monokai Pro (Filter Machine)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Monokai Pro (Filter Machine).json"
+			},
+			{
+				"label": "Monokai Classic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Monokai Classic.json"
+			}
+		],
+		"iconThemes": [
+			{
+				"label": "Monokai Pro Icons",
+				"id": "Monokai Pro Icons",
+				"path": "./icon-themes/Monokai Pro icon-theme.json"
+			},
+			{
+				"label": "Monokai Pro Monochrome Icons",
+				"id": "Monokai Pro Monochrome Icons",
+				"path": "./icon-themes/Monokai Pro monochrome icon-theme.json"
+			},
+			{
+				"label": "Monokai Pro (Filter Octagon) Icons",
+				"id": "Monokai Pro (Filter Octagon) Icons",
+				"path": "./icon-themes/Monokai Pro (Filter Octagon) icon-theme.json"
+			},
+			{
+				"label": "Monokai Pro (Filter Octagon) Monochrome Icons",
+				"id": "Monokai Pro (Filter Octagon) Monochrome Icons",
+				"path": "./icon-themes/Monokai Pro (Filter Octagon) monochrome icon-theme.json"
+			},
+			{
+				"label": "Monokai Pro (Filter Ristretto) Icons",
+				"id": "Monokai Pro (Filter Ristretto) Icons",
+				"path": "./icon-themes/Monokai Pro (Filter Ristretto) icon-theme.json"
+			},
+			{
+				"label": "Monokai Pro (Filter Ristretto) Monochrome Icons",
+				"id": "Monokai Pro (Filter Ristretto) Monochrome Icons",
+				"path": "./icon-themes/Monokai Pro (Filter Ristretto) monochrome icon-theme.json"
+			},
+			{
+				"label": "Monokai Pro (Filter Spectrum) Icons",
+				"id": "Monokai Pro (Filter Spectrum) Icons",
+				"path": "./icon-themes/Monokai Pro (Filter Spectrum) icon-theme.json"
+			},
+			{
+				"label": "Monokai Pro (Filter Spectrum) Monochrome Icons",
+				"id": "Monokai Pro (Filter Spectrum) Monochrome Icons",
+				"path": "./icon-themes/Monokai Pro (Filter Spectrum) monochrome icon-theme.json"
+			},
+			{
+				"label": "Monokai Pro (Filter Machine) Icons",
+				"id": "Monokai Pro (Filter Machine) Icons",
+				"path": "./icon-themes/Monokai Pro (Filter Machine) icon-theme.json"
+			},
+			{
+				"label": "Monokai Pro (Filter Machine) Monochrome Icons",
+				"id": "Monokai Pro (Filter Machine) Monochrome Icons",
+				"path": "./icon-themes/Monokai Pro (Filter Machine) monochrome icon-theme.json"
+			},
+			{
+				"label": "Monokai Classic Icons",
+				"id": "Monokai Classic Icons",
+				"path": "./icon-themes/Monokai Classic icon-theme.json"
+			},
+			{
+				"label": "Monokai Classic Monochrome Icons",
+				"id": "Monokai Classic Monochrome Icons",
+				"path": "./icon-themes/Monokai Classic monochrome icon-theme.json"
+			}
+		],
+		"configuration": {
+			"type": "object",
+			"title": "Monokai Pro Settings",
+			"properties": {
+				"monokaiPro.fileIconsMonochrome": {
+					"type": "boolean",
+					"default": false,
+					"description": "makes the file icons monochrome"
+				}
+			}
+		}
+	},
+	"devDependencies": {
+		"vscode": "^1.0.0"
+	},
+	"extensionKind": [
+		"ui",
+		"workspace"
+	],
+	"homepage": "https://monokai.pro",
+	"bugs": {
+		"url": "https://github.com/monokai/monokai-pro-vscode"
+	},
+	"icon": "icon.png",
+	"keywords": [
+		"beautiful functionality",
+		"focus",
+		"minimal",
+		"icons",
+		"syntax highlighting"
+	],
+	"main": "./js/main",
+	"license": "SEE LICENSE IN LICENSE",
+	"activationEvents": [
+		"*"
+	],
+	"qna": false,
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"__metadata": {
+		"id": "f5d7ffda-c1d6-4070-ba80-803c705a1ee6",
+		"publisherId": "f1aa9b60-e034-4838-a0dc-4a6a074cf48e",
+		"publisherDisplayName": "monokai"
+	}
+}

@@ -1,0 +1,43 @@
+<mat-expansion-panel
+  [expanded]="status.open || false"
+  (opened)="open()"
+  [(ngModel)]="hello"
+  [asdf]="asdf"
+>
+  <div *ngIf="asdf" class="flex">
+    <table *matHeaderCellDef>
+      <caption>
+        Application
+      </caption>
+      <tbody>
+        <tr
+          [class.green]="
+            loan.application.dob &&
+            loan.application.dob == user.credit.report?.DOB
+          "
+        >
+          <th>Optional Details</th>
+          <td>
+            {{
+              loan.application.details ||
+                askdlfslkdjflkasjsdfsdfdlfkjalksdjfkjaslkdjf
+            }}
+          </td>
+        </tr>
+        <tr>
+          <th>Submitted</th>
+          <td>{{ loan.application.date | date }}</td>
+        </tr>
+        <!-- <tr [class.green]="
+            loan.application.ssn_mask &&
+            loan.application.ssn_mask == user.credit.report?.SSNLastDigits
+          ">
+          <th>SSN</th>
+          <td>{{ loan.application.ssn_mask | ssn }}</td>
+        </tr> -->
+      </tbody>
+    </table>
+
+    <table *ngIf="loan.offers[0]; let offer"></table>
+  </div>
+</mat-expansion-panel>

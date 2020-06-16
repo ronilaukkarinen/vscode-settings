@@ -87,7 +87,6 @@
   "customizeUI.activityBar": "regular",
   "window.titleBarStyle": "native",
   "customizeUI.titleBar": "frameless",
-  "workbench.colorTheme": "Github",
   "window.closeWhenEmpty": false,
   "editor.mouseWheelScrollSensitivity": 0,
   "editor.wordSeparators": "./\\()\"':,.;<>~!@#%^&*|+=[]{}`~?",
@@ -191,4 +190,6 @@
   "vscode_custom_css.imports": [
     "file:///Users/rolle/Projects/vscode-settings/custom.css"
   ],
+  "nightlight.overrideUntil": "2020-06-16T20:13:57.359Z",
+  "workbench.colorTheme": "Github",
 }

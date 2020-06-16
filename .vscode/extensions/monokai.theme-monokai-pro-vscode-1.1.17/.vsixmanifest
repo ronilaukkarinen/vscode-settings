@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Language="en-US" Id="theme-monokai-pro-vscode" Version="1.1.17" Publisher="monokai"/>
+    <DisplayName>Monokai Pro</DisplayName>
+    <Description xml:space="preserve">Professional theme and matching icons, from the author of the original Monokai color scheme.</Description>
+    <Tags>beautiful functionality,focus,minimal,icons,syntax highlighting,theme,color-theme,icon-theme</Tags>
+    <Categories>Themes</Categories>
+    <GalleryFlags>Public</GalleryFlags>
+    <Badges></Badges>
+    <Properties>
+      <Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.14.0" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="" />
+      <Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value="" />
+      
+      <Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/monokai/monokai-pro-vscode" />
+      <Property Id="Microsoft.VisualStudio.Services.Links.Learn" Value="https://monokai.pro" />
+      
+      
+      <Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
+      <Property Id="Microsoft.VisualStudio.Services.EnableMarketplaceQnA" Value="false" />
+      
+    </Properties>
+    <License>extension/LICENSE.txt</License>
+    <Icon>extension/icon.png</Icon>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+  </Installation>
+  <Dependencies/>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+    <Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/README.md" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Content.Changelog" Path="extension/CHANGELOG.md" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Content.License" Path="extension/LICENSE.txt" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/icon.png" Addressable="true" />
+  </Assets>
+</PackageManifest>

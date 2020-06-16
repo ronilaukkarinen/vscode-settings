@@ -1,0 +1,44 @@
+{
+	"name": "one-monokai",
+	"displayName": "One Monokai Theme",
+	"description": "A cross between Monokai and One Dark theme",
+	"version": "0.4.6",
+	"publisher": "azemoh",
+	"engines": {
+		"vscode": "^1.13.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "One Monokai",
+				"uiTheme": "vs-dark",
+				"path": "./themes/OneMonokai-color-theme.json"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/azemoh/vscode-one-monokai.git"
+	},
+	"bugs": {
+		"url": "https://github.com/azemoh/vscode-one-monokai/issues"
+	},
+	"homepage": "https://github.com/azemoh/vscode-one-monokai/blob/master/README.md",
+	"keywords": [
+		"Vscode",
+		"Theme",
+		"Onedark",
+		"Monokai"
+	],
+	"author": "Joshua Azemoh <joshazemoh@gmail.com> (http://azemoh.com)",
+	"license": "MIT",
+	"__metadata": {
+		"id": "b027c4b2-25ad-46db-b574-05dae3b2dc92",
+		"publisherId": "25cdca6a-b422-4806-9041-a44a52d1a7d5",
+		"publisherDisplayName": "Joshua Azemoh"
+	}
+}

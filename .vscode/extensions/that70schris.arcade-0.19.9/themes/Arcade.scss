@@ -1,0 +1,345 @@
+$string: #7f8;
+$comment: #777;
+$support: #aaa;
+$puncuation: #eee;
+$storage: #a8f;
+$control: #eaf;
+$constant: #37c;
+$variable: #7be;
+$function: #9ef;
+$type: #ec7;
+$pseudo: #e97;
+$key: #b97;
+
+.anchor {
+  color: $control;
+}
+
+.comment {
+  color: $comment;
+}
+
+.constant {
+  color: $constant;
+
+  &.character {
+    &.escape {
+      color: $comment;
+    }
+  }
+
+  &.language {
+    &.merge {
+      color: $control;
+    }
+  }
+}
+
+.entity {
+  color: $type;
+
+  &.name {
+    &.function {
+      color: $function;
+    }
+
+    &.type {
+      &.anchor {
+        color: $variable;
+      }
+    }
+
+    &.tag {
+      &.reference {
+        color: $variable;
+      }
+
+      // &.wildcard {
+      //   color: $control;
+      // }
+    }
+
+    &.context {
+      color: $puncuation;
+    }
+
+    .source.yaml &,
+    .source.helm & {
+      color: $key;
+    }
+  }
+
+  &.other {
+    &.document {
+      color: $puncuation;
+    }
+
+    &.inherited-class {
+      color: $type;
+    }
+
+    &.attribute-name {
+      &.attribute {
+        color: $key;
+      }
+
+      &.parent-selector-suffix {
+        .punctuation {
+          color: $type;
+        }
+      }
+
+      .source.css & {
+        color: $type;
+
+        // &.pseudo-element {
+        //   color: $pseudo;
+        // }
+
+        // &.pseudo-class {
+        //   color: $pseudo;
+        // }
+      }
+
+      .text & {
+        color: $key;
+      }
+    }
+
+    &.ng-binding-name {
+      &.template {
+        .entity {
+          color: $control;
+        }
+      }
+
+      &.property {
+        .entity {
+          color: $variable;
+        }
+      }
+
+      &.event,
+      &.two-way {
+        .entity {
+          color: $function;
+        }
+      }
+    }
+  }
+}
+
+.keyword {
+  color: $support;
+
+  &.control {
+    color: $control;
+
+    &.as,
+    .case-clause & {
+      color: $storage;
+    }
+
+    &.\-,
+    &.\@,
+    &.-\@,
+    &.import,
+    &.export,
+    &.from {
+      color: $support;
+    }
+
+    &.at-rule {
+      color: $support;
+
+      &.media {
+        color: $control;
+      }
+    }
+  }
+
+  &.directive {
+    color: $key;
+  }
+
+  &.operator {
+    color: $puncuation;
+
+    &.expression {
+      color: $control;
+
+      &.import {
+        color: $support;
+      }
+    }
+
+    &.new {
+      color: $storage;
+    }
+  }
+
+  &.other {
+    &.important {
+      color: $puncuation;
+    }
+
+    &.debugger {
+      color: $control;
+    }
+
+    &.special-method {
+      color: $function;
+    }
+  }
+}
+
+.meta {
+  &.attribute {
+    &-selector {
+      color: $string;
+    }
+  }
+
+  &.property-name,
+  &.object-literal.key {
+    color: $key;
+  }
+
+  &.function,
+  &.function-call {
+    color: $function;
+
+    .support {
+      color: $constant;
+    }
+  }
+
+  &.block,
+  &.parameters {
+    color: $storage;
+  }
+
+  &.brace {
+    color: $puncuation;
+  }
+
+  &.type,
+  &.selector {
+    color: $type;
+  }
+}
+
+.punctuation {
+  color: $puncuation;
+
+  &.definition {
+    &.comment,
+    &.interpolation,
+    &.string,
+    &.tag,
+    &.template-expression,
+    &.type,
+    &.typeparameters,
+    &.variable {
+      color: $comment;
+    }
+
+    &.anchor {
+      color: $control;
+    }
+
+    &.constant {
+      color: $support;
+    }
+
+    .source.nginx & {
+      &.variable {
+        color: $support;
+      }
+    }
+  }
+
+  &.section,
+  &.support,
+  &.terminator {
+    color: $comment;
+
+    &.function,
+    &.property-list {
+      color: $puncuation;
+    }
+  }
+}
+
+.storage {
+  color: $storage;
+
+  &.modifier {
+    color: $support;
+  }
+}
+
+.string {
+  color: $string;
+
+  &.ipaddress {
+    color: $constant;
+  }
+}
+
+.support {
+  &.constant {
+    color: $constant;
+
+    // &.math,
+    &.mathematical-symbols {
+      color: $puncuation;
+    }
+  }
+
+  &.class,
+  &.type {
+    color: $type;
+
+    &.property-name,
+    &.map.key {
+      color: $key;
+    }
+
+    &.object.module {
+      color: $support;
+    }
+  }
+
+  &.function {
+    color: $function;
+  }
+
+  &.variable {
+    color: $variable;
+  }
+}
+
+.text {
+  &.html {
+    color: $puncuation;
+  }
+}
+
+.variable {
+  color: $variable;
+
+  &.language {
+    color: $constant;
+  }
+
+  &.parameter {
+    &.url {
+      color: $string;
+    }
+  }
+
+  // .meta.object-literal.key & {
+  //   color: $key;
+  // }
+}
