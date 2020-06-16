@@ -178,6 +178,16 @@
     "list.hoverBackground": "#eeeeee",
     "list.focusBackground": "#eeeeee",   
   }, 
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "meta.property-value.scss",
+        "settings": {
+          "foreground": "#d73a49"
+        }
+      },
+    ]
+  },  
   "vscode_custom_css.imports": [
     "file:///Users/rolle/Projects/vscode-settings/custom.css"
   ],
