@@ -1,0 +1,52 @@
+{
+	"name": "radical-vscode",
+	"displayName": "Radical",
+	"description": "A dark theme for radical hacking inspired by retro futuristic design",
+	"type": "module",
+	"version": "2.0.0",
+	"publisher": "dhedgecock",
+	"license": "ISC",
+	"engines": {
+		"vscode": "^1.40.0"
+	},
+	"bugs": {
+		"url": "https://github.com/dhedgecock/radical-vscode/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dhedgecock/radical-vscode"
+	},
+	"scripts": {
+		"build": "node --experimental-modules build.mjs",
+		"lint": "eslint build.mjs theme/**.mjs",
+		"format": "prettier --write *.md build.mjs theme/**.mjs"
+	},
+	"icon": "assets/icon.png",
+	"galleryBanner": {
+		"color": "#141322",
+		"theme": "dark"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Radical",
+				"uiTheme": "vs-dark",
+				"path": "./dist/Radical.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"@crystal-ball/prettier-base": "2.2.0",
+		"chroma-js": "2.1.0",
+		"eslint-config-eloquence": "13.8.0"
+	},
+	"prettier": "@crystal-ball/prettier-base",
+	"__metadata": {
+		"id": "02e454a7-cc5f-4703-b9cf-534c52cb3726",
+		"publisherId": "b00c8f00-9fd6-4882-8201-f7e3e35e32ce",
+		"publisherDisplayName": "dhedgecock"
+	}
+}

@@ -1,5 +1,5 @@
 {
-  "hidesExplorerArrows": false,
+  "hidesExplorerArrows": true,
   "iconDefinitions": {
     "_default": {
       "iconPath": "./svg/default-icon.svg"
@@ -541,6 +541,6 @@
     "npm-debug.log": "_npm"
   },
   "options": {
-    "hidesExplorerArrows": false
+    "hidesExplorerArrows": true
   }
 }

@@ -148,7 +148,7 @@
     "**/*.css": true,
     "**/*all.js": true
   },
-  "workbench.iconTheme": "city-lights-icons-vsc",
+  "workbench.iconTheme": "quill-icons",
   "nightlight.nightTheme": "Github Dark",
   "nightlight.dayTheme": "Github",
   "nightlight.dayIconTheme": "city-lights-icons-vsc",
@@ -162,9 +162,8 @@
     "editor.findMatchHighlightBackground": "#fffd99",
     "editor.findRangeHighlightBackground": "#fffd99",
     "editor.selectionBackground": "#fffd99",
-    "activityBar.activeBorder": "#d53948", 
+    "activityBar.activeBorder": "#24292e", 
     "activityBarBadge.background": "#d73a49",
-    "tab.activeBorder": "#d73a49",
     "list.highlightForeground": "#d73a49",
     "list.activeSelectionForeground": "#d73a49",
     "list.inactiveSelectionForeground": "#d73a49",
@@ -185,6 +184,12 @@
           "foreground": "#d73a49"
         }
       },
+      {
+        "scope": "variable.scss",
+        "settings": {
+          "foreground": "#e36209"
+        }
+      },      
     ]
   },  
   "vscode_custom_css.imports": [
@@ -192,4 +197,7 @@
   ],
   "nightlight.overrideUntil": "2020-06-16T20:13:57.359Z",
   "workbench.colorTheme": "Github",
+  "city-lights-icons-vsc.hidesExplorerArrows": true,
+  "search.quickOpen.history.filterSortOrder": "recency",
+  "gitlens.menus": false,
 }
