@@ -151,7 +151,9 @@
     "**/*.css": true,
     "**/*all.js": true
   },
-  "workbench.iconTheme": "quill-icons",
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.saturation": 0,
+  "material-icon-theme.opacity": 0.9,
   "nightlight.nightTheme": "Github Dark",
   "nightlight.dayTheme": "Github",
   "nightlight.dayIconTheme": "city-lights-icons-vsc",
