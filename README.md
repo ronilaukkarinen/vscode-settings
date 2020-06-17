@@ -23,9 +23,9 @@ Useful keybindings for different kind of tasks. Browse keybindings [here](https:
 
 ### Light GitHub theme (custom)
 
-Current active theme is GitHub with some fixes and overrides with [custom.css](https://github.com/ronilaukkarinen/vscode-settings/blob/master/custom.css) and [settings.json](https://github.com/ronilaukkarinen/vscode-settings/blob/master/settings.json).
+Current active theme is GitHub with some fixes and overrides with [custom.css](https://github.com/ronilaukkarinen/vscode-settings/blob/master/custom.css) and [settings.json](https://github.com/ronilaukkarinen/vscode-settings/blob/master/settings.json). The theme is a combination of [GitHub theme for VS Vode](https://github.com/primer/github-vscode-theme), [Github Light Theme](https://github.com/chuling/vscode-theme-github-light) and [GitHub Theme for Visual Studio Code](https://github.com/thomaspink/vscode-github-theme).
 
-![Screenshot](https://i.imgur.com/yK7o7jA.png "Screenshot")
+![Screenshot](https://i.imgur.com/X7NYkhm.png "Screenshot")
 
 ### Dark neon theme (custom)
 
