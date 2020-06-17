@@ -205,4 +205,5 @@
   "city-lights-icons-vsc.hidesExplorerArrows": true,
   "search.quickOpen.history.filterSortOrder": "recency",
   "gitlens.menus": false,
+  "svgviewer.enableautopreview": true,
 }
