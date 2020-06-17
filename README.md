@@ -21,17 +21,15 @@ Useful snippets like `media + tab` for media queries. Browse snippets [here](htt
 
 Useful keybindings for different kind of tasks. Browse keybindings [here](https://github.com/ronilaukkarinen/vscode-settings/blob/master/keybindings.json).
 
-### Pixel-perfect theme
+### Light GitHub theme (custom)
 
-Theme is based on Monokai Extended, Spacegray and Synthwave '84. Color overrides are achieved via settings.json so no actual theme is needed, just activate Monokai Extended, Synthwave '84 Neon Dreams and you are good to go.
+Current active theme is GitHub with some fixes and overrides with [custom.css](https://github.com/ronilaukkarinen/vscode-settings/blob/master/custom.css) and [settings.json](https://github.com/ronilaukkarinen/vscode-settings/blob/master/settings.json).
 
-![Screenshot](https://i.imgur.com/tZpLqHr.png "Screenshot")
+![Screenshot](https://i.imgur.com/yK7o7jA.png "Screenshot")
 
-![Screenshot](https://i.imgur.com/meBuPXF.png "Screenshot")
+### Dark neon theme (custom)
 
-![Screenshot](https://i.imgur.com/Aqrlf0C.png "Screenshot")
-
-### Full screenshot
+The old dark theme I have used is ported from [sublime-settings](https://github.com/digitoimistodude/sublime-settings). It's based on the combination of Monokai Extended, Spacegray and Synthwave '84. Color overrides are achieved via [settings.json (settings.backup-darkneon.json)](https://github.com/ronilaukkarinen/vscode-settings/blob/master/settings.backup-darkneon.json) so no actual theme is needed, just activate Monokai Extended, Synthwave '84 Neon Dreams and you are good to go.
 
 ![Screenshot](https://i.imgur.com/8m8ESKo.png "Screenshot")
 
