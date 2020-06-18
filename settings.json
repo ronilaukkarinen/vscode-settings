@@ -151,9 +151,11 @@
     "**/*.css": true,
     "**/*all.js": true
   },
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "helium-icon-theme",
   "material-icon-theme.saturation": 0,
-  "material-icon-theme.opacity": 0.9,
+  "material-icon-theme.opacity":  0.8,
+  "helium-icon-theme.saturation": 0,
+  "helium-icon-theme.opacity": 0.8,
   "nightlight.nightTheme": "Github Dark",
   "nightlight.dayTheme": "Github",
   "nightlight.dayIconTheme": "city-lights-icons-vsc",
@@ -205,5 +207,5 @@
   "city-lights-icons-vsc.hidesExplorerArrows": true,
   "search.quickOpen.history.filterSortOrder": "recency",
   "gitlens.menus": false,
-  "svgviewer.enableautopreview": true,
+  "svgviewer.enableautopreview": false,
 }

@@ -1,0 +1,3667 @@
+{
+  "iconDefinitions": {
+    "git": {
+      "iconPath": "./../icons/git~-708727996.svg"
+    },
+    "c": {
+      "iconPath": "./../icons/c~-708727996.svg"
+    },
+    "yaml": {
+      "iconPath": "./../icons/yaml~-708727996.svg"
+    },
+    "xml": {
+      "iconPath": "./../icons/xml~-708727996.svg"
+    },
+    "matlab": {
+      "iconPath": "./../icons/matlab~-708727996.svg"
+    },
+    "settings": {
+      "iconPath": "./../icons/settings~-708727996.svg"
+    },
+    "shaderlab": {
+      "iconPath": "./../icons/shaderlab~-708727996.svg"
+    },
+    "diff": {
+      "iconPath": "./../icons/diff~-708727996.svg"
+    },
+    "json": {
+      "iconPath": "./../icons/json~-708727996.svg"
+    },
+    "blink": {
+      "iconPath": "./../icons/blink~-708727996.svg"
+    },
+    "java": {
+      "iconPath": "./../icons/java~-708727996.svg"
+    },
+    "razor": {
+      "iconPath": "./../icons/razor~-708727996.svg"
+    },
+    "python": {
+      "iconPath": "./../icons/python~-708727996.svg"
+    },
+    "javascript": {
+      "iconPath": "./../icons/javascript~-708727996.svg"
+    },
+    "typescript": {
+      "iconPath": "./../icons/typescript~-708727996.svg"
+    },
+    "scala": {
+      "iconPath": "./../icons/scala~-708727996.svg"
+    },
+    "handlebars": {
+      "iconPath": "./../icons/handlebars~-708727996.svg"
+    },
+    "perl": {
+      "iconPath": "./../icons/perl~-708727996.svg"
+    },
+    "haxe": {
+      "iconPath": "./../icons/haxe~-708727996.svg"
+    },
+    "puppet": {
+      "iconPath": "./../icons/puppet~-708727996.svg"
+    },
+    "elixir": {
+      "iconPath": "./../icons/elixir~-708727996.svg"
+    },
+    "livescript": {
+      "iconPath": "./../icons/livescript~-708727996.svg"
+    },
+    "erlang": {
+      "iconPath": "./../icons/erlang~-708727996.svg"
+    },
+    "twig": {
+      "iconPath": "./../icons/twig~-708727996.svg"
+    },
+    "julia": {
+      "iconPath": "./../icons/julia~-708727996.svg"
+    },
+    "elm": {
+      "iconPath": "./../icons/elm~-708727996.svg"
+    },
+    "purescript": {
+      "iconPath": "./../icons/purescript~-708727996.svg"
+    },
+    "stylus": {
+      "iconPath": "./../icons/stylus~-708727996.svg"
+    },
+    "nunjucks": {
+      "iconPath": "./../icons/nunjucks~-708727996.svg"
+    },
+    "pug": {
+      "iconPath": "./../icons/pug~-708727996.svg"
+    },
+    "robot": {
+      "iconPath": "./../icons/robot~-708727996.svg"
+    },
+    "sass": {
+      "iconPath": "./../icons/sass~-708727996.svg"
+    },
+    "less": {
+      "iconPath": "./../icons/less~-708727996.svg"
+    },
+    "css": {
+      "iconPath": "./../icons/css~-708727996.svg"
+    },
+    "visualstudio": {
+      "iconPath": "./../icons/visualstudio~-708727996.svg"
+    },
+    "angular": {
+      "iconPath": "./../icons/angular~-708727996.svg"
+    },
+    "graphql": {
+      "iconPath": "./../icons/graphql~-708727996.svg"
+    },
+    "solidity": {
+      "iconPath": "./../icons/solidity~-708727996.svg"
+    },
+    "autoit": {
+      "iconPath": "./../icons/autoit~-708727996.svg"
+    },
+    "haml": {
+      "iconPath": "./../icons/haml~-708727996.svg"
+    },
+    "yang": {
+      "iconPath": "./../icons/yang~-708727996.svg"
+    },
+    "terraform": {
+      "iconPath": "./../icons/terraform~-708727996.svg"
+    },
+    "applescript": {
+      "iconPath": "./../icons/applescript~-708727996.svg"
+    },
+    "cake": {
+      "iconPath": "./../icons/cake~-708727996.svg"
+    },
+    "cucumber": {
+      "iconPath": "./../icons/cucumber~-708727996.svg"
+    },
+    "nim": {
+      "iconPath": "./../icons/nim~-708727996.svg"
+    },
+    "apiblueprint": {
+      "iconPath": "./../icons/apiblueprint~-708727996.svg"
+    },
+    "riot": {
+      "iconPath": "./../icons/riot~-708727996.svg"
+    },
+    "postcss": {
+      "iconPath": "./../icons/postcss~-708727996.svg"
+    },
+    "coldfusion": {
+      "iconPath": "./../icons/coldfusion~-708727996.svg"
+    },
+    "haskell": {
+      "iconPath": "./../icons/haskell~-708727996.svg"
+    },
+    "dhall": {
+      "iconPath": "./../icons/dhall~-708727996.svg"
+    },
+    "cabal": {
+      "iconPath": "./../icons/cabal~-708727996.svg"
+    },
+    "nix": {
+      "iconPath": "./../icons/nix~-708727996.svg"
+    },
+    "ruby": {
+      "iconPath": "./../icons/ruby~-708727996.svg"
+    },
+    "slim": {
+      "iconPath": "./../icons/slim~-708727996.svg"
+    },
+    "php": {
+      "iconPath": "./../icons/php~-708727996.svg"
+    },
+    "php_elephant": {
+      "iconPath": "./../icons/php_elephant~-708727996.svg"
+    },
+    "hack": {
+      "iconPath": "./../icons/hack~-708727996.svg"
+    },
+    "react": {
+      "iconPath": "./../icons/react~-708727996.svg"
+    },
+    "mjml": {
+      "iconPath": "./../icons/mjml~-708727996.svg"
+    },
+    "processing": {
+      "iconPath": "./../icons/processing~-708727996.svg"
+    },
+    "hcl": {
+      "iconPath": "./../icons/hcl~-708727996.svg"
+    },
+    "go": {
+      "iconPath": "./../icons/go~-708727996.svg"
+    },
+    "go_gopher": {
+      "iconPath": "./../icons/go_gopher~-708727996.svg"
+    },
+    "nodejs_alt": {
+      "iconPath": "./../icons/nodejs_alt~-708727996.svg"
+    },
+    "django": {
+      "iconPath": "./../icons/django~-708727996.svg"
+    },
+    "html": {
+      "iconPath": "./../icons/html~-708727996.svg"
+    },
+    "godot": {
+      "iconPath": "./../icons/godot~-708727996.svg"
+    },
+    "vim": {
+      "iconPath": "./../icons/vim~-708727996.svg"
+    },
+    "silverstripe": {
+      "iconPath": "./../icons/silverstripe~-708727996.svg"
+    },
+    "prolog": {
+      "iconPath": "./../icons/prolog~-708727996.svg"
+    },
+    "pawn": {
+      "iconPath": "./../icons/pawn~-708727996.svg"
+    },
+    "reason": {
+      "iconPath": "./../icons/reason~-708727996.svg"
+    },
+    "sml": {
+      "iconPath": "./../icons/sml~-708727996.svg"
+    },
+    "markdown": {
+      "iconPath": "./../icons/markdown~-708727996.svg"
+    },
+    "blink_light": {
+      "iconPath": "./../icons/blink_light~-708727996.svg"
+    },
+    "jinja": {
+      "iconPath": "./../icons/jinja~-708727996.svg"
+    },
+    "jinja_light": {
+      "iconPath": "./../icons/jinja_light~-708727996.svg"
+    },
+    "sublime": {
+      "iconPath": "./../icons/sublime~-708727996.svg"
+    },
+    "image": {
+      "iconPath": "./../icons/image~-708727996.svg"
+    },
+    "react_ts": {
+      "iconPath": "./../icons/react_ts~-708727996.svg"
+    },
+    "routing": {
+      "iconPath": "./../icons/routing~-708727996.svg"
+    },
+    "typescript-def": {
+      "iconPath": "./../icons/typescript-def~-708727996.svg"
+    },
+    "markojs": {
+      "iconPath": "./../icons/markojs~-708727996.svg"
+    },
+    "pdf": {
+      "iconPath": "./../icons/pdf~-708727996.svg"
+    },
+    "table": {
+      "iconPath": "./../icons/table~-708727996.svg"
+    },
+    "vscode": {
+      "iconPath": "./../icons/vscode~-708727996.svg"
+    },
+    "database": {
+      "iconPath": "./../icons/database~-708727996.svg"
+    },
+    "csharp": {
+      "iconPath": "./../icons/csharp~-708727996.svg"
+    },
+    "qsharp": {
+      "iconPath": "./../icons/qsharp~-708727996.svg"
+    },
+    "zip": {
+      "iconPath": "./../icons/zip~-708727996.svg"
+    },
+    "vala": {
+      "iconPath": "./../icons/vala~-708727996.svg"
+    },
+    "zig": {
+      "iconPath": "./../icons/zig~-708727996.svg"
+    },
+    "exe": {
+      "iconPath": "./../icons/exe~-708727996.svg"
+    },
+    "h": {
+      "iconPath": "./../icons/h~-708727996.svg"
+    },
+    "cpp": {
+      "iconPath": "./../icons/cpp~-708727996.svg"
+    },
+    "hpp": {
+      "iconPath": "./../icons/hpp~-708727996.svg"
+    },
+    "go-mod": {
+      "iconPath": "./../icons/go-mod~-708727996.svg"
+    },
+    "python-misc": {
+      "iconPath": "./../icons/python-misc~-708727996.svg"
+    },
+    "url": {
+      "iconPath": "./../icons/url~-708727996.svg"
+    },
+    "console": {
+      "iconPath": "./../icons/console~-708727996.svg"
+    },
+    "powershell": {
+      "iconPath": "./../icons/powershell~-708727996.svg"
+    },
+    "gradle": {
+      "iconPath": "./../icons/gradle~-708727996.svg"
+    },
+    "word": {
+      "iconPath": "./../icons/word~-708727996.svg"
+    },
+    "certificate": {
+      "iconPath": "./../icons/certificate~-708727996.svg"
+    },
+    "key": {
+      "iconPath": "./../icons/key~-708727996.svg"
+    },
+    "font": {
+      "iconPath": "./../icons/font~-708727996.svg"
+    },
+    "lib": {
+      "iconPath": "./../icons/lib~-708727996.svg"
+    },
+    "gemfile": {
+      "iconPath": "./../icons/gemfile~-708727996.svg"
+    },
+    "fsharp": {
+      "iconPath": "./../icons/fsharp~-708727996.svg"
+    },
+    "swift": {
+      "iconPath": "./../icons/swift~-708727996.svg"
+    },
+    "arduino": {
+      "iconPath": "./../icons/arduino~-708727996.svg"
+    },
+    "docker": {
+      "iconPath": "./../icons/docker~-708727996.svg"
+    },
+    "tex": {
+      "iconPath": "./../icons/tex~-708727996.svg"
+    },
+    "powerpoint": {
+      "iconPath": "./../icons/powerpoint~-708727996.svg"
+    },
+    "video": {
+      "iconPath": "./../icons/video~-708727996.svg"
+    },
+    "virtual": {
+      "iconPath": "./../icons/virtual~-708727996.svg"
+    },
+    "email": {
+      "iconPath": "./../icons/email~-708727996.svg"
+    },
+    "audio": {
+      "iconPath": "./../icons/audio~-708727996.svg"
+    },
+    "coffee": {
+      "iconPath": "./../icons/coffee~-708727996.svg"
+    },
+    "document": {
+      "iconPath": "./../icons/document~-708727996.svg"
+    },
+    "rust": {
+      "iconPath": "./../icons/rust~-708727996.svg"
+    },
+    "raml": {
+      "iconPath": "./../icons/raml~-708727996.svg"
+    },
+    "xaml": {
+      "iconPath": "./../icons/xaml~-708727996.svg"
+    },
+    "kotlin": {
+      "iconPath": "./../icons/kotlin~-708727996.svg"
+    },
+    "lua": {
+      "iconPath": "./../icons/lua~-708727996.svg"
+    },
+    "clojure": {
+      "iconPath": "./../icons/clojure~-708727996.svg"
+    },
+    "groovy": {
+      "iconPath": "./../icons/groovy~-708727996.svg"
+    },
+    "r": {
+      "iconPath": "./../icons/r~-708727996.svg"
+    },
+    "dart": {
+      "iconPath": "./../icons/dart~-708727996.svg"
+    },
+    "actionscript": {
+      "iconPath": "./../icons/actionscript~-708727996.svg"
+    },
+    "mxml": {
+      "iconPath": "./../icons/mxml~-708727996.svg"
+    },
+    "autohotkey": {
+      "iconPath": "./../icons/autohotkey~-708727996.svg"
+    },
+    "flash": {
+      "iconPath": "./../icons/flash~-708727996.svg"
+    },
+    "swc": {
+      "iconPath": "./../icons/swc~-708727996.svg"
+    },
+    "cmake": {
+      "iconPath": "./../icons/cmake~-708727996.svg"
+    },
+    "assembly": {
+      "iconPath": "./../icons/assembly~-708727996.svg"
+    },
+    "vue": {
+      "iconPath": "./../icons/vue~-708727996.svg"
+    },
+    "vue-config": {
+      "iconPath": "./../icons/vue-config~-708727996.svg"
+    },
+    "ocaml": {
+      "iconPath": "./../icons/ocaml~-708727996.svg"
+    },
+    "javascript-map": {
+      "iconPath": "./../icons/javascript-map~-708727996.svg"
+    },
+    "css-map": {
+      "iconPath": "./../icons/css-map~-708727996.svg"
+    },
+    "lock": {
+      "iconPath": "./../icons/lock~-708727996.svg"
+    },
+    "test-ts": {
+      "iconPath": "./../icons/test-ts~-708727996.svg"
+    },
+    "test-jsx": {
+      "iconPath": "./../icons/test-jsx~-708727996.svg"
+    },
+    "test-js": {
+      "iconPath": "./../icons/test-js~-708727996.svg"
+    },
+    "angular-component": {
+      "iconPath": "./../icons/angular-component~-708727996.svg"
+    },
+    "angular-guard": {
+      "iconPath": "./../icons/angular-guard~-708727996.svg"
+    },
+    "angular-service": {
+      "iconPath": "./../icons/angular-service~-708727996.svg"
+    },
+    "angular-pipe": {
+      "iconPath": "./../icons/angular-pipe~-708727996.svg"
+    },
+    "angular-directive": {
+      "iconPath": "./../icons/angular-directive~-708727996.svg"
+    },
+    "angular-resolver": {
+      "iconPath": "./../icons/angular-resolver~-708727996.svg"
+    },
+    "smarty": {
+      "iconPath": "./../icons/smarty~-708727996.svg"
+    },
+    "bucklescript": {
+      "iconPath": "./../icons/bucklescript~-708727996.svg"
+    },
+    "merlin": {
+      "iconPath": "./../icons/merlin~-708727996.svg"
+    },
+    "verilog": {
+      "iconPath": "./../icons/verilog~-708727996.svg"
+    },
+    "mathematica": {
+      "iconPath": "./../icons/mathematica~-708727996.svg"
+    },
+    "wolframlanguage": {
+      "iconPath": "./../icons/wolframlanguage~-708727996.svg"
+    },
+    "vercel": {
+      "iconPath": "./../icons/vercel~-708727996.svg"
+    },
+    "vercel_light": {
+      "iconPath": "./../icons/vercel_light~-708727996.svg"
+    },
+    "laravel": {
+      "iconPath": "./../icons/laravel~-708727996.svg"
+    },
+    "vfl": {
+      "iconPath": "./../icons/vfl~-708727996.svg"
+    },
+    "kl": {
+      "iconPath": "./../icons/kl~-708727996.svg"
+    },
+    "todo": {
+      "iconPath": "./../icons/todo~-708727996.svg"
+    },
+    "http": {
+      "iconPath": "./../icons/http~-708727996.svg"
+    },
+    "restql": {
+      "iconPath": "./../icons/restql~-708727996.svg"
+    },
+    "kivy": {
+      "iconPath": "./../icons/kivy~-708727996.svg"
+    },
+    "graphcool": {
+      "iconPath": "./../icons/graphcool~-708727996.svg"
+    },
+    "sbt": {
+      "iconPath": "./../icons/sbt~-708727996.svg"
+    },
+    "webpack": {
+      "iconPath": "./../icons/webpack~-708727996.svg"
+    },
+    "ionic": {
+      "iconPath": "./../icons/ionic~-708727996.svg"
+    },
+    "gulp": {
+      "iconPath": "./../icons/gulp~-708727996.svg"
+    },
+    "nodejs": {
+      "iconPath": "./../icons/nodejs~-708727996.svg"
+    },
+    "npm": {
+      "iconPath": "./../icons/npm~-708727996.svg"
+    },
+    "yarn": {
+      "iconPath": "./../icons/yarn~-708727996.svg"
+    },
+    "android": {
+      "iconPath": "./../icons/android~-708727996.svg"
+    },
+    "tune": {
+      "iconPath": "./../icons/tune~-708727996.svg"
+    },
+    "babel": {
+      "iconPath": "./../icons/babel~-708727996.svg"
+    },
+    "contributing": {
+      "iconPath": "./../icons/contributing~-708727996.svg"
+    },
+    "readme": {
+      "iconPath": "./../icons/readme~-708727996.svg"
+    },
+    "changelog": {
+      "iconPath": "./../icons/changelog~-708727996.svg"
+    },
+    "credits": {
+      "iconPath": "./../icons/credits~-708727996.svg"
+    },
+    "authors": {
+      "iconPath": "./../icons/authors~-708727996.svg"
+    },
+    "flow": {
+      "iconPath": "./../icons/flow~-708727996.svg"
+    },
+    "favicon": {
+      "iconPath": "./../icons/favicon~-708727996.svg"
+    },
+    "karma": {
+      "iconPath": "./../icons/karma~-708727996.svg"
+    },
+    "bithound": {
+      "iconPath": "./../icons/bithound~-708727996.svg"
+    },
+    "appveyor": {
+      "iconPath": "./../icons/appveyor~-708727996.svg"
+    },
+    "travis": {
+      "iconPath": "./../icons/travis~-708727996.svg"
+    },
+    "codecov": {
+      "iconPath": "./../icons/codecov~-708727996.svg"
+    },
+    "protractor": {
+      "iconPath": "./../icons/protractor~-708727996.svg"
+    },
+    "fusebox": {
+      "iconPath": "./../icons/fusebox~-708727996.svg"
+    },
+    "heroku": {
+      "iconPath": "./../icons/heroku~-708727996.svg"
+    },
+    "editorconfig": {
+      "iconPath": "./../icons/editorconfig~-708727996.svg"
+    },
+    "gitlab": {
+      "iconPath": "./../icons/gitlab~-708727996.svg"
+    },
+    "bower": {
+      "iconPath": "./../icons/bower~-708727996.svg"
+    },
+    "eslint": {
+      "iconPath": "./../icons/eslint~-708727996.svg"
+    },
+    "conduct": {
+      "iconPath": "./../icons/conduct~-708727996.svg"
+    },
+    "watchman": {
+      "iconPath": "./../icons/watchman~-708727996.svg"
+    },
+    "aurelia": {
+      "iconPath": "./../icons/aurelia~-708727996.svg"
+    },
+    "mocha": {
+      "iconPath": "./../icons/mocha~-708727996.svg"
+    },
+    "jenkins": {
+      "iconPath": "./../icons/jenkins~-708727996.svg"
+    },
+    "firebase": {
+      "iconPath": "./../icons/firebase~-708727996.svg"
+    },
+    "rollup": {
+      "iconPath": "./../icons/rollup~-708727996.svg"
+    },
+    "stylelint": {
+      "iconPath": "./../icons/stylelint~-708727996.svg"
+    },
+    "stylelint_light": {
+      "iconPath": "./../icons/stylelint_light~-708727996.svg"
+    },
+    "code-climate": {
+      "iconPath": "./../icons/code-climate~-708727996.svg"
+    },
+    "code-climate_light": {
+      "iconPath": "./../icons/code-climate_light~-708727996.svg"
+    },
+    "prettier": {
+      "iconPath": "./../icons/prettier~-708727996.svg"
+    },
+    "apollo": {
+      "iconPath": "./../icons/apollo~-708727996.svg"
+    },
+    "nodemon": {
+      "iconPath": "./../icons/nodemon~-708727996.svg"
+    },
+    "webhint": {
+      "iconPath": "./../icons/webhint~-708727996.svg"
+    },
+    "browserlist": {
+      "iconPath": "./../icons/browserlist~-708727996.svg"
+    },
+    "browserlist_light": {
+      "iconPath": "./../icons/browserlist_light~-708727996.svg"
+    },
+    "crystal": {
+      "iconPath": "./../icons/crystal~-708727996.svg"
+    },
+    "crystal_light": {
+      "iconPath": "./../icons/crystal_light~-708727996.svg"
+    },
+    "snyk": {
+      "iconPath": "./../icons/snyk~-708727996.svg"
+    },
+    "drone": {
+      "iconPath": "./../icons/drone~-708727996.svg"
+    },
+    "drone_light": {
+      "iconPath": "./../icons/drone_light~-708727996.svg"
+    },
+    "cuda": {
+      "iconPath": "./../icons/cuda~-708727996.svg"
+    },
+    "log": {
+      "iconPath": "./../icons/log~-708727996.svg"
+    },
+    "dotjs": {
+      "iconPath": "./../icons/dotjs~-708727996.svg"
+    },
+    "ejs": {
+      "iconPath": "./../icons/ejs~-708727996.svg"
+    },
+    "sequelize": {
+      "iconPath": "./../icons/sequelize~-708727996.svg"
+    },
+    "gatsby": {
+      "iconPath": "./../icons/gatsby~-708727996.svg"
+    },
+    "wakatime": {
+      "iconPath": "./../icons/wakatime~-708727996.svg"
+    },
+    "wakatime_light": {
+      "iconPath": "./../icons/wakatime_light~-708727996.svg"
+    },
+    "circleci": {
+      "iconPath": "./../icons/circleci~-708727996.svg"
+    },
+    "circleci_light": {
+      "iconPath": "./../icons/circleci_light~-708727996.svg"
+    },
+    "cloudfoundry": {
+      "iconPath": "./../icons/cloudfoundry~-708727996.svg"
+    },
+    "grunt": {
+      "iconPath": "./../icons/grunt~-708727996.svg"
+    },
+    "jest": {
+      "iconPath": "./../icons/jest~-708727996.svg"
+    },
+    "processing_light": {
+      "iconPath": "./../icons/processing_light~-708727996.svg"
+    },
+    "storybook": {
+      "iconPath": "./../icons/storybook~-708727996.svg"
+    },
+    "wepy": {
+      "iconPath": "./../icons/wepy~-708727996.svg"
+    },
+    "fastlane": {
+      "iconPath": "./../icons/fastlane~-708727996.svg"
+    },
+    "hcl_light": {
+      "iconPath": "./../icons/hcl_light~-708727996.svg"
+    },
+    "helm": {
+      "iconPath": "./../icons/helm~-708727996.svg"
+    },
+    "san": {
+      "iconPath": "./../icons/san~-708727996.svg"
+    },
+    "wallaby": {
+      "iconPath": "./../icons/wallaby~-708727996.svg"
+    },
+    "stencil": {
+      "iconPath": "./../icons/stencil~-708727996.svg"
+    },
+    "red": {
+      "iconPath": "./../icons/red~-708727996.svg"
+    },
+    "makefile": {
+      "iconPath": "./../icons/makefile~-708727996.svg"
+    },
+    "foxpro": {
+      "iconPath": "./../icons/foxpro~-708727996.svg"
+    },
+    "i18n": {
+      "iconPath": "./../icons/i18n~-708727996.svg"
+    },
+    "webassembly": {
+      "iconPath": "./../icons/webassembly~-708727996.svg"
+    },
+    "semantic-release": {
+      "iconPath": "./../icons/semantic-release~-708727996.svg"
+    },
+    "semantic-release_light": {
+      "iconPath": "./../icons/semantic-release_light~-708727996.svg"
+    },
+    "bitbucket": {
+      "iconPath": "./../icons/bitbucket~-708727996.svg"
+    },
+    "jupyter": {
+      "iconPath": "./../icons/jupyter~-708727996.svg"
+    },
+    "d": {
+      "iconPath": "./../icons/d~-708727996.svg"
+    },
+    "mdx": {
+      "iconPath": "./../icons/mdx~-708727996.svg"
+    },
+    "ballerina": {
+      "iconPath": "./../icons/ballerina~-708727996.svg"
+    },
+    "racket": {
+      "iconPath": "./../icons/racket~-708727996.svg"
+    },
+    "bazel": {
+      "iconPath": "./../icons/bazel~-708727996.svg"
+    },
+    "mint": {
+      "iconPath": "./../icons/mint~-708727996.svg"
+    },
+    "velocity": {
+      "iconPath": "./../icons/velocity~-708727996.svg"
+    },
+    "godot-assets": {
+      "iconPath": "./../icons/godot-assets~-708727996.svg"
+    },
+    "azure-pipelines": {
+      "iconPath": "./../icons/azure-pipelines~-708727996.svg"
+    },
+    "azure": {
+      "iconPath": "./../icons/azure~-708727996.svg"
+    },
+    "vagrant": {
+      "iconPath": "./../icons/vagrant~-708727996.svg"
+    },
+    "prisma": {
+      "iconPath": "./../icons/prisma~-708727996.svg"
+    },
+    "abc": {
+      "iconPath": "./../icons/abc~-708727996.svg"
+    },
+    "asciidoc": {
+      "iconPath": "./../icons/asciidoc~-708727996.svg"
+    },
+    "istanbul": {
+      "iconPath": "./../icons/istanbul~-708727996.svg"
+    },
+    "edge": {
+      "iconPath": "./../icons/edge~-708727996.svg"
+    },
+    "scheme": {
+      "iconPath": "./../icons/scheme~-708727996.svg"
+    },
+    "lisp": {
+      "iconPath": "./../icons/lisp~-708727996.svg"
+    },
+    "tailwindcss": {
+      "iconPath": "./../icons/tailwindcss~-708727996.svg"
+    },
+    "3d": {
+      "iconPath": "./../icons/3d~-708727996.svg"
+    },
+    "buildkite": {
+      "iconPath": "./../icons/buildkite~-708727996.svg"
+    },
+    "netlify": {
+      "iconPath": "./../icons/netlify~-708727996.svg"
+    },
+    "svg": {
+      "iconPath": "./../icons/svg~-708727996.svg"
+    },
+    "svelte": {
+      "iconPath": "./../icons/svelte~-708727996.svg"
+    },
+    "nest": {
+      "iconPath": "./../icons/nest~-708727996.svg"
+    },
+    "moonscript": {
+      "iconPath": "./../icons/moonscript~-708727996.svg"
+    },
+    "percy": {
+      "iconPath": "./../icons/percy~-708727996.svg"
+    },
+    "gitpod": {
+      "iconPath": "./../icons/gitpod~-708727996.svg"
+    },
+    "advpl_prw": {
+      "iconPath": "./../icons/advpl_prw~-708727996.svg"
+    },
+    "advpl_ptm": {
+      "iconPath": "./../icons/advpl_ptm~-708727996.svg"
+    },
+    "advpl_tlpp": {
+      "iconPath": "./../icons/advpl_tlpp~-708727996.svg"
+    },
+    "advpl_include": {
+      "iconPath": "./../icons/advpl_include~-708727996.svg"
+    },
+    "codeowners": {
+      "iconPath": "./../icons/codeowners~-708727996.svg"
+    },
+    "gcp": {
+      "iconPath": "./../icons/gcp~-708727996.svg"
+    },
+    "disc": {
+      "iconPath": "./../icons/disc~-708727996.svg"
+    },
+    "fortran": {
+      "iconPath": "./../icons/fortran~-708727996.svg"
+    },
+    "liquid": {
+      "iconPath": "./../icons/liquid~-708727996.svg"
+    },
+    "husky": {
+      "iconPath": "./../icons/husky~-708727996.svg"
+    },
+    "coconut": {
+      "iconPath": "./../icons/coconut~-708727996.svg"
+    },
+    "tilt": {
+      "iconPath": "./../icons/tilt~-708727996.svg"
+    },
+    "capacitor": {
+      "iconPath": "./../icons/capacitor~-708727996.svg"
+    },
+    "sketch": {
+      "iconPath": "./../icons/sketch~-708727996.svg"
+    },
+    "adonis": {
+      "iconPath": "./../icons/adonis~-708727996.svg"
+    },
+    "forth": {
+      "iconPath": "./../icons/forth~-708727996.svg"
+    },
+    "uml": {
+      "iconPath": "./../icons/uml~-708727996.svg"
+    },
+    "uml_light": {
+      "iconPath": "./../icons/uml_light~-708727996.svg"
+    },
+    "meson": {
+      "iconPath": "./../icons/meson~-708727996.svg"
+    },
+    "commitlint": {
+      "iconPath": "./../icons/commitlint~-708727996.svg"
+    },
+    "buck": {
+      "iconPath": "./../icons/buck~-708727996.svg"
+    },
+    "nrwl": {
+      "iconPath": "./../icons/nrwl~-708727996.svg"
+    },
+    "opam": {
+      "iconPath": "./../icons/opam~-708727996.svg"
+    },
+    "dune": {
+      "iconPath": "./../icons/dune~-708727996.svg"
+    },
+    "imba": {
+      "iconPath": "./../icons/imba~-708727996.svg"
+    },
+    "drawio": {
+      "iconPath": "./../icons/drawio~-708727996.svg"
+    },
+    "pascal": {
+      "iconPath": "./../icons/pascal~-708727996.svg"
+    },
+    "file": {
+      "iconPath": "./../icons/file~-708727996.svg"
+    },
+    "folder-src": {
+      "iconPath": "./../icons/folder-src~-708727996.svg"
+    },
+    "folder-src-open": {
+      "iconPath": "./../icons/folder-src-open~-708727996.svg"
+    },
+    "folder-dist": {
+      "iconPath": "./../icons/folder-dist~-708727996.svg"
+    },
+    "folder-dist-open": {
+      "iconPath": "./../icons/folder-dist-open~-708727996.svg"
+    },
+    "folder-css": {
+      "iconPath": "./../icons/folder-css~-708727996.svg"
+    },
+    "folder-css-open": {
+      "iconPath": "./../icons/folder-css-open~-708727996.svg"
+    },
+    "folder-sass": {
+      "iconPath": "./../icons/folder-sass~-708727996.svg"
+    },
+    "folder-sass-open": {
+      "iconPath": "./../icons/folder-sass-open~-708727996.svg"
+    },
+    "folder-images": {
+      "iconPath": "./../icons/folder-images~-708727996.svg"
+    },
+    "folder-images-open": {
+      "iconPath": "./../icons/folder-images-open~-708727996.svg"
+    },
+    "folder-scripts": {
+      "iconPath": "./../icons/folder-scripts~-708727996.svg"
+    },
+    "folder-scripts-open": {
+      "iconPath": "./../icons/folder-scripts-open~-708727996.svg"
+    },
+    "folder-node": {
+      "iconPath": "./../icons/folder-node~-708727996.svg"
+    },
+    "folder-node-open": {
+      "iconPath": "./../icons/folder-node-open~-708727996.svg"
+    },
+    "folder-javascript": {
+      "iconPath": "./../icons/folder-javascript~-708727996.svg"
+    },
+    "folder-javascript-open": {
+      "iconPath": "./../icons/folder-javascript-open~-708727996.svg"
+    },
+    "folder-json": {
+      "iconPath": "./../icons/folder-json~-708727996.svg"
+    },
+    "folder-json-open": {
+      "iconPath": "./../icons/folder-json-open~-708727996.svg"
+    },
+    "folder-font": {
+      "iconPath": "./../icons/folder-font~-708727996.svg"
+    },
+    "folder-font-open": {
+      "iconPath": "./../icons/folder-font-open~-708727996.svg"
+    },
+    "folder-bower": {
+      "iconPath": "./../icons/folder-bower~-708727996.svg"
+    },
+    "folder-bower-open": {
+      "iconPath": "./../icons/folder-bower-open~-708727996.svg"
+    },
+    "folder-test": {
+      "iconPath": "./../icons/folder-test~-708727996.svg"
+    },
+    "folder-test-open": {
+      "iconPath": "./../icons/folder-test-open~-708727996.svg"
+    },
+    "folder-jinja": {
+      "iconPath": "./../icons/folder-jinja~-708727996.svg"
+    },
+    "folder-jinja-open": {
+      "iconPath": "./../icons/folder-jinja-open~-708727996.svg"
+    },
+    "folder-jinja_light": {
+      "iconPath": "./../icons/folder-jinja_light~-708727996.svg"
+    },
+    "folder-jinja-open_light": {
+      "iconPath": "./../icons/folder-jinja-open_light~-708727996.svg"
+    },
+    "folder-markdown": {
+      "iconPath": "./../icons/folder-markdown~-708727996.svg"
+    },
+    "folder-markdown-open": {
+      "iconPath": "./../icons/folder-markdown-open~-708727996.svg"
+    },
+    "folder-php": {
+      "iconPath": "./../icons/folder-php~-708727996.svg"
+    },
+    "folder-php-open": {
+      "iconPath": "./../icons/folder-php-open~-708727996.svg"
+    },
+    "folder-phpmailer": {
+      "iconPath": "./../icons/folder-phpmailer~-708727996.svg"
+    },
+    "folder-phpmailer-open": {
+      "iconPath": "./../icons/folder-phpmailer-open~-708727996.svg"
+    },
+    "folder-sublime": {
+      "iconPath": "./../icons/folder-sublime~-708727996.svg"
+    },
+    "folder-sublime-open": {
+      "iconPath": "./../icons/folder-sublime-open~-708727996.svg"
+    },
+    "folder-docs": {
+      "iconPath": "./../icons/folder-docs~-708727996.svg"
+    },
+    "folder-docs-open": {
+      "iconPath": "./../icons/folder-docs-open~-708727996.svg"
+    },
+    "folder-git": {
+      "iconPath": "./../icons/folder-git~-708727996.svg"
+    },
+    "folder-git-open": {
+      "iconPath": "./../icons/folder-git-open~-708727996.svg"
+    },
+    "folder-github": {
+      "iconPath": "./../icons/folder-github~-708727996.svg"
+    },
+    "folder-github-open": {
+      "iconPath": "./../icons/folder-github-open~-708727996.svg"
+    },
+    "folder-gitlab": {
+      "iconPath": "./../icons/folder-gitlab~-708727996.svg"
+    },
+    "folder-gitlab-open": {
+      "iconPath": "./../icons/folder-gitlab-open~-708727996.svg"
+    },
+    "folder-vscode": {
+      "iconPath": "./../icons/folder-vscode~-708727996.svg"
+    },
+    "folder-vscode-open": {
+      "iconPath": "./../icons/folder-vscode-open~-708727996.svg"
+    },
+    "folder-views": {
+      "iconPath": "./../icons/folder-views~-708727996.svg"
+    },
+    "folder-views-open": {
+      "iconPath": "./../icons/folder-views-open~-708727996.svg"
+    },
+    "folder-vue": {
+      "iconPath": "./../icons/folder-vue~-708727996.svg"
+    },
+    "folder-vue-open": {
+      "iconPath": "./../icons/folder-vue-open~-708727996.svg"
+    },
+    "folder-expo": {
+      "iconPath": "./../icons/folder-expo~-708727996.svg"
+    },
+    "folder-expo-open": {
+      "iconPath": "./../icons/folder-expo-open~-708727996.svg"
+    },
+    "folder-config": {
+      "iconPath": "./../icons/folder-config~-708727996.svg"
+    },
+    "folder-config-open": {
+      "iconPath": "./../icons/folder-config-open~-708727996.svg"
+    },
+    "folder-i18n": {
+      "iconPath": "./../icons/folder-i18n~-708727996.svg"
+    },
+    "folder-i18n-open": {
+      "iconPath": "./../icons/folder-i18n-open~-708727996.svg"
+    },
+    "folder-components": {
+      "iconPath": "./../icons/folder-components~-708727996.svg"
+    },
+    "folder-components-open": {
+      "iconPath": "./../icons/folder-components-open~-708727996.svg"
+    },
+    "folder-aurelia": {
+      "iconPath": "./../icons/folder-aurelia~-708727996.svg"
+    },
+    "folder-aurelia-open": {
+      "iconPath": "./../icons/folder-aurelia-open~-708727996.svg"
+    },
+    "folder-resource": {
+      "iconPath": "./../icons/folder-resource~-708727996.svg"
+    },
+    "folder-resource-open": {
+      "iconPath": "./../icons/folder-resource-open~-708727996.svg"
+    },
+    "folder-lib": {
+      "iconPath": "./../icons/folder-lib~-708727996.svg"
+    },
+    "folder-lib-open": {
+      "iconPath": "./../icons/folder-lib-open~-708727996.svg"
+    },
+    "folder-theme": {
+      "iconPath": "./../icons/folder-theme~-708727996.svg"
+    },
+    "folder-theme-open": {
+      "iconPath": "./../icons/folder-theme-open~-708727996.svg"
+    },
+    "folder-webpack": {
+      "iconPath": "./../icons/folder-webpack~-708727996.svg"
+    },
+    "folder-webpack-open": {
+      "iconPath": "./../icons/folder-webpack-open~-708727996.svg"
+    },
+    "folder-global": {
+      "iconPath": "./../icons/folder-global~-708727996.svg"
+    },
+    "folder-global-open": {
+      "iconPath": "./../icons/folder-global-open~-708727996.svg"
+    },
+    "folder-public": {
+      "iconPath": "./../icons/folder-public~-708727996.svg"
+    },
+    "folder-public-open": {
+      "iconPath": "./../icons/folder-public-open~-708727996.svg"
+    },
+    "folder-include": {
+      "iconPath": "./../icons/folder-include~-708727996.svg"
+    },
+    "folder-include-open": {
+      "iconPath": "./../icons/folder-include-open~-708727996.svg"
+    },
+    "folder-docker": {
+      "iconPath": "./../icons/folder-docker~-708727996.svg"
+    },
+    "folder-docker-open": {
+      "iconPath": "./../icons/folder-docker-open~-708727996.svg"
+    },
+    "folder-database": {
+      "iconPath": "./../icons/folder-database~-708727996.svg"
+    },
+    "folder-database-open": {
+      "iconPath": "./../icons/folder-database-open~-708727996.svg"
+    },
+    "folder-log": {
+      "iconPath": "./../icons/folder-log~-708727996.svg"
+    },
+    "folder-log-open": {
+      "iconPath": "./../icons/folder-log-open~-708727996.svg"
+    },
+    "folder-temp": {
+      "iconPath": "./../icons/folder-temp~-708727996.svg"
+    },
+    "folder-temp-open": {
+      "iconPath": "./../icons/folder-temp-open~-708727996.svg"
+    },
+    "folder-aws": {
+      "iconPath": "./../icons/folder-aws~-708727996.svg"
+    },
+    "folder-aws-open": {
+      "iconPath": "./../icons/folder-aws-open~-708727996.svg"
+    },
+    "folder-audio": {
+      "iconPath": "./../icons/folder-audio~-708727996.svg"
+    },
+    "folder-audio-open": {
+      "iconPath": "./../icons/folder-audio-open~-708727996.svg"
+    },
+    "folder-video": {
+      "iconPath": "./../icons/folder-video~-708727996.svg"
+    },
+    "folder-video-open": {
+      "iconPath": "./../icons/folder-video-open~-708727996.svg"
+    },
+    "folder-kubernetes": {
+      "iconPath": "./../icons/folder-kubernetes~-708727996.svg"
+    },
+    "folder-kubernetes-open": {
+      "iconPath": "./../icons/folder-kubernetes-open~-708727996.svg"
+    },
+    "folder-import": {
+      "iconPath": "./../icons/folder-import~-708727996.svg"
+    },
+    "folder-import-open": {
+      "iconPath": "./../icons/folder-import-open~-708727996.svg"
+    },
+    "folder-export": {
+      "iconPath": "./../icons/folder-export~-708727996.svg"
+    },
+    "folder-export-open": {
+      "iconPath": "./../icons/folder-export-open~-708727996.svg"
+    },
+    "folder-wakatime": {
+      "iconPath": "./../icons/folder-wakatime~-708727996.svg"
+    },
+    "folder-wakatime-open": {
+      "iconPath": "./../icons/folder-wakatime-open~-708727996.svg"
+    },
+    "folder-circleci": {
+      "iconPath": "./../icons/folder-circleci~-708727996.svg"
+    },
+    "folder-circleci-open": {
+      "iconPath": "./../icons/folder-circleci-open~-708727996.svg"
+    },
+    "folder-wordpress": {
+      "iconPath": "./../icons/folder-wordpress~-708727996.svg"
+    },
+    "folder-wordpress-open": {
+      "iconPath": "./../icons/folder-wordpress-open~-708727996.svg"
+    },
+    "folder-gradle": {
+      "iconPath": "./../icons/folder-gradle~-708727996.svg"
+    },
+    "folder-gradle-open": {
+      "iconPath": "./../icons/folder-gradle-open~-708727996.svg"
+    },
+    "folder-coverage": {
+      "iconPath": "./../icons/folder-coverage~-708727996.svg"
+    },
+    "folder-coverage-open": {
+      "iconPath": "./../icons/folder-coverage-open~-708727996.svg"
+    },
+    "folder-class": {
+      "iconPath": "./../icons/folder-class~-708727996.svg"
+    },
+    "folder-class-open": {
+      "iconPath": "./../icons/folder-class-open~-708727996.svg"
+    },
+    "folder-other": {
+      "iconPath": "./../icons/folder-other~-708727996.svg"
+    },
+    "folder-other-open": {
+      "iconPath": "./../icons/folder-other-open~-708727996.svg"
+    },
+    "folder-typescript": {
+      "iconPath": "./../icons/folder-typescript~-708727996.svg"
+    },
+    "folder-typescript-open": {
+      "iconPath": "./../icons/folder-typescript-open~-708727996.svg"
+    },
+    "folder-graphql": {
+      "iconPath": "./../icons/folder-graphql~-708727996.svg"
+    },
+    "folder-graphql-open": {
+      "iconPath": "./../icons/folder-graphql-open~-708727996.svg"
+    },
+    "folder-routes": {
+      "iconPath": "./../icons/folder-routes~-708727996.svg"
+    },
+    "folder-routes-open": {
+      "iconPath": "./../icons/folder-routes-open~-708727996.svg"
+    },
+    "folder-ci": {
+      "iconPath": "./../icons/folder-ci~-708727996.svg"
+    },
+    "folder-ci-open": {
+      "iconPath": "./../icons/folder-ci-open~-708727996.svg"
+    },
+    "folder-benchmark": {
+      "iconPath": "./../icons/folder-benchmark~-708727996.svg"
+    },
+    "folder-benchmark-open": {
+      "iconPath": "./../icons/folder-benchmark-open~-708727996.svg"
+    },
+    "folder-messages": {
+      "iconPath": "./../icons/folder-messages~-708727996.svg"
+    },
+    "folder-messages-open": {
+      "iconPath": "./../icons/folder-messages-open~-708727996.svg"
+    },
+    "folder-less": {
+      "iconPath": "./../icons/folder-less~-708727996.svg"
+    },
+    "folder-less-open": {
+      "iconPath": "./../icons/folder-less-open~-708727996.svg"
+    },
+    "folder-python": {
+      "iconPath": "./../icons/folder-python~-708727996.svg"
+    },
+    "folder-python-open": {
+      "iconPath": "./../icons/folder-python-open~-708727996.svg"
+    },
+    "folder-debug": {
+      "iconPath": "./../icons/folder-debug~-708727996.svg"
+    },
+    "folder-debug-open": {
+      "iconPath": "./../icons/folder-debug-open~-708727996.svg"
+    },
+    "folder-fastlane": {
+      "iconPath": "./../icons/folder-fastlane~-708727996.svg"
+    },
+    "folder-fastlane-open": {
+      "iconPath": "./../icons/folder-fastlane-open~-708727996.svg"
+    },
+    "folder-plugin": {
+      "iconPath": "./../icons/folder-plugin~-708727996.svg"
+    },
+    "folder-plugin-open": {
+      "iconPath": "./../icons/folder-plugin-open~-708727996.svg"
+    },
+    "folder-middleware": {
+      "iconPath": "./../icons/folder-middleware~-708727996.svg"
+    },
+    "folder-middleware-open": {
+      "iconPath": "./../icons/folder-middleware-open~-708727996.svg"
+    },
+    "folder-controller": {
+      "iconPath": "./../icons/folder-controller~-708727996.svg"
+    },
+    "folder-controller-open": {
+      "iconPath": "./../icons/folder-controller-open~-708727996.svg"
+    },
+    "folder-ansible": {
+      "iconPath": "./../icons/folder-ansible~-708727996.svg"
+    },
+    "folder-ansible-open": {
+      "iconPath": "./../icons/folder-ansible-open~-708727996.svg"
+    },
+    "folder-server": {
+      "iconPath": "./../icons/folder-server~-708727996.svg"
+    },
+    "folder-server-open": {
+      "iconPath": "./../icons/folder-server-open~-708727996.svg"
+    },
+    "folder-client": {
+      "iconPath": "./../icons/folder-client~-708727996.svg"
+    },
+    "folder-client-open": {
+      "iconPath": "./../icons/folder-client-open~-708727996.svg"
+    },
+    "folder-tasks": {
+      "iconPath": "./../icons/folder-tasks~-708727996.svg"
+    },
+    "folder-tasks-open": {
+      "iconPath": "./../icons/folder-tasks-open~-708727996.svg"
+    },
+    "folder-android": {
+      "iconPath": "./../icons/folder-android~-708727996.svg"
+    },
+    "folder-android-open": {
+      "iconPath": "./../icons/folder-android-open~-708727996.svg"
+    },
+    "folder-ios": {
+      "iconPath": "./../icons/folder-ios~-708727996.svg"
+    },
+    "folder-ios-open": {
+      "iconPath": "./../icons/folder-ios-open~-708727996.svg"
+    },
+    "folder-upload": {
+      "iconPath": "./../icons/folder-upload~-708727996.svg"
+    },
+    "folder-upload-open": {
+      "iconPath": "./../icons/folder-upload-open~-708727996.svg"
+    },
+    "folder-download": {
+      "iconPath": "./../icons/folder-download~-708727996.svg"
+    },
+    "folder-download-open": {
+      "iconPath": "./../icons/folder-download-open~-708727996.svg"
+    },
+    "folder-tools": {
+      "iconPath": "./../icons/folder-tools~-708727996.svg"
+    },
+    "folder-tools-open": {
+      "iconPath": "./../icons/folder-tools-open~-708727996.svg"
+    },
+    "folder-helper": {
+      "iconPath": "./../icons/folder-helper~-708727996.svg"
+    },
+    "folder-helper-open": {
+      "iconPath": "./../icons/folder-helper-open~-708727996.svg"
+    },
+    "folder-serverless": {
+      "iconPath": "./../icons/folder-serverless~-708727996.svg"
+    },
+    "folder-serverless-open": {
+      "iconPath": "./../icons/folder-serverless-open~-708727996.svg"
+    },
+    "folder-api": {
+      "iconPath": "./../icons/folder-api~-708727996.svg"
+    },
+    "folder-api-open": {
+      "iconPath": "./../icons/folder-api-open~-708727996.svg"
+    },
+    "folder-app": {
+      "iconPath": "./../icons/folder-app~-708727996.svg"
+    },
+    "folder-app-open": {
+      "iconPath": "./../icons/folder-app-open~-708727996.svg"
+    },
+    "folder-archive": {
+      "iconPath": "./../icons/folder-archive~-708727996.svg"
+    },
+    "folder-archive-open": {
+      "iconPath": "./../icons/folder-archive-open~-708727996.svg"
+    },
+    "folder-batch": {
+      "iconPath": "./../icons/folder-batch~-708727996.svg"
+    },
+    "folder-batch-open": {
+      "iconPath": "./../icons/folder-batch-open~-708727996.svg"
+    },
+    "folder-cluster": {
+      "iconPath": "./../icons/folder-cluster~-708727996.svg"
+    },
+    "folder-cluster-open": {
+      "iconPath": "./../icons/folder-cluster-open~-708727996.svg"
+    },
+    "folder-command": {
+      "iconPath": "./../icons/folder-command~-708727996.svg"
+    },
+    "folder-command-open": {
+      "iconPath": "./../icons/folder-command-open~-708727996.svg"
+    },
+    "folder-constant": {
+      "iconPath": "./../icons/folder-constant~-708727996.svg"
+    },
+    "folder-constant-open": {
+      "iconPath": "./../icons/folder-constant-open~-708727996.svg"
+    },
+    "folder-container": {
+      "iconPath": "./../icons/folder-container~-708727996.svg"
+    },
+    "folder-container-open": {
+      "iconPath": "./../icons/folder-container-open~-708727996.svg"
+    },
+    "folder-content": {
+      "iconPath": "./../icons/folder-content~-708727996.svg"
+    },
+    "folder-content-open": {
+      "iconPath": "./../icons/folder-content-open~-708727996.svg"
+    },
+    "folder-core": {
+      "iconPath": "./../icons/folder-core~-708727996.svg"
+    },
+    "folder-core-open": {
+      "iconPath": "./../icons/folder-core-open~-708727996.svg"
+    },
+    "folder-delta": {
+      "iconPath": "./../icons/folder-delta~-708727996.svg"
+    },
+    "folder-delta-open": {
+      "iconPath": "./../icons/folder-delta-open~-708727996.svg"
+    },
+    "folder-dump": {
+      "iconPath": "./../icons/folder-dump~-708727996.svg"
+    },
+    "folder-dump-open": {
+      "iconPath": "./../icons/folder-dump-open~-708727996.svg"
+    },
+    "folder-examples": {
+      "iconPath": "./../icons/folder-examples~-708727996.svg"
+    },
+    "folder-examples-open": {
+      "iconPath": "./../icons/folder-examples-open~-708727996.svg"
+    },
+    "folder-environment": {
+      "iconPath": "./../icons/folder-environment~-708727996.svg"
+    },
+    "folder-environment-open": {
+      "iconPath": "./../icons/folder-environment-open~-708727996.svg"
+    },
+    "folder-functions": {
+      "iconPath": "./../icons/folder-functions~-708727996.svg"
+    },
+    "folder-functions-open": {
+      "iconPath": "./../icons/folder-functions-open~-708727996.svg"
+    },
+    "folder-generator": {
+      "iconPath": "./../icons/folder-generator~-708727996.svg"
+    },
+    "folder-generator-open": {
+      "iconPath": "./../icons/folder-generator-open~-708727996.svg"
+    },
+    "folder-hook": {
+      "iconPath": "./../icons/folder-hook~-708727996.svg"
+    },
+    "folder-hook-open": {
+      "iconPath": "./../icons/folder-hook-open~-708727996.svg"
+    },
+    "folder-job": {
+      "iconPath": "./../icons/folder-job~-708727996.svg"
+    },
+    "folder-job-open": {
+      "iconPath": "./../icons/folder-job-open~-708727996.svg"
+    },
+    "folder-keys": {
+      "iconPath": "./../icons/folder-keys~-708727996.svg"
+    },
+    "folder-keys-open": {
+      "iconPath": "./../icons/folder-keys-open~-708727996.svg"
+    },
+    "folder-layout": {
+      "iconPath": "./../icons/folder-layout~-708727996.svg"
+    },
+    "folder-layout-open": {
+      "iconPath": "./../icons/folder-layout-open~-708727996.svg"
+    },
+    "folder-mail": {
+      "iconPath": "./../icons/folder-mail~-708727996.svg"
+    },
+    "folder-mail-open": {
+      "iconPath": "./../icons/folder-mail-open~-708727996.svg"
+    },
+    "folder-mappings": {
+      "iconPath": "./../icons/folder-mappings~-708727996.svg"
+    },
+    "folder-mappings-open": {
+      "iconPath": "./../icons/folder-mappings-open~-708727996.svg"
+    },
+    "folder-meta": {
+      "iconPath": "./../icons/folder-meta~-708727996.svg"
+    },
+    "folder-meta-open": {
+      "iconPath": "./../icons/folder-meta-open~-708727996.svg"
+    },
+    "folder-packages": {
+      "iconPath": "./../icons/folder-packages~-708727996.svg"
+    },
+    "folder-packages-open": {
+      "iconPath": "./../icons/folder-packages-open~-708727996.svg"
+    },
+    "folder-shared": {
+      "iconPath": "./../icons/folder-shared~-708727996.svg"
+    },
+    "folder-shared-open": {
+      "iconPath": "./../icons/folder-shared-open~-708727996.svg"
+    },
+    "folder-stack": {
+      "iconPath": "./../icons/folder-stack~-708727996.svg"
+    },
+    "folder-stack-open": {
+      "iconPath": "./../icons/folder-stack-open~-708727996.svg"
+    },
+    "folder-template": {
+      "iconPath": "./../icons/folder-template~-708727996.svg"
+    },
+    "folder-template-open": {
+      "iconPath": "./../icons/folder-template-open~-708727996.svg"
+    },
+    "folder-utils": {
+      "iconPath": "./../icons/folder-utils~-708727996.svg"
+    },
+    "folder-utils-open": {
+      "iconPath": "./../icons/folder-utils-open~-708727996.svg"
+    },
+    "folder-private": {
+      "iconPath": "./../icons/folder-private~-708727996.svg"
+    },
+    "folder-private-open": {
+      "iconPath": "./../icons/folder-private-open~-708727996.svg"
+    },
+    "folder-error": {
+      "iconPath": "./../icons/folder-error~-708727996.svg"
+    },
+    "folder-error-open": {
+      "iconPath": "./../icons/folder-error-open~-708727996.svg"
+    },
+    "folder-event": {
+      "iconPath": "./../icons/folder-event~-708727996.svg"
+    },
+    "folder-event-open": {
+      "iconPath": "./../icons/folder-event-open~-708727996.svg"
+    },
+    "folder-secure": {
+      "iconPath": "./../icons/folder-secure~-708727996.svg"
+    },
+    "folder-secure-open": {
+      "iconPath": "./../icons/folder-secure-open~-708727996.svg"
+    },
+    "folder-custom": {
+      "iconPath": "./../icons/folder-custom~-708727996.svg"
+    },
+    "folder-custom-open": {
+      "iconPath": "./../icons/folder-custom-open~-708727996.svg"
+    },
+    "folder-mock": {
+      "iconPath": "./../icons/folder-mock~-708727996.svg"
+    },
+    "folder-mock-open": {
+      "iconPath": "./../icons/folder-mock-open~-708727996.svg"
+    },
+    "folder-syntax": {
+      "iconPath": "./../icons/folder-syntax~-708727996.svg"
+    },
+    "folder-syntax-open": {
+      "iconPath": "./../icons/folder-syntax-open~-708727996.svg"
+    },
+    "folder-vm": {
+      "iconPath": "./../icons/folder-vm~-708727996.svg"
+    },
+    "folder-vm-open": {
+      "iconPath": "./../icons/folder-vm-open~-708727996.svg"
+    },
+    "folder-stylus": {
+      "iconPath": "./../icons/folder-stylus~-708727996.svg"
+    },
+    "folder-stylus-open": {
+      "iconPath": "./../icons/folder-stylus-open~-708727996.svg"
+    },
+    "folder-flow": {
+      "iconPath": "./../icons/folder-flow~-708727996.svg"
+    },
+    "folder-flow-open": {
+      "iconPath": "./../icons/folder-flow-open~-708727996.svg"
+    },
+    "folder-rules": {
+      "iconPath": "./../icons/folder-rules~-708727996.svg"
+    },
+    "folder-rules-open": {
+      "iconPath": "./../icons/folder-rules-open~-708727996.svg"
+    },
+    "folder-review": {
+      "iconPath": "./../icons/folder-review~-708727996.svg"
+    },
+    "folder-review-open": {
+      "iconPath": "./../icons/folder-review-open~-708727996.svg"
+    },
+    "folder-animation": {
+      "iconPath": "./../icons/folder-animation~-708727996.svg"
+    },
+    "folder-animation-open": {
+      "iconPath": "./../icons/folder-animation-open~-708727996.svg"
+    },
+    "folder-guard": {
+      "iconPath": "./../icons/folder-guard~-708727996.svg"
+    },
+    "folder-guard-open": {
+      "iconPath": "./../icons/folder-guard-open~-708727996.svg"
+    },
+    "folder-prisma": {
+      "iconPath": "./../icons/folder-prisma~-708727996.svg"
+    },
+    "folder-prisma-open": {
+      "iconPath": "./../icons/folder-prisma-open~-708727996.svg"
+    },
+    "folder-pipe": {
+      "iconPath": "./../icons/folder-pipe~-708727996.svg"
+    },
+    "folder-pipe-open": {
+      "iconPath": "./../icons/folder-pipe-open~-708727996.svg"
+    },
+    "folder-svg": {
+      "iconPath": "./../icons/folder-svg~-708727996.svg"
+    },
+    "folder-svg-open": {
+      "iconPath": "./../icons/folder-svg-open~-708727996.svg"
+    },
+    "folder-mobile": {
+      "iconPath": "./../icons/folder-mobile~-708727996.svg"
+    },
+    "folder-mobile-open": {
+      "iconPath": "./../icons/folder-mobile-open~-708727996.svg"
+    },
+    "folder-stencil": {
+      "iconPath": "./../icons/folder-stencil~-708727996.svg"
+    },
+    "folder-stencil-open": {
+      "iconPath": "./../icons/folder-stencil-open~-708727996.svg"
+    },
+    "folder-firebase": {
+      "iconPath": "./../icons/folder-firebase~-708727996.svg"
+    },
+    "folder-firebase-open": {
+      "iconPath": "./../icons/folder-firebase-open~-708727996.svg"
+    },
+    "folder-svelte": {
+      "iconPath": "./../icons/folder-svelte~-708727996.svg"
+    },
+    "folder-svelte-open": {
+      "iconPath": "./../icons/folder-svelte-open~-708727996.svg"
+    },
+    "folder-update": {
+      "iconPath": "./../icons/folder-update~-708727996.svg"
+    },
+    "folder-update-open": {
+      "iconPath": "./../icons/folder-update-open~-708727996.svg"
+    },
+    "folder-intellij": {
+      "iconPath": "./../icons/folder-intellij~-708727996.svg"
+    },
+    "folder-intellij-open": {
+      "iconPath": "./../icons/folder-intellij-open~-708727996.svg"
+    },
+    "folder-intellij_light": {
+      "iconPath": "./../icons/folder-intellij_light~-708727996.svg"
+    },
+    "folder-intellij-open_light": {
+      "iconPath": "./../icons/folder-intellij-open_light~-708727996.svg"
+    },
+    "folder": {
+      "iconPath": "./../icons/folder~-708727996.svg"
+    },
+    "folder-open": {
+      "iconPath": "./../icons/folder-open~-708727996.svg"
+    },
+    "folder-root": {
+      "iconPath": "./../icons/folder-root~-708727996.svg"
+    },
+    "folder-root-open": {
+      "iconPath": "./../icons/folder-root-open~-708727996.svg"
+    }
+  },
+  "folderNames": {
+    "src": "folder-src",
+    "source": "folder-src",
+    "sources": "folder-src",
+    "code": "folder-src",
+    "dist": "folder-dist",
+    "out": "folder-dist",
+    "build": "folder-dist",
+    "release": "folder-dist",
+    "bin": "folder-dist",
+    "css": "folder-css",
+    "stylesheet": "folder-css",
+    "stylesheets": "folder-css",
+    "style": "folder-css",
+    "styles": "folder-css",
+    "sass": "folder-sass",
+    "_sass": "folder-sass",
+    "scss": "folder-sass",
+    "_scss": "folder-sass",
+    "images": "folder-images",
+    "image": "folder-images",
+    "img": "folder-images",
+    "icons": "folder-images",
+    "icon": "folder-images",
+    "ico": "folder-images",
+    "screenshot": "folder-images",
+    "screenshots": "folder-images",
+    "script": "folder-scripts",
+    "scripts": "folder-scripts",
+    "node_modules": "folder-node",
+    "js": "folder-javascript",
+    "javascript": "folder-javascript",
+    "javascripts": "folder-javascript",
+    "json": "folder-json",
+    "font": "folder-font",
+    "fonts": "folder-font",
+    "bower_components": "folder-bower",
+    "test": "folder-test",
+    "tests": "folder-test",
+    "testing": "folder-test",
+    "__tests__": "folder-test",
+    "__snapshots__": "folder-test",
+    "__mocks__": "folder-test",
+    "__test__": "folder-test",
+    "spec": "folder-test",
+    "specs": "folder-test",
+    "jinja": "folder-jinja",
+    "jinja2": "folder-jinja",
+    "j2": "folder-jinja",
+    "markdown": "folder-markdown",
+    "md": "folder-markdown",
+    "php": "folder-php",
+    "phpmailer": "folder-phpmailer",
+    "sublime": "folder-sublime",
+    "doc": "folder-docs",
+    "docs": "folder-docs",
+    "documents": "folder-docs",
+    "documentation": "folder-docs",
+    "post": "folder-docs",
+    "posts": "folder-docs",
+    ".git": "folder-git",
+    "githooks": "folder-git",
+    ".githooks": "folder-git",
+    "submodules": "folder-git",
+    ".submodules": "folder-git",
+    ".github": "folder-github",
+    ".gitlab": "folder-gitlab",
+    ".vscode": "folder-vscode",
+    ".vscode-test": "folder-vscode",
+    "view": "folder-views",
+    "views": "folder-views",
+    "screen": "folder-views",
+    "screens": "folder-views",
+    "page": "folder-views",
+    "pages": "folder-views",
+    "html": "folder-views",
+    "vue": "folder-vue",
+    ".expo": "folder-expo",
+    ".expo-shared": "folder-expo",
+    "config": "folder-config",
+    "configs": "folder-config",
+    "configuration": "folder-config",
+    "configurations": "folder-config",
+    "settings": "folder-config",
+    ".settings": "folder-config",
+    "META-INF": "folder-config",
+    "i18n": "folder-i18n",
+    "internationalization": "folder-i18n",
+    "lang": "folder-i18n",
+    "language": "folder-i18n",
+    "languages": "folder-i18n",
+    "locale": "folder-i18n",
+    "locales": "folder-i18n",
+    "l10n": "folder-i18n",
+    "localization": "folder-i18n",
+    "translation": "folder-i18n",
+    "translate": "folder-i18n",
+    "translations": "folder-i18n",
+    ".tx": "folder-i18n",
+    "components": "folder-components",
+    "widget": "folder-components",
+    "widgets": "folder-components",
+    "aurelia_project": "folder-aurelia",
+    "resource": "folder-resource",
+    "resources": "folder-resource",
+    "res": "folder-resource",
+    "asset": "folder-resource",
+    "assets": "folder-resource",
+    "static": "folder-resource",
+    "lib": "folder-lib",
+    "libs": "folder-lib",
+    "library": "folder-lib",
+    "libraries": "folder-lib",
+    "vendor": "folder-lib",
+    "vendors": "folder-lib",
+    "third-party": "folder-lib",
+    "themes": "folder-theme",
+    "theme": "folder-theme",
+    "color": "folder-theme",
+    "colors": "folder-theme",
+    "design": "folder-theme",
+    "designs": "folder-theme",
+    "webpack": "folder-webpack",
+    ".webpack": "folder-webpack",
+    "global": "folder-global",
+    "public": "folder-public",
+    "wwwroot": "folder-public",
+    "web": "folder-public",
+    "website": "folder-public",
+    "include": "folder-include",
+    "includes": "folder-include",
+    "_includes": "folder-include",
+    "docker": "folder-docker",
+    "dockerfiles": "folder-docker",
+    ".docker": "folder-docker",
+    "db": "folder-database",
+    "database": "folder-database",
+    "databases": "folder-database",
+    "sql": "folder-database",
+    "data": "folder-database",
+    "_data": "folder-database",
+    "log": "folder-log",
+    "logs": "folder-log",
+    "temp": "folder-temp",
+    ".temp": "folder-temp",
+    "tmp": "folder-temp",
+    ".tmp": "folder-temp",
+    "cached": "folder-temp",
+    "cache": "folder-temp",
+    ".cache": "folder-temp",
+    "aws": "folder-aws",
+    ".aws": "folder-aws",
+    "audio": "folder-audio",
+    "audios": "folder-audio",
+    "music": "folder-audio",
+    "sound": "folder-audio",
+    "sounds": "folder-audio",
+    "video": "folder-video",
+    "videos": "folder-video",
+    "movie": "folder-video",
+    "movies": "folder-video",
+    "kubernetes": "folder-kubernetes",
+    "k8s": "folder-kubernetes",
+    "import": "folder-import",
+    "imports": "folder-import",
+    "imported": "folder-import",
+    "export": "folder-export",
+    "exports": "folder-export",
+    "exported": "folder-export",
+    "wakatime": "folder-wakatime",
+    ".circleci": "folder-circleci",
+    "wp-content": "folder-wordpress",
+    "gradle": "folder-gradle",
+    ".gradle": "folder-gradle",
+    "coverage": "folder-coverage",
+    ".nyc-output": "folder-coverage",
+    ".nyc_output": "folder-coverage",
+    "e2e": "folder-coverage",
+    "it": "folder-coverage",
+    "integration-test": "folder-coverage",
+    "integration-tests": "folder-coverage",
+    "class": "folder-class",
+    "classes": "folder-class",
+    "model": "folder-class",
+    "models": "folder-class",
+    "other": "folder-other",
+    "others": "folder-other",
+    "misc": "folder-other",
+    "miscellaneous": "folder-other",
+    "extra": "folder-other",
+    "extras": "folder-other",
+    "typescript": "folder-typescript",
+    "ts": "folder-typescript",
+    "typings": "folder-typescript",
+    "@types": "folder-typescript",
+    "graphql": "folder-graphql",
+    "gql": "folder-graphql",
+    "routes": "folder-routes",
+    "router": "folder-routes",
+    "routers": "folder-routes",
+    ".ci": "folder-ci",
+    "ci": "folder-ci",
+    "benchmark": "folder-benchmark",
+    "benchmarks": "folder-benchmark",
+    "performance": "folder-benchmark",
+    "measure": "folder-benchmark",
+    "measures": "folder-benchmark",
+    "measurement": "folder-benchmark",
+    "messages": "folder-messages",
+    "forum": "folder-messages",
+    "chat": "folder-messages",
+    "chats": "folder-messages",
+    "conversation": "folder-messages",
+    "conversations": "folder-messages",
+    "less": "folder-less",
+    "python": "folder-python",
+    "__pycache__": "folder-python",
+    ".pytest_cache": "folder-python",
+    "debug": "folder-debug",
+    "debugging": "folder-debug",
+    "fastlane": "folder-fastlane",
+    "plugin": "folder-plugin",
+    "plugins": "folder-plugin",
+    "_plugins": "folder-plugin",
+    "extension": "folder-plugin",
+    "extensions": "folder-plugin",
+    "addon": "folder-plugin",
+    "addons": "folder-plugin",
+    "middleware": "folder-middleware",
+    "middlewares": "folder-middleware",
+    "controller": "folder-controller",
+    "controllers": "folder-controller",
+    "service": "folder-controller",
+    "services": "folder-controller",
+    "provider": "folder-controller",
+    "providers": "folder-controller",
+    "ansible": "folder-ansible",
+    "server": "folder-server",
+    "servers": "folder-server",
+    "backend": "folder-server",
+    "client": "folder-client",
+    "clients": "folder-client",
+    "frontend": "folder-client",
+    "tasks": "folder-tasks",
+    "tickets": "folder-tasks",
+    "android": "folder-android",
+    "ios": "folder-ios",
+    "uploads": "folder-upload",
+    "upload": "folder-upload",
+    "downloads": "folder-download",
+    "download": "folder-download",
+    "tools": "folder-tools",
+    "helpers": "folder-helper",
+    "helper": "folder-helper",
+    ".serverless": "folder-serverless",
+    "serverless": "folder-serverless",
+    "api": "folder-api",
+    "apis": "folder-api",
+    "app": "folder-app",
+    "apps": "folder-app",
+    "archive": "folder-archive",
+    "archives": "folder-archive",
+    "archival": "folder-archive",
+    "backup": "folder-archive",
+    "backups": "folder-archive",
+    "back-up": "folder-archive",
+    "back-ups": "folder-archive",
+    "batch": "folder-batch",
+    "batchs": "folder-batch",
+    "batches": "folder-batch",
+    "cluster": "folder-cluster",
+    "clusters": "folder-cluster",
+    "command": "folder-command",
+    "commands": "folder-command",
+    "cli": "folder-command",
+    "clis": "folder-command",
+    "constant": "folder-constant",
+    "constants": "folder-constant",
+    "container": "folder-container",
+    "containers": "folder-container",
+    ".devcontainer": "folder-container",
+    "content": "folder-content",
+    "contents": "folder-content",
+    "core": "folder-core",
+    "delta": "folder-delta",
+    "deltas": "folder-delta",
+    "changes": "folder-delta",
+    "dump": "folder-dump",
+    "dumps": "folder-dump",
+    "example": "folder-examples",
+    "examples": "folder-examples",
+    "sample": "folder-examples",
+    "samples": "folder-examples",
+    "demo": "folder-examples",
+    "demos": "folder-examples",
+    ".env": "folder-environment",
+    ".environment": "folder-environment",
+    "env": "folder-environment",
+    "environment": "folder-environment",
+    "environments": "folder-environment",
+    "function": "folder-functions",
+    "functions": "folder-functions",
+    "lambda": "folder-functions",
+    "lambdas": "folder-functions",
+    "logic": "folder-functions",
+    "math": "folder-functions",
+    "calc": "folder-functions",
+    "calculation": "folder-functions",
+    "calculations": "folder-functions",
+    "generator": "folder-generator",
+    "generators": "folder-generator",
+    "generated": "folder-generator",
+    "cfn-gen": "folder-generator",
+    "gen": "folder-generator",
+    "gens": "folder-generator",
+    "auto": "folder-generator",
+    "hook": "folder-hook",
+    "hooks": "folder-hook",
+    "trigger": "folder-hook",
+    "triggers": "folder-hook",
+    "job": "folder-job",
+    "jobs": "folder-job",
+    "keys": "folder-keys",
+    "key": "folder-keys",
+    "token": "folder-keys",
+    "tokens": "folder-keys",
+    "layout": "folder-layout",
+    "layouts": "folder-layout",
+    "mail": "folder-mail",
+    "mails": "folder-mail",
+    "email": "folder-mail",
+    "emails": "folder-mail",
+    "smtp": "folder-mail",
+    "mappings": "folder-mappings",
+    "mapping": "folder-mappings",
+    "meta": "folder-meta",
+    "package": "folder-packages",
+    "packages": "folder-packages",
+    "shared": "folder-shared",
+    "common": "folder-shared",
+    "stack": "folder-stack",
+    "stacks": "folder-stack",
+    "template": "folder-template",
+    "templates": "folder-template",
+    "util": "folder-utils",
+    "utils": "folder-utils",
+    "private": "folder-private",
+    ".private": "folder-private",
+    "error": "folder-error",
+    "errors": "folder-error",
+    "err": "folder-error",
+    "event": "folder-event",
+    "events": "folder-event",
+    "auth": "folder-secure",
+    "authentication": "folder-secure",
+    "secure": "folder-secure",
+    "security": "folder-secure",
+    "cert": "folder-secure",
+    "certs": "folder-secure",
+    "certificate": "folder-secure",
+    "certificates": "folder-secure",
+    "ssl": "folder-secure",
+    "custom": "folder-custom",
+    "customs": "folder-custom",
+    "mock": "folder-mock",
+    "mocks": "folder-mock",
+    "draft": "folder-mock",
+    "drafts": "folder-mock",
+    "concept": "folder-mock",
+    "concepts": "folder-mock",
+    "sketch": "folder-mock",
+    "sketches": "folder-mock",
+    "syntax": "folder-syntax",
+    "syntaxes": "folder-syntax",
+    "spellcheck": "folder-syntax",
+    "vm": "folder-vm",
+    "vms": "folder-vm",
+    "stylus": "folder-stylus",
+    "flow-typed": "folder-flow",
+    "rule": "folder-rules",
+    "rules": "folder-rules",
+    "validation": "folder-rules",
+    "validations": "folder-rules",
+    "validator": "folder-rules",
+    "validators": "folder-rules",
+    "review": "folder-review",
+    "reviews": "folder-review",
+    "revisal": "folder-review",
+    "revisals": "folder-review",
+    "reviewed": "folder-review",
+    "animation": "folder-animation",
+    "animations": "folder-animation",
+    "animated": "folder-animation",
+    "guard": "folder-guard",
+    "guards": "folder-guard",
+    "prisma": "folder-prisma",
+    "pipe": "folder-pipe",
+    "pipes": "folder-pipe",
+    "svg": "folder-svg",
+    "svgs": "folder-svg",
+    "mobile": "folder-mobile",
+    "mobiles": "folder-mobile",
+    "portable": "folder-mobile",
+    "portability": "folder-mobile",
+    ".stencil": "folder-stencil",
+    ".firebase": "folder-firebase",
+    "svelte": "folder-svelte",
+    "update": "folder-update",
+    "updates": "folder-update",
+    "upgrade": "folder-update",
+    "upgrades": "folder-update",
+    ".idea": "folder-intellij"
+  },
+  "folderNamesExpanded": {
+    "src": "folder-src-open",
+    "source": "folder-src-open",
+    "sources": "folder-src-open",
+    "code": "folder-src-open",
+    "dist": "folder-dist-open",
+    "out": "folder-dist-open",
+    "build": "folder-dist-open",
+    "release": "folder-dist-open",
+    "bin": "folder-dist-open",
+    "css": "folder-css-open",
+    "stylesheet": "folder-css-open",
+    "stylesheets": "folder-css-open",
+    "style": "folder-css-open",
+    "styles": "folder-css-open",
+    "sass": "folder-sass-open",
+    "_sass": "folder-sass-open",
+    "scss": "folder-sass-open",
+    "_scss": "folder-sass-open",
+    "images": "folder-images-open",
+    "image": "folder-images-open",
+    "img": "folder-images-open",
+    "icons": "folder-images-open",
+    "icon": "folder-images-open",
+    "ico": "folder-images-open",
+    "screenshot": "folder-images-open",
+    "screenshots": "folder-images-open",
+    "script": "folder-scripts-open",
+    "scripts": "folder-scripts-open",
+    "node_modules": "folder-node-open",
+    "js": "folder-javascript-open",
+    "javascript": "folder-javascript-open",
+    "javascripts": "folder-javascript-open",
+    "json": "folder-json-open",
+    "font": "folder-font-open",
+    "fonts": "folder-font-open",
+    "bower_components": "folder-bower-open",
+    "test": "folder-test-open",
+    "tests": "folder-test-open",
+    "testing": "folder-test-open",
+    "__tests__": "folder-test-open",
+    "__snapshots__": "folder-test-open",
+    "__mocks__": "folder-test-open",
+    "__test__": "folder-test-open",
+    "spec": "folder-test-open",
+    "specs": "folder-test-open",
+    "jinja": "folder-jinja-open",
+    "jinja2": "folder-jinja-open",
+    "j2": "folder-jinja-open",
+    "markdown": "folder-markdown-open",
+    "md": "folder-markdown-open",
+    "php": "folder-php-open",
+    "phpmailer": "folder-phpmailer-open",
+    "sublime": "folder-sublime-open",
+    "doc": "folder-docs-open",
+    "docs": "folder-docs-open",
+    "documents": "folder-docs-open",
+    "documentation": "folder-docs-open",
+    "post": "folder-docs-open",
+    "posts": "folder-docs-open",
+    ".git": "folder-git-open",
+    "githooks": "folder-git-open",
+    ".githooks": "folder-git-open",
+    "submodules": "folder-git-open",
+    ".submodules": "folder-git-open",
+    ".github": "folder-github-open",
+    ".gitlab": "folder-gitlab-open",
+    ".vscode": "folder-vscode-open",
+    ".vscode-test": "folder-vscode-open",
+    "view": "folder-views-open",
+    "views": "folder-views-open",
+    "screen": "folder-views-open",
+    "screens": "folder-views-open",
+    "page": "folder-views-open",
+    "pages": "folder-views-open",
+    "html": "folder-views-open",
+    "vue": "folder-vue-open",
+    ".expo": "folder-expo-open",
+    ".expo-shared": "folder-expo-open",
+    "config": "folder-config-open",
+    "configs": "folder-config-open",
+    "configuration": "folder-config-open",
+    "configurations": "folder-config-open",
+    "settings": "folder-config-open",
+    ".settings": "folder-config-open",
+    "META-INF": "folder-config-open",
+    "i18n": "folder-i18n-open",
+    "internationalization": "folder-i18n-open",
+    "lang": "folder-i18n-open",
+    "language": "folder-i18n-open",
+    "languages": "folder-i18n-open",
+    "locale": "folder-i18n-open",
+    "locales": "folder-i18n-open",
+    "l10n": "folder-i18n-open",
+    "localization": "folder-i18n-open",
+    "translation": "folder-i18n-open",
+    "translate": "folder-i18n-open",
+    "translations": "folder-i18n-open",
+    ".tx": "folder-i18n-open",
+    "components": "folder-components-open",
+    "widget": "folder-components-open",
+    "widgets": "folder-components-open",
+    "aurelia_project": "folder-aurelia-open",
+    "resource": "folder-resource-open",
+    "resources": "folder-resource-open",
+    "res": "folder-resource-open",
+    "asset": "folder-resource-open",
+    "assets": "folder-resource-open",
+    "static": "folder-resource-open",
+    "lib": "folder-lib-open",
+    "libs": "folder-lib-open",
+    "library": "folder-lib-open",
+    "libraries": "folder-lib-open",
+    "vendor": "folder-lib-open",
+    "vendors": "folder-lib-open",
+    "third-party": "folder-lib-open",
+    "themes": "folder-theme-open",
+    "theme": "folder-theme-open",
+    "color": "folder-theme-open",
+    "colors": "folder-theme-open",
+    "design": "folder-theme-open",
+    "designs": "folder-theme-open",
+    "webpack": "folder-webpack-open",
+    ".webpack": "folder-webpack-open",
+    "global": "folder-global-open",
+    "public": "folder-public-open",
+    "wwwroot": "folder-public-open",
+    "web": "folder-public-open",
+    "website": "folder-public-open",
+    "include": "folder-include-open",
+    "includes": "folder-include-open",
+    "_includes": "folder-include-open",
+    "docker": "folder-docker-open",
+    "dockerfiles": "folder-docker-open",
+    ".docker": "folder-docker-open",
+    "db": "folder-database-open",
+    "database": "folder-database-open",
+    "databases": "folder-database-open",
+    "sql": "folder-database-open",
+    "data": "folder-database-open",
+    "_data": "folder-database-open",
+    "log": "folder-log-open",
+    "logs": "folder-log-open",
+    "temp": "folder-temp-open",
+    ".temp": "folder-temp-open",
+    "tmp": "folder-temp-open",
+    ".tmp": "folder-temp-open",
+    "cached": "folder-temp-open",
+    "cache": "folder-temp-open",
+    ".cache": "folder-temp-open",
+    "aws": "folder-aws-open",
+    ".aws": "folder-aws-open",
+    "audio": "folder-audio-open",
+    "audios": "folder-audio-open",
+    "music": "folder-audio-open",
+    "sound": "folder-audio-open",
+    "sounds": "folder-audio-open",
+    "video": "folder-video-open",
+    "videos": "folder-video-open",
+    "movie": "folder-video-open",
+    "movies": "folder-video-open",
+    "kubernetes": "folder-kubernetes-open",
+    "k8s": "folder-kubernetes-open",
+    "import": "folder-import-open",
+    "imports": "folder-import-open",
+    "imported": "folder-import-open",
+    "export": "folder-export-open",
+    "exports": "folder-export-open",
+    "exported": "folder-export-open",
+    "wakatime": "folder-wakatime-open",
+    ".circleci": "folder-circleci-open",
+    "wp-content": "folder-wordpress-open",
+    "gradle": "folder-gradle-open",
+    ".gradle": "folder-gradle-open",
+    "coverage": "folder-coverage-open",
+    ".nyc-output": "folder-coverage-open",
+    ".nyc_output": "folder-coverage-open",
+    "e2e": "folder-coverage-open",
+    "it": "folder-coverage-open",
+    "integration-test": "folder-coverage-open",
+    "integration-tests": "folder-coverage-open",
+    "class": "folder-class-open",
+    "classes": "folder-class-open",
+    "model": "folder-class-open",
+    "models": "folder-class-open",
+    "other": "folder-other-open",
+    "others": "folder-other-open",
+    "misc": "folder-other-open",
+    "miscellaneous": "folder-other-open",
+    "extra": "folder-other-open",
+    "extras": "folder-other-open",
+    "typescript": "folder-typescript-open",
+    "ts": "folder-typescript-open",
+    "typings": "folder-typescript-open",
+    "@types": "folder-typescript-open",
+    "graphql": "folder-graphql-open",
+    "gql": "folder-graphql-open",
+    "routes": "folder-routes-open",
+    "router": "folder-routes-open",
+    "routers": "folder-routes-open",
+    ".ci": "folder-ci-open",
+    "ci": "folder-ci-open",
+    "benchmark": "folder-benchmark-open",
+    "benchmarks": "folder-benchmark-open",
+    "performance": "folder-benchmark-open",
+    "measure": "folder-benchmark-open",
+    "measures": "folder-benchmark-open",
+    "measurement": "folder-benchmark-open",
+    "messages": "folder-messages-open",
+    "forum": "folder-messages-open",
+    "chat": "folder-messages-open",
+    "chats": "folder-messages-open",
+    "conversation": "folder-messages-open",
+    "conversations": "folder-messages-open",
+    "less": "folder-less-open",
+    "python": "folder-python-open",
+    "__pycache__": "folder-python-open",
+    ".pytest_cache": "folder-python-open",
+    "debug": "folder-debug-open",
+    "debugging": "folder-debug-open",
+    "fastlane": "folder-fastlane-open",
+    "plugin": "folder-plugin-open",
+    "plugins": "folder-plugin-open",
+    "_plugins": "folder-plugin-open",
+    "extension": "folder-plugin-open",
+    "extensions": "folder-plugin-open",
+    "addon": "folder-plugin-open",
+    "addons": "folder-plugin-open",
+    "middleware": "folder-middleware-open",
+    "middlewares": "folder-middleware-open",
+    "controller": "folder-controller-open",
+    "controllers": "folder-controller-open",
+    "service": "folder-controller-open",
+    "services": "folder-controller-open",
+    "provider": "folder-controller-open",
+    "providers": "folder-controller-open",
+    "ansible": "folder-ansible-open",
+    "server": "folder-server-open",
+    "servers": "folder-server-open",
+    "backend": "folder-server-open",
+    "client": "folder-client-open",
+    "clients": "folder-client-open",
+    "frontend": "folder-client-open",
+    "tasks": "folder-tasks-open",
+    "tickets": "folder-tasks-open",
+    "android": "folder-android-open",
+    "ios": "folder-ios-open",
+    "uploads": "folder-upload-open",
+    "upload": "folder-upload-open",
+    "downloads": "folder-download-open",
+    "download": "folder-download-open",
+    "tools": "folder-tools-open",
+    "helpers": "folder-helper-open",
+    "helper": "folder-helper-open",
+    ".serverless": "folder-serverless-open",
+    "serverless": "folder-serverless-open",
+    "api": "folder-api-open",
+    "apis": "folder-api-open",
+    "app": "folder-app-open",
+    "apps": "folder-app-open",
+    "archive": "folder-archive-open",
+    "archives": "folder-archive-open",
+    "archival": "folder-archive-open",
+    "backup": "folder-archive-open",
+    "backups": "folder-archive-open",
+    "back-up": "folder-archive-open",
+    "back-ups": "folder-archive-open",
+    "batch": "folder-batch-open",
+    "batchs": "folder-batch-open",
+    "batches": "folder-batch-open",
+    "cluster": "folder-cluster-open",
+    "clusters": "folder-cluster-open",
+    "command": "folder-command-open",
+    "commands": "folder-command-open",
+    "cli": "folder-command-open",
+    "clis": "folder-command-open",
+    "constant": "folder-constant-open",
+    "constants": "folder-constant-open",
+    "container": "folder-container-open",
+    "containers": "folder-container-open",
+    ".devcontainer": "folder-container-open",
+    "content": "folder-content-open",
+    "contents": "folder-content-open",
+    "core": "folder-core-open",
+    "delta": "folder-delta-open",
+    "deltas": "folder-delta-open",
+    "changes": "folder-delta-open",
+    "dump": "folder-dump-open",
+    "dumps": "folder-dump-open",
+    "example": "folder-examples-open",
+    "examples": "folder-examples-open",
+    "sample": "folder-examples-open",
+    "samples": "folder-examples-open",
+    "demo": "folder-examples-open",
+    "demos": "folder-examples-open",
+    ".env": "folder-environment-open",
+    ".environment": "folder-environment-open",
+    "env": "folder-environment-open",
+    "environment": "folder-environment-open",
+    "environments": "folder-environment-open",
+    "function": "folder-functions-open",
+    "functions": "folder-functions-open",
+    "lambda": "folder-functions-open",
+    "lambdas": "folder-functions-open",
+    "logic": "folder-functions-open",
+    "math": "folder-functions-open",
+    "calc": "folder-functions-open",
+    "calculation": "folder-functions-open",
+    "calculations": "folder-functions-open",
+    "generator": "folder-generator-open",
+    "generators": "folder-generator-open",
+    "generated": "folder-generator-open",
+    "cfn-gen": "folder-generator-open",
+    "gen": "folder-generator-open",
+    "gens": "folder-generator-open",
+    "auto": "folder-generator-open",
+    "hook": "folder-hook-open",
+    "hooks": "folder-hook-open",
+    "trigger": "folder-hook-open",
+    "triggers": "folder-hook-open",
+    "job": "folder-job-open",
+    "jobs": "folder-job-open",
+    "keys": "folder-keys-open",
+    "key": "folder-keys-open",
+    "token": "folder-keys-open",
+    "tokens": "folder-keys-open",
+    "layout": "folder-layout-open",
+    "layouts": "folder-layout-open",
+    "mail": "folder-mail-open",
+    "mails": "folder-mail-open",
+    "email": "folder-mail-open",
+    "emails": "folder-mail-open",
+    "smtp": "folder-mail-open",
+    "mappings": "folder-mappings-open",
+    "mapping": "folder-mappings-open",
+    "meta": "folder-meta-open",
+    "package": "folder-packages-open",
+    "packages": "folder-packages-open",
+    "shared": "folder-shared-open",
+    "common": "folder-shared-open",
+    "stack": "folder-stack-open",
+    "stacks": "folder-stack-open",
+    "template": "folder-template-open",
+    "templates": "folder-template-open",
+    "util": "folder-utils-open",
+    "utils": "folder-utils-open",
+    "private": "folder-private-open",
+    ".private": "folder-private-open",
+    "error": "folder-error-open",
+    "errors": "folder-error-open",
+    "err": "folder-error-open",
+    "event": "folder-event-open",
+    "events": "folder-event-open",
+    "auth": "folder-secure-open",
+    "authentication": "folder-secure-open",
+    "secure": "folder-secure-open",
+    "security": "folder-secure-open",
+    "cert": "folder-secure-open",
+    "certs": "folder-secure-open",
+    "certificate": "folder-secure-open",
+    "certificates": "folder-secure-open",
+    "ssl": "folder-secure-open",
+    "custom": "folder-custom-open",
+    "customs": "folder-custom-open",
+    "mock": "folder-mock-open",
+    "mocks": "folder-mock-open",
+    "draft": "folder-mock-open",
+    "drafts": "folder-mock-open",
+    "concept": "folder-mock-open",
+    "concepts": "folder-mock-open",
+    "sketch": "folder-mock-open",
+    "sketches": "folder-mock-open",
+    "syntax": "folder-syntax-open",
+    "syntaxes": "folder-syntax-open",
+    "spellcheck": "folder-syntax-open",
+    "vm": "folder-vm-open",
+    "vms": "folder-vm-open",
+    "stylus": "folder-stylus-open",
+    "flow-typed": "folder-flow-open",
+    "rule": "folder-rules-open",
+    "rules": "folder-rules-open",
+    "validation": "folder-rules-open",
+    "validations": "folder-rules-open",
+    "validator": "folder-rules-open",
+    "validators": "folder-rules-open",
+    "review": "folder-review-open",
+    "reviews": "folder-review-open",
+    "revisal": "folder-review-open",
+    "revisals": "folder-review-open",
+    "reviewed": "folder-review-open",
+    "animation": "folder-animation-open",
+    "animations": "folder-animation-open",
+    "animated": "folder-animation-open",
+    "guard": "folder-guard-open",
+    "guards": "folder-guard-open",
+    "prisma": "folder-prisma-open",
+    "pipe": "folder-pipe-open",
+    "pipes": "folder-pipe-open",
+    "svg": "folder-svg-open",
+    "svgs": "folder-svg-open",
+    "mobile": "folder-mobile-open",
+    "mobiles": "folder-mobile-open",
+    "portable": "folder-mobile-open",
+    "portability": "folder-mobile-open",
+    ".stencil": "folder-stencil-open",
+    ".firebase": "folder-firebase-open",
+    "svelte": "folder-svelte-open",
+    "update": "folder-update-open",
+    "updates": "folder-update-open",
+    "upgrade": "folder-update-open",
+    "upgrades": "folder-update-open",
+    ".idea": "folder-intellij-open"
+  },
+  "fileExtensions": {
+    "htm": "html",
+    "xhtml": "html",
+    "html_vm": "html",
+    "asp": "html",
+    "jade": "pug",
+    "pug": "pug",
+    "md": "markdown",
+    "markdown": "markdown",
+    "rst": "markdown",
+    "blink": "blink",
+    "css": "css",
+    "scss": "sass",
+    "sass": "sass",
+    "less": "less",
+    "json": "json",
+    "tsbuildinfo": "json",
+    "json5": "json",
+    "jinja": "jinja",
+    "jinja2": "jinja",
+    "j2": "jinja",
+    "sublime-project": "sublime",
+    "sublime-workspace": "sublime",
+    "yaml": "yaml",
+    "YAML-tmLanguage": "yaml",
+    "yml": "yaml",
+    "xml": "xml",
+    "plist": "xml",
+    "xsd": "xml",
+    "dtd": "xml",
+    "xsl": "xml",
+    "xslt": "xml",
+    "resx": "xml",
+    "iml": "xml",
+    "xquery": "xml",
+    "tmLanguage": "xml",
+    "manifest": "xml",
+    "project": "xml",
+    "png": "image",
+    "jpeg": "image",
+    "jpg": "image",
+    "gif": "image",
+    "ico": "image",
+    "tif": "image",
+    "tiff": "image",
+    "psd": "image",
+    "psb": "image",
+    "ami": "image",
+    "apx": "image",
+    "bmp": "image",
+    "bpg": "image",
+    "brk": "image",
+    "cur": "image",
+    "dds": "image",
+    "dng": "image",
+    "exr": "image",
+    "fpx": "image",
+    "gbr": "image",
+    "img": "image",
+    "jbig2": "image",
+    "jb2": "image",
+    "jng": "image",
+    "jxr": "image",
+    "pbm": "image",
+    "pgf": "image",
+    "pic": "image",
+    "raw": "image",
+    "webp": "image",
+    "eps": "image",
+    "afphoto": "image",
+    "ase": "image",
+    "aseprite": "image",
+    "clip": "image",
+    "cpt": "image",
+    "heif": "image",
+    "heic": "image",
+    "kra": "image",
+    "mdp": "image",
+    "ora": "image",
+    "pdn": "image",
+    "reb": "image",
+    "sai": "image",
+    "tga": "image",
+    "xcf": "image",
+    "js": "javascript",
+    "esx": "javascript",
+    "mjs": "javascript",
+    "jsx": "react",
+    "tsx": "react_ts",
+    "routing.ts": "routing",
+    "routing.tsx": "routing",
+    "routing.js": "routing",
+    "routing.jsx": "routing",
+    "routes.ts": "routing",
+    "routes.tsx": "routing",
+    "routes.js": "routing",
+    "routes.jsx": "routing",
+    "ini": "settings",
+    "dlc": "settings",
+    "dll": "settings",
+    "config": "settings",
+    "conf": "settings",
+    "properties": "settings",
+    "prop": "settings",
+    "settings": "settings",
+    "option": "settings",
+    "props": "settings",
+    "toml": "settings",
+    "prefs": "settings",
+    "sln.dotsettings": "settings",
+    "sln.dotsettings.user": "settings",
+    "cfg": "settings",
+    "ts": "typescript",
+    "d.ts": "typescript-def",
+    "marko": "markojs",
+    "pdf": "pdf",
+    "xlsx": "table",
+    "xls": "table",
+    "csv": "table",
+    "tsv": "table",
+    "vscodeignore": "vscode",
+    "vsixmanifest": "vscode",
+    "vsix": "vscode",
+    "code-workplace": "vscode",
+    "csproj": "visualstudio",
+    "ruleset": "visualstudio",
+    "sln": "visualstudio",
+    "suo": "visualstudio",
+    "vb": "visualstudio",
+    "vbs": "visualstudio",
+    "vcxitems": "visualstudio",
+    "vcxitems.filters": "visualstudio",
+    "vcxproj": "visualstudio",
+    "vcxproj.filters": "visualstudio",
+    "pdb": "database",
+    "sql": "database",
+    "pks": "database",
+    "pkb": "database",
+    "accdb": "database",
+    "mdb": "database",
+    "sqlite": "database",
+    "pgsql": "database",
+    "postgres": "database",
+    "psql": "database",
+    "cs": "csharp",
+    "csx": "csharp",
+    "qs": "qsharp",
+    "zip": "zip",
+    "tar": "zip",
+    "gz": "zip",
+    "xz": "zip",
+    "br": "zip",
+    "bzip2": "zip",
+    "gzip": "zip",
+    "brotli": "zip",
+    "7z": "zip",
+    "rar": "zip",
+    "tgz": "zip",
+    "vala": "vala",
+    "zig": "zig",
+    "exe": "exe",
+    "msi": "exe",
+    "java": "java",
+    "jar": "java",
+    "jsp": "java",
+    "c": "c",
+    "m": "c",
+    "i": "c",
+    "mi": "c",
+    "h": "h",
+    "cc": "cpp",
+    "cpp": "cpp",
+    "cxx": "cpp",
+    "c++": "cpp",
+    "cp": "cpp",
+    "mm": "cpp",
+    "mii": "cpp",
+    "ii": "cpp",
+    "hh": "hpp",
+    "hpp": "hpp",
+    "hxx": "hpp",
+    "h++": "hpp",
+    "hp": "hpp",
+    "tcc": "hpp",
+    "inl": "hpp",
+    "go": "go",
+    "py": "python",
+    "pyc": "python-misc",
+    "whl": "python-misc",
+    "url": "url",
+    "sh": "console",
+    "ksh": "console",
+    "csh": "console",
+    "tcsh": "console",
+    "zsh": "console",
+    "bash": "console",
+    "bat": "console",
+    "cmd": "console",
+    "awk": "console",
+    "fish": "console",
+    "ps1": "powershell",
+    "psm1": "powershell",
+    "psd1": "powershell",
+    "ps1xml": "powershell",
+    "psc1": "powershell",
+    "pssc": "powershell",
+    "gradle": "gradle",
+    "doc": "word",
+    "docx": "word",
+    "rtf": "word",
+    "cer": "certificate",
+    "cert": "certificate",
+    "crt": "certificate",
+    "pub": "key",
+    "key": "key",
+    "pem": "key",
+    "asc": "key",
+    "gpg": "key",
+    "woff": "font",
+    "woff2": "font",
+    "ttf": "font",
+    "eot": "font",
+    "suit": "font",
+    "otf": "font",
+    "bmap": "font",
+    "fnt": "font",
+    "odttf": "font",
+    "ttc": "font",
+    "font": "font",
+    "fonts": "font",
+    "sui": "font",
+    "ntf": "font",
+    "mrf": "font",
+    "lib": "lib",
+    "bib": "lib",
+    "rb": "ruby",
+    "erb": "ruby",
+    "fs": "fsharp",
+    "fsx": "fsharp",
+    "fsi": "fsharp",
+    "fsproj": "fsharp",
+    "swift": "swift",
+    "ino": "arduino",
+    "dockerignore": "docker",
+    "dockerfile": "docker",
+    "tex": "tex",
+    "cls": "tex",
+    "sty": "tex",
+    "dtx": "tex",
+    "ltx": "tex",
+    "pptx": "powerpoint",
+    "ppt": "powerpoint",
+    "pptm": "powerpoint",
+    "potx": "powerpoint",
+    "potm": "powerpoint",
+    "ppsx": "powerpoint",
+    "ppsm": "powerpoint",
+    "pps": "powerpoint",
+    "ppam": "powerpoint",
+    "ppa": "powerpoint",
+    "webm": "video",
+    "mkv": "video",
+    "flv": "video",
+    "vob": "video",
+    "ogv": "video",
+    "ogg": "video",
+    "gifv": "video",
+    "avi": "video",
+    "mov": "video",
+    "qt": "video",
+    "wmv": "video",
+    "yuv": "video",
+    "rm": "video",
+    "rmvb": "video",
+    "mp4": "video",
+    "m4v": "video",
+    "mpg": "video",
+    "mp2": "video",
+    "mpeg": "video",
+    "mpe": "video",
+    "mpv": "video",
+    "m2v": "video",
+    "vdi": "virtual",
+    "vbox": "virtual",
+    "vbox-prev": "virtual",
+    "ics": "email",
+    "mp3": "audio",
+    "flac": "audio",
+    "m4a": "audio",
+    "wma": "audio",
+    "aiff": "audio",
+    "coffee": "coffee",
+    "cson": "coffee",
+    "iced": "coffee",
+    "txt": "document",
+    "graphql": "graphql",
+    "gql": "graphql",
+    "rs": "rust",
+    "raml": "raml",
+    "xaml": "xaml",
+    "hs": "haskell",
+    "kt": "kotlin",
+    "kts": "kotlin",
+    "patch": "git",
+    "lua": "lua",
+    "clj": "clojure",
+    "cljs": "clojure",
+    "cljc": "clojure",
+    "groovy": "groovy",
+    "r": "r",
+    "rmd": "r",
+    "dart": "dart",
+    "as": "actionscript",
+    "mxml": "mxml",
+    "ahk": "autohotkey",
+    "swf": "flash",
+    "swc": "swc",
+    "cmake": "cmake",
+    "asm": "assembly",
+    "a51": "assembly",
+    "inc": "assembly",
+    "nasm": "assembly",
+    "s": "assembly",
+    "ms": "assembly",
+    "agc": "assembly",
+    "ags": "assembly",
+    "aea": "assembly",
+    "argus": "assembly",
+    "mitigus": "assembly",
+    "binsource": "assembly",
+    "vue": "vue",
+    "ml": "ocaml",
+    "mli": "ocaml",
+    "cmx": "ocaml",
+    "js.map": "javascript-map",
+    "mjs.map": "javascript-map",
+    "css.map": "css-map",
+    "lock": "lock",
+    "hbs": "handlebars",
+    "mustache": "handlebars",
+    "pm": "perl",
+    "raku": "perl",
+    "hx": "haxe",
+    "spec.ts": "test-ts",
+    "e2e-spec.ts": "test-ts",
+    "test.ts": "test-ts",
+    "ts.snap": "test-ts",
+    "spec.tsx": "test-jsx",
+    "test.tsx": "test-jsx",
+    "tsx.snap": "test-jsx",
+    "spec.jsx": "test-jsx",
+    "test.jsx": "test-jsx",
+    "jsx.snap": "test-jsx",
+    "spec.js": "test-js",
+    "e2e-spec.js": "test-js",
+    "test.js": "test-js",
+    "js.snap": "test-js",
+    "module.ts": "angular",
+    "module.js": "angular",
+    "ng-template": "angular",
+    "component.ts": "angular-component",
+    "component.js": "angular-component",
+    "guard.ts": "angular-guard",
+    "guard.js": "angular-guard",
+    "service.ts": "angular-service",
+    "service.js": "angular-service",
+    "pipe.ts": "angular-pipe",
+    "pipe.js": "angular-pipe",
+    "filter.js": "angular-pipe",
+    "directive.ts": "angular-directive",
+    "directive.js": "angular-directive",
+    "resolver.ts": "angular-resolver",
+    "resolver.js": "angular-resolver",
+    "pp": "puppet",
+    "ex": "elixir",
+    "exs": "elixir",
+    "eex": "elixir",
+    "leex": "elixir",
+    "ls": "livescript",
+    "erl": "erlang",
+    "twig": "twig",
+    "jl": "julia",
+    "elm": "elm",
+    "pure": "purescript",
+    "purs": "purescript",
+    "tpl": "smarty",
+    "styl": "stylus",
+    "re": "reason",
+    "rei": "reason",
+    "cmj": "bucklescript",
+    "merlin": "merlin",
+    "v": "verilog",
+    "vhd": "verilog",
+    "sv": "verilog",
+    "svh": "verilog",
+    "nb": "mathematica",
+    "wl": "wolframlanguage",
+    "wls": "wolframlanguage",
+    "njk": "nunjucks",
+    "nunjucks": "nunjucks",
+    "robot": "robot",
+    "sol": "solidity",
+    "au3": "autoit",
+    "haml": "haml",
+    "yang": "yang",
+    "mjml": "mjml",
+    "tf": "terraform",
+    "tf.json": "terraform",
+    "tfvars": "terraform",
+    "tfstate": "terraform",
+    "blade.php": "laravel",
+    "inky.php": "laravel",
+    "applescript": "applescript",
+    "ipa": "applescript",
+    "cake": "cake",
+    "feature": "cucumber",
+    "nim": "nim",
+    "nimble": "nim",
+    "apib": "apiblueprint",
+    "apiblueprint": "apiblueprint",
+    "riot": "riot",
+    "tag": "riot",
+    "vfl": "vfl",
+    "kl": "kl",
+    "pcss": "postcss",
+    "sss": "postcss",
+    "todo": "todo",
+    "cfml": "coldfusion",
+    "cfc": "coldfusion",
+    "lucee": "coldfusion",
+    "cfm": "coldfusion",
+    "cabal": "cabal",
+    "nix": "nix",
+    "slim": "slim",
+    "http": "http",
+    "rest": "http",
+    "rql": "restql",
+    "restql": "restql",
+    "kv": "kivy",
+    "graphcool": "graphcool",
+    "sbt": "sbt",
+    "apk": "android",
+    "env": "tune",
+    "gitlab-ci.yml": "gitlab",
+    "jenkinsfile": "jenkins",
+    "jenkins": "jenkins",
+    "cr": "crystal",
+    "ecr": "crystal",
+    "drone.yml": "drone",
+    "cu": "cuda",
+    "cuh": "cuda",
+    "log": "log",
+    "def": "dotjs",
+    "dot": "dotjs",
+    "jst": "dotjs",
+    "ejs": "ejs",
+    ".wakatime-project": "wakatime",
+    "pde": "processing",
+    "stories.js": "storybook",
+    "stories.jsx": "storybook",
+    "story.js": "storybook",
+    "story.jsx": "storybook",
+    "stories.ts": "storybook",
+    "stories.tsx": "storybook",
+    "story.ts": "storybook",
+    "story.tsx": "storybook",
+    "wpy": "wepy",
+    "hcl": "hcl",
+    "san": "san",
+    "djt": "django",
+    "red": "red",
+    "fxp": "foxpro",
+    "prg": "foxpro",
+    "pot": "i18n",
+    "po": "i18n",
+    "mo": "i18n",
+    "wat": "webassembly",
+    "wasm": "webassembly",
+    "ipynb": "jupyter",
+    "d": "d",
+    "mdx": "mdx",
+    "bal": "ballerina",
+    "balx": "ballerina",
+    "rkt": "racket",
+    "bzl": "bazel",
+    "bazel": "bazel",
+    "mint": "mint",
+    "vm": "velocity",
+    "fhtml": "velocity",
+    "vtl": "velocity",
+    "gd": "godot",
+    "godot": "godot-assets",
+    "tres": "godot-assets",
+    "tscn": "godot-assets",
+    "azure-pipelines.yml": "azure-pipelines",
+    "azure-pipelines.yaml": "azure-pipelines",
+    "azcli": "azure",
+    "vagrantfile": "vagrant",
+    "prisma": "prisma",
+    "cshtml": "razor",
+    "vbhtml": "razor",
+    "abc": "abc",
+    "ad": "asciidoc",
+    "adoc": "asciidoc",
+    "asciidoc": "asciidoc",
+    "edge": "edge",
+    "ss": "scheme",
+    "scm": "scheme",
+    "lisp": "lisp",
+    "lsp": "lisp",
+    "cl": "lisp",
+    "fast": "lisp",
+    "stl": "3d",
+    "obj": "3d",
+    "ac": "3d",
+    "blend": "3d",
+    "mesh": "3d",
+    "mqo": "3d",
+    "pmd": "3d",
+    "pmx": "3d",
+    "skp": "3d",
+    "vac": "3d",
+    "vdp": "3d",
+    "vox": "3d",
+    "svg": "svg",
+    "svelte": "svelte",
+    "vimrc": "vim",
+    "gvimrc": "vim",
+    "exrc": "vim",
+    "moon": "moonscript",
+    "prw": "advpl_prw",
+    "prx": "advpl_prw",
+    "ptm": "advpl_ptm",
+    "tlpp": "advpl_tlpp",
+    "ch": "advpl_include",
+    "iso": "disc",
+    "f": "fortran",
+    "f77": "fortran",
+    "f90": "fortran",
+    "f95": "fortran",
+    "f03": "fortran",
+    "f08": "fortran",
+    "liquid": "liquid",
+    "p": "prolog",
+    "pro": "prolog",
+    "coco": "coconut",
+    "sketch": "sketch",
+    "pwn": "pawn",
+    "amx": "pawn",
+    "4th": "forth",
+    "fth": "forth",
+    "frt": "forth",
+    "iuml": "uml",
+    "pu": "uml",
+    "puml": "uml",
+    "plantuml": "uml",
+    "wsd": "uml",
+    "dhall": "dhall",
+    "dhallb": "dhall",
+    "sml": "sml",
+    "mlton": "sml",
+    "mlb": "sml",
+    "sig": "sml",
+    "fun": "sml",
+    "cm": "sml",
+    "lex": "sml",
+    "use": "sml",
+    "grm": "sml",
+    "opam": "opam",
+    "imba": "imba",
+    "drawio": "drawio",
+    "dio": "drawio",
+    "pas": "pascal",
+    "unity": "shaderlab"
+  },
+  "fileNames": {
+    ".pug-lintrc": "pug",
+    ".pug-lintrc.js": "pug",
+    ".pug-lintrc.json": "pug",
+    ".jscsrc": "json",
+    ".jshintrc": "json",
+    "composer.lock": "json",
+    ".jsbeautifyrc": "json",
+    ".esformatter": "json",
+    "cdp.pid": "json",
+    ".mjmlconfig": "json",
+    ".htaccess": "xml",
+    "router.js": "routing",
+    "router.jsx": "routing",
+    "router.ts": "routing",
+    "router.tsx": "routing",
+    "routes.js": "routing",
+    "routes.jsx": "routing",
+    "routes.ts": "routing",
+    "routes.tsx": "routing",
+    ".jshintignore": "settings",
+    ".buildignore": "settings",
+    ".mrconfig": "settings",
+    ".yardopts": "settings",
+    "manifest.mf": "settings",
+    ".clang-format": "settings",
+    ".clang-tidy": "settings",
+    "go.mod": "go-mod",
+    "go.sum": "go-mod",
+    "requirements.txt": "python-misc",
+    "pipfile": "python-misc",
+    ".python-version": "python-misc",
+    "manifest.in": "python-misc",
+    "gradle.properties": "gradle",
+    "gradlew": "gradle",
+    "gradle-wrapper.properties": "gradle",
+    "license": "certificate",
+    "license.md": "certificate",
+    "license.txt": "certificate",
+    "licence": "certificate",
+    "licence.md": "certificate",
+    "licence.txt": "certificate",
+    "unlicense": "certificate",
+    "unlicense.md": "certificate",
+    "unlicense.txt": "certificate",
+    ".htpasswd": "key",
+    "gemfile": "gemfile",
+    "dockerfile": "docker",
+    "docker-compose.yml": "docker",
+    "docker-compose.yaml": "docker",
+    "docker-compose.dev.yml": "docker",
+    "docker-compose.local.yml": "docker",
+    "docker-compose.ci.yml": "docker",
+    "docker-compose.override.yml": "docker",
+    "docker-compose.staging.yml": "docker",
+    "docker-compose.prod.yml": "docker",
+    "docker-compose.production.yml": "docker",
+    "docker-compose.test.yml": "docker",
+    ".mailmap": "email",
+    ".graphqlconfig": "graphql",
+    ".gitignore": "git",
+    ".gitconfig": "git",
+    ".gitattributes": "git",
+    ".gitmodules": "git",
+    ".gitkeep": "git",
+    "git-history": "git",
+    ".luacheckrc": "lua",
+    ".Rhistory": "r",
+    "cmakelists.txt": "cmake",
+    "cmakecache.txt": "cmake",
+    "vue.config.js": "vue-config",
+    "vue.config.ts": "vue-config",
+    "angular-cli.json": "angular",
+    ".angular-cli.json": "angular",
+    "angular.json": "angular",
+    "vercel.json": "vercel",
+    ".vercelignore": "vercel",
+    "now.json": "vercel",
+    ".nowignore": "vercel",
+    ".vfl": "vfl",
+    ".kl": "kl",
+    "postcss.config.js": "postcss",
+    ".postcssrc.js": "postcss",
+    ".postcssrc": "postcss",
+    ".postcssrc.json": "postcss",
+    ".postcssrc.yml": "postcss",
+    "project.graphcool": "graphcool",
+    "webpack.js": "webpack",
+    "webpack.ts": "webpack",
+    "webpack.base.js": "webpack",
+    "webpack.base.ts": "webpack",
+    "webpack.config.js": "webpack",
+    "webpack.config.ts": "webpack",
+    "webpack.common.js": "webpack",
+    "webpack.common.ts": "webpack",
+    "webpack.config.common.js": "webpack",
+    "webpack.config.common.ts": "webpack",
+    "webpack.config.common.babel.js": "webpack",
+    "webpack.config.common.babel.ts": "webpack",
+    "webpack.dev.js": "webpack",
+    "webpack.dev.ts": "webpack",
+    "webpack.development.js": "webpack",
+    "webpack.development.ts": "webpack",
+    "webpack.config.dev.js": "webpack",
+    "webpack.config.dev.ts": "webpack",
+    "webpack.config.dev.babel.js": "webpack",
+    "webpack.config.dev.babel.ts": "webpack",
+    "webpack.prod.js": "webpack",
+    "webpack.prod.ts": "webpack",
+    "webpack.production.js": "webpack",
+    "webpack.production.ts": "webpack",
+    "webpack.server.js": "webpack",
+    "webpack.server.ts": "webpack",
+    "webpack.client.js": "webpack",
+    "webpack.client.ts": "webpack",
+    "webpack.config.server.js": "webpack",
+    "webpack.config.server.ts": "webpack",
+    "webpack.config.client.js": "webpack",
+    "webpack.config.client.ts": "webpack",
+    "webpack.config.production.babel.js": "webpack",
+    "webpack.config.production.babel.ts": "webpack",
+    "webpack.config.prod.babel.js": "webpack",
+    "webpack.config.prod.babel.ts": "webpack",
+    "webpack.config.prod.js": "webpack",
+    "webpack.config.prod.ts": "webpack",
+    "webpack.config.production.js": "webpack",
+    "webpack.config.production.ts": "webpack",
+    "webpack.config.staging.js": "webpack",
+    "webpack.config.staging.ts": "webpack",
+    "webpack.config.babel.js": "webpack",
+    "webpack.config.babel.ts": "webpack",
+    "webpack.config.base.babel.js": "webpack",
+    "webpack.config.base.babel.ts": "webpack",
+    "webpack.config.base.js": "webpack",
+    "webpack.config.base.ts": "webpack",
+    "webpack.config.staging.babel.js": "webpack",
+    "webpack.config.staging.babel.ts": "webpack",
+    "webpack.config.coffee": "webpack",
+    "webpack.config.test.js": "webpack",
+    "webpack.config.test.ts": "webpack",
+    "webpack.config.vendor.js": "webpack",
+    "webpack.config.vendor.ts": "webpack",
+    "webpack.config.vendor.production.js": "webpack",
+    "webpack.config.vendor.production.ts": "webpack",
+    "webpack.test.js": "webpack",
+    "webpack.test.ts": "webpack",
+    "webpack.dist.js": "webpack",
+    "webpack.dist.ts": "webpack",
+    "webpackfile.js": "webpack",
+    "webpackfile.ts": "webpack",
+    "ionic.config.json": "ionic",
+    ".io-config.json": "ionic",
+    "gulpfile.js": "gulp",
+    "gulpfile.ts": "gulp",
+    "gulpfile.babel.js": "gulp",
+    "package.json": "nodejs",
+    "package-lock.json": "nodejs",
+    ".nvmrc": "nodejs",
+    ".esmrc": "nodejs",
+    ".node-version": "nodejs",
+    ".npmignore": "npm",
+    ".npmrc": "npm",
+    ".yarnrc": "yarn",
+    "yarn.lock": "yarn",
+    ".yarnclean": "yarn",
+    ".yarn-integrity": "yarn",
+    "yarn-error.log": "yarn",
+    ".yarnrc.yml": "yarn",
+    ".yarnrc.yaml": "yarn",
+    "androidmanifest.xml": "android",
+    ".env.defaults": "tune",
+    ".env.example": "tune",
+    ".env.sample": "tune",
+    ".env.schema": "tune",
+    ".env.local": "tune",
+    ".env.dev": "tune",
+    ".env.development": "tune",
+    ".env.qa": "tune",
+    ".env.prod": "tune",
+    ".env.production": "tune",
+    ".env.staging": "tune",
+    ".env.preview": "tune",
+    ".env.test": "tune",
+    ".env.testing": "tune",
+    ".env.development.local": "tune",
+    ".env.qa.local": "tune",
+    ".env.production.local": "tune",
+    ".env.staging.local": "tune",
+    ".env.test.local": "tune",
+    ".babelrc": "babel",
+    ".babelrc.js": "babel",
+    ".babelrc.json": "babel",
+    "babel.config.json": "babel",
+    "babel.config.js": "babel",
+    "contributing.md": "contributing",
+    "readme.md": "readme",
+    "readme.txt": "readme",
+    "readme": "readme",
+    "changelog": "changelog",
+    "changelog.md": "changelog",
+    "changelog.txt": "changelog",
+    "changes": "changelog",
+    "changes.md": "changelog",
+    "changes.txt": "changelog",
+    "credits": "credits",
+    "credits.txt": "credits",
+    "credits.md": "credits",
+    "authors": "authors",
+    "authors.md": "authors",
+    "authors.txt": "authors",
+    ".flowconfig": "flow",
+    "favicon.ico": "favicon",
+    "karma.conf.js": "karma",
+    "karma.conf.ts": "karma",
+    "karma.conf.coffee": "karma",
+    "karma.config.js": "karma",
+    "karma.config.ts": "karma",
+    "karma-main.js": "karma",
+    "karma-main.ts": "karma",
+    ".bithoundrc": "bithound",
+    ".appveyor.yml": "appveyor",
+    "appveyor.yml": "appveyor",
+    ".travis.yml": "travis",
+    ".codecov.yml": "codecov",
+    "codecov.yml": "codecov",
+    "protractor.conf.js": "protractor",
+    "protractor.conf.ts": "protractor",
+    "protractor.conf.coffee": "protractor",
+    "protractor.config.js": "protractor",
+    "protractor.config.ts": "protractor",
+    "fuse.js": "fusebox",
+    "procfile": "heroku",
+    "procfile.windows": "heroku",
+    ".editorconfig": "editorconfig",
+    ".bowerrc": "bower",
+    "bower.json": "bower",
+    ".eslintrc.js": "eslint",
+    ".eslintrc.yaml": "eslint",
+    ".eslintrc.yml": "eslint",
+    ".eslintrc.json": "eslint",
+    ".eslintrc": "eslint",
+    ".eslintignore": "eslint",
+    ".eslintcache": "eslint",
+    "code_of_conduct.md": "conduct",
+    "code_of_conduct.txt": "conduct",
+    ".watchmanconfig": "watchman",
+    "aurelia.json": "aurelia",
+    "mocha.opts": "mocha",
+    ".mocharc.yml": "mocha",
+    ".mocharc.yaml": "mocha",
+    ".mocharc.js": "mocha",
+    ".mocharc.json": "mocha",
+    ".mocharc.jsonc": "mocha",
+    "jenkinsfile": "jenkins",
+    "firebase.json": "firebase",
+    ".firebaserc": "firebase",
+    "rollup.config.js": "rollup",
+    "rollup.config.ts": "rollup",
+    "rollup-config.js": "rollup",
+    "rollup-config.ts": "rollup",
+    "rollup.config.common.js": "rollup",
+    "rollup.config.common.ts": "rollup",
+    "rollup.config.base.js": "rollup",
+    "rollup.config.base.ts": "rollup",
+    "rollup.config.prod.js": "rollup",
+    "rollup.config.prod.ts": "rollup",
+    "rollup.config.dev.js": "rollup",
+    "rollup.config.dev.ts": "rollup",
+    "rollup.config.prod.vendor.js": "rollup",
+    "rollup.config.prod.vendor.ts": "rollup",
+    ".hhconfig": "hack",
+    ".stylelintrc": "stylelint",
+    "stylelint.config.js": "stylelint",
+    ".stylelintrc.json": "stylelint",
+    ".stylelintrc.yaml": "stylelint",
+    ".stylelintrc.yml": "stylelint",
+    ".stylelintrc.js": "stylelint",
+    ".stylelintignore": "stylelint",
+    ".codeclimate.yml": "code-climate",
+    ".prettierrc": "prettier",
+    "prettier.config.js": "prettier",
+    ".prettierrc.js": "prettier",
+    ".prettierrc.json": "prettier",
+    ".prettierrc.yaml": "prettier",
+    ".prettierrc.yml": "prettier",
+    ".prettierignore": "prettier",
+    "apollo.config.js": "apollo",
+    "nodemon.json": "nodemon",
+    "nodemon-debug.json": "nodemon",
+    ".hintrc": "webhint",
+    "browserslist": "browserlist",
+    ".browserslistrc": "browserlist",
+    ".snyk": "snyk",
+    ".drone.yml": "drone",
+    ".sequelizerc": "sequelize",
+    "gatsby.config.js": "gatsby",
+    "gatsby-config.js": "gatsby",
+    "gatsby-node.js": "gatsby",
+    "gatsby-browser.js": "gatsby",
+    "gatsby-ssr.js": "gatsby",
+    ".wakatime-project": "wakatime",
+    "circle.yml": "circleci",
+    ".cfignore": "cloudfoundry",
+    "gruntfile.js": "grunt",
+    "gruntfile.ts": "grunt",
+    "gruntfile.coffee": "grunt",
+    "gruntfile.babel.js": "grunt",
+    "gruntfile.babel.ts": "grunt",
+    "gruntfile.babel.coffee": "grunt",
+    "jest.config.js": "jest",
+    "jest.config.ts": "jest",
+    "jest.config.cjs": "jest",
+    "jest.config.mjs": "jest",
+    "jest.config.json": "jest",
+    "jest.setup.js": "jest",
+    "jest.setup.ts": "jest",
+    "jest.json": "jest",
+    ".jestrc": "jest",
+    ".jestrc.js": "jest",
+    ".jestrc.json": "jest",
+    "jest.teardown.js": "jest",
+    "fastfile": "fastlane",
+    "appfile": "fastlane",
+    ".helmignore": "helm",
+    "wallaby.js": "wallaby",
+    "wallaby.conf.js": "wallaby",
+    "stencil.config.js": "stencil",
+    "stencil.config.ts": "stencil",
+    "makefile": "makefile",
+    ".releaserc": "semantic-release",
+    ".releaserc.yaml": "semantic-release",
+    ".releaserc.yml": "semantic-release",
+    ".releaserc.json": "semantic-release",
+    ".releaserc.js": "semantic-release",
+    "release.config.js": "semantic-release",
+    "bitbucket-pipelines.yaml": "bitbucket",
+    "bitbucket-pipelines.yml": "bitbucket",
+    ".bazelignore": "bazel",
+    ".bazelrc": "bazel",
+    "azure-pipelines.yml": "azure-pipelines",
+    "azure-pipelines.yaml": "azure-pipelines",
+    "vagrantfile": "vagrant",
+    "prisma.yml": "prisma",
+    ".nycrc": "istanbul",
+    ".nycrc.json": "istanbul",
+    "tailwind.js": "tailwindcss",
+    "tailwind.config.js": "tailwindcss",
+    "buildkite.yml": "buildkite",
+    "buildkite.yaml": "buildkite",
+    "netlify.json": "netlify",
+    "netlify.yml": "netlify",
+    "netlify.yaml": "netlify",
+    "netlify.toml": "netlify",
+    "nest-cli.json": "nest",
+    ".nest-cli.json": "nest",
+    "nestconfig.json": "nest",
+    ".nestconfig.json": "nest",
+    ".percy.yml": "percy",
+    ".gitpod.yml": "gitpod",
+    "codeowners": "codeowners",
+    ".gcloudignore": "gcp",
+    ".huskyrc": "husky",
+    "husky.config.js": "husky",
+    ".huskyrc.json": "husky",
+    ".huskyrc.js": "husky",
+    ".huskyrc.yaml": "husky",
+    ".huskyrc.yml": "husky",
+    "tiltfile": "tilt",
+    "capacitor.config.json": "capacitor",
+    ".adonisrc.json": "adonis",
+    "meson.build": "meson",
+    ".commitlintrc": "commitlint",
+    ".commitlintrc.js": "commitlint",
+    "commitlint.config.js": "commitlint",
+    ".commitlintrc.json": "commitlint",
+    ".commitlint.yaml": "commitlint",
+    ".commitlint.yml": "commitlint",
+    ".buckconfig": "buck",
+    "nx.json": "nrwl",
+    "dune": "dune",
+    "dune-project": "dune"
+  },
+  "languageIds": {
+    "git": "git",
+    "git-commit": "git",
+    "git-rebase": "git",
+    "c": "c",
+    "objective-c": "c",
+    "yaml": "yaml",
+    "xml": "xml",
+    "xquery": "xml",
+    "matlab": "matlab",
+    "makefile": "settings",
+    "shaderlab": "shaderlab",
+    "diff": "diff",
+    "json": "json",
+    "jsonc": "json",
+    "blink": "blink",
+    "java": "java",
+    "razor": "razor",
+    "aspnetcorerazor": "razor",
+    "python": "python",
+    "javascript": "javascript",
+    "typescript": "typescript",
+    "scala": "scala",
+    "handlebars": "handlebars",
+    "perl": "perl",
+    "perl6": "perl",
+    "haxe": "haxe",
+    "hxml": "haxe",
+    "puppet": "puppet",
+    "elixir": "elixir",
+    "livescript": "livescript",
+    "erlang": "erlang",
+    "twig": "twig",
+    "julia": "julia",
+    "elm": "elm",
+    "purescript": "purescript",
+    "stylus": "stylus",
+    "nunjucks": "nunjucks",
+    "pug": "pug",
+    "robotframework": "robot",
+    "sass": "sass",
+    "less": "less",
+    "css": "css",
+    "testOutput": "visualstudio",
+    "ng-template": "angular",
+    "graphql": "graphql",
+    "solidity": "solidity",
+    "autoit": "autoit",
+    "haml": "haml",
+    "yang": "yang",
+    "terraform": "terraform",
+    "applescript": "applescript",
+    "cake": "cake",
+    "cucumber": "cucumber",
+    "nim": "nim",
+    "nimble": "nim",
+    "apiblueprint": "apiblueprint",
+    "riot": "riot",
+    "postcss": "postcss",
+    "lang-cfml": "coldfusion",
+    "haskell": "haskell",
+    "dhall": "dhall",
+    "cabal": "cabal",
+    "nix": "nix",
+    "ruby": "ruby",
+    "slim": "slim",
+    "php": "php",
+    "hack": "hack",
+    "javascriptreact": "react",
+    "mjml": "mjml",
+    "processing": "processing",
+    "hcl": "hcl",
+    "go": "go",
+    "django-html": "django",
+    "django-txt": "django",
+    "html": "html",
+    "gdscript": "godot",
+    "viml": "vim",
+    "prolog": "prolog",
+    "pawn": "pawn",
+    "reason": "reason",
+    "reason_lisp": "reason",
+    "sml": "sml"
+  },
+  "light": {
+    "fileExtensions": {
+      "blink": "blink_light",
+      "jinja": "jinja_light",
+      "jinja2": "jinja_light",
+      "j2": "jinja_light",
+      "cr": "crystal_light",
+      "ecr": "crystal_light",
+      "drone.yml": "drone_light",
+      ".wakatime-project": "wakatime_light",
+      "pde": "processing_light",
+      "hcl": "hcl_light",
+      "iuml": "uml_light",
+      "pu": "uml_light",
+      "puml": "uml_light",
+      "plantuml": "uml_light",
+      "wsd": "uml_light"
+    },
+    "fileNames": {
+      "vercel.json": "vercel_light",
+      ".vercelignore": "vercel_light",
+      "now.json": "vercel_light",
+      ".nowignore": "vercel_light",
+      ".stylelintrc": "stylelint_light",
+      "stylelint.config.js": "stylelint_light",
+      ".stylelintrc.json": "stylelint_light",
+      ".stylelintrc.yaml": "stylelint_light",
+      ".stylelintrc.yml": "stylelint_light",
+      ".stylelintrc.js": "stylelint_light",
+      ".stylelintignore": "stylelint_light",
+      ".codeclimate.yml": "code-climate_light",
+      "browserslist": "browserlist_light",
+      ".browserslistrc": "browserlist_light",
+      ".drone.yml": "drone_light",
+      ".wakatime-project": "wakatime_light",
+      "circle.yml": "circleci_light",
+      ".releaserc": "semantic-release_light",
+      ".releaserc.yaml": "semantic-release_light",
+      ".releaserc.yml": "semantic-release_light",
+      ".releaserc.json": "semantic-release_light",
+      ".releaserc.js": "semantic-release_light",
+      "release.config.js": "semantic-release_light"
+    },
+    "folderNames": {
+      "jinja": "folder-jinja_light",
+      "jinja2": "folder-jinja_light",
+      "j2": "folder-jinja_light",
+      ".idea": "folder-intellij_light"
+    },
+    "folderNamesExpanded": {
+      "jinja": "folder-jinja-open_light",
+      "jinja2": "folder-jinja-open_light",
+      "j2": "folder-jinja-open_light",
+      ".idea": "folder-intellij-open_light"
+    }
+  },
+  "highContrast": {
+    "fileExtensions": {},
+    "fileNames": {}
+  },
+  "options": {
+    "folders": {
+      "theme": "specific",
+      "color": "#90a4ae",
+      "associations": {}
+    },
+    "activeIconPack": "angular",
+    "hidesExplorerArrows": false,
+    "opacity": 0.8,
+    "saturation": 0,
+    "files": {
+      "associations": {}
+    },
+    "languages": {
+      "associations": {}
+    }
+  },
+  "file": "file",
+  "hidesExplorerArrows": false,
+  "folder": "folder",
+  "folderExpanded": "folder-open",
+  "rootFolder": "folder-root",
+  "rootFolderExpanded": "folder-root-open"
+}

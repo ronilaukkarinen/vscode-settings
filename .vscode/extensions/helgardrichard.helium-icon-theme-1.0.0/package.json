@@ -1,0 +1,224 @@
+{
+	"name": "helium-icon-theme",
+	"displayName": "Helium Icon Theme",
+	"description": "Helium and Material Design Icons for Visual Studio Code",
+	"version": "1.0.0",
+	"publisher": "helgardrichard",
+	"engines": {
+		"vscode": "^1.5.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/helgardferreira/vscode-helium-icon-theme.git"
+	},
+	"icon": "logo.png",
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"icons",
+		"theme",
+		"material",
+		"helium",
+		"icon-theme",
+		"customization"
+	],
+	"extensionKind": "ui",
+	"activationEvents": [
+		"*"
+	],
+	"main": "./dist/extension",
+	"contributes": {
+		"iconThemes": [
+			{
+				"id": "helium-icon-theme",
+				"label": "Helium Icon Theme",
+				"path": "./dist/helium-icons.json",
+				"_watch": true
+			}
+		],
+		"commands": [
+			{
+				"command": "helium-icon-theme.activateIcons",
+				"title": "%command.activateIcons%"
+			},
+			{
+				"command": "helium-icon-theme.toggleIconPacks",
+				"title": "%command.toggleIconPacks%"
+			},
+			{
+				"command": "helium-icon-theme.changeFolderTheme",
+				"title": "%command.changeFolderTheme%"
+			},
+			{
+				"command": "helium-icon-theme.changeFolderColor",
+				"title": "%command.changeFolderColor%"
+			},
+			{
+				"command": "helium-icon-theme.restoreDefaultConfig",
+				"title": "%command.restoreDefaultConfig%"
+			},
+			{
+				"command": "helium-icon-theme.toggleExplorerArrows",
+				"title": "%command.toggleExplorerArrows%"
+			},
+			{
+				"command": "helium-icon-theme.changeOpacity",
+				"title": "%command.changeOpacity%"
+			},
+			{
+				"command": "helium-icon-theme.toggleGrayscale",
+				"title": "%command.toggleGrayscale%"
+			},
+			{
+				"command": "helium-icon-theme.changeSaturation",
+				"title": "%command.changeSaturation%"
+			}
+		],
+		"configuration": {
+			"type": "object",
+			"title": "%configuration.title%",
+			"properties": {
+				"helium-icon-theme.showWelcomeMessage": {
+					"type": "boolean",
+					"default": true,
+					"description": "%configuration.showWelcomeMessage%"
+				},
+				"helium-icon-theme.showUpdateMessage": {
+					"type": "boolean",
+					"default": false,
+					"description": "%configuration.showUpdateMessage%"
+				},
+				"helium-icon-theme.showReloadMessage": {
+					"type": "boolean",
+					"default": true,
+					"description": "%configuration.showReloadMessage%"
+				},
+				"helium-icon-theme.activeIconPack": {
+					"type": "string",
+					"default": "angular",
+					"description": "%configuration.activeIconPack%",
+					"enumDescriptions": [
+						"%configuration.activeIconPack.angular%",
+						"%configuration.activeIconPack.angular_ngrx%",
+						"%configuration.activeIconPack.react%",
+						"%configuration.activeIconPack.react_redux%",
+						"%configuration.activeIconPack.vue%",
+						"%configuration.activeIconPack.vue_vuex%",
+						"%configuration.activeIconPack.nest%",
+						"%configuration.activeIconPack.none%"
+					],
+					"enum": [
+						"angular",
+						"angular_ngrx",
+						"react",
+						"react_redux",
+						"vue",
+						"vue_vuex",
+						"nest",
+						"none"
+					]
+				},
+				"helium-icon-theme.files.associations": {
+					"type": "object",
+					"default": {},
+					"description": "%configuration.files.associations%"
+				},
+				"helium-icon-theme.folders.associations": {
+					"type": "object",
+					"default": {},
+					"description": "%configuration.folders.associations%"
+				},
+				"helium-icon-theme.languages.associations": {
+					"type": "object",
+					"default": {},
+					"description": "%configuration.languages.associations%"
+				},
+				"helium-icon-theme.folders.theme": {
+					"type": "string",
+					"default": "specific",
+					"description": "%configuration.folders.theme%",
+					"enumDescriptions": [
+						"%configuration.folders.theme.specific%",
+						"%configuration.folders.theme.classic%",
+						"%configuration.folders.theme.none%"
+					],
+					"enum": [
+						"specific",
+						"classic",
+						"none"
+					]
+				},
+				"helium-icon-theme.folders.color": {
+					"type": "string",
+					"default": "#90a4ae",
+					"pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+					"description": "%configuration.folders.color%"
+				},
+				"helium-icon-theme.opacity": {
+					"type": "number",
+					"default": 1,
+					"minimum": 0,
+					"maximum": 1,
+					"description": "%configuration.opacity%"
+				},
+				"helium-icon-theme.hidesExplorerArrows": {
+					"type": "boolean",
+					"default": false,
+					"description": "%configuration.hidesExplorerArrows%"
+				},
+				"helium-icon-theme.saturation": {
+					"type": "number",
+					"default": 1,
+					"minimum": 0,
+					"maximum": 1,
+					"description": "%configuration.saturation%"
+				}
+			}
+		}
+	},
+	"scripts": {
+		"build": "npm run compile:dev && npm run postcompile",
+		"check": "ts-node ./src/scripts/icons/checks",
+		"compile": "webpack --mode production",
+		"compile:dev": "webpack --mode none",
+		"compile:watch": "webpack --mode none --watch",
+		"contributors": "ts-node ./src/scripts/contributors/index.ts",
+		"generateJson": "ts-node ./src/scripts/icons/generateJson.ts",
+		"lint": "tslint -c tslint.json ./src/**/*.ts --fix",
+		"postcompile": "npm run generateJson && npm run check",
+		"pretest": "npm run build && tsc -p ./",
+		"preview": "ts-node ./src/scripts/preview",
+		"test": "node ./out/test/runTest.js",
+		"vscode:prepublish": "npm run lint && npm run compile"
+	},
+	"dependencies": {
+		"lodash.merge": "4.6.2",
+		"open": "6.4.0",
+		"semver": "6.3.0"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^5.2.7",
+		"@types/node": "^12.7.2",
+		"@types/puppeteer": "^1.19.1",
+		"@types/vscode": "^1.5.0",
+		"clean-webpack-plugin": "^3.0.0",
+		"glob": "^7.1.4",
+		"mocha": "^6.2.0",
+		"puppeteer": "^1.19.0",
+		"rimraf": "^3.0.0",
+		"ts-loader": "^6.0.4",
+		"ts-node": "^8.3.0",
+		"tslint": "^5.19.0",
+		"typescript": "^3.6.2",
+		"vscode-test": "^1.2.0",
+		"webpack": "^4.39.3",
+		"webpack-cli": "^3.3.7"
+	},
+	"__metadata": {
+		"id": "235f4502-e288-45b4-a36c-3c0825d81e1b",
+		"publisherId": "055cb7fd-084e-4bd7-ae9e-985d9155760d",
+		"publisherDisplayName": "Helgard Richard Ferreira"
+	}
+}

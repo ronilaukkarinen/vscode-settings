@@ -2,3 +2,8 @@ body.inline-title-bar:not(.activity-bar-at-bottom) .monaco-workbench:not(.fullsc
   margin-top: 6px !important;
   height: calc(100% - 6px) !important;
 }
+
+.show-file-icons .javascript-lang-file-icon.file-icon::before, .show-file-icons .js-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .esx-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .mjs-ext-file-icon.ext-file-icon.file-icon::before,
+.show-file-icons .json-lang-file-icon.file-icon::before, .show-file-icons .jsonc-lang-file-icon.file-icon::before, .show-file-icons .json-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .tsbuildinfo-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .\.jscsrc-name-file-icon.jscsrc-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .\.jshintrc-name-file-icon.jshintrc-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .tsconfig\.json-name-file-icon.json-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .tslint\.json-name-file-icon.json-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .composer\.lock-name-file-icon.lock-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .\.jsbeautifyrc-name-file-icon.jsbeautifyrc-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .\.esformatter-name-file-icon.esformatter-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .cdp\.pid-name-file-icon.pid-ext-file-icon.ext-file-icon.file-icon::before {
+  filter: brightness(80%);
+}
