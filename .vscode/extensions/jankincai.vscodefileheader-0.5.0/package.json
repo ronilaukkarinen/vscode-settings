@@ -1,0 +1,140 @@
+{
+	"name": "vscodefileheader",
+	"displayName": "VSCodeFileHeader",
+	"description": "header comment",
+	"version": "0.5.0",
+	"publisher": "jankincai",
+	"author": {
+		"name": "JanKinCai",
+		"email": "jankincai12@gmail.com",
+		"url": "https://github.com/caizhengxin/"
+	},
+	"homepage": "https://github.com/caizhengxin/vscodefileheader",
+	"license": "BSD-3-Clause",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/caizhengxin/vscodefileheader"
+	},
+	"bugs": {
+		"url": "https://github.com/caizhengxin/vscodefileheader/issues",
+		"email": "jankincai12@gmail.com"
+	},
+	"icon": "images/python.png",
+	"engines": {
+		"vscode": "^1.39.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"vscode-fileheader",
+		"vscodefileheader",
+		"fileheader",
+		"annotation",
+		"comment",
+		"vscode comment",
+		"vscode annotation",
+		"header",
+		"body",
+		"language"
+	],
+	"activationEvents": [
+		"*",
+		"onCommand:extension.fileheader"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"configuration": {
+			"type": "object",
+			"title": "File Header",
+			"properties": {
+				"fileheader.author": {
+					"type": "string",
+					"default": "Your name",
+					"description": "Your name"
+				},
+				"fileheader.dateformat": {
+					"type": "string",
+					"default": "YYYY-MM-DD HH:mm:ss",
+					"description": "Datetime format"
+				},
+				"fileheader.other_config": {
+					"type": "object",
+					"default": {},
+					"description": "Other header config"
+				},
+				"fileheader.open": {
+					"type": "boolean",
+					"default": false,
+					"description": "Open file insert template"
+				},
+				"fileheader.save": {
+					"type": "boolean",
+					"default": true,
+					"description": "Save file insert template"
+				},
+				"fileheader.body": {
+					"type": "boolean",
+					"default": false,
+					"description": "Insert Body Template"
+				},
+				"fileheader.ignore": {
+					"type": "array",
+					"default": [],
+					"description": "Ignore file"
+				},
+				"fileheader.custom_template_path": {
+					"type": "string",
+					"default": "",
+					"description": "Custom template path"
+				},
+				"fileheader.file_suffix_mapping": {
+					"type": "object",
+					"default": {},
+					"description": "File suffix mapping"
+				}
+			}
+		},
+		"commands": [
+			{
+				"command": "extension.fileheader",
+				"title": "File Header"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "extension.fileheader",
+				"key": "ctrl+alt+i",
+				"mac": "ctrl+cmd+i",
+				"when": "editorTextFocus"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^5.2.6",
+		"@types/node": "^10.12.21",
+		"@types/vscode": "^1.39.0",
+		"glob": "^7.1.4",
+		"mocha": "^6.1.4",
+		"typescript": "^3.3.1",
+		"tslint": "^5.12.1",
+		"vscode-test": "^1.2.0"
+	},
+	"dependencies": {
+		"art-template": "^4.13.2",
+		"moment": "^2.24.0"
+	},
+	"__metadata": {
+		"id": "9602015c-415a-4ba2-8f01-707fa638d5f8",
+		"publisherId": "2363683b-871d-4195-9af8-9d3d41b95407",
+		"publisherDisplayName": "FileHeader"
+	}
+}

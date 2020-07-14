@@ -6,15 +6,26 @@
   "powermode.enabled": true,
   // Valid values: particles, fireworks, flames, magic, clippy, simple-rift, exploding-rift
   "powermode.presets": "magic",
-  "vscode_custom_css.policy": true,
+  "vscode_custom_css.imports": [
+    "file:///Users/rolle/Projects/vscode-settings/custom.css"
+  ],  
   // Fira Code, SF Mono or Hack
   //"editor.fontFamily": "SF Mono",
   // "editor.lineHeight": 22,
   // "editor.fontLigatures": true,
   // "editor.fontSize": 14,
-  "editor.fontFamily": "'SFMono-Regular','Consolas','Liberation Mono','Menlo','Courier','monospace'",
-  "editor.lineHeight": 20,
-  "editor.fontSize": 12,
+
+  // GitHub original:
+  // "editor.fontFamily": "'SFMono-Regular','Consolas','Liberation Mono','Menlo','Courier','monospace'",
+  // "editor.lineHeight": 20,
+  // "editor.fontSize": 12,
+
+  // Custom:
+  "editor.fontFamily": "'SFMono-Regular', Hack, 'IBM Plex Mono', 'Sudo', 'Dank Mono', 'Input Mono', 'Fira Code','Consolas','Liberation Mono','Menlo','Courier','monospace'",
+  "editor.lineHeight": 22,
+  "editor.fontSize": 14,
+
+  "editor.autoIndent": "full",
   "codestats.apikey": "SFMyNTY.Y205c2JHVT0jI05qWXhPQT09.ORJkNVcSU9GrW5x1Q5Tw2Y_8s2HTAjd4We8-BFLqgEE",
   "codestats.username": "rolle",
   "css.validate": false,
@@ -117,9 +128,13 @@
   "html.format.wrapLineLength": 600,
   "html.format.wrapAttributes": "auto",
   "phpcbf.executablePath": "/Users/rolle/Projects/PHP_CodeSniffer/bin/phpcbf",
+  "phpcbf.enable": false,
+  "phpcbf.documentFormattingProvider": false,
+  "phpcbf.onsave": false,
+  "phpcbf.standard": "/Users/rolle/Projects/airdev/content/themes/air-light/phpcs.xml",  
   "showErrorMessages": false,
   "stylefmt.showError": false,
-  "editor.formatOnSave": false,
+  "php-cs-fixer.formatHtml": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.fixAll.tslint": true,
@@ -199,13 +214,16 @@
       },      
     ]
   },  
-  "vscode_custom_css.imports": [
-    "file:///Users/rolle/Projects/vscode-settings/custom.css"
-  ],
   "nightlight.overrideUntil": "2020-06-16T20:13:57.359Z",
   "workbench.colorTheme": "Github",
   "city-lights-icons-vsc.hidesExplorerArrows": true,
   "search.quickOpen.history.filterSortOrder": "recency",
   "gitlens.menus": false,
   "svgviewer.enableautopreview": false,
+  "customizeUI.activityBarHideSettings": true,
+  "customizeUI.stylesheet": {
+    "body.inline-title-bar:not(.activity-bar-at-bottom) .monaco-workbench:not(.fullscreen) .split-view-container .activitybar:not(.right) .content": "margin-top: 6px !important; height: calc(100% - 6px) !important;",
+    ".show-file-icons .javascript-lang-file-icon.file-icon::before, .show-file-icons .js-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .esx-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .mjs-ext-file-icon.ext-file-icon.file-icon::before,.show-file-icons .json-lang-file-icon.file-icon::before, .show-file-icons .jsonc-lang-file-icon.file-icon::before, .show-file-icons .json-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .tsbuildinfo-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .jscsrc-name-file-icon.jscsrc-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .jshintrc-name-file-icon.jshintrc-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .tsconfig.json-name-file-icon.json-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .tslint.json-name-file-icon.json-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .composer.lock-name-file-icon.lock-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .jsbeautifyrc-name-file-icon.jsbeautifyrc-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .esformatter-name-file-icon.esformatter-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .cdp.pid-name-file-icon.pid-ext-file-icon.ext-file-icon.file-icon::before": "filter: brightness(80%) !important;",
+  },
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
 }

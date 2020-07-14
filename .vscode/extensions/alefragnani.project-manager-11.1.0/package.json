@@ -1,0 +1,567 @@
+{
+	"name": "project-manager",
+	"displayName": "Project Manager",
+	"description": "Easily switch between projects",
+	"version": "11.1.0",
+	"publisher": "alefragnani",
+	"engines": {
+		"vscode": "^1.45.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"git",
+		"project",
+		"folder",
+		"workspace",
+		"switch",
+		"manage",
+		"mercurial",
+		"svn",
+		"multi-root ready"
+	],
+	"extensionKind": [
+		"ui",
+		"workspace"
+	],
+	"icon": "images/icon.png",
+	"license": "SEE LICENSE IN LICENSE.md",
+	"homepage": "https://github.com/alefragnani/vscode-project-manager/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/alefragnani/vscode-project-manager.git"
+	},
+	"bugs": {
+		"url": "https://github.com/alefragnani/vscode-project-manager/issues"
+	},
+	"activationEvents": [
+		"*",
+		"onCommand:projectManager.saveProject",
+		"onCommand:projectManager.addToWorkspace#sideBar",
+		"onCommand:projectManager.addToWorkspace",
+		"onCommand:projectManager.listProjects",
+		"onCommand:projectManager.listProjectsNewWindow",
+		"onCommand:projectManager.editProjects",
+		"onCommand:projectManager.refreshProjects",
+		"onCommand:projectManager.refreshVSCodeProjects",
+		"onCommand:projectManager.refreshGitProjects",
+		"onCommand:projectManager.refreshSVNProjects",
+		"onCommand:projectManager.refreshAnyProjects",
+		"onCommand:projectManager.refreshMercurialProjects",
+		"onView:projectsExplorer"
+	],
+	"main": "./dist/extension",
+	"contributes": {
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "project-manager",
+					"title": "%projectManager.activitybar.title%",
+					"icon": "images/project-manager-side-bar.svg"
+				}
+			]
+		},
+		"views": {
+			"project-manager": [
+				{
+					"id": "projectsExplorerFavorites",
+					"name": "Favorites"
+				},
+				{
+					"id": "projectsExplorerGit",
+					"name": "Git",
+					"when": "projectManager.canShowTreeViewGit"
+				},
+				{
+					"id": "projectsExplorerSVN",
+					"name": "SVN",
+					"when": "projectManager.canShowTreeViewSVN"
+				},
+				{
+					"id": "projectsExplorerAny",
+					"name": "Any",
+					"when": "projectManager.canShowTreeViewAny"
+				},
+				{
+					"id": "projectsExplorerMercurial",
+					"name": "Mercurial",
+					"when": "projectManager.canShowTreeViewMercurial"
+				},
+				{
+					"id": "projectsExplorerVSCode",
+					"name": "VSCode",
+					"when": "projectManager.canShowTreeViewVSCode"
+				}
+			]
+		},
+		"viewsWelcome": [
+			{
+				"view": "projectsExplorerFavorites",
+				"contents": "No projects saved yet.\nIn order to save projects, you have to open a folder or workspace first.\n[Open a Folder](command:_projectManager.openFolderWelcome)\n[Open a Workspace](command:workbench.action.openWorkspace)\nTo learn more about how to use Project Manager in VS Code [read the docs](http://github.com/alefragnani/vscode-project-manager/#project-manager).",
+				"when": "workbenchState == empty"
+			},
+			{
+				"view": "projectsExplorerFavorites",
+				"contents": "No projects saved yet.\nIn order to save the current folder/workspace as a project, execute the command:\n[Project Manager: Save Project](command:projectManager.saveProject)\nTo learn more about how to use Project Manager in VS Code [read the docs](http://github.com/alefragnani/vscode-project-manager/#project-manager).",
+				"when": "workbenchState != empty"
+			},
+			{
+				"view": "projectsExplorerGit",
+				"contents": "No projects detected.\nIn order to detect Git projects, you have to configure the `baseFolders` where the Git projects are.\n[Open Settings](command:workbench.action.openSettings?%5B%22projectManager.git.baseFolders%22%5D)\n[I don't need Git projects](command:projectManager.hideGitWelcome)\nIt also supports detection of SVN or Mercurial repositories, VS Code or any other folder.\nTo learn more about how to use Project Manager in VS Code [read the docs](https://github.com/alefragnani/vscode-project-manager/#available-settings)."
+			}
+		],
+		"commands": [
+			{
+				"command": "projectManager.saveProject",
+				"title": "%projectManager.commands.saveProject.title%",
+				"icon": "$(save)"
+			},
+			{
+				"command": "projectManager.listProjects",
+				"title": "%projectManager.commands.listProjects.title%"
+			},
+			{
+				"command": "projectManager.listProjectsNewWindow",
+				"title": "%projectManager.commands.listProjectsNewWindow.title%"
+			},
+			{
+				"command": "projectManager.editProjects",
+				"title": "%projectManager.commands.editProjects.title%",
+				"icon": "$(edit)"
+			},
+			{
+				"command": "projectManager.refreshProjects",
+				"title": "%projectManager.commands.refreshProjects.title%"
+			},
+			{
+				"command": "projectManager.refreshVSCodeProjects",
+				"title": "%projectManager.commands.refreshVSCodeProjects.title%",
+				"icon": "$(refresh)"
+			},
+			{
+				"command": "projectManager.refreshGitProjects",
+				"title": "%projectManager.commands.refreshGitProjects.title%",
+				"icon": "$(refresh)"
+			},
+			{
+				"command": "projectManager.refreshSVNProjects",
+				"title": "%projectManager.commands.refreshSVNProjects.title%",
+				"icon": "$(refresh)"
+			},
+			{
+				"command": "projectManager.refreshAnyProjects",
+				"title": "%projectManager.commands.refreshAnyProjects.title%",
+				"icon": "$(refresh)"
+			},
+			{
+				"command": "projectManager.refreshMercurialProjects",
+				"title": "%projectManager.commands.refreshMercurialProjects.title%",
+				"icon": "$(refresh)"
+			},
+			{
+				"command": "_projectManager.open",
+				"title": "%projectManager.commands.open.title%"
+			},
+			{
+				"command": "_projectManager.openInNewWindow",
+				"title": "%projectManager.commands.openInNewWindow.title%",
+				"icon": "$(link-external)"
+			},
+			{
+				"command": "projectManager.addToWorkspace#sideBar",
+				"title": "%projectManager.commands.addToWorkspace#sideBar.title%"
+			},
+			{
+				"command": "projectManager.addToWorkspace",
+				"title": "%projectManager.commands.addToWorkspace.title%"
+			},
+			{
+				"command": "_projectManager.deleteProject",
+				"title": "%projectManager.commands.deleteProject.title%"
+			},
+			{
+				"command": "_projectManager.renameProject",
+				"title": "%projectManager.commands.renameProject.title%"
+			},
+			{
+				"command": "projectManager.whatsNew",
+				"title": "%projectManager.commands.whatsNew.title%"
+			},
+			{
+				"command": "_projectManager.whatsNewContextMenu",
+				"title": "%projectManager.commands.whatsNewContextMenu.title%"
+			},
+			{
+				"command": "projectManager.addToFavorites",
+				"title": "%projectManager.commands.addToFavorites.title%"
+			},
+			{
+				"command": "_projectManager.toggleProjectEnabled",
+				"title": "%projectManager.commands.toggleProjectEnabled.title%"
+			},
+			{
+				"command": "projectManager.hideGitWelcome",
+				"title": "%projectManager.commands.hideGitWelcome.title%"
+			},
+			{
+				"command": "projectManager.showGitWelcome",
+				"title": "%projectManager.commands.showGitWelcome.title%"
+			},
+			{
+				"command": "_projectManager.openFolderWelcome",
+				"title": "%projectManager.commands.openFolderWelcome.title%"
+			}
+		],
+		"menus": {
+			"commandPalette": [
+				{
+					"command": "_projectManager.open",
+					"when": "false"
+				},
+				{
+					"command": "_projectManager.openInNewWindow",
+					"when": "false"
+				},
+				{
+					"command": "projectManager.addToWorkspace#sideBar",
+					"when": "false"
+				},
+				{
+					"command": "_projectManager.deleteProject",
+					"when": "false"
+				},
+				{
+					"command": "_projectManager.renameProject",
+					"when": "false"
+				},
+				{
+					"command": "_projectManager.whatsNewContextMenu",
+					"when": "false"
+				},
+				{
+					"command": "projectManager.hideGitWelcome",
+					"when": "false"
+				},
+				{
+					"command": "projectManager.showGitWelcome",
+					"when": "false"
+				},
+				{
+					"command": "_projectManager.openFolderWelcome",
+					"when": "false"
+				}
+			],
+			"view/title": [
+				{
+					"command": "projectManager.saveProject",
+					"when": "view == projectsExplorerFavorites",
+					"group": "navigation@10"
+				},
+				{
+					"command": "projectManager.editProjects",
+					"when": "view == projectsExplorerFavorites",
+					"group": "navigation@11"
+				},
+				{
+					"command": "projectManager.showGitWelcome",
+					"when": "view == projectsExplorerFavorites && projectManager.hiddenGitWelcome",
+					"group": "2_projectManager"
+				},
+				{
+					"command": "projectManager.refreshVSCodeProjects",
+					"when": "view == projectsExplorerVSCode",
+					"group": "navigation"
+				},
+				{
+					"command": "projectManager.refreshGitProjects",
+					"when": "view == projectsExplorerGit",
+					"group": "navigation"
+				},
+				{
+					"command": "projectManager.refreshSVNProjects",
+					"when": "view == projectsExplorerSVN",
+					"group": "navigation"
+				},
+				{
+					"command": "projectManager.refreshAnyProjects",
+					"when": "view == projectsExplorerAny",
+					"group": "navigation"
+				},
+				{
+					"command": "projectManager.refreshMercurialProjects",
+					"when": "view == projectsExplorerMercurial",
+					"group": "navigation"
+				}
+			],
+			"view/item/context": [
+				{
+					"command": "_projectManager.open",
+					"when": "view =~ /projectsExplorer(Favorites|VSCode|Git|SVN|Any|Mercurial)/ && viewItem == ProjectNodeKind",
+					"group": "navigation"
+				},
+				{
+					"command": "_projectManager.openInNewWindow",
+					"when": "view =~ /projectsExplorer(Favorites|VSCode|Git|SVN|Any|Mercurial)/ && viewItem == ProjectNodeKind",
+					"group": "navigation"
+				},
+				{
+					"command": "_projectManager.openInNewWindow",
+					"when": "view =~ /projectsExplorer(Favorites|VSCode|Git|SVN|Any|Mercurial)/ && viewItem == ProjectNodeKind",
+					"group": "inline"
+				},
+				{
+					"command": "projectManager.addToWorkspace#sideBar",
+					"when": "view =~ /projectsExplorer(Favorites|VSCode|Git|SVN|Any|Mercurial)/ && viewItem == ProjectNodeKind",
+					"group": "workspace"
+				},
+				{
+					"command": "projectManager.addToFavorites",
+					"when": "view =~ /projectsExplorer(VSCode|Git|SVN|Any|Mercurial)/ && viewItem == ProjectNodeKind",
+					"group": "favorites"
+				},
+				{
+					"command": "_projectManager.deleteProject",
+					"when": "view == projectsExplorerFavorites && viewItem == ProjectNodeKind",
+					"group": "favorites"
+				},
+				{
+					"command": "_projectManager.renameProject",
+					"when": "view == projectsExplorerFavorites && viewItem == ProjectNodeKind",
+					"group": "favorites"
+				},
+				{
+					"command": "_projectManager.toggleProjectEnabled",
+					"when": "view == projectsExplorerFavorites && viewItem == ProjectNodeKind",
+					"group": "favorites"
+				}
+			],
+			"extension/context": [
+				{
+					"command": "_projectManager.whatsNewContextMenu",
+					"group": "projectManager",
+					"when": "extension == alefragnani.project-manager && extensionStatus == installed"
+				}
+			]
+		},
+		"configuration": {
+			"type": "object",
+			"title": "%projectManager.configuration.title%",
+			"properties": {
+				"projectManager.showProjectNameInStatusBar": {
+					"type": "boolean",
+					"default": true,
+					"description": "%projectManager.configuration.showProjectNameInStatusBar.description%"
+				},
+				"projectManager.openInNewWindowWhenClickingInStatusBar": {
+					"type": "boolean",
+					"default": false,
+					"description": "%projectManager.configuration.openInNewWindowWhenClickingInStatusBar.description%"
+				},
+				"projectManager.removeCurrentProjectFromList": {
+					"type": "boolean",
+					"default": true,
+					"description": "%projectManager.configuration.removeCurrentProjectFromList.description%"
+				},
+				"projectManager.sortList": {
+					"type": "string",
+					"default": "Name",
+					"description": "%projectManager.configuration.sortList.description%",
+					"enum": [
+						"Saved",
+						"Name",
+						"Path",
+						"Recent"
+					]
+				},
+				"projectManager.groupList": {
+					"type": "boolean",
+					"default": false,
+					"description": "%projectManager.configuration.groupList.description%"
+				},
+				"projectManager.projectsLocation": {
+					"type": "string",
+					"default": "",
+					"description": "%projectManager.configuration.projectsLocation.description%"
+				},
+				"projectManager.vscode.baseFolders": {
+					"type": "array",
+					"default": [],
+					"description": "%projectManager.configuration.vscode.baseFolders.description%"
+				},
+				"projectManager.vscode.ignoredFolders": {
+					"type": "array",
+					"default": [
+						"node_modules",
+						"out",
+						"typings",
+						"test"
+					],
+					"description": "%projectManager.configuration.vscode.ignoredFolders.description%"
+				},
+				"projectManager.vscode.maxDepthRecursion": {
+					"type": "integer",
+					"default": 4,
+					"description": "%projectManager.configuration.vscode.maxDepthRecursion.description%"
+				},
+				"projectManager.git.baseFolders": {
+					"type": "array",
+					"default": [],
+					"description": "%projectManager.configuration.git.baseFolders.description%"
+				},
+				"projectManager.git.ignoredFolders": {
+					"type": "array",
+					"default": [
+						"node_modules",
+						"out",
+						"typings",
+						"test",
+						".haxelib"
+					],
+					"description": "%projectManager.configuration.git.ignoredFolders.description%"
+				},
+				"projectManager.git.maxDepthRecursion": {
+					"type": "integer",
+					"default": 4,
+					"description": "%projectManager.configuration.git.maxDepthRecursion.description%"
+				},
+				"projectManager.hg.baseFolders": {
+					"type": "array",
+					"default": [],
+					"description": "%projectManager.configuration.hg.baseFolders.description%"
+				},
+				"projectManager.hg.ignoredFolders": {
+					"type": "array",
+					"default": [
+						"node_modules",
+						"out",
+						"typings",
+						"test",
+						".haxelib"
+					],
+					"description": "%projectManager.configuration.hg.ignoredFolders.description%"
+				},
+				"projectManager.hg.maxDepthRecursion": {
+					"type": "integer",
+					"default": 4,
+					"description": "%projectManager.configuration.hg.maxDepthRecursion.description%"
+				},
+				"projectManager.svn.baseFolders": {
+					"type": "array",
+					"default": [],
+					"description": "%projectManager.configuration.svn.baseFolders.description%"
+				},
+				"projectManager.svn.ignoredFolders": {
+					"type": "array",
+					"default": [
+						"node_modules",
+						"out",
+						"typings",
+						"test"
+					],
+					"description": "%projectManager.configuration.svn.ignoredFolders.description%"
+				},
+				"projectManager.svn.maxDepthRecursion": {
+					"type": "integer",
+					"default": 4,
+					"description": "%projectManager.configuration.svn.maxDepthRecursion.description%"
+				},
+				"projectManager.any.baseFolders": {
+					"type": "array",
+					"default": [],
+					"description": "%projectManager.configuration.any.baseFolders.description%"
+				},
+				"projectManager.any.ignoredFolders": {
+					"type": "array",
+					"default": [
+						"node_modules",
+						"out",
+						"typings",
+						"test"
+					],
+					"description": "%projectManager.configuration.any.ignoredFolders.description%"
+				},
+				"projectManager.any.maxDepthRecursion": {
+					"type": "integer",
+					"default": 4,
+					"description": "%projectManager.configuration.any.maxDepthRecursion.description%"
+				},
+				"projectManager.cacheProjectsBetweenSessions": {
+					"type": "boolean",
+					"default": true,
+					"description": "%projectManager.configuration.cacheProjectsBetweenSessions.description%"
+				},
+				"projectManager.checkInvalidPathsBeforeListing": {
+					"type": "boolean",
+					"default": true,
+					"description": "%projectManager.configuration.checkInvalidPathsBeforeListing.description%"
+				},
+				"projectManager.filterOnFullPath": {
+					"type": "boolean",
+					"default": false,
+					"description": "%projectManager.configuration.filterOnFullPath.description%"
+				},
+				"projectManager.openInCurrenWindowIfEmpty": {
+					"type": "string",
+					"default": "always",
+					"enum": [
+						"always",
+						"onlyUsingCommandPalette",
+						"onlyUsingSideBar",
+						"never"
+					],
+					"enumDescriptions": [
+						"Whenever you call the Open in New Window command, it will open in the current window, if empty",
+						"Only open in the current window if you use the Command Palette",
+						"Only open in the current window if you use the Side Bar",
+						"Works as today. The Open in New Window command will always open in New Window"
+					],
+					"description": "%projectManager.configuration.openInCurrenWindowIfEmpty.description%"
+				}
+			}
+		},
+		"keybindings": [
+			{
+				"command": "projectManager.listProjects",
+				"key": "shift+alt+p",
+				"mac": "cmd+alt+p"
+			}
+		]
+	},
+	"eslintConfig": {
+		"extends": [
+			"vscode-ext"
+		]
+	},
+	"scripts": {
+		"build": "webpack --mode development",
+		"watch": "webpack --watch --mode development --info-verbosity verbose",
+		"vscode:prepublish": "webpack --mode production",
+		"webpack": "webpack --mode development",
+		"webpack-dev": "webpack --mode development --watch",
+		"compile": "tsc -watch -p ./",
+		"lint": "eslint -c package.json --ext .ts src vscode-project-manager-core vscode-whats-new"
+	},
+	"devDependencies": {
+		"@types/node": "^10.14.17",
+		"@types/vscode": "^1.45.0",
+		"@typescript-eslint/eslint-plugin": "^3.3.0",
+		"@typescript-eslint/parser": "^3.3.0",
+		"eslint": "^7.2.0",
+		"eslint-config-vscode-ext": "^1.0.0",
+		"terser-webpack-plugin": "^1.2.1",
+		"ts-loader": "^4.4.2",
+		"typescript": "^3.5.1",
+		"webpack": "^4.43.0",
+		"webpack-cli": "^3.3.11"
+	},
+	"dependencies": {
+		"vscode-ext-codicons": "^1.0.1",
+		"walker": "^1.0.7"
+	},
+	"__metadata": {
+		"id": "1b747f06-3789-4ebd-ac99-f1fe430c3347",
+		"publisherId": "3fbdef65-bdf5-4723-aeaf-9e12a50546ef",
+		"publisherDisplayName": "Alessandro Fragnani"
+	}
+}

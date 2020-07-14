@@ -1,0 +1,41 @@
+{
+	"name": "vscode-theme-github-light",
+	"displayName": "Github Light Theme",
+	"description": "Try this theme if others don't meet your needs.",
+	"version": "7.14.2",
+	"publisher": "Hyzeta",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/chuling/vscode-theme-github-light/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/chuling/vscode-theme-github-light.git"
+	},
+	"icon": "icon.png",
+	"engines": {
+		"vscode": "^1.24.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Github Light Theme",
+				"uiTheme": "vs",
+				"path": "./themes/Github-Light-Theme-color-theme.json"
+			},
+			{
+				"label": "Github Light Theme - Gray",
+				"uiTheme": "vs",
+				"path": "./themes/Github-Light-Theme-Gray-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "b84ed643-ec7d-49cc-a514-3ce104ed777f",
+		"publisherId": "18f3a989-6d93-420d-a045-baf7651c8552",
+		"publisherDisplayName": "Hyzeta"
+	}
+}
