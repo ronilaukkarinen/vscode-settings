@@ -2,10 +2,11 @@
 
 Specify a blacklist of disallowed attribute operators.
 
+<!-- prettier-ignore -->
 ```css
 [target="_blank"] {}
 /**    ↑
- * These operators */
+ * This operator */
 ```
 
 ## Options
@@ -14,26 +15,30 @@ Specify a blacklist of disallowed attribute operators.
 
 Given:
 
-```js
-[ "*=" ]
+```
+["*="]
 ```
 
 The following patterns are considered violations:
 
+<!-- prettier-ignore -->
 ```css
 [class*="test"] {}
 ```
 
-The following patterns are *not* considered violations:
+The following patterns are _not_ considered violations:
 
+<!-- prettier-ignore -->
 ```css
 [target] {}
 ```
 
+<!-- prettier-ignore -->
 ```css
 [target="_blank"] {}
 ```
 
+<!-- prettier-ignore -->
 ```css
 [class|="top"] {}
 ```

@@ -2,7 +2,7 @@
 	"name": "vscode-stylefmt",
 	"displayName": "stylefmt",
 	"description": "Modern CSS Formatter",
-	"version": "2.6.1",
+	"version": "2.6.0",
 	"publisher": "mrmlnc",
 	"license": "MIT",
 	"engines": {
@@ -91,10 +91,10 @@
 		"typescript": "2.4.2"
 	},
 	"dependencies": {
-		"extend": "3.0.1",
-		"postcss": "6.0.8",
-		"postcss-scss": "1.0.2",
-		"stylefmt": "6.0.3",
+		"extend": "3.0.2",
+		"postcss": "7.0.30",
+		"postcss-scss": "2.1.1",
+		"stylefmt": "git+https://git@github.com/ronilaukkarinen/stylefmt.git",
 		"sugarss": "2.0.0"
 	},
 	"scripts": {
