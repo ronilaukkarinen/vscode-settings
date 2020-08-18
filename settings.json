@@ -313,7 +313,6 @@
     "terminal.selectionBackground": "#232830",
     "breadcrumbPicker.background": "#232830",
     "statusBar.background": "#1b1f27",
-    "scrollbar.shadow": "#232830",
     "editor.background": "#2b303c",
     "statusBar.foreground": "#ffffff50",
     "editor.selectionBackground": "#525b73",
@@ -351,7 +350,6 @@
     "editorIndentGuide.background": "#404655",
     "editorIndentGuide.activeBackground": "#404655",
     "editorRuler.foreground": "#404655",
-    "widget.shadow": "#232830",
     "editorHoverWidget.background": "#232830",
     "editorHoverWidget.border": "#232830",
     "editorSuggestWidget.background": "#232830",
@@ -513,7 +511,7 @@
 
     // Improvements to greyscale Helium/Material icon theme
     ".monaco-icon-label>.monaco-icon-label-container *": "font-size: 11px !important;",
-    ".show-file-icons .javascript-lang-file-icon.file-icon::before, .show-file-icons .js-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .esx-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .mjs-ext-file-icon.ext-file-icon.file-icon::before,.show-file-icons .json-lang-file-icon.file-icon::before, .show-file-icons .jsonc-lang-file-icon.file-icon::before, .show-file-icons .json-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .tsbuildinfo-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .jscsrc-name-file-icon.jscsrc-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .jshintrc-name-file-icon.jshintrc-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .tsconfig.json-name-file-icon.json-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .tslint.json-name-file-icon.json-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .composer.lock-name-file-icon.lock-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .jsbeautifyrc-name-file-icon.jsbeautifyrc-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .esformatter-name-file-icon.esformatter-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .cdp.pid-name-file-icon.pid-ext-file-icon.ext-file-icon.file-icon::before": "filter: brightness(80%) !important;",
+    ".monaco-icon-label:before, .show-file-icons .javascript-lang-file-icon.file-icon::before, .show-file-icons .js-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .esx-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .mjs-ext-file-icon.ext-file-icon.file-icon::before,.show-file-icons .json-lang-file-icon.file-icon::before, .show-file-icons .jsonc-lang-file-icon.file-icon::before, .show-file-icons .json-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .tsbuildinfo-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .jscsrc-name-file-icon.jscsrc-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .jshintrc-name-file-icon.jshintrc-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .tsconfig.json-name-file-icon.json-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .tslint.json-name-file-icon.json-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .composer.lock-name-file-icon.lock-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .jsbeautifyrc-name-file-icon.jsbeautifyrc-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .esformatter-name-file-icon.esformatter-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .cdp.pid-name-file-icon.pid-ext-file-icon.ext-file-icon.file-icon::before": "filter: brightness(80%) !important;background-size: 14px !important; padding-right: 4px !important;",
 
 // synthwave84.css:
 ".mtk6, span span:nth-child(3).mtk5": "color: #f8f8f0 !important;",
@@ -540,7 +538,7 @@
 ".quick-input-list .quick-input-list-separator": "color: #5d697b !important;", 
 ".quick-input-list .label-name": "font-size: 13px !important;", 
 ".monaco-workbench .part.panel.bottom .composite.title": "border-color: #363c49 !important;", 
-".monaco-workbench": "color: #98a2b1 !important;", 
+".monaco-workbench": "color: #f5f5f3 !important;", 
 ".monaco-workbench ::selection, .monaco-workbench ::placeholder, .panel.bottom .composite.title .monaco-inputbox::placeholder": "color: #4e5766 !important;", 
 ".panel.bottom .composite.title input, .panel.bottom .composite.title .monaco-inputbox": "background-color: transparent !important", 
 ".monaco-workbench .activitybar > .content .monaco-action-bar .action-item.checked": "background: transparent !important; box-shadow: none !important; border: 0; box-shadow: inset 0 -5px 25px #fc28a825;position: relative;", 
@@ -559,6 +557,7 @@
 ".extension-list-item .monaco-action-bar .action-item .action-label.extension-action.label.prominent,.extension-editor .monaco-action-bar .action-item .action-label.extension-action.label.prominent": "color: #fff !important;", 
 ".monaco-icon-label > .monaco-icon-label-container > .monaco-icon-name-container > .label-name": "font-size: 11px;", 
 ".monaco-workbench .activitybar > .content .monaco-action-bar .badge .badge-content": "background: linear-gradient(to bottom, #fff951 25%, #fc28a8);", 
+".monaco-workbench .activitybar>.content :not(.monaco-menu)>.monaco-action-bar .action-label.codicon, .monaco-workbench .activitybar>.content .monaco-action-bar .action-label": "background: #232830;",
 ".monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.sizing-fit.active": "box-shadow: inset 0 -5px 25px #fc28a825;position: relative;", 
 ".monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.sizing-fit.active::after": "content: '';position: absolute;bottom: -2px;left: 0;right: 0;height: 2px;background: linear-gradient(to right, #fc28a8, #03edf9) !important;opacity: 1;z-index: 6;", 
 ".monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.sizing-fit::after": "content: '';position: absolute;bottom: -1px;left: 0;right: 0;height: 0px;transition: opacity 1s;opacity: 0;z-index: 6;", 
@@ -569,7 +568,7 @@
   },
   "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
   "sync.gist": "05b1969d1a6ce9824b149e43bfe11495",
-  "workbench.iconTheme": "material-icon-theme",
   "editor.minimap.enabled": true,
   "workbench.colorTheme": "Dracula Soft",
+  "workbench.iconTheme": "helium-icon-theme",
   }
