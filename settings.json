@@ -1,29 +1,15 @@
 {
   "window.title": "${activeEditorFull}${separator}${rootName}",
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 1,
   "editor.cursorStyle": "line",
   "editor.cursorWidth": 3,
   "powermode.enabled": true,
   // Valid values: particles, fireworks, flames, magic, clippy, simple-rift, exploding-rift
   "powermode.presets": "magic",
-  "vscode_custom_css.imports": [
-    "file:///Users/rolle/Projects/vscode-settings/custom.css"
-  ],  
-  // Fira Code, SF Mono or Hack
-  //"editor.fontFamily": "SF Mono",
-  // "editor.lineHeight": 22,
-  // "editor.fontLigatures": true,
-  // "editor.fontSize": 14,
-
-  // GitHub original:
-  // "editor.fontFamily": "'SFMono-Regular','Consolas','Liberation Mono','Menlo','Courier','monospace'",
-  // "editor.lineHeight": 20,
-  // "editor.fontSize": 12,
-
-  // Custom:
-  "editor.fontFamily": "'SFMono-Regular', Hack, 'IBM Plex Mono', 'Sudo', 'Dank Mono', 'Input Mono', 'Fira Code','Consolas','Liberation Mono','Menlo','Courier','monospace'",
-  "editor.lineHeight": 22,
-  "editor.fontSize": 14,
+  "editor.fontFamily": "'SFMono', 'Roboto Mono', 'Fira Code', 'Victor Mono', 'Cascadia Code', 'JetBrains Mono', 'Dank Mono','Consolas','Liberation Mono','Menlo','Courier','monospace'",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 20,
+  "editor.fontSize": 12,
 
   "editor.autoIndent": "full",
   "codestats.apikey": "SFMyNTY.Y205c2JHVT0jI05qWXhPQT09.ORJkNVcSU9GrW5x1Q5Tw2Y_8s2HTAjd4We8-BFLqgEE",
@@ -33,7 +19,7 @@
   "scss.validate": true,
   "phpcs.enable": true,
   "phpcs.executablePath": "/Users/rolle/Projects/PHP_CodeSniffer/bin/phpcs",
-  "phpcs.standard": "${workspaceFolder}/content/themes/${workspaceFolderBasename}/phpcs.xml",
+  // "phpcs.standard": "${workspaceFolder}/content/themes/${workspaceFolderBasename}/phpcs.xml",
   "phpcs.showSources": true,
   "auto-close-tag.SublimeText3Mode": true,
   "scssLint.runOnTextChange": false,
@@ -166,64 +152,424 @@
     "**/*.css": true,
     "**/*all.js": true
   },
-  "workbench.iconTheme": "helium-icon-theme",
   "material-icon-theme.saturation": 0,
   "material-icon-theme.opacity":  0.8,
   "helium-icon-theme.saturation": 0,
   "helium-icon-theme.opacity": 0.8,
+  "colorize.colorized_variables": [
+    "SASS",
+    "CSS",
+  ],
+  "nightlight.overrideUntil": "2020-06-16T20:13:57.359Z",
   "nightlight.nightTheme": "Github Dark",
   "nightlight.dayTheme": "Github",
   "nightlight.dayIconTheme": "city-lights-icons-vsc",
   "nightlight.nightIconTheme": "city-lights-icons-vsc", 
   "nightlight.gpsLat": 62.2398897,
   "nightlight.gpsLong": 25.739983,
-  "workbench.colorCustomizations": {  
-    "editor.wordHighlightBackground": "#fffd99",
-    "editor.wordHighlightStrongBackground": "#fffd99",
-    "editor.findMatchBackground": "#fffd99",
-    "editor.findMatchHighlightBackground": "#fffd99",
-    "editor.findRangeHighlightBackground": "#fffd99",
-    "editor.selectionBackground": "#fffd99",
-    "activityBar.activeBorder": "#24292e", 
-    "activityBarBadge.background": "#d73a49",
-    "list.highlightForeground": "#d73a49",
-    "list.activeSelectionForeground": "#d73a49",
-    "list.inactiveSelectionForeground": "#d73a49",
-    "list.hoverForeground": "#d73a49",
-    "list.focusForeground": "#d73a49",
-    "button.background": "#d73a49",
-    "editorSuggestWidget.highlightForeground": "#d73a49",   
-    "list.activeSelectionBackground": "#eeeeee",
-    "list.inactiveSelectionBackground": "#eeeeee",
-    "list.hoverBackground": "#eeeeee",
-    "list.focusBackground": "#eeeeee",   
-  }, 
+  // Dracula theme:
+  // "workbench.colorCustomizations": {  
+  //     // Sidebar:
+  //     "sideBar.background": "#465073",
+  //     "sideBar.foreground": "#b5b9c7",
+  //     "sideBar.border": "#465073",
+  //     "sideBarSectionHeader.border": "#465073",
+  //     "sideBarSectionHeader.background": "#465073",
+  //     "sideBar.dropBackground": "#465073",
+  //     "activityBar.background": "#465073", 
+  //     "list.activeSelectionBackground": "#7b6ffb",
+  //     "list.inactiveSelectionBackground": "#7b6ffb",
+  //     "list.hoverBackground": "#7b6ffb",
+  //     "list.focusBackground": "#7b6ffb",
+
+  //     // Disable shadows:
+  //     "scrollbar.shadow": "#ffffff00",
+  //     "widget.shadow": "#ffffff00",
+
+  //     // Editor
+  //     "editorWidget.background": "#535b8b",
+  //     "editorLineNumber.foreground": "#535b8b",
+  //     "editorLineNumber.activeForeground": "#5e6699",
+  //     "panel.background": "#31395a",
+  //     "editor.background": "#31395a",
+  //     "editorWidget.border": "#31395a",
+  //     "panelSectionHeader.border": "#31395a",
+  //     "breadcrumb.background": "#31395a",
+  //     "breadcrumbPicker.background": "#31395a",
+  //     "breadcrumb.foreground": "#b5b9c7",
+  //     "panelSection.border": "#31395a",
+
+  //     // Tabs
+  //     "tab.activeBackground": "#31395a",
+  //     "tab.inactiveBackground": "#242a42",
+  //     "tab.border": "#31395a",
+  //     "tab.activeBorder": "#31395a",
+  //     "editorGroup.emptyBackground": "#31395a",
+  //     "editorPane.background": "#31395a",
+  //     "editorGroup.dropBackground": "#31395a", 
+
+  //     // Statusbar
+  //     "statusBar.background": "#31395a",
+  //     "statusBar.border": "#31395a",
+  //     "statusBar.foreground": "#b5b9c7",
+  // },
+  // "editor.tokenColorCustomizations": {
+  //   "comments": "#6272a4",
+  //   "textMateRules": [
+  //     {
+  //       "scope": "entity.name.tag",
+  //       "settings": {
+  //         "foreground": "#66d9ef"
+  //       }
+  //     },
+  //   ]
+  // },  
+  // GitHub light theme:
+  // "workbench.colorCustomizations": {  
+  //   // Disable shadows:
+  //   "scrollbar.shadow": "#ffffff00",
+  //   "widget.shadow": "#ffffff00",
+
+  //   "editor.wordHighlightBackground": "#fffd99",
+  //   "editor.wordHighlightStrongBackground": "#fffd99",
+  //   "editor.findMatchBackground": "#fffd99",
+  //   "editor.findMatchHighlightBackground": "#fffd99",
+  //   "editor.findRangeHighlightBackground": "#fffd99",
+  //   "editor.selectionBackground": "#fffd99",
+  //   "activityBar.activeBorder": "#24292e", 
+  //   "activityBarBadge.background": "#d73a49",
+  //   "list.highlightForeground": "#d73a49",
+  //   "list.activeSelectionForeground": "#d73a49",
+  //   "list.inactiveSelectionForeground": "#d73a49",
+  //   "list.hoverForeground": "#d73a49",
+  //   "list.focusForeground": "#d73a49",
+  //   "button.background": "#d73a49",
+  //   "editorSuggestWidget.highlightForeground": "#d73a49",   
+  //   "list.activeSelectionBackground": "#eeeeee",
+  //   "list.inactiveSelectionBackground": "#eeeeee",
+  //   "list.hoverBackground": "#eeeeee",
+  //   "list.focusBackground": "#eeeeee",
+  // }, 
+  // "editor.tokenColorCustomizations": {
+  //   "textMateRules": [
+  //     {
+  //       "scope": "entity.name.tag",
+  //       "settings": {
+  //         "foreground": "#53a4b4"
+  //       }
+  //     },      
+  //     {
+  //       "scope": "meta.property-value.scss",
+  //       "settings": {
+  //         "foreground": "#d73a49"
+  //       }
+  //     },
+  //     {
+  //       "scope": "punctuation.definition.variable.php",
+  //       "settings": {
+  //         "foreground": "#005cc5"
+  //       }
+  //     },      
+  //     {
+  //       "scope": "variable.scss",
+  //       "settings": {
+  //         "foreground": "#e36209"
+  //       }
+  //     },      
+  //   ]
+  // },
+
+  // Custom, bulletbroof modifications for synthwave.css
+  "workbench.colorCustomizations": {
+    // Disable shadows:
+    "scrollbar.shadow": "#ffffff00",
+    "widget.shadow": "#ffffff00",    
+  
+    "sideBar.border": "#232830",
+    "sideBarSectionHeader.border": "#232830",
+    "activityBar.activeBorder": "#232830", 
+    "activityBar.border": "#232830", 
+
+    "activityBar.background": "#232830",
+    "list.activeSelectionForeground": "#ffffff",
+    "list.dropBackground": "#232830",
+    "list.focusBackground": "#232830",
+    "list.focusForeground": "#ffffff",
+    "list.highlightForeground": "#f97e72",
+    "list.hoverBackground": "#2a213999",
+    "list.hoverForeground": "#ffffff",
+    "list.inactiveSelectionBackground": "#343d46",
+    "list.inactiveSelectionForeground": "#ffffff",
+    "list.inactiveFocusBackground": "#2a213999",
+    "sideBar.background": "#232830",
+    "sideBar.foreground": "#ffffff80",
+    "sideBar.dropBackground": "#232830",
+    "sideBarSectionHeader.background": "#232830",
+    "sideBarSectionHeader.foreground": "#ffffffca",
+    "debugToolBar.background": "#232830",
+    "peekViewResult.selectionBackground": "#23283080",
+    "peekViewTitle.background": "#232830",
+    "walkThrough.embeddedEditorBackground": "#232830",
+    "terminal.selectionBackground": "#232830",
+    "breadcrumbPicker.background": "#232830",
+    "statusBar.background": "#1b1f27",
+    "scrollbar.shadow": "#232830",
+    "editor.background": "#2b303c",
+    "statusBar.foreground": "#ffffff50",
+    "editor.selectionBackground": "#525b73",
+    "editor.selectionHighlightBackground": "#2b303c",
+    "statusBarItem.prominentHoverBackground": "#232830",
+    "editorBracketMatch.background": "#232830",
+    "editorWidget.background": "#232830",
+    "peekViewEditor.background": "#232830",
+    "peekViewResult.background": "#232830",
+    "statusBar.noFolderBackground": "#241b2f",
+    "statusBarItem.prominentBackground": "#232830",
+    "titleBar.activeBackground": "#232830",
+    "titleBar.inactiveBackground": "#232830",
+    "settings.textInputBackground": "#232830",
+    "settings.numberInputBackground": "#232830",
+    "searchEditor.textInputBorder": "#232830",
+    "tab.border": "#232830",
+    "tab.activeBorder": "#2b303c",
+    "tab.inactiveBackground": "#232830",
+    "editorGroup.dropBackground": "#232830",
+    "editorGroupHeader.tabsBackground": "#232830",
+    "input.background": "#232830",
+    "activityBar.dropBackground": "#232830",
+    "activityBarBadge.foreground": "#232830",
+    "editorCursor.background": "#2b303c",
+    "editorCursor.foreground": "#e2e2e2",
+    "editor.wordHighlightBackground": "#674ba2",
+    "editor.wordHighlightStrongBackground": "#674ba2",
+    "editor.findMatchBackground": "#674ba2",
+    "editor.findMatchHighlightBackground": "#674ba2",
+    "editor.findRangeHighlightBackground": "#674ba2",
+    "editor.hoverHighlightBackground": "#404655",
+    "editor.lineHighlightBackground": "#2b303c",
+    "editor.rangeHighlightBackground": "#404655",
+    "editorIndentGuide.background": "#404655",
+    "editorIndentGuide.activeBackground": "#404655",
+    "editorRuler.foreground": "#404655",
+    "widget.shadow": "#232830",
+    "editorHoverWidget.background": "#232830",
+    "editorHoverWidget.border": "#232830",
+    "editorSuggestWidget.background": "#232830",
+    "editorSuggestWidget.border": "#232830",
+    "editorGroup.border": "#232830",
+    "list.activeSelectionBackground": "#232830",
+    "button.background": "#232830",
+    "progressBar.background": "#232830",
+    "badge.background": "#232830",
+    "panelTitle.activeBorder": "#232830",
+    "panelTitle.inactiveForeground": "#232830",
+    "statusBar.debuggingBackground": "#232830",
+    "pickerGroup.foreground": "#232830",
+    "inputOption.activeBorder": "#232830",
+    "focusBorder": "#2b303d",
+    "peekView.border": "#232830",
+    "peekViewResult.matchHighlightBackground": "#232830",
+    "peekViewEditor.matchHighlightBackground": "#232830",
+    "quickInput.background": "#333d46",
+    "quickInput.foreground": "#9ca2b0"
+  },
   "editor.tokenColorCustomizations": {
+    "comments": "#6272a4",
     "textMateRules": [
+    //   {
+    //     "scope": "entity.name.tag",
+    //     "settings": {
+    //       "foreground": "#66d9ef"
+    //     }
+    //   },
       {
-        "scope": "meta.property-value.scss",
+        "scope": "entity.name.function.php",
         "settings": {
-          "foreground": "#d73a49"
+          "foreground": "#f8f8f0"
         }
       },
       {
-        "scope": "variable.scss",
+        "scope": "punctuation.section.array.begin.php",
         "settings": {
-          "foreground": "#e36209"
+          "foreground": "#f8f8f0"
         }
-      },      
+      },
+      {
+        "scope": "punctuation.section.array.end.php",
+        "settings": {
+          "foreground": "#f8f8f0"
+        }
+      },
+      {
+        "scope": "punctuation.separator.key-value.html",
+        "settings": {
+          "foreground": "#f8f8f0"
+        }
+      },
+      {
+        "scope": "punctuation.section.embedded.begin.php",
+        "settings": {
+          "foreground": "#f8f8f0"
+        }
+      },
+      {
+        "scope": "punctuation.section.embedded.end.php",
+        "settings": {
+          "foreground": "#f8f8f0"
+        }
+      },
+      {
+        "scope": "punctuation.definition.string.begin.php",
+        "settings": {
+          "foreground": "#f8f8f0"
+        }
+      },
+      {
+        "scope": "punctuation.definition.string.end.php",
+        "settings": {
+          "foreground": "#f8f8f0"
+        }
+      },
+      {
+        "scope": "punctuation.definition.arguments.start.bracket.round.php",
+        "settings": {
+          "foreground": "#f8f8f0"
+        }
+      },
+      {
+        "scope": "punctuation.definition.arguments.begin.bracket.round.php",
+        "settings": {
+          "foreground": "#f8f8f0"
+        }
+      },
+      {
+        "scope": "punctuation.definition.arguments.end.bracket.round.php",
+        "settings": {
+          "foreground": "#f8f8f0"
+        }
+      },
+      {
+        "scope": "punctuation.definition.arguments.end.bracket.round.php",
+        "settings": {
+          "foreground": "#f8f8f0"
+        }
+      },
+      {
+        "scope": "punctuation.separator.key-value.scss",
+        "settings": {
+          "foreground": "#f8f8f0"
+        }
+      },
+      {
+        "scope": "support.type.property-name.json",
+        "settings": {
+          "foreground": "#e6db74"
+        }
+      },
+      {
+        "scope": "string.quoted.double.json",
+        "settings": {
+          "foreground": "#ece6b2"
+        }
+      },
+      {
+        "scope": "support.constant.font-name.css",
+        "settings": {
+          "foreground": "#ae81ff"
+        }
+      },
+      {
+        "scope": "support.constant.property-value.css",
+        "settings": {
+          "foreground": "#ae81ff"
+        }
+      },
+      {
+        "scope": "entity.name.function.scss",
+        "settings": {
+          "foreground": "#66d9ef"
+        }
+      },   
+      {
+        "scope": "meta.namespace.php",
+        "settings": {
+          "foreground": "#a6e22e"
+        }
+      }
     ]
-  },  
-  "nightlight.overrideUntil": "2020-06-16T20:13:57.359Z",
-  "workbench.colorTheme": "Github",
+  },
   "city-lights-icons-vsc.hidesExplorerArrows": true,
   "search.quickOpen.history.filterSortOrder": "recency",
   "gitlens.menus": false,
   "svgviewer.enableautopreview": false,
   "customizeUI.activityBarHideSettings": true,
   "customizeUI.stylesheet": {
+
+    // Hide useless corner panel
+    ".editor-actions": "display: none !important;",
+
+    // Fix gaps with Customize UI without main window frame
     "body.inline-title-bar:not(.activity-bar-at-bottom) .monaco-workbench:not(.fullscreen) .split-view-container .activitybar:not(.right) .content": "margin-top: 6px !important; height: calc(100% - 6px) !important;",
+
+    // Improvements to greyscale Helium/Material icon theme
+    ".monaco-icon-label>.monaco-icon-label-container *": "font-size: 11px !important;",
     ".show-file-icons .javascript-lang-file-icon.file-icon::before, .show-file-icons .js-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .esx-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .mjs-ext-file-icon.ext-file-icon.file-icon::before,.show-file-icons .json-lang-file-icon.file-icon::before, .show-file-icons .jsonc-lang-file-icon.file-icon::before, .show-file-icons .json-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .tsbuildinfo-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .jscsrc-name-file-icon.jscsrc-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .jshintrc-name-file-icon.jshintrc-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .tsconfig.json-name-file-icon.json-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .tslint.json-name-file-icon.json-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .composer.lock-name-file-icon.lock-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .jsbeautifyrc-name-file-icon.jsbeautifyrc-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .esformatter-name-file-icon.esformatter-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .cdp.pid-name-file-icon.pid-ext-file-icon.ext-file-icon.file-icon::before": "filter: brightness(80%) !important;",
+
+// synthwave84.css:
+".mtk6, span span:nth-child(3).mtk5": "color: #f8f8f0 !important;",
+".mtk5": "color: #ae81ff; text-shadow: 0 0 0 #001716, 0 0 0px #ae81ff75, 0 0 7px #ae81ff75, 0 0 9px #ae81ff75;",
+".search-container .synthetic-focus, .find-part .synthetic-focus": "outline: 1px solid #ae81ff !important;",
+".search-container .synthetic-focus textarea::placeholder, .find-part .synthetic-focus textarea::placeholder": "opacity: 1 !important; color: #ae81ff !important;",
+".search-container .synthetic-focus textarea, .find-part .synthetic-focus textarea": "opacity: 1 !important; color: #ae81ff !important;",
+".monaco-list.list_id_4 .monaco-tl-indent > .indent-guide.active": "border-color: #363c4c !important; opacity: .5;",
+".panel.bottom select, .panel.right select": "background: #4e5766 !important;",
+".settings-editor > .settings-body > .settings-tree-container .setting-item-bool .setting-value-checkbox, .monaco-workbench select": "background: #232830 !important;",
+".panel.bottom .action-item a, .panel.right .action-item a, .monaco-workbench .part.panel > .title > .panel-switcher-container > .monaco-action-bar .action-item:hover .action-label, .monaco-workbench .part.panel>.composite.title>.panel-switcher-container>.monaco-action-bar .action-item .action-label": "color: #4e5766 !important; border-bottom-color: transparent !important;",
+".action-item .action-label": "opacity: 1 !important; color: rgba(255, 255, 255, 1) !important;",
+".action-item.checked .action-label": "color: rgba(255, 255, 255, 1) !important;", ".panel.bottom .action-item a:hover, .panel.bottom .action-item:hover, .panel.bottom .action-item:hover a, .panel.bottom .action-item.clicked a, .panel.bottom .action-item.clicked, .panel.bottom .action-item:hover, .panel.right .action-item a:hover, .panel.right .action-item:hover, .panel.right .action-item:hover a, .panel.right .action-item.clicked a, .panel.right .action-item.clicked, .panel.right .action-item:hover": "color: #5c6980 !important; border-bottom-color: transparent !important;",
+".badge-content, .monaco-workbench .activitybar>.content :not(.monaco-menu)>.monaco-action-bar .badge .badge-content": "opacity: 1 !important;",
+".badge-content:hover": "opacity: 1 !important;",
+".monaco-editor-hover-content": "font-size: 12px !important;",
+".monaco-editor-hover *": "font-size: 12px !important;",
+".monaco-editor .monaco-editor-hover": "border-radius: 4px; padding: 8px;",
+".suggest-widget .tree": "border-radius: 4px !important;font-size: 14px !important;padding: 8px !important;",
+".suggest-widget .tree *": "font-size: 14px !important;", 
+".suggest-widget .tree .icon": "margin-right: 5px !important;", 
+".monaco-editor": "background-color: #2b303c !important; background-image: none !important;", 
+".monaco-breadcrumbs": "background-color: transparent !important;", 
+".quick-input-list .quick-input-list-separator": "color: #5d697b !important;", 
+".quick-input-list .label-name": "font-size: 13px !important;", 
+".monaco-workbench .part.panel.bottom .composite.title": "border-color: #363c49 !important;", 
+".monaco-workbench": "color: #98a2b1 !important;", 
+".monaco-workbench ::selection, .monaco-workbench ::placeholder, .panel.bottom .composite.title .monaco-inputbox::placeholder": "color: #4e5766 !important;", 
+".panel.bottom .composite.title input, .panel.bottom .composite.title .monaco-inputbox": "background-color: transparent !important", 
+".monaco-workbench .activitybar > .content .monaco-action-bar .action-item.checked": "background: transparent !important; box-shadow: none !important; border: 0; box-shadow: inset 0 -5px 25px #fc28a825;position: relative;", 
+".monaco-workbench .activitybar > .content .monaco-action-bar .action-item.checked a": "color: #fff !important;", 
+".monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .action-item.checked .active-item-indicator:before": "border-left-color: transparent;background: transparent !important;", 
+".monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab .tab-label a,.monaco-workbench .part.editor > .content .editor-group-container > .title .title-label a": "font-size: 11px;", 
+".monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab, .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container, .monaco-workbench .part.editor > .content .editor-group-container > .title.tabs > .tabs-and-actions-container, body.inline-title-bar .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab .monaco-icon-label:before, body.inline-title-bar .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container, body.inline-title-bar .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab, body.inline-title-bar .monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions, body.inline-title-bar .monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions .action-label, .monaco-workbench .part.editor>.content .editor-group-container>.title .title-actions .action-label": "height: 25px !important; overflow: visible !important; line-height: 25px !important;", 
+".monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions": "padding: 7px 8.5px;", 
+".monaco-pane-view .pane>.pane-header h3.title,.monaco-workbench .codicon": "color: #757c82 !important;", 
+".monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions .action-label,.monaco-workbench .part.editor>.content .editor-group-container>.title .title-actions .action-label": "opacity: .8 !important; background-position: 8px 3px !important;", 
+".monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions .action-label:hover,.monaco-workbench .part.editor>.content .editor-group-container>.title .title-actions .action-label:hover": "opacity: 1 !important;", 
+".monaco-workbench .part.editor > .content .editor-group-container > .title .title-label a, .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab .tab-label a": "font-size: 11px !important;", 
+".monaco-editor .margin-view-overlays .line-numbers": "color: #51596e;", 
+".mtk3": "color: #696e7a;", 
+".monaco-button,.monaco-text-button": "background: #232830 !important;", 
+".extension-list-item .monaco-action-bar .action-item .action-label.extension-action.label.prominent,.extension-editor .monaco-action-bar .action-item .action-label.extension-action.label.prominent": "color: #fff !important;", 
+".monaco-icon-label > .monaco-icon-label-container > .monaco-icon-name-container > .label-name": "font-size: 11px;", 
+".monaco-workbench .activitybar > .content .monaco-action-bar .badge .badge-content": "background: linear-gradient(to bottom, #fff951 25%, #fc28a8);", 
+".monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.sizing-fit.active": "box-shadow: inset 0 -5px 25px #fc28a825;position: relative;", 
+".monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.sizing-fit.active::after": "content: '';position: absolute;bottom: -2px;left: 0;right: 0;height: 2px;background: linear-gradient(to right, #fc28a8, #03edf9) !important;opacity: 1;z-index: 6;", 
+".monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.sizing-fit::after": "content: '';position: absolute;bottom: -1px;left: 0;right: 0;height: 0px;transition: opacity 1s;opacity: 0;z-index: 6;", 
+".monaco-workbench .activitybar > .content .monaco-action-bar .action-item.checked::after": "content: '';position: absolute;bottom: 0px;top: 0px;left: 0px;width: 4px;background: linear-gradient(to bottom, #fc28a8, #03edf9) !important;opacity: 1; display: none;", 
+".monaco-workbench .activitybar > .content .monaco-action-bar .action-item::after": "content: '';position: absolute;bottom: 0px;top: 0px;left: 0px;width: 0px;transition: opacity 1s;opacity: 0;", 
+".lightbulb-glyph": "background: url(\"data:image/svg+xml, %3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect fill='%23ffffff' x='5.68' y='6.93' width='2.1' height='6.1' rx='0.96' transform='translate(-1.94 1.63) rotate(-12.09)'/%3E%3Cpath fill='%2303edf9' d='M7.08, 13.5a1.46, 1.46, 0, 0, 1-1.43-1.16L4.77, 8.26A1.47, 1.47, 0, 0, 1, 5.9, 6.53l.17, 0A1.46, 1.46, 0, 0, 1, 7.81, 7.61l.87, 4.09a1.46, 1.46, 0, 0, 1-1.12, 1.73l-.18, 0Zm-.7-6h-.1l-.17, 0a.45.45, 0, 0, 0-.29.21.45.45, 0, 0, 0-.07.34l.88, 4.09a.46.46, 0, 0, 0, .54.35l.18, 0a.46.46, 0, 0, 0, .29-.2.48.48, 0, 0, 0, .07-.35L6.83, 7.82A.46.46, 0, 0, 0, 6.38, 7.46Z'/%3E%3Crect fill='%23ffffff' x='8.22' y='6.93' width='2.1' height='6.1' rx='0.96' transform='translate(16.25 21.68) rotate(-167.91)'/%3E%3Cpath fill='%2303edf9' d='M8.93, 13.5a1.63, 1.63, 0, 0, 1-.31, 0l-.18, 0A1.46, 1.46, 0, 0, 1, 7.32, 11.7l.87-4.09A1.47, 1.47, 0, 0, 1, 9.93, 6.49l.18, 0a1.45, 1.45, 0, 0, 1, .92.63, 1.47, 1.47, 0, 0, 1, .2, 1.1l-.88, 4.08a1.45, 1.45, 0, 0, 1-.63.93A1.48, 1.48, 0, 0, 1, 8.93, 13.5Zm.69-6a.45.45, 0, 0, 0-.25.07.5.5, 0, 0, 0-.2.29L8.3, 11.9a.43.43, 0, 0, 0, .06.35.46.46, 0, 0, 0, .29.2l.18, 0a.47.47, 0, 0, 0, .55-.35l.87-4.09a.45.45, 0, 0, 0-.06-.34A.47.47, 0, 0, 0, 9.9, 7.5l-.18, 0Z'/%3E%3Cpath fill='%23ffffff' d='M11.77, 9l-3.53.67a1, 1, 0, 0, 1-1.15-.88h0A1.09, 1.09, 0, 0, 1, 7.9, 7.48l3.53-.67a1, 1, 0, 0, 1, 1.15.89h0A1.08, 1.08, 0, 0, 1, 11.77, 9Z'/%3E%3Cpath fill='%2303edf9' d='M8.07, 10.18A1.54, 1.54, 0, 0, 1, 6.6, 8.83a1.74, 1.74, 0, 0, 1, .25-1.22, 1.46, 1.46, 0, 0, 1, 1-.66l3.52-.67A1.51, 1.51, 0, 0, 1, 13.07, 7.6a1.61, 1.61, 0, 0, 1-1.22, 1.88l-3.52.67A1.15, 1.15, 0, 0, 1, 8.07, 10.18ZM11.6, 7.34h-.09L8, 8a.53.53, 0, 0, 0-.4.62.5.5, 0, 0, 0, .57.44l3.52-.67a.54.54, 0, 0, 0, .41-.62A.53.53, 0, 0, 0, 11.6, 7.34Z'/%3E%3Cpath fill='%23ffffff' d='M11.74, 6.74, 4.67, 8.08A1, 1, 0, 0, 1, 3.52, 7.2h0A1.08, 1.08, 0, 0, 1, 4.33, 6l7.06-1.34a1, 1, 0, 0, 1, 1.16.88h0A1.08, 1.08, 0, 0, 1, 11.74, 6.74Z'/%3E%3Cpath fill='%2303edf9' d='M4.5, 8.64a1.44, 1.44, 0, 0, 1-.86-.29A1.64, 1.64, 0, 0, 1, 3, 7.29a1.72, 1.72, 0, 0, 1, .25-1.21, 1.48, 1.48, 0, 0, 1, 1-.67l7.07-1.34a1.39, 1.39, 0, 0, 1, 1.11.27A1.65, 1.65, 0, 0, 1, 13, 5.4a1.72, 1.72, 0, 0, 1-.25, 1.21, 1.48, 1.48, 0, 0, 1-1, .67L4.76, 8.62Zm7.07-3.5h-.09L4.42, 6.49a.45.45, 0, 0, 0-.32.22.56.56, 0, 0, 0-.09.4.61.61, 0, 0, 0, .21.35.47.47, 0, 0, 0, .36.09L11.65, 6.2A.47.47, 0, 0, 0, 12, 6a.51.51, 0, 0, 0, .08-.4.55.55, 0, 0, 0-.2-.35A.47.47, 0, 0, 0, 11.57, 5.14Z'/%3E%3Cpath fill='%23ffffff' d='M11.7, 4.52, 4.64, 5.86A1, 1, 0, 0, 1, 3.49, 5h0A1.09, 1.09, 0, 0, 1, 4.3, 3.72l7.06-1.34a1, 1, 0, 0, 1, 1.15.88h0A1.09, 1.09, 0, 0, 1, 11.7, 4.52Z'/%3E%3Cpath fill='%2303edf9' d='M4.46, 6.42a1.36, 1.36, 0, 0, 1-.85-.3, 1.58, 1.58, 0, 0, 1-.61-1A1.61, 1.61, 0, 0, 1, 4.21, 3.19l7.07-1.34a1.35, 1.35, 0, 0, 1, 1.11.27, 1.58, 1.58, 0, 0, 1, .61, 1, 1.74, 1.74, 0, 0, 1-.25, 1.22, 1.44, 1.44, 0, 0, 1-1, .66L4.72, 6.39A1.09, 1.09, 0, 0, 1, 4.46, 6.42Zm7.07-3.51h-.08L4.38, 4.26a.53.53, 0, 0, 0-.4.62.5.5, 0, 0, 0, .57.44L11.62, 4a.47.47, 0, 0, 0, .32-.22.62.62, 0, 0, 0, .08-.4.56.56, 0, 0, 0-.2-.35A.53.53, 0, 0, 0, 11.53, 2.91Z'/%3E%3Cpath fill='%23ffffff' d='M8.34, 2.89, 4.57, 3.6a1, 1, 0, 0, 1-1.15-.88h0a1.08, 1.08, 0, 0, 1, .81-1.25L8, .75a1, 1, 0, 0, 1, 1.15.89h0A1.08, 1.08, 0, 0, 1, 8.34, 2.89Z'/%3E%3Cpath fill='%2303edf9' d='M4.4, 4.16a1.44, 1.44, 0, 0, 1-.86-.29, 1.69, 1.69, 0, 0, 1-.61-1.05A1.74, 1.74, 0, 0, 1, 3.18, 1.6a1.51, 1.51, 0, 0, 1, 1-.67L7.91.22A1.38, 1.38, 0, 0, 1, 9, .49a1.58, 1.58, 0, 0, 1, .61, 1.05, 1.74, 1.74, 0, 0, 1-.25, 1.22, 1.47, 1.47, 0, 0, 1-1, .66l-3.77.72A1.18, 1.18, 0, 0, 1, 4.4, 4.16ZM8.17, 1.28H8.09L4.32, 2A.45.45, 0, 0, 0, 4, 2.23a.51.51, 0, 0, 0-.08.4.55.55, 0, 0, 0, .2.35.49.49, 0, 0, 0, .37.09l3.77-.72a.47.47, 0, 0, 0, .32-.22.62.62, 0, 0, 0, .08-.4.56.56, 0, 0, 0-.2-.35A.53.53, 0, 0, 0, 8.17, 1.28Z'/%3E%3Cpolygon fill='%231e1e1e' points='5.5 11.1 5.5 11.1 5.5 14.4 7.1 16 9.1 16 10.6 14.4 10.6 11.1 5.5 11.1'/%3E%3Cpath fill='%23c5c5c5' d='M6.5, 12h3v1h-3Zm1, 3H8.6l.9-1h-3Z'/%3E%3C/svg%3E\") 50% no-repeat !important;filter: drop-shadow(0 0 5px #03edf9);", 
+"body.mac.activity-bar-at-bottom .monaco-workbench .monaco-grid-view .activitybar .monaco-action-bar .action-label.activity-workbench-view-extension-package-explorer": "height: 48px !important; -webkit-mask-size: 30px 30px !important;", 
   },
   "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-}
+  "sync.gist": "05b1969d1a6ce9824b149e43bfe11495",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.minimap.enabled": true,
+  "workbench.colorTheme": "Dracula Soft",
+  }
