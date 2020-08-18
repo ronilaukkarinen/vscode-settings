@@ -561,7 +561,7 @@
 ".monaco-workbench ::selection": "color: #fff !important",
 ".markers-panel .markers-panel-container .message-box-container": "padding-top: 10px !important;",
 ".markers-panel .markers-panel-container .message-box-container span": "opacity: .6 !important; font-size: 11px !important; color: #f6f6f4 !important;",
-".markers-panel .marker-message-details-container span": "font-size: 12px !important; color: #f6f6f4 !important;",
+".markers-panel .marker-message-details-container span": "font-size: 11px !important; color: #f6f6f4 !important;",
 ".panel.bottom .composite.title input, .panel.bottom .composite.title .monaco-inputbox": "background-color: transparent !important",
 ".monaco-workbench .activitybar > .content .monaco-action-bar .action-item.checked": "background: transparent !important; box-shadow: none !important; border: 0; box-shadow: inset 0 -5px 25px #fc28a825;position: relative;", 
 ".monaco-workbench .activitybar > .content .monaco-action-bar .action-item.checked a": "color: #fff !important;", 
