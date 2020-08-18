@@ -533,7 +533,7 @@
 ".suggest-widget .tree": "border-radius: 4px !important;font-size: 14px !important;padding: 8px !important;",
 ".suggest-widget *": "font-size: 14px !important;", 
 ".suggest-widget": "font-size: 14px !important;", 
-".suggest-widget .details *, .suggest-widget .details div, .suggest-widget .details div span, .suggest-widget .details div p, .suggest-widget .details p, .suggest-widget .details .docs": "font-family: 'SFMono' !important; font-size: 11px !important;", 
+".suggest-widget .details *, .suggest-widget .details div, .suggest-widget .details div span, .suggest-widget .details div p, .suggest-widget .details p, .suggest-widget .docs, .suggest-widget .header, .suggest-widget span": "font-family: 'SFMono' !important; font-size: 11px !important;", 
 ".suggest-widget .tree .icon": "margin-right: 5px !important;", 
 ".monaco-editor": "background-color: #2b303c !important; background-image: none !important;", 
 ".monaco-breadcrumbs": "background-color: transparent !important;", 
