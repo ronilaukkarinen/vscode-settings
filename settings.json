@@ -280,6 +280,17 @@
   // },
 
   // Custom, bulletbroof modifications for synthwave.css
+  // "todohighlight.include": [
+  //   "**/*.scss"
+  // ],
+  // "todohighlight.keywords": [
+  //   {
+  //       "text": "cursor",
+  //       "color": "#97e1f1",
+  //       "backgroundColor": "#2b303c",
+  //       "overviewRulerColor": "#2b303c"
+  //   }
+  // ],  
   "workbench.colorCustomizations": {
     // Disable shadows:
     "scrollbar.shadow": "#ffffff00",
