@@ -101,7 +101,7 @@
   "git.autofetch": true,
   "breadcrumbs.enabled": true,
   "editor.renderWhitespace": "all",
-  "workbench.activityBar.visible": true,
+  "workbench.activityBar.visible": false,
   "editor.matchBrackets": "never",
   "editor.tabSize": 2,
   "html.format.contentUnformatted": "pre,code,textarea",
