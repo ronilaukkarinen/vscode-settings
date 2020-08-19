@@ -10,7 +10,23 @@
   "editor.fontLigatures": true,
   "editor.lineHeight": 20,
   "editor.fontSize": 12,
-  "editor.renderLineHighlight": "all",
+  "editor.renderLineHighlight": "none",
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "full": {
+        "surround": "#bd93f9",
+      },
+      "left": {
+        "surround": "#bd93f9",
+      },
+      "right": {
+        "surround": "#bd93f9",
+      },    
+      "closing": {
+        "surround": "#bd93f9",
+      },    
+    },
+  },
   "editor.autoIndent": "full",
   "codestats.apikey": "SFMyNTY.Y205c2JHVT0jI05qWXhPQT09.ORJkNVcSU9GrW5x1Q5Tw2Y_8s2HTAjd4We8-BFLqgEE",
   "codestats.username": "rolle",
@@ -328,6 +344,7 @@
     "editor.background": "#2b303c",
     "statusBar.foreground": "#ffffff50",
     "editor.selectionBackground": "#674ba2",
+    "editor.inactiveSelectionBackground": "#563f86",
     "editor.selectionHighlightBackground": "#2b303c",
     "statusBarItem.prominentHoverBackground": "#232830",
     "editorBracketMatch.background": "#232830",
