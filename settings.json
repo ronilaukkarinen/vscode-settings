@@ -607,6 +607,8 @@
 "body.mac.activity-bar-at-bottom .monaco-workbench .monaco-grid-view .activitybar .monaco-action-bar .action-label.activity-workbench-view-extension-package-explorer": "height: 48px !important; -webkit-mask-size: 30px 30px !important;", 
 ".search-view .search-widget .monaco-inputbox>.wrapper>textarea.input, .search-view .linematch *": "font-size: 11px",
 ".quick-input-list .quick-input-list-entry": "border: 0 !important",
+".statusbar": "background: #1b1f27 !important",
+".monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.sizing-fit.active": "box-shadow: none !important; background-color: #232830 !important;",
   },
   "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
   "sync.gist": "05b1969d1a6ce9824b149e43bfe11495",
