@@ -346,7 +346,7 @@
     "statusBar.foreground": "#ffffff50",
     "editor.selectionBackground": "#674ba2",
     "editor.inactiveSelectionBackground": "#563f86",
-    "editor.selectionHighlightBackground": "#2b303c",
+    "editor.selectionHighlightBackground": "#2b303c00",
     "statusBarItem.prominentHoverBackground": "#232830",
     "editorBracketMatch.background": "#232830",
     "editorWidget.background": "#232830",
