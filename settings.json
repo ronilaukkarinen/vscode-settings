@@ -601,7 +601,7 @@
 ".monaco-icon-label > .monaco-icon-label-container > .monaco-icon-name-container > .label-name": "font-size: 11px;", 
 ".monaco-workbench .activitybar > .content .monaco-action-bar .badge .badge-content": "background: linear-gradient(to bottom, #fff951 25%, #fc28a8);", 
 ".monaco-workbench .activitybar>.content :not(.monaco-menu)>.monaco-action-bar .action-label.codicon, .monaco-workbench .activitybar>.content .monaco-action-bar .action-label": "background: #232830 !important;",
-".monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.sizing-fit.active": "box-shadow: inset 0 -5px 25px #fc28a825;position: relative;", 
+".monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.sizing-fit.active": "box-shadow: inset 0 -5px 25px #fc28a825;position: relative;box-shadow: none !important; background-color: #232830 !important;", 
 ".monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.sizing-fit.active::after": "content: '';position: absolute;bottom: -2px;left: 0;right: 0;height: 2px;background: linear-gradient(to right, #fc28a8, #03edf9) !important;opacity: 1;z-index: 6;", 
 ".monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.sizing-fit::after": "content: '';position: absolute;bottom: -1px;left: 0;right: 0;height: 0px;transition: opacity 1s;opacity: 0;z-index: 6;", 
 ".monaco-workbench .activitybar > .content .monaco-action-bar .action-item.checked::after": "content: '';position: absolute;bottom: 0px;top: 0px;left: 0px;width: 4px;background: linear-gradient(to bottom, #fc28a8, #03edf9) !important;opacity: 1; display: none;", 
@@ -611,7 +611,6 @@
 ".search-view .search-widget .monaco-inputbox>.wrapper>textarea.input, .search-view .linematch *": "font-size: 11px",
 ".quick-input-list .quick-input-list-entry": "border: 0 !important",
 ".statusbar": "background: #1b1f27 !important",
-".monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.sizing-fit.active": "box-shadow: none !important; background-color: #232830 !important;",
   },
   "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
   "sync.gist": "05b1969d1a6ce9824b149e43bfe11495",
@@ -642,4 +641,8 @@
       "php"
     ]
   },
+  "compile-hero.sass-output-toggle": false,
+  "compile-hero.scss-output-toggle": false,
+  "compile-hero.typescript-output-toggle": false,
+  "compile-hero.typescriptx-output-toggle": false,
   }
