@@ -152,12 +152,15 @@
     "editor.formatOnSave": true
   },
   "[json]": {
+    "editor.defaultFormatter": "Wscats.qf",
     "editor.formatOnSave": true
   },
   "[php]": {
-    "editor.formatOnSave": false
+    "editor.defaultFormatter": "Wscats.qf",
+    "editor.formatOnSave": true
   },
   "[html]": {
+    "editor.defaultFormatter": "Wscats.qf",
     "editor.formatOnSave": true
   },
   "[vue]": {
@@ -615,4 +618,28 @@
   "editor.minimap.enabled": true,
   "workbench.colorTheme": "Dracula Soft",
   "workbench.iconTheme": "helium-icon-theme",
+  "compile-hero.language": {
+
+    "js": {
+      "type": [
+        "javascript",
+        "json",
+        "jsonc"
+      ],
+      "filename": [
+        ".jshintrc",
+        ".jsbeautifyrc"
+      ]
+    },
+    "css": [
+      "css",
+      "less",
+      "scss"
+    ],
+    "html": [
+      "htm",
+      "html",
+      "php"
+    ]
+  },
   }

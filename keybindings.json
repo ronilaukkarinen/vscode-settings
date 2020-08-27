@@ -21,7 +21,12 @@
         "command": "extension.vscode-git-automator.addAndCommitAllFiles"
     },
     {
-        "key": "shift+cmd+r",
-        "command": "editor.action.indentLines"
+        "key": "ctrl+alt+n",
+        "command": "nightlight.toggle"
     },
+    {
+        "key": "shift+cmd+[Period]",
+        "command": "wwm.aligncode",
+        "when": "editorTextFocus && !editorReadonly"
+    }
 ]
