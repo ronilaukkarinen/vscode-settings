@@ -11,6 +11,7 @@
   "editor.lineHeight": 20,
   "editor.fontSize": 12,
   "editor.renderLineHighlight": "none",
+  "indentRainbow.includedLanguages": ["php", "html"],
   "highlight-matching-tag.styles": {
     "opening": {
       "full": {
