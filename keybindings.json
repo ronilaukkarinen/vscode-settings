@@ -25,8 +25,8 @@
         "command": "nightlight.toggle"
     },
     {
-        "key": "shift+cmd+[Period]",
-        "command": "wwm.aligncode",
-        "when": "editorTextFocus && !editorReadonly"
-    }
+        "key": "shift+cmd+r",
+        "command": "editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+    },
 ]

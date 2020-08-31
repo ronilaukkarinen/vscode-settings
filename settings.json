@@ -158,11 +158,11 @@
   },
   "[php]": {
     "editor.defaultFormatter": "Wscats.qf",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": false
   },
   "[html]": {
     "editor.defaultFormatter": "Wscats.qf",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": false
   },
   "[vue]": {
     "editor.formatOnSave": false
