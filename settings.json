@@ -6,12 +6,12 @@
   "powermode.enabled": true,
   // Valid values: particles, fireworks, flames, magic, clippy, simple-rift, exploding-rift
   "powermode.presets": "magic",
-  "editor.fontFamily": "'SFMono', 'Roboto Mono', 'Fira Code', 'Victor Mono', 'Cascadia Code', 'JetBrains Mono', 'Dank Mono','Consolas','Liberation Mono','Menlo','Courier','monospace'",
+  "editor.fontFamily": "'SFMono', 'Roboto Mono', 'Fira Code', 'Victor Mono', 'Cascadia Code', 'JetBrains Mono', 'Dank Mono', 'Consolas', 'Liberation Mono', 'Menlo', 'Courier', 'monospace'",
   "editor.fontLigatures": true,
   "editor.lineHeight": 20,
   "editor.fontSize": 12,
   "editor.renderLineHighlight": "none",
-  "indentRainbow.includedLanguages": ["php", "html"],
+  "indentRainbow.includedLanguages": ["php", "html", "js"],
   "highlight-matching-tag.styles": {
     "opening": {
       "full": {
