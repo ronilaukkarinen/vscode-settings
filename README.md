@@ -33,7 +33,7 @@ So, in summary, how to enable:
 4. Install Monokai Extended or Dracula
 5. Enable Synthwave
 6. Enable Neon Dreams and restart
-7. Enable Monokai Extended or Dracula
+7. Enable Monokai Extended or Dracula Soft from Dracula Official plugin
 
 #### With Dracula:
 ![Screenshot](https://i.imgur.com/yim4rNQ.png "Screenshot")
