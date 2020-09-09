@@ -29,10 +29,10 @@ So, in summary, how to enable:
 
 1. Get settings.json modifications of this repository
 2. Cmd + shift 7, comment out synthwave84.css specific color settings from settings.json if not enabled already
-3. Install Synthwave '84
+3. Install Synthwave '84 and Customize UI
 4. Install Monokai Extended or Dracula
 5. Enable Synthwave
-6. Enable Neon Dreams and restart
+6. Enable Neon Dreams and restart (You may want to install Fix Checksums plugin and apply Fix Checksums)
 7. Enable Monokai Extended or Dracula Soft from Dracula Official plugin
 
 #### With Dracula:
