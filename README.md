@@ -41,8 +41,6 @@ So, in summary, how to enable:
 #### With Monokai Extended:
 ![Screenshot](https://i.imgur.com/8m8ESKo.png "Screenshot")
 
-
-
 ### Light GitHub theme (custom)
 
 Current active theme is GitHub with some fixes and overrides with [custom.css](https://github.com/ronilaukkarinen/vscode-settings/blob/master/custom.css) and [settings.json](https://github.com/ronilaukkarinen/vscode-settings/blob/master/settings.json). The theme is a combination of [GitHub theme for VS Vode](https://github.com/primer/github-vscode-theme), [Github Light Theme](https://github.com/chuling/vscode-theme-github-light) and [GitHub Theme for Visual Studio Code](https://github.com/thomaspink/vscode-github-theme).
@@ -55,3 +53,50 @@ So, in summary, how to enable:
 4. Enable Github
 
 ![Screenshot](https://i.imgur.com/X7NYkhm.png "Screenshot")
+
+### Plugins
+
+Updated 16.9.2020:
+
+``` bash
+$ ls ~/.vscode/extensions/
+1000ch.svgo-1.6.2/                          
+adamwalzer.scss-lint-0.1.10/                
+alefragnani.project-manager-11.3.0/         
+cdonohue.quill-icons-0.0.2/                 
+coenraads.bracket-pair-colorizer-2-0.2.0/   
+cssinate.scss-language-improvements-1.1.1/  
+dbaeumer.vscode-eslint-2.1.8/               
+diigu.copywithline-0.0.2/                   
+dracula-theme.theme-dracula-2.22.1/         
+eamodio.gitlens-10.2.2/                     
+editorconfig.editorconfig-0.15.1/           
+formulahendry.auto-close-tag-0.5.8/         
+formulahendry.auto-rename-tag-0.1.4/        
+gruntfuggly.activitusbar-0.0.35/            
+hangxingliu.vscode-coding-tracker-0.6.0/    
+helgardrichard.helium-icon-theme-1.0.0/     
+ikappas.phpcs-1.0.5/                        
+iocave.customize-ui-0.1.48/                 
+iocave.monkey-patch-0.1.10/                 
+kamikillerto.vscode-colorize-0.8.17/        
+lehni.vscode-fix-checksums-1.1.0/           
+mrmlnc.vscode-scss-0.9.0/                   
+mrmlnc.vscode-stylefmt-2.6.1/               
+ms-python.python-2020.8.108011/             
+ms-python.python-2020.8.109390/             
+ms-vscode.jscs-0.1.9/                       
+ms-vscode.sublime-keybindings-4.0.7/        
+oderwat.indent-rainbow-7.4.0/               
+pnp.polacode-0.3.4/                         
+rashwell.tcl-0.1.0/                         
+riussi.code-stats-vscode-1.0.18/            
+robbowen.synthwave-vscode-0.1.8/            
+softwaredotcom.swdc-100-days-of-code-1.0.10/
+softwaredotcom.swdc-vscode-2.3.10/          
+vincaslt.highlight-matching-tag-0.9.9/      
+wakatime.vscode-wakatime-4.0.8/             
+wscats.qf-6.8.85/                           
+wwm.better-align-1.1.6/                     
+zh9528.file-size-0.1.3/ 
+```
