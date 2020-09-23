@@ -546,7 +546,9 @@
     // Fix gaps with Customize UI without main window frame
     "body.inline-title-bar:not(.activity-bar-at-bottom) .monaco-workbench:not(.fullscreen) .split-view-container .activitybar:not(.right) .content": "margin-top: 6px !important; height: calc(100% - 6px) !important;",
     ".label-name": "transition: all .22s !important",
-    ".monaco-list-row *,.monaco-icon-label>.monaco-icon-label-container *": "font-size: 10px !important;",
+
+    // Fuzzy commands
+    ".monaco-list-row *,.monaco-icon-label>.monaco-icon-label-container *": "font-size: 11px !important;",
 
     // Improvements to greyscale Helium/Material icon theme    
     ".monaco-icon-label:before, .show-file-icons .javascript-lang-file-icon.file-icon::before, .show-file-icons .js-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .esx-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .mjs-ext-file-icon.ext-file-icon.file-icon::before,.show-file-icons .json-lang-file-icon.file-icon::before, .show-file-icons .jsonc-lang-file-icon.file-icon::before, .show-file-icons .json-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .tsbuildinfo-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .jscsrc-name-file-icon.jscsrc-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .jshintrc-name-file-icon.jshintrc-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .tsconfig.json-name-file-icon.json-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .tslint.json-name-file-icon.json-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .composer.lock-name-file-icon.lock-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .jsbeautifyrc-name-file-icon.jsbeautifyrc-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .esformatter-name-file-icon.esformatter-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .cdp.pid-name-file-icon.pid-ext-file-icon.ext-file-icon.file-icon::before": "filter: brightness(70%) !important;background-size: 14px !important; padding-right: 4px !important;",
@@ -595,7 +597,7 @@
 ".monaco-pane-view .pane>.pane-header h3.title,.monaco-workbench .codicon": "color: #757c82 !important;", 
 ".monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions .action-label,.monaco-workbench .part.editor>.content .editor-group-container>.title .title-actions .action-label": "opacity: .8 !important; background-position: 8px 3px !important;", 
 ".monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions .action-label:hover,.monaco-workbench .part.editor>.content .editor-group-container>.title .title-actions .action-label:hover": "opacity: 1 !important;", 
-".monaco-workbench .part.editor > .content .editor-group-container > .title .title-label a, .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab .tab-label a": "font-size: 10px !important;", 
+".monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab .tab-label a": "font-size: 10px !important;", 
 // ".monaco-editor .margin-view-overlays .line-numbers": "color: #51596e;", 
 ".mtk3": "color: #696e7a;", 
 ".monaco-button,.monaco-text-button": "background: #232830 !important;", 
@@ -649,4 +651,5 @@
   "compile-hero.typescript-output-toggle": false,
   "compile-hero.typescriptx-output-toggle": false,
   "python.pythonPath": "/usr/local/opt/python@3.8/bin/python3.8",
+  "workbench.editor.limit.value": 20,
   }
