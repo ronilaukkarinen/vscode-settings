@@ -65,13 +65,11 @@
   },
   "fileheader.custom_template_path": "/Users/rolle/Projects/vscode-settings/fileheaders/",
   "fileheader.file_suffix_mapping": {
-    ".php": "PHP",
-    ".scss": "SCSS",
-    ".css": "CSS"
+    ".php": "PHP"
   },
   "fileheader.author": "Roni Laukkarinen",
   "fileheader.body": false,
-  "fileheader.save": false,
+  "fileheader.save": true,
   "fileheader.ignore": ["*.txt", "*.scss", "*.xml", "*.svg", "style.css"],
   "activitusbar.views": [
     {

@@ -56,13 +56,14 @@ So, in summary, how to enable:
 
 ### Plugins
 
-Updated 16.9.2020:
+Updated 30.9.2020:
 
 ``` bash
 $ ls ~/.vscode/extensions/
 1000ch.svgo-1.6.2/                          
 adamwalzer.scss-lint-0.1.10/                
 alefragnani.project-manager-11.3.0/         
+cacher.cacher-vscode-1.1.1/                 
 cdonohue.quill-icons-0.0.2/                 
 coenraads.bracket-pair-colorizer-2-0.2.0/   
 cssinate.scss-language-improvements-1.1.1/  
@@ -73,18 +74,18 @@ eamodio.gitlens-10.2.2/
 editorconfig.editorconfig-0.15.1/           
 formulahendry.auto-close-tag-0.5.8/         
 formulahendry.auto-rename-tag-0.1.4/        
-gruntfuggly.activitusbar-0.0.35/            
-hangxingliu.vscode-coding-tracker-0.6.0/    
 helgardrichard.helium-icon-theme-1.0.0/     
 ikappas.phpcs-1.0.5/                        
-iocave.customize-ui-0.1.48/                 
+iocave.customize-ui-0.1.49/                 
 iocave.monkey-patch-0.1.10/                 
+jankincai.vscodefileheader-0.5.1/           
 kamikillerto.vscode-colorize-0.8.17/        
 lehni.vscode-fix-checksums-1.1.0/           
+maxvanderschee.web-accessibility-0.2.82/    
 mrmlnc.vscode-scss-0.9.0/                   
 mrmlnc.vscode-stylefmt-2.6.1/               
-ms-python.python-2020.8.108011/             
-ms-python.python-2020.8.109390/             
+ms-python.python-2020.9.111407/             
+ms-python.python-2020.9.112786/             
 ms-vscode.jscs-0.1.9/                       
 ms-vscode.sublime-keybindings-4.0.7/        
 oderwat.indent-rainbow-7.4.0/               
@@ -92,11 +93,11 @@ pnp.polacode-0.3.4/
 rashwell.tcl-0.1.0/                         
 riussi.code-stats-vscode-1.0.18/            
 robbowen.synthwave-vscode-0.1.8/            
-softwaredotcom.swdc-100-days-of-code-1.0.10/
-softwaredotcom.swdc-vscode-2.3.10/          
-vincaslt.highlight-matching-tag-0.9.9/      
+softwaredotcom.swdc-100-days-of-code-1.0.11/
+softwaredotcom.swdc-vscode-2.3.12/          
+vincaslt.highlight-matching-tag-0.10.0/     
 wakatime.vscode-wakatime-4.0.8/             
 wscats.qf-6.8.85/                           
 wwm.better-align-1.1.6/                     
-zh9528.file-size-0.1.3/ 
+zh9528.file-size-0.1.3/  
 ```
