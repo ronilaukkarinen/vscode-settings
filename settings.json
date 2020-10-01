@@ -69,7 +69,7 @@
   },
   "fileheader.author": "Roni Laukkarinen",
   "fileheader.body": false,
-  "fileheader.save": true,
+  "fileheader.save": false,
   "fileheader.ignore": ["*.txt", "*.scss", "*.xml", "*.svg", "style.css"],
   "activitusbar.views": [
     {
@@ -141,7 +141,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.fixAll.tslint": true,
-    "source.fixAll.stylelint": true
+    "source.fixAll.stylelint": false
   },
   "[javascript]": {
     "editor.formatOnSave": true
