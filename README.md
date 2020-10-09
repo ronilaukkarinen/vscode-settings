@@ -56,18 +56,18 @@ So, in summary, how to enable:
 
 ### Plugins
 
-Updated 30.9.2020:
+Updated 09.10.2020:
 
 ``` bash
 $ /bin/ls -1 ~/.vscode/extensions/
 1000ch.svgo-1.6.2
-adamwalzer.scss-lint-0.1.10
 alefragnani.project-manager-11.3.0
+bmewburn.vscode-intelephense-client-1.5.4
 cacher.cacher-vscode-1.1.1
 cdonohue.quill-icons-0.0.2
 coenraads.bracket-pair-colorizer-2-0.2.0
 cssinate.scss-language-improvements-1.1.1
-dbaeumer.vscode-eslint-2.1.8
+dbaeumer.vscode-eslint-2.1.10
 diigu.copywithline-0.0.2
 dracula-theme.theme-dracula-2.22.1
 eamodio.gitlens-10.2.2
@@ -80,12 +80,13 @@ iocave.customize-ui-0.1.49
 iocave.monkey-patch-0.1.11
 jankincai.vscodefileheader-0.5.1
 kamikillerto.vscode-colorize-0.8.17
+keshan.markdown-live-1.2.1
 lehni.vscode-fix-checksums-1.1.0
-maxvanderschee.web-accessibility-0.2.82
 maxvanderschee.web-accessibility-0.2.83
+mikestead.dotenv-1.0.1
 mrmlnc.vscode-scss-0.9.0
 mrmlnc.vscode-stylefmt-2.6.1
-ms-python.python-2020.9.112786
+ms-python.python-2020.9.114305
 ms-vscode.jscs-0.1.9
 ms-vscode.sublime-keybindings-4.0.7
 oderwat.indent-rainbow-7.4.0
@@ -94,10 +95,10 @@ rashwell.tcl-0.1.0
 riussi.code-stats-vscode-1.0.18
 robbowen.synthwave-vscode-0.1.8
 softwaredotcom.swdc-100-days-of-code-1.0.11
-softwaredotcom.swdc-vscode-2.3.12
+softwaredotcom.swdc-vscode-2.3.13
 stylelint.vscode-stylelint-0.85.0
 vincaslt.highlight-matching-tag-0.10.0
-wakatime.vscode-wakatime-4.0.8
+wakatime.vscode-wakatime-4.0.9
 wscats.qf-6.8.87
 wwm.better-align-1.1.6
 zh9528.file-size-0.1.3
