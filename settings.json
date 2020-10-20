@@ -675,4 +675,5 @@
   "eslint.lintTask.enable": true,
   "workbench.sideBar.location": "left",
   "extensions.ignoreRecommendations": false,
+  "tabnine.experimentalAutoImports": true,
   }

@@ -125,6 +125,7 @@ $ /bin/ls -1 ~/.vscode/extensions/
 <a href="https://marketplace.visualstudio.com/items?itemName=softwaredotcom.swdc-100-days-of-code">softwaredotcom.swdc-100-days-of-code-1.0.11</a><br />
 <a href="https://marketplace.visualstudio.com/items?itemName=softwaredotcom.swdc-vscode">softwaredotcom.swdc-vscode-2.3.14</a><br />
 <a href="https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint">stylelint.vscode-stylelint-0.85.0</a><br />
+<a href="https://marketplace.visualstudio.com/items?itemName=tabnine.tabnine-vscode">tabnine.tabnine-vscode-3.0.3</a><br />
 <a href="https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag">vincaslt.highlight-matching-tag-0.10.0</a><br />
 <a href="https://marketplace.visualstudio.com/items?itemName=wakatime.vscode-wakatime">wakatime.vscode-wakatime-4.0.9</a><br />
 <a href="https://marketplace.visualstudio.com/items?itemName=wscats.qf">wscats.qf-6.8.88</a><br />
