@@ -619,7 +619,7 @@
 ".mtk3": "color: #696e7a;", 
 ".monaco-button,.monaco-text-button": "background: #232830 !important;", 
 ".extension-list-item .monaco-action-bar .action-item .action-label.extension-action.label.prominent,.extension-editor .monaco-action-bar .action-item .action-label.extension-action.label.prominent": "color: #fff !important;", 
-".monaco-icon-label > .monaco-icon-label-container > .monaco-icon-name-container > .label-name": "font-size: 11px; display: flex; align-items: center;", 
+".monaco-icon-label > .monaco-icon-label-container > .monaco-icon-name-container > .label-name": "font-size: 11px;", 
 // ".monaco-workbench .activitybar > .content .monaco-action-bar .badge .badge-content": "background: linear-gradient(to bottom, #fff951 25%, #fc28a8);", 
 ".monaco-workbench .activitybar > .content .monaco-action-bar .badge .badge-content": "background: #f92fac; !important; border-color: #232830 !important; font-size: 8px !important; color: #fff !important", 
 // ".monaco-workbench .activitybar>.content :not(.monaco-menu)>.monaco-action-bar .action-label.codicon, .monaco-workbench .activitybar>.content .monaco-action-bar .action-label": "background-color: #232830 !important;",
