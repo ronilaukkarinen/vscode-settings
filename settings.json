@@ -151,10 +151,11 @@
     "source.fixAll.stylelint": false
   },
   "[javascript]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[scss]": {
-    "editor.defaultFormatter": "mrmlnc.vscode-stylefmt",
+    "editor.defaultFormatter": "ronilaukkarinen.vscode-stylefmt",
     "editor.formatOnSave": true
   },
   "[json]": {
@@ -670,4 +671,5 @@
   "eslint.format.enable": true,
   "eslint.lintTask.enable": true,
   "workbench.sideBar.location": "left",
+  "extensions.ignoreRecommendations": false,
   }
