@@ -96,6 +96,7 @@ diigu.copywithline-0.0.2
 dracula-theme.theme-dracula-2.22.1
 eamodio.gitlens-10.2.2
 editorconfig.editorconfig-0.15.1
+fmoronzirfas.open-in-marked-1.0.8
 formulahendry.auto-close-tag-0.5.9
 formulahendry.auto-rename-tag-0.1.5
 helgardrichard.helium-icon-theme-1.0.0
