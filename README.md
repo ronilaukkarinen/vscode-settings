@@ -11,7 +11,7 @@ Aims to be minimal and usable.
 
 ### Useful extensions
 
-Contains lots of extensions that will not slow down VSCode. Browse extensions [here](https://github.com/ronilaukkarinen/vscode-settings/tree/master/.vscode/extensions).
+Contains lots of extensions that will not slow down VSCode. Browse extensions [here](#plugins).
 
 ### Snippets
 
