@@ -29,4 +29,9 @@
         "command": "editor.action.formatDocument",
         "when": "editorHasDocumentFormattingProvider && editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
     },
+    {
+        "key": "shift+cmd+i",
+        "command": "cacher.insertSnippet",
+        "when": "editorTextFocus"
+    },
 ]
