@@ -1,11 +1,11 @@
 1000ch.svgo-1.6.2
 alefragnani.project-manager-11.3.1
 bmewburn.vscode-intelephense-client-1.5.4
-bookworms.file-header-0.0.1
 cacher.cacher-vscode-1.1.1
 cdonohue.quill-icons-0.0.2
 coenraads.bracket-pair-colorizer-2-0.2.0
 cssinate.scss-language-improvements-1.1.1
+daniellin.auto-header-1.0.1
 dbaeumer.vscode-eslint-2.1.13
 diigu.copywithline-0.0.2
 dracula-theme.theme-dracula-2.22.1
@@ -18,8 +18,8 @@ helgardrichard.helium-icon-theme-1.0.0
 ikappas.phpcs-1.0.5
 iocave.customize-ui-0.1.49
 iocave.monkey-patch-0.1.11
+jankincai.vscodefileheader-0.5.1
 kamikillerto.vscode-colorize-0.8.17
-keshan.markdown-live-1.2.1
 lehni.vscode-fix-checksums-1.1.0
 maxvanderschee.web-accessibility-0.2.83
 mikestead.dotenv-1.0.1
@@ -29,6 +29,7 @@ ms-vscode.jscs-0.1.9
 ms-vscode.sublime-keybindings-4.0.7
 oderwat.indent-rainbow-7.4.0
 pnp.polacode-0.3.4
+psioniq.psi-header-1.14.1
 rashwell.tcl-0.1.0
 riussi.code-stats-vscode-1.0.18
 robbowen.synthwave-vscode-0.1.8
