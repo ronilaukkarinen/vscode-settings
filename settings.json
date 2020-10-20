@@ -44,7 +44,7 @@
   "less.validate": false,
   "scss.validate": true,
   "phpcs.enable": true,
-  "phpcs.executablePath": "/Users/rolle/Projects/PHP_CodeSniffer/bin/phpcs",
+  "phpcs.executablePath": "/Users/rolle/Projects/phpcs/bin/phpcs",
   // "phpcs.standard": "${workspaceFolder}/content/themes/${workspaceFolderBasename}/phpcs.xml",
   "phpcs.showSources": true,
   "auto-close-tag.SublimeText3Mode": true,
