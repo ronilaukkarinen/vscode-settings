@@ -612,6 +612,7 @@
 ".monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions .action-label,.monaco-workbench .part.editor>.content .editor-group-container>.title .title-actions .action-label": "opacity: .8 !important; background-position: 8px 3px !important;", 
 ".monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions .action-label:hover,.monaco-workbench .part.editor>.content .editor-group-container>.title .title-actions .action-label:hover": "opacity: 1 !important;", 
 ".title-border-bottom, .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-breadcrumbs .breadcrumbs-control, .tabs-breadcrumbs, .tabs-and-actions-container": "--title-border-bottom-color: transparent !important; border: 0 !important;",
+".tabs-and-actions-container > .monaco-scrollable-element": "height: 28px !important",
 ".monaco-split-view2>.split-view-container, .monaco-split-view2, .sash-container, .separator-border": "--separator-border: transparent !important; border: 0 !important;",
 ".monaco-editor .find-widget": "border: 0 !important",
 ".monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab .tab-label a": "font-size: 10px !important;", 
