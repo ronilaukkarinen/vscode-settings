@@ -2,32 +2,32 @@
   "Media query ": {
     "prefix": "media",
     "body": [
-      "@media (max-width: ${1:\\$container-mobile}) {",
-      "",
+      "@media (max-width: \\$container-mobile) {",
+      "  ${1:}",
       "}",
     ],
   },
   "Media query for mobile": {
     "prefix": "mobile",
     "body": [
-      "@media (max-width: ${1:\\$container-mobile}) {",
-      "",
+      "@media (max-width: \\$container-mobile) {",
+      "  ${1:}",
       "}",
     ],
   },
   "Media query for mobile": {
     "prefix": "min",
     "body": [
-      "@media (min-width: ${1:\\$container-mobile}) {",
-      "",
+      "@media (min-width: \\$container-mobile) {",
+      "  ${1:}",
       "}",
     ],
   },
   "Media query for iPad": {
     "prefix": "ipad",
     "body": [
-      "@media (max-width: ${1:\\$container-ipad}) {",
-      "",
+      "@media (max-width: \\$container-ipad) {",
+      "  ${1:}",
       "}",
     ],
   },
