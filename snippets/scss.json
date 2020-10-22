@@ -1,14 +1,46 @@
 {
-  "Media query": {
+  "Media query ": {
     "prefix": "media",
-    "body": ["@media(max-width: ${1:770px}) {", "", "}"]
+    "body": [
+      "@media (max-width: ${1:\\$container-mobile}) {",
+      "",
+      "}",
+    ],
+  },
+  "Media query for mobile": {
+    "prefix": "mobile",
+    "body": [
+      "@media (max-width: ${1:\\$container-mobile}) {",
+      "",
+      "}",
+    ],
+  },
+  "Media query for mobile": {
+    "prefix": "min",
+    "body": [
+      "@media (min-width: ${1:\\$container-mobile}) {",
+      "",
+      "}",
+    ],
+  },
+  "Media query for iPad": {
+    "prefix": "ipad",
+    "body": [
+      "@media (max-width: ${1:\\$container-ipad}) {",
+      "",
+      "}",
+    ],
   },
   "CSS Grid": {
     "prefix": "grid",
-    "body": ["@include grid(${1:3}, \\$gutter_x: 50px, \\$gutter_y: 50px);"]
+    "body": [
+      "@include grid(${1:3}, \\$gutter_x: 50px, \\$gutter_y: 50px);",
+    ],
   },
   "Responsive font": {
     "prefix": "font",
-    "body": ["@include responsive-font(22px, ${1:64}px);"]
-  }
+    "body": [
+      "@include responsive-font(22px, ${1:64}px);",
+    ],
+  },
 }
