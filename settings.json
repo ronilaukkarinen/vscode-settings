@@ -38,6 +38,7 @@
     }
   },
   "editor.autoIndent": "full",
+  "editor.tabCompletion": true,
   "codestats.apikey": "SFMyNTY.Y205c2JHVT0jI05qWXhPQT09.ORJkNVcSU9GrW5x1Q5Tw2Y_8s2HTAjd4We8-BFLqgEE",
   "codestats.username": "rolle",
   "css.validate": false,
