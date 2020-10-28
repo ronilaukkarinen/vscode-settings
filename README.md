@@ -81,7 +81,7 @@ If you have some dark areas after this, uncomment them from your settings.json.
 
 ### Plugins
 
-Updated 20.10.2020:
+Updated 28.10.2020:
 
 ``` bash
 $ /bin/ls -1 ~/.vscode/extensions/
@@ -101,7 +101,7 @@ $ /bin/ls -1 ~/.vscode/extensions/
 <a href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens">eamodio.gitlens-10.2.2</a><br />
 <a href="https://marketplace.visualstudio.com/items?itemName=editorconfig.editorconfig">editorconfig.editorconfig-0.15.1</a><br />
 <a href="https://marketplace.visualstudio.com/items?itemName=fmoronzirfas.open-in-marked">fmoronzirfas.open-in-marked-1.0.8</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag">formulahendry.auto-rename-tag-0.1.5</a><br />
+<a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag">formulahendry.auto-complete-tag-0.1.0</a><br />
 <a href="https://marketplace.visualstudio.com/items?itemName=helgardrichard.helium-icon-theme">helgardrichard.helium-icon-theme-1.0.0</a><br />
 <a href="https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs">ikappas.phpcs-1.0.5</a><br />
 <a href="https://marketplace.visualstudio.com/items?itemName=iocave.customize-ui">iocave.customize-ui-0.1.49</a><br />
@@ -124,7 +124,7 @@ $ /bin/ls -1 ~/.vscode/extensions/
 <a href="https://marketplace.visualstudio.com/items?itemName=softwaredotcom.swdc-100-days-of-code">softwaredotcom.swdc-100-days-of-code-1.0.11</a><br />
 <a href="https://marketplace.visualstudio.com/items?itemName=softwaredotcom.swdc-vscode">softwaredotcom.swdc-vscode-2.3.14</a><br />
 <a href="https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint">stylelint.vscode-stylelint-0.85.0</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=tabnine.tabnine-vscode">tabnine.tabnine-vscode-3.0.3</a><br />
+<a href="https://marketplace.visualstudio.com/items?itemName=tabnine.tabnine-vscode">tabnine.tabnine-vscode-3.1.5</a><br />
 <a href="https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag">vincaslt.highlight-matching-tag-0.10.0</a><br />
 <a href="https://marketplace.visualstudio.com/items?itemName=wakatime.vscode-wakatime">wakatime.vscode-wakatime-4.0.9</a><br />
 <a href="https://marketplace.visualstudio.com/items?itemName=wscats.qf">wscats.qf-6.8.88</a><br />
