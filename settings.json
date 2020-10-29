@@ -38,7 +38,7 @@
     }
   },
   "editor.autoIndent": "full",
-  "editor.tabCompletion": true,
+  "editor.tabCompletion": "on",
   "codestats.apikey": "SFMyNTY.Y205c2JHVT0jI05qWXhPQT09.ORJkNVcSU9GrW5x1Q5Tw2Y_8s2HTAjd4We8-BFLqgEE",
   "codestats.username": "rolle",
   "css.validate": false,
@@ -127,7 +127,20 @@
   "breadcrumbs.enabled": true,
   "editor.renderWhitespace": "all",
   "workbench.activityBar.visible": false,
-  "editor.matchBrackets": "never",
+  "editor.matchBrackets": "always",
+  "bracket-pair-colorizer-2.colors": [
+    "Gold",
+    "Orchid",
+    "LightSkyBlue"
+  ],
+  "bracket-pair-colorizer-2.highlightActiveScope": true,
+  "bracket-pair-colorizer-2.showBracketsInGutter": true,
+  "bracket-pair-colorizer-2.activeScopeCSS": [
+    "borderStyle : solid",
+    "borderWidth : 1px",
+    "borderColor : Orchid",
+    "opacity: 0.99"
+  ],
   "editor.tabSize": 2,
   "html.format.contentUnformatted": "pre,code,textarea",
   "html.format.endWithNewline": true,
