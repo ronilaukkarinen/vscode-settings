@@ -112,7 +112,7 @@ $ /bin/ls -1 ~/.vscode/extensions/
 <a href="https://marketplace.visualstudio.com/items?itemName=maxvanderschee.web-accessibility">maxvanderschee.web-accessibility-0.2.83</a><br />
 <a href="https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv">mikestead.dotenv-1.0.1</a><br />
 <a href="https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss">mrmlnc.vscode-scss-0.9.0</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python">ms-python.python-2020.9.114305</a><br />
+<a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python">ms-python.python-2020.10.332292344</a><br />
 <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.jscs">ms-vscode.jscs-0.1.9</a><br />
 <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings">ms-vscode.sublime-keybindings-4.0.7</a><br />
 <a href="https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow">oderwat.indent-rainbow-7.4.0</a><br />
@@ -122,7 +122,7 @@ $ /bin/ls -1 ~/.vscode/extensions/
 <a href="https://marketplace.visualstudio.com/items?itemName=robbowen.synthwave-vscode">robbowen.synthwave-vscode-0.1.8</a><br />
 <a href="https://marketplace.visualstudio.com/items?itemName=ronilaukkarinen.vscode-stylefmt">ronilaukkarinen.vscode-stylefmt-2.8.1</a><br />
 <a href="https://marketplace.visualstudio.com/items?itemName=softwaredotcom.swdc-100-days-of-code">softwaredotcom.swdc-100-days-of-code-1.0.11</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=softwaredotcom.swdc-vscode">softwaredotcom.swdc-vscode-2.3.14</a><br />
+<a href="https://marketplace.visualstudio.com/items?itemName=softwaredotcom.swdc-vscode">softwaredotcom.swdc-vscode-2.3.15</a><br />
 <a href="https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint">stylelint.vscode-stylelint-0.85.0</a><br />
 <a href="https://marketplace.visualstudio.com/items?itemName=tabnine.tabnine-vscode">tabnine.tabnine-vscode-3.1.5</a><br />
 <a href="https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag">vincaslt.highlight-matching-tag-0.10.0</a><br />

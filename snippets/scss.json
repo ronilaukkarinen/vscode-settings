@@ -2,8 +2,8 @@
   "Media query ": {
     "prefix": "media",
     "body": [
-      "@media (max-width: \\$container-mobile) {",
-      "  ${1:}",
+      "@media (max-width: ${1:}) {",
+      "  ${2:}",
       "}",
     ],
   },
