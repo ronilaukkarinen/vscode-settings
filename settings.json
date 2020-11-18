@@ -386,7 +386,7 @@
     "sideBar.border": "#232830",
     "sideBarSectionHeader.border": "#232830",
     "activityBar.activeBorder": "#232830", 
-    "activityBar.border": "#232830", 
+    "activityBar.border": "#232830",
 
     "activityBar.background": "#232830",
     "list.dropBackground": "#232830",
@@ -484,6 +484,42 @@
       //     }
       //   },
       {
+        "scope": "string.quoted.double.json.comments",
+        "settings": {
+          "foreground": "#d4d0a4"
+        }
+      },      
+      {
+        "scope": "string.quoted.single.scss",
+        "settings": {
+          "foreground": "#d4d0a4"
+        }
+      }, 
+      {
+        "scope": "string.quoted.single.php",
+        "settings": {
+          "foreground": "#d4d0a4"
+        }
+      }, 
+      {
+        "scope": "string.quoted.single.js",
+        "settings": {
+          "foreground": "#d4d0a4"
+        }
+      }, 
+      {
+        "scope": "string.quoted.double.js",
+        "settings": {
+          "foreground": "#d4d0a4"
+        }
+      },    
+      {
+        "scope": "string.quoted.double.html",
+        "settings": {
+          "foreground": "#d4d0a4"
+        }
+      },          
+      {
         "scope": "entity.name.function.php",
         "settings": {
           "foreground": "#f8f8f0"
@@ -497,6 +533,25 @@
       },
       {
         "scope": "punctuation.section.array.end.php",
+        "settings": {
+          "foreground": "#f8f8f0"
+        }
+      },
+      {
+        "scope": "entity.name.type.namespace.php",
+        "settings": {
+          "foreground": "#78BAE0",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "variable.other.php",
+        "settings": {
+          "foreground": "#f8f8f0"
+        }
+      },
+      {
+        "scope": "variable.other.property.php",
         "settings": {
           "foreground": "#f8f8f0"
         }
