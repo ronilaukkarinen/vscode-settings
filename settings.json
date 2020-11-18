@@ -9,6 +9,7 @@
   "editor.fontLigatures": true,
   "editor.lineHeight": 23,
   "editor.fontSize": 14,
+  "explorer.openEditors.visible": 100,
   "editor.renderLineHighlight": "none",
   "sync-rsync.exclude":[
     "node_modules",
