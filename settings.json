@@ -210,7 +210,52 @@
   "nightlight.nightIconTheme": "city-lights-icons-vsc", 
   "nightlight.gpsLat": 62.2398897,
   "nightlight.gpsLong": 25.739983,
-  // "workbench.colorCustomizations": {  
+  "city-lights-icons-vsc.hidesExplorerArrows": true,
+  "search.quickOpen.history.filterSortOrder": "recency",
+  "gitlens.menus": false,
+  "svgviewer.enableautopreview": false,
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+  "sync.gist": "05b1969d1a6ce9824b149e43bfe11495",
+  "editor.minimap.enabled": true,
+  "workbench.colorTheme": "Dracula Soft Syntax Theme",
+  "workbench.iconTheme": "helium-icon-theme",
+  "compile-hero.language": {
+
+    "js": {
+      "type": [
+        "javascript",
+        "json",
+        "jsonc"
+      ],
+      "filename": [
+        ".jshintrc",
+        ".jsbeautifyrc"
+      ]
+    },
+    "css": [
+      "css",
+      "less",
+      "scss"
+    ],
+    "html": [
+      "htm",
+      "html",
+      "php"
+    ]
+  },
+  "compile-hero.sass-output-toggle": false,
+  "compile-hero.scss-output-toggle": false,
+  "compile-hero.typescript-output-toggle": false,
+  "compile-hero.typescriptx-output-toggle": false,
+  "python.pythonPath": "/usr/local/opt/python@3.8/bin/python3.8",
+  "workbench.editor.limit.value": 20,
+  "php.suggest.basic": false,
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "workbench.sideBar.location": "left",
+  "extensions.ignoreRecommendations": false,
+  "tabnine.experimentalAutoImports": true,
+    // "workbench.colorCustomizations": {  
   //     // Sidebar:
   //     "sideBar.background": "#465073",
   //     "sideBar.foreground": "#b5b9c7",
@@ -554,25 +599,21 @@
       }
     ]
   },
-  "city-lights-icons-vsc.hidesExplorerArrows": true,
-  "search.quickOpen.history.filterSortOrder": "recency",
-  "gitlens.menus": false,
-  "svgviewer.enableautopreview": false,
-  "customizeUI.activityBarHideSettings": true,
-  "customizeUI.stylesheet": {
+"customizeUI.activityBarHideSettings": true,
+"customizeUI.stylesheet": {
 
-    // Hide useless corner panel
-    ".editor-actions": "display: none !important;",
+  // Hide useless corner panel
+  ".editor-actions": "display: none !important;",
 
-    // Fix gaps with Customize UI without main window frame
-    "body.inline-title-bar:not(.activity-bar-at-bottom) .monaco-workbench:not(.fullscreen) .split-view-container .activitybar:not(.right) .content": "margin-top: 6px !important; height: calc(100% - 6px) !important;",
-    ".label-name": "transition: all .22s !important",
+  // Fix gaps with Customize UI without main window frame
+  "body.inline-title-bar:not(.activity-bar-at-bottom) .monaco-workbench:not(.fullscreen) .split-view-container .activitybar:not(.right) .content": "margin-top: 6px !important; height: calc(100% - 6px) !important;",
+  ".label-name": "transition: all .22s !important",
 
-    // Fuzzy commands
-    ".monaco-list-row *,.monaco-icon-label>.monaco-icon-label-container *": "font-size: 11px !important;",
+  // Fuzzy commands
+  ".monaco-list-row *,.monaco-icon-label>.monaco-icon-label-container *": "font-size: 11px !important;",
 
-    // Improvements to greyscale Helium/Material icon theme    
-    ".monaco-icon-label:before, .show-file-icons .javascript-lang-file-icon.file-icon::before, .show-file-icons .js-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .esx-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .mjs-ext-file-icon.ext-file-icon.file-icon::before,.show-file-icons .json-lang-file-icon.file-icon::before, .show-file-icons .jsonc-lang-file-icon.file-icon::before, .show-file-icons .json-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .tsbuildinfo-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .jscsrc-name-file-icon.jscsrc-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .jshintrc-name-file-icon.jshintrc-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .tsconfig.json-name-file-icon.json-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .tslint.json-name-file-icon.json-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .composer.lock-name-file-icon.lock-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .jsbeautifyrc-name-file-icon.jsbeautifyrc-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .esformatter-name-file-icon.esformatter-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .cdp.pid-name-file-icon.pid-ext-file-icon.ext-file-icon.file-icon::before": "filter: brightness(70%) !important;background-size: 14px !important; padding-right: 4px !important;",
+  // Improvements to greyscale Helium/Material icon theme    
+  ".monaco-icon-label:before, .show-file-icons .javascript-lang-file-icon.file-icon::before, .show-file-icons .js-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .esx-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .mjs-ext-file-icon.ext-file-icon.file-icon::before,.show-file-icons .json-lang-file-icon.file-icon::before, .show-file-icons .jsonc-lang-file-icon.file-icon::before, .show-file-icons .json-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .tsbuildinfo-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .jscsrc-name-file-icon.jscsrc-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .jshintrc-name-file-icon.jshintrc-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .tsconfig.json-name-file-icon.json-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .tslint.json-name-file-icon.json-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .composer.lock-name-file-icon.lock-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .jsbeautifyrc-name-file-icon.jsbeautifyrc-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .esformatter-name-file-icon.esformatter-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .cdp.pid-name-file-icon.pid-ext-file-icon.ext-file-icon.file-icon::before": "filter: brightness(70%) !important;background-size: 14px !important; padding-right: 4px !important;",
 
 // synthwave84.css:
 ".mtk5": "color: #ae81ff; text-shadow: 0 0 0 #001716, 0 0 0px #ae81ff75, 0 0 7px #ae81ff75, 0 0 9px #ae81ff75;",
@@ -635,7 +676,8 @@
 ".mtk3": "color: #696e7a;", 
 ".monaco-button,.monaco-text-button": "background: #232830 !important;", 
 ".extension-list-item .monaco-action-bar .action-item .action-label.extension-action.label.prominent,.extension-editor .monaco-action-bar .action-item .action-label.extension-action.label.prominent": "color: #fff !important;", 
-".monaco-icon-label > .monaco-icon-label-container > .monaco-icon-name-container > .label-name": "color: rgb(123, 127, 139) !important; font-size: 11px;", 
+".monaco-breadcrumb-item .label-name": "color: rgb(123, 127, 139) !important;",
+".monaco-icon-label > .monaco-icon-label-container > .monaco-icon-name-container > .label-name": "font-size: 11px;", 
 // ".monaco-workbench .activitybar > .content .monaco-action-bar .badge .badge-content": "background: linear-gradient(to bottom, #fff951 25%, #fc28a8);", 
 ".monaco-workbench .activitybar > .content .monaco-action-bar .badge .badge-content": "background: #f92fac; !important; border-color: #232830 !important; font-size: 8px !important; color: #fff !important", 
 // ".monaco-workbench .activitybar>.content :not(.monaco-menu)>.monaco-action-bar .action-label.codicon, .monaco-workbench .activitybar>.content .monaco-action-bar .action-label": "background-color: #232830 !important;",
@@ -649,46 +691,5 @@
 ".search-view .search-widget .monaco-inputbox>.wrapper>textarea.input, .search-view .linematch *": "font-size: 11px",
 ".quick-input-list .quick-input-list-entry": "border: 0 !important; padding: 0 0 0 6px !important;",
 ".statusbar": "background: #1b1f27 !important",
-  },
-  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-  "sync.gist": "05b1969d1a6ce9824b149e43bfe11495",
-  "editor.minimap.enabled": true,
-  "workbench.colorTheme": "Dracula",
-  "workbench.iconTheme": "helium-icon-theme",
-  "compile-hero.language": {
-
-    "js": {
-      "type": [
-        "javascript",
-        "json",
-        "jsonc"
-      ],
-      "filename": [
-        ".jshintrc",
-        ".jsbeautifyrc"
-      ]
-    },
-    "css": [
-      "css",
-      "less",
-      "scss"
-    ],
-    "html": [
-      "htm",
-      "html",
-      "php"
-    ]
-  },
-  "compile-hero.sass-output-toggle": false,
-  "compile-hero.scss-output-toggle": false,
-  "compile-hero.typescript-output-toggle": false,
-  "compile-hero.typescriptx-output-toggle": false,
-  "python.pythonPath": "/usr/local/opt/python@3.8/bin/python3.8",
-  "workbench.editor.limit.value": 20,
-  "php.suggest.basic": false,
-  "eslint.format.enable": true,
-  "eslint.lintTask.enable": true,
-  "workbench.sideBar.location": "left",
-  "extensions.ignoreRecommendations": false,
-  "tabnine.experimentalAutoImports": true,
+},
   }

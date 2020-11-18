@@ -29,11 +29,11 @@ Useful keybindings for different kind of tasks. Browse keybindings [here](https:
 4. Get [Ligaturized version of SFMono font](https://github.com/lemeb/a-better-ligaturizer/blob/master/output-fonts/SFMono.ttf)
 5. Find all `rolle` from [settings.json](https://raw.githubusercontent.com/ronilaukkarinen/vscode-settings/master/settings.json) and replace with your username (or fix paths if you are on different systems than macOS), remove possible leftover API keys or stuff that you don't want to use. In short: Tweak to your likings!
 6. Install [Synthwave '84](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode) and [Customize UI](https://marketplace.visualstudio.com/items?itemName=iocave.customize-ui)
-7. Install [Monokai Extended](https://marketplace.visualstudio.com/items?itemName=SuperPaintman.monokai-extended) or [Dracula](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
+7. Install [Dracula Soft](https://marketplace.visualstudio.com/items?itemName=yomed.theme-dracula-soft)
 8. Enable Synthwave with <kbd>cmd + Shift + P</kbd> and selecting `Synthwave '84: Enable Neon Dreams`
 9. Restart
 10. Some of the addons make core changes so you will most probably get `Your Code installation appears to be corrupt. Please reinstall.`, for that install [Fix VSCode Checksums](https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums), <kbd>cmd + Shift + P</kbd> and select `Fix Checksums: Apply` and restart. If you get the notification again, just ignore it or select Don't show again behind cog igon. Fix Checksums apply should fix the problem though.
-11. Enable Monokai Extended or Dracula from Dracula Official plugin, <kbd>cmd + Shift + P</kbd> and select `Preferences: Color Theme`
+11. Enable Dracula Soft Syntax Theme, <kbd>cmd + Shift + P</kbd> and select `Preferences: Color Theme`
 12. Install your preferred [plugins](#plugins), I recommend to have at least **all of the following**: [stylefmt](https://marketplace.visualstudio.com/items?itemName=ronilaukkarinen.vscode-stylefmt), [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager), [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client), [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=coenraads.bracket-pair-colorizer), [SCSS Language Improvements](https://marketplace.visualstudio.com/items?itemName=cssinate.scss-language-improvements), [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint), [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens), [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig), [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag), [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag), [Helium Icon Theme](https://marketplace.visualstudio.com/items?itemName=helgardrichard.helium-icon-theme) [phpcs](https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs), [Customize UI](https://marketplace.visualstudio.com/items?itemName=iocave.customize-ui), [colorize](https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize), [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv), [SCSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss), [Sublime Text Keymap and Settings Importer](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings), [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow), [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint), [Highlight Matching Tag](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag), [Better Align](https://marketplace.visualstudio.com/items?itemName=wwm.better-align) and [file-size](https://marketplace.visualstudio.com/items?itemName=zh9528.file-size) as they are fully supported by these settings.
 13. If you want to import your Sublime Keymaps, [go through this documentation](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings).
 14. All done!
@@ -51,16 +51,16 @@ So, in summary, how to enable:
 1. Get [settings.json](https://raw.githubusercontent.com/ronilaukkarinen/vscode-settings/master/settings.json) modifications of this repository
 2. <kbd>cmd + shift 7</kbd>, comment out synthwave84.css specific color settings from settings.json if not enabled already
 3. Install [Synthwave '84](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode) and [Customize UI](https://marketplace.visualstudio.com/items?itemName=iocave.customize-ui)
-4. Install [Monokai Extended](https://marketplace.visualstudio.com/items?itemName=SuperPaintman.monokai-extended) or [Dracula](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
+4. Install [Dracula Soft](https://marketplace.visualstudio.com/items?itemName=yomed.theme-dracula-soft)
 5. Enable Synthwave with <kbd>cmd + Shift + P</kbd> and selecting `Synthwave '84: Enable Neon Dreams`
 6. Restart
 7. Install [Fix VSCode Checksums](https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums), <kbd>cmd + Shift + P</kbd> and select `Fix Checksums: Apply` and restart
-8. Enable Dracula from Dracula Official plugin, <kbd>cmd + Shift + P</kbd> and select `Preferences: Color Theme`
+8. Enable Dracula Soft Syntax Theme, <kbd>cmd + Shift + P</kbd> and select `Preferences: Color Theme`
 
-#### With Dracula:
+#### With [Dracula Soft](https://marketplace.visualstudio.com/items?itemName=yomed.theme-dracula-soft):
 ![Screenshot](https://i.imgur.com/yim4rNQ.png "Screenshot")
 
-#### With Monokai Extended:
+#### With [Monokai Extended](https://marketplace.visualstudio.com/items?itemName=SuperPaintman.monokai-extended):
 ![Screenshot](https://i.imgur.com/8m8ESKo.png "Screenshot")
 
 ### Light GitHub theme (custom)
