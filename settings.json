@@ -486,37 +486,37 @@
       {
         "scope": "string.quoted.double.json.comments",
         "settings": {
-          "foreground": "#d4d0a4"
+          "foreground": "#d9d49a"
         }
       },      
       {
         "scope": "string.quoted.single.scss",
         "settings": {
-          "foreground": "#d4d0a4"
+          "foreground": "#d9d49a"
         }
       }, 
       {
         "scope": "string.quoted.single.php",
         "settings": {
-          "foreground": "#d4d0a4"
+          "foreground": "#d9d49a"
         }
       }, 
       {
         "scope": "string.quoted.single.js",
         "settings": {
-          "foreground": "#d4d0a4"
+          "foreground": "#d9d49a"
         }
       }, 
       {
         "scope": "string.quoted.double.js",
         "settings": {
-          "foreground": "#d4d0a4"
+          "foreground": "#d9d49a"
         }
       },    
       {
         "scope": "string.quoted.double.html",
         "settings": {
-          "foreground": "#d4d0a4"
+          "foreground": "#d9d49a"
         }
       },          
       {
