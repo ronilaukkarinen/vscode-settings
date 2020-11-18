@@ -33,7 +33,7 @@ Useful keybindings for different kind of tasks. Browse keybindings [here](https:
 8. Enable Synthwave with <kbd>cmd + Shift + P</kbd> and selecting `Synthwave '84: Enable Neon Dreams`
 9. Restart
 10. Some of the addons make core changes so you will most probably get `Your Code installation appears to be corrupt. Please reinstall.`, for that install [Fix VSCode Checksums](https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums), <kbd>cmd + Shift + P</kbd> and select `Fix Checksums: Apply` and restart. If you get the notification again, just ignore it or select Don't show again behind cog igon. Fix Checksums apply should fix the problem though.
-11. Enable Monokai Extended or Dracula Soft from Dracula Official plugin, <kbd>cmd + Shift + P</kbd> and select `Preferences: Color Theme`
+11. Enable Monokai Extended or Dracula from Dracula Official plugin, <kbd>cmd + Shift + P</kbd> and select `Preferences: Color Theme`
 12. Install your preferred [plugins](#plugins), I recommend to have at least **all of the following**: [stylefmt](https://marketplace.visualstudio.com/items?itemName=ronilaukkarinen.vscode-stylefmt), [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager), [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client), [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=coenraads.bracket-pair-colorizer), [SCSS Language Improvements](https://marketplace.visualstudio.com/items?itemName=cssinate.scss-language-improvements), [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint), [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens), [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig), [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag), [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag), [Helium Icon Theme](https://marketplace.visualstudio.com/items?itemName=helgardrichard.helium-icon-theme) [phpcs](https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs), [Customize UI](https://marketplace.visualstudio.com/items?itemName=iocave.customize-ui), [colorize](https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize), [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv), [SCSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss), [Sublime Text Keymap and Settings Importer](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings), [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow), [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint), [Highlight Matching Tag](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag), [Better Align](https://marketplace.visualstudio.com/items?itemName=wwm.better-align) and [file-size](https://marketplace.visualstudio.com/items?itemName=zh9528.file-size) as they are fully supported by these settings.
 13. If you want to import your Sublime Keymaps, [go through this documentation](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings).
 14. All done!
@@ -55,7 +55,7 @@ So, in summary, how to enable:
 5. Enable Synthwave with <kbd>cmd + Shift + P</kbd> and selecting `Synthwave '84: Enable Neon Dreams`
 6. Restart
 7. Install [Fix VSCode Checksums](https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums), <kbd>cmd + Shift + P</kbd> and select `Fix Checksums: Apply` and restart
-8. Enable Monokai Extended or Dracula Soft from Dracula Official plugin, <kbd>cmd + Shift + P</kbd> and select `Preferences: Color Theme`
+8. Enable Dracula from Dracula Official plugin, <kbd>cmd + Shift + P</kbd> and select `Preferences: Color Theme`
 
 #### With Dracula:
 ![Screenshot](https://i.imgur.com/yim4rNQ.png "Screenshot")
@@ -81,52 +81,4 @@ If you have some dark areas after this, uncomment them from your settings.json.
 
 ### Plugins
 
-Updated 28.10.2020:
-
-``` bash
-$ /bin/ls -1 ~/.vscode/extensions/
-```
-
-<a href="https://marketplace.visualstudio.com/items?itemName=1000ch.svgo">1000ch.svgo-1.6.2</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager">alefragnani.project-manager-11.3.1</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client">bmewburn.vscode-intelephense-client-1.5.4</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=bookworms.file-header">bookworms.file-header-0.0.1</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=cacher.cacher-vscode">cacher.cacher-vscode-1.1.1</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=cdonohue.quill-icons">cdonohue.quill-icons-0.0.2</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=coenraads.bracket-pair-colorizer-2">coenraads.bracket-pair-colorizer-2-0.2.0</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=cssinate.scss-language-improvements">cssinate.scss-language-improvements-1.1.1</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint-">dbaeumer.vscode-eslint-2.1.13</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=diigu.copywithline">diigu.copywithline-0.0.2</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula-">dracula-theme.theme-dracula-2.22.1</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens">eamodio.gitlens-10.2.2</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=editorconfig.editorconfig">editorconfig.editorconfig-0.15.1</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=fmoronzirfas.open-in-marked">fmoronzirfas.open-in-marked-1.0.8</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag">formulahendry.auto-complete-tag-0.1.0</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=helgardrichard.helium-icon-theme">helgardrichard.helium-icon-theme-1.0.0</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs">ikappas.phpcs-1.0.5</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=iocave.customize-ui">iocave.customize-ui-0.1.49</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=iocave.monkey-patch">iocave.monkey-patch-0.1.11</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize">kamikillerto.vscode-colorize-0.8.17</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=keshan.markdown-live">keshan.markdown-live-1.2.1</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums">lehni.vscode-fix-checksums-1.1.0</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=maxvanderschee.web-accessibility">maxvanderschee.web-accessibility-0.2.83</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv">mikestead.dotenv-1.0.1</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss">mrmlnc.vscode-scss-0.9.0</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python">ms-python.python-2020.10.332292344</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.jscs">ms-vscode.jscs-0.1.9</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings">ms-vscode.sublime-keybindings-4.0.7</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow">oderwat.indent-rainbow-7.4.0</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=pnp.polacode">pnp.polacode-0.3.4</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=rashwell.tcl">rashwell.tcl-0.1.0</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=riussi.code-stats-vscode-">riussi.code-stats-vscode-1.0.18</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=robbowen.synthwave-vscode">robbowen.synthwave-vscode-0.1.8</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=ronilaukkarinen.vscode-stylefmt">ronilaukkarinen.vscode-stylefmt-2.8.1</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=softwaredotcom.swdc-100-days-of-code">softwaredotcom.swdc-100-days-of-code-1.0.11</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=softwaredotcom.swdc-vscode">softwaredotcom.swdc-vscode-2.3.15</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint">stylelint.vscode-stylelint-0.85.0</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=tabnine.tabnine-vscode">tabnine.tabnine-vscode-3.1.5</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag">vincaslt.highlight-matching-tag-0.10.0</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=wakatime.vscode-wakatime">wakatime.vscode-wakatime-4.0.9</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=wscats.qf">wscats.qf-6.8.88</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=wwm.better-align">wwm.better-align-1.1.6</a><br />
-<a href="https://marketplace.visualstudio.com/items?itemName=zh9528.file-size">zh9528.file-size-0.1.3</a><br />
+See [this .extension file](https://github.com/ronilaukkarinen/vscode-settings/blob/master/.extensions) which is produced by this crontab entry: `* * * * * /bin/ls -1 /Users/rolle/.vscode/extensions/ > /Users/rolle/Projects/vscode-settings/.extensions`.
