@@ -5,6 +5,7 @@
   "powermode.enabled": true,
   // Valid values: particles, fireworks, flames, magic, clippy, simple-rift, exploding-rift
   "powermode.presets": "magic",
+  // Font: Ligaturized version of SFMono: https://github.com/kube/sf-mono-ligaturized/tree/master/ligaturized
   "editor.fontFamily": "'SFMono', 'Roboto Mono', 'Fira Code', 'Victor Mono', 'Cascadia Code', 'JetBrains Mono', 'Dank Mono', 'Consolas', 'Liberation Mono', 'Menlo', 'Courier', 'monospace'",
   "editor.fontLigatures": true,
   "editor.lineHeight": 23,
