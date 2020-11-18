@@ -1,6 +1,5 @@
 {
   "window.title": "${activeEditorFull}${separator}${rootName}",
-  "window.zoomLevel": 1,
   "editor.cursorStyle": "line",
   "editor.cursorWidth": 3,
   "powermode.enabled": true,
@@ -8,8 +7,8 @@
   "powermode.presets": "magic",
   "editor.fontFamily": "'SFMono', 'Roboto Mono', 'Fira Code', 'Victor Mono', 'Cascadia Code', 'JetBrains Mono', 'Dank Mono', 'Consolas', 'Liberation Mono', 'Menlo', 'Courier', 'monospace'",
   "editor.fontLigatures": true,
-  "editor.lineHeight": 20,
-  "editor.fontSize": 12,
+  "editor.lineHeight": 23,
+  "editor.fontSize": 14,
   "editor.renderLineHighlight": "none",
   "sync-rsync.exclude":[
     "node_modules",
@@ -169,13 +168,24 @@
     "editor.formatOnSave": false,
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
+  "[markdown]": {
+    "editor.lineNumbers": "off",
+    "editor.wordWrap": "bounded",
+    "files.trimTrailingWhitespace": false
+  },
   "[scss]": {
     "editor.defaultFormatter": "ronilaukkarinen.vscode-stylefmt",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.lineNumbers": "off",
+    "editor.wordWrap": "bounded",
+    "files.trimTrailingWhitespace": true
   },
   "[json]": {
     "editor.defaultFormatter": "Wscats.qf",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.lineNumbers": "off",
+    "editor.wordWrap": "bounded",
+    "files.trimTrailingWhitespace": false
   },
   "[php]": {
     "editor.defaultFormatter": "Wscats.qf",
@@ -747,4 +757,5 @@
 ".quick-input-list .quick-input-list-entry": "border: 0 !important; padding: 0 0 0 6px !important;",
 ".statusbar": "background: #1b1f27 !important",
 },
+"window.zoomLevel": 1,
   }

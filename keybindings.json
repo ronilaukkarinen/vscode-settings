@@ -34,4 +34,16 @@
         "command": "cacher.insertSnippet",
         "when": "editorTextFocus"
     },
+    {
+        "key": "cmd+[Minus]",
+        "command": "editor.action.fontZoomIn"
+    },
+    {
+        "key": "cmd+-",
+        "command": "editor.action.fontZoomOut"
+    },
+    {
+        "key": "cmd+0",
+        "command": "editor.action.fontZoomReset"
+    }
 ]
