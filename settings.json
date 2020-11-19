@@ -556,6 +556,18 @@
         }
       },
       {
+        "scope": "entity.other.attribute-name.class.css",
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": "support.type.property-name.css",
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
         "scope": "entity.name.type.namespace.php",
         "settings": {
           "foreground": "#78BAE0",
