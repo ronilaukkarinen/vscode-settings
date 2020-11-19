@@ -750,6 +750,7 @@
 ".monaco-button,.monaco-text-button": "background: #232830 !important;", 
 ".extension-list-item .monaco-action-bar .action-item .action-label.extension-action.label.prominent,.extension-editor .monaco-action-bar .action-item .action-label.extension-action.label.prominent": "color: #fff !important;", 
 ".monaco-breadcrumb-item .label-name": "color: rgb(123, 127, 139) !important;",
+".monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.active .tab-label a": "color: #ddd !important;",
 ".monaco-icon-label > .monaco-icon-label-container > .monaco-icon-name-container > .label-name": "font-size: 11px;", 
 // ".monaco-workbench .activitybar > .content .monaco-action-bar .badge .badge-content": "background: linear-gradient(to bottom, #fff951 25%, #fc28a8);", 
 ".monaco-workbench .activitybar > .content .monaco-action-bar .badge .badge-content": "background: #f92fac; !important; border-color: #232830 !important; font-size: 8px !important; color: #fff !important", 
