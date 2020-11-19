@@ -8,8 +8,8 @@
   // Font: Ligaturized version of SFMono: https://github.com/kube/sf-mono-ligaturized/tree/master/ligaturized
   "editor.fontFamily": "'SFMono', 'Roboto Mono', 'Fira Code', 'Victor Mono', 'Cascadia Code', 'JetBrains Mono', 'Dank Mono', 'Consolas', 'Liberation Mono', 'Menlo', 'Courier', 'monospace'",
   "editor.fontLigatures": true,
-  "editor.lineHeight": 23,
-  "editor.fontSize": 14,
+  "editor.lineHeight": 21,
+  "editor.fontSize": 12,
   "explorer.openEditors.visible": 100,
   "editor.renderLineHighlight": "none",
   "sync-rsync.exclude":[
