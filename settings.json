@@ -506,6 +506,12 @@
         "settings": {
           "foreground": "#d9d49a"
         }
+      },      
+      {
+        "scope": "string.quoted.double.scss",
+        "settings": {
+          "foreground": "#d9d49a"
+        }
       },
       {
         "scope": "string.quoted.double.xml",
