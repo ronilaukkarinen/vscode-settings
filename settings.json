@@ -178,7 +178,7 @@
   "[scss]": {
     "editor.defaultFormatter": "ronilaukkarinen.vscode-stylefmt",
     "editor.formatOnSave": true,
-    "editor.lineNumbers": "off",
+    "editor.lineNumbers": "on",
     "editor.wordWrap": "bounded",
     "files.trimTrailingWhitespace": true
   },
@@ -536,7 +536,7 @@
         "settings": {
           "foreground": "#d9d49a"
         }
-      },    
+      },         
       {
         "scope": "string.quoted.double.html",
         "settings": {
@@ -563,6 +563,12 @@
       },
       {
         "scope": "entity.other.attribute-name.class.css",
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": "support.type.property-name.json",
         "settings": {
           "fontStyle": ""
         }
@@ -660,6 +666,12 @@
       },
       {
         "scope": "string.quoted.double.json",
+        "settings": {
+          "foreground": "#ece6b2"
+        }
+      },
+      {
+        "scope": "meta.structure.dictionary.value.json",
         "settings": {
           "foreground": "#ece6b2"
         }
