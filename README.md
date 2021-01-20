@@ -49,13 +49,13 @@ The old dark theme I have used is ported from [sublime-settings](https://github.
 So, in summary, how to enable:
 
 1. Get [settings.json](https://raw.githubusercontent.com/ronilaukkarinen/vscode-settings/master/settings.json) modifications of this repository
-2. <kbd><kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>7</kbd></kbd>, comment out synthwave84.css specific color settings from settings.json if not enabled already
+2. <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>7</kbd>, comment out synthwave84.css specific color settings from settings.json if not enabled already
 3. Install [Synthwave '84](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode) and [Customize UI](https://marketplace.visualstudio.com/items?itemName=iocave.customize-ui)
 4. Install [Dracula Soft](https://marketplace.visualstudio.com/items?itemName=yomed.theme-dracula-soft)
-5. Enable Synthwave with <kbd><kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd></kbd> and selecting `Synthwave '84: Enable Neon Dreams`
+5. Enable Synthwave with <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> and selecting `Synthwave '84: Enable Neon Dreams`
 6. Restart
-7. Install [Fix VSCode Checksums](https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums), <kbd><kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd></kbd> and select `Fix Checksums: Apply` and restart
-8. Enable Dracula Soft Syntax Theme, <kbd><kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd></kbd> and select `Preferences: Color Theme`
+7. Install [Fix VSCode Checksums](https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums), <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> and select `Fix Checksums: Apply` and restart
+8. Enable Dracula Soft Syntax Theme, <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> and select `Preferences: Color Theme`
 
 #### With [Dracula Soft](https://marketplace.visualstudio.com/items?itemName=yomed.theme-dracula-soft):
 ![Screenshot](https://i.imgur.com/yim4rNQ.png "Screenshot")
@@ -72,7 +72,7 @@ So, in summary, how to enable:
 1. Get [settings.json](https://raw.githubusercontent.com/ronilaukkarinen/vscode-settings/master/settings.json) modifications of this repository
 2. Uncomment `// GitHub light theme:` and comment out current active `"workbench.colorCustomizations": {`
 3. Install [thomaspink/vscode-github-theme](https://github.com/thomaspink/vscode-github-theme) (not GitHub Light or primer's GitHub theme)
-4. Comment out Github specific color settings with <kbd><kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>7</kbd></kbd> from settings.json if not enabled already
+4. Comment out Github specific color settings with <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>7</kbd> from settings.json if not enabled already
 5. Enable Github
 
 If you have some dark areas after this, uncomment them from your settings.json.
