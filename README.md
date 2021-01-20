@@ -24,16 +24,16 @@ Useful keybindings for different kind of tasks. Browse keybindings [here](https:
 # Usage
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/)
-2. Open Visual Studio Code and type <kbd>cmd + Shift + P</kbd> (or <kbd>CTRL + Shift + P</kbd> on Windows system) and select `Preferences: Open Settings (JSON)`
+2. Open Visual Studio Code and type <kbd><kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd></kbd> (or <kbd><kbd>ctrl</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd></kbd> on Windows system) and select `Preferences: Open Settings (JSON)`
 3. Copy [settings.json](https://raw.githubusercontent.com/ronilaukkarinen/vscode-settings/master/settings.json) of this repository and paste it to your settings.json (if you have made settings in this point, backup them, or cherry pick the preferred settings from this repo). By default this settings.json
 4. Get [Ligaturized version of SFMono font](https://github.com/lemeb/a-better-ligaturizer/blob/master/output-fonts/SFMono.ttf)
 5. Find all `rolle` from [settings.json](https://raw.githubusercontent.com/ronilaukkarinen/vscode-settings/master/settings.json) and replace with your username (or fix paths if you are on different systems than macOS), remove possible leftover API keys or stuff that you don't want to use. In short: Tweak to your likings!
 6. Install [Synthwave '84](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode) and [Customize UI](https://marketplace.visualstudio.com/items?itemName=iocave.customize-ui)
 7. Install [Dracula Soft](https://marketplace.visualstudio.com/items?itemName=yomed.theme-dracula-soft)
-8. Enable Synthwave with <kbd>cmd + Shift + P</kbd> and selecting `Synthwave '84: Enable Neon Dreams`
+8. Enable Synthwave with <kbd><kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd></kbd> and selecting `Synthwave '84: Enable Neon Dreams`
 9. Restart
-10. Some of the addons make core changes so you will most probably get `Your Code installation appears to be corrupt. Please reinstall.`, for that install [Fix VSCode Checksums](https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums), <kbd>cmd + Shift + P</kbd> and select `Fix Checksums: Apply` and restart. If you get the notification again, just ignore it or select Don't show again behind cog igon. Fix Checksums apply should fix the problem though.
-11. Enable Dracula Soft Syntax Theme, <kbd>cmd + Shift + P</kbd> and select `Preferences: Color Theme`
+10. Some of the addons make core changes so you will most probably get `Your Code installation appears to be corrupt. Please reinstall.`, for that install [Fix VSCode Checksums](https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums), <kbd><kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd></kbd> and select `Fix Checksums: Apply` and restart. If you get the notification again, just ignore it or select Don't show again behind cog igon. Fix Checksums apply should fix the problem though.
+11. Enable Dracula Soft Syntax Theme, <kbd><kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd></kbd> and select `Preferences: Color Theme`
 12. Install your preferred [plugins](#plugins), I recommend to have at least **all of the following**: [stylefmt](https://marketplace.visualstudio.com/items?itemName=ronilaukkarinen.vscode-stylefmt), [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager), [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client), [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=coenraads.bracket-pair-colorizer), [SCSS Language Improvements](https://marketplace.visualstudio.com/items?itemName=cssinate.scss-language-improvements), [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint), [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens), [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig), [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag), [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag), [Helium Icon Theme](https://marketplace.visualstudio.com/items?itemName=helgardrichard.helium-icon-theme) [phpcs](https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs), [Customize UI](https://marketplace.visualstudio.com/items?itemName=iocave.customize-ui), [colorize](https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize), [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv), [SCSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss), [Sublime Text Keymap and Settings Importer](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings), [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow), [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint), [Highlight Matching Tag](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag), [Better Align](https://marketplace.visualstudio.com/items?itemName=wwm.better-align) and [file-size](https://marketplace.visualstudio.com/items?itemName=zh9528.file-size) as they are fully supported by these settings.
 13. If you want to import your Sublime Keymaps, [go through this documentation](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings).
 14. All done!
@@ -49,13 +49,13 @@ The old dark theme I have used is ported from [sublime-settings](https://github.
 So, in summary, how to enable:
 
 1. Get [settings.json](https://raw.githubusercontent.com/ronilaukkarinen/vscode-settings/master/settings.json) modifications of this repository
-2. <kbd>cmd + shift 7</kbd>, comment out synthwave84.css specific color settings from settings.json if not enabled already
+2. <kbd><kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>7</kbd></kbd>, comment out synthwave84.css specific color settings from settings.json if not enabled already
 3. Install [Synthwave '84](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode) and [Customize UI](https://marketplace.visualstudio.com/items?itemName=iocave.customize-ui)
 4. Install [Dracula Soft](https://marketplace.visualstudio.com/items?itemName=yomed.theme-dracula-soft)
-5. Enable Synthwave with <kbd>cmd + Shift + P</kbd> and selecting `Synthwave '84: Enable Neon Dreams`
+5. Enable Synthwave with <kbd><kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd></kbd> and selecting `Synthwave '84: Enable Neon Dreams`
 6. Restart
-7. Install [Fix VSCode Checksums](https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums), <kbd>cmd + Shift + P</kbd> and select `Fix Checksums: Apply` and restart
-8. Enable Dracula Soft Syntax Theme, <kbd>cmd + Shift + P</kbd> and select `Preferences: Color Theme`
+7. Install [Fix VSCode Checksums](https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums), <kbd><kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd></kbd> and select `Fix Checksums: Apply` and restart
+8. Enable Dracula Soft Syntax Theme, <kbd><kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd></kbd> and select `Preferences: Color Theme`
 
 #### With [Dracula Soft](https://marketplace.visualstudio.com/items?itemName=yomed.theme-dracula-soft):
 ![Screenshot](https://i.imgur.com/yim4rNQ.png "Screenshot")
@@ -72,7 +72,7 @@ So, in summary, how to enable:
 1. Get [settings.json](https://raw.githubusercontent.com/ronilaukkarinen/vscode-settings/master/settings.json) modifications of this repository
 2. Uncomment `// GitHub light theme:` and comment out current active `"workbench.colorCustomizations": {`
 3. Install [thomaspink/vscode-github-theme](https://github.com/thomaspink/vscode-github-theme) (not GitHub Light or primer's GitHub theme)
-4. Comment out Github specific color settings with <kbd>Cmd + shift + 7</kbd> from settings.json if not enabled already
+4. Comment out Github specific color settings with <kbd><kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>7</kbd></kbd> from settings.json if not enabled already
 5. Enable Github
 
 If you have some dark areas after this, uncomment them from your settings.json.
