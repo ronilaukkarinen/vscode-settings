@@ -11,7 +11,7 @@
     {
         "key": "alt+cmd+p",
         "command": "-projectManager.listProjects"
-    }
+    },
     {
         "key": "shift+cmd+a",
         "command": "workbench.actions.view.problems"
@@ -45,5 +45,10 @@
     {
         "key": "cmd+0",
         "command": "editor.action.fontZoomReset"
-    }
+    },
+    { 
+        "key": "shift+cmd+j",
+        "command": "extension.fileheader",
+        "when": "editorTextFocus"
+    },
 ]
