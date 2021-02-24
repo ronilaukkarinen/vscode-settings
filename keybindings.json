@@ -26,8 +26,7 @@
     },
     {
         "key": "shift+cmd+r",
-        "command": "editor.action.formatDocument",
-        "when": "editorHasDocumentFormattingProvider && editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+        "command": "HookyQR.beautify"
     },
     {
         "key": "shift+cmd+i",
