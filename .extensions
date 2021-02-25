@@ -10,6 +10,7 @@ diigu.copywithline-0.0.2
 dracula-theme.theme-dracula-2.22.3
 eamodio.gitlens-11.2.1
 editorconfig.editorconfig-0.16.4
+felixfbecker.php-debug-1.14.9
 fmoronzirfas.open-in-marked-1.0.8
 formulahendry.auto-close-tag-0.5.10
 formulahendry.auto-complete-tag-0.1.0
@@ -37,11 +38,12 @@ pnp.polacode-0.3.4
 raidou.calc-2.0.1
 rashwell.tcl-0.1.0
 riussi.code-stats-vscode-1.0.18
+robberphex.php-debug-1.14.0
 robbowen.synthwave-vscode-0.1.8
 ronilaukkarinen.vscode-stylefmt-2.8.5
 simone-baldini.vscode-phpcbf-0.0.3
 softwaredotcom.swdc-100-days-of-code-1.1.0
-softwaredotcom.swdc-vscode-2.4.9
+softwaredotcom.swdc-vscode-2.5.1
 stylelint.vscode-stylelint-0.86.0
 tyriar.lorem-ipsum-1.2.0
 vincaslt.highlight-matching-tag-0.10.0

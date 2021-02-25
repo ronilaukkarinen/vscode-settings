@@ -39,6 +39,7 @@
     }
   },
   "auto-rename-tag.activationOnLanguage": ["html", "xml", "php", "javascript"],
+  "window.restoreWindows": "all",
   "editor.autoIndent": "full",
   "editor.tabCompletion": "on",
   "codestats.apikey": "SFMyNTY.Y205c2JHVT0jI05qWXhPQT09.ORJkNVcSU9GrW5x1Q5Tw2Y_8s2HTAjd4We8-BFLqgEE",
@@ -47,7 +48,7 @@
   "less.validate": false,
   "scss.validate": true,
   "phpcs.enable": true,
-  "phpcs.executablePath": "/Users/rolle/Projects/phpcs/bin/phpcs",
+  "phpcs.executablePath": "/usr/local/bin/phpcs",
   // "phpcs.standard": "${workspaceFolder}/content/themes/${workspaceFolderBasename}/phpcs.xml",
   "phpcs.showSources": true,
   "auto-close-tag.SublimeText3Mode": true,
@@ -77,6 +78,7 @@
   "fileheader.file_suffix_mapping": {
     ".php": "PHP"
   },
+  "fileheader.author": "Roni Laukkarinen",
   "fileheader.Author": "Roni Laukkarinen",
   "fileheader.Email": "roni@dude.fi",
   "fileheader.LastModifiedBy": "Roni Laukkarinen",  
@@ -130,7 +132,6 @@
   "git.autofetch": true,
   "breadcrumbs.enabled": true,
   "editor.renderWhitespace": "all",
-  "workbench.activityBar.visible": false,
   "editor.matchBrackets": "always",
   "bracket-pair-colorizer-2.colors": [
     "Gold",
@@ -803,4 +804,5 @@
 },
 "window.zoomLevel": 1,
 "editor.linkedEditing": true,
+"workbench.activityBar.visible": false,
   }
