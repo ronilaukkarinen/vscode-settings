@@ -40,6 +40,7 @@
   },
   "auto-rename-tag.activationOnLanguage": ["html", "xml", "php", "javascript"],
   "window.restoreWindows": "all",
+  "window.newWindowDimensions": "inherit",
   "editor.autoIndent": "full",
   "editor.tabCompletion": "on",
   "codestats.apikey": "SFMyNTY.Y205c2JHVT0jI05qWXhPQT09.ORJkNVcSU9GrW5x1Q5Tw2Y_8s2HTAjd4We8-BFLqgEE",
