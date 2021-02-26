@@ -54,6 +54,9 @@
   "phpcs.showSources": true,
   "auto-close-tag.SublimeText3Mode": true,
   "scssLint.runOnTextChange": false,
+  "codesnap.showWindowTitle": true,
+  "codesnap.realLineNumbers": true,
+  "codesnap.showWindowControls": false,
   "editor.acceptSuggestionOnEnter": "off",
   "files.exclude": {
     "**/tmp/**": true,
@@ -167,6 +170,9 @@
   "showErrorMessages": false,
   "stylefmt.showError": false,
   "php-cs-fixer.formatHtml": false,
+  "beautify.language": {
+    "html": [ "htm", "html", "php" ]
+  },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.fixAll.tslint": true,
@@ -197,12 +203,12 @@
   },
   "phpSniffer.autoDetect": true,
   "[php]": {
-    "editor.defaultFormatter": "Wscats.qf",
-    "editor.formatOnSave": false
+    "editor.defaultFormatter": "HookyQR.beautify",
+    "editor.formatOnSave": true
   },
   "[html]": {
-    "editor.defaultFormatter": "Wscats.qf",
-    "editor.formatOnSave": false
+    "editor.defaultFormatter": "HookyQR.beautify",
+    "editor.formatOnSave": true
   },
   "[vue]": {
     "editor.formatOnSave": false
@@ -806,4 +812,9 @@
 "window.zoomLevel": 1,
 "editor.linkedEditing": true,
 "workbench.activityBar.visible": false,
+"gitlens.codeLens.scopes": [
+  "containers",
+  "document"
+],
+"gitlens.codeLens.enabled": false,
   }
