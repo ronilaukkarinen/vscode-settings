@@ -82,3 +82,7 @@ If you have some dark areas after this, uncomment them from your settings.json.
 ### Plugins
 
 See [this .extension file](https://github.com/ronilaukkarinen/vscode-settings/blob/master/.extensions) which is produced by this crontab entry: `* * * * * /bin/ls -1 /Users/rolle/.vscode/extensions/ > /Users/rolle/Projects/vscode-settings/.extensions`.
+
+### Windows 10
+
+If you use Windows you need a bat file for executables, see [this](https://github.com/microsoft/vscode/issues/22391#issuecomment-310593201) and [this](https://www.reddit.com/r/bashonubuntuonwindows/comments/77idb8/where_is_the_executable_for_the_new_wsl_ubuntu_in/donn90c/?utm_source=reddit&utm_medium=web2x&context=3).
