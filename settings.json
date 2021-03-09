@@ -817,4 +817,8 @@
   "document"
 ],
 "gitlens.codeLens.enabled": false,
+"terminal.integrated.fontFamily": "SF Mono",
+"terminal.integrated.fontSize": 9,
+"terminal.integrated.lineHeight": 1,
+"terminal.integrated.enablePersistentSessions": false,
   }
