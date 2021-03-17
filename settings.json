@@ -194,8 +194,8 @@
     "editor.wordWrap": "bounded",
     "files.trimTrailingWhitespace": true
   },
-  "[json]": {
-    "editor.defaultFormatter": "Wscats.qf",
+  "[json]": { 
+    "editor.defaultFormatter": "HookyQR.beautify",    
     "editor.formatOnSave": true,
     "editor.lineNumbers": "off",
     "editor.wordWrap": "bounded",
@@ -821,4 +821,8 @@
 "terminal.integrated.fontSize": 9,
 "terminal.integrated.lineHeight": 1,
 "terminal.integrated.enablePersistentSessions": false,
+"vscode-edge-devtools.browserFlavor": "Stable",
+"vscode-edge-devtools.defaultUrl": "https://localhost:3000",
+"vscode-edge-devtools.headless": true,
+"stylelint.stylelintPath": "/usr/local/lib/node_modules/stylelint",
   }

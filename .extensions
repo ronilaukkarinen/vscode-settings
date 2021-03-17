@@ -4,7 +4,7 @@ alefragnani.project-manager-12.0.1
 cacher.cacher-vscode-1.1.1
 coenraads.bracket-pair-colorizer-2-0.2.0
 cssinate.scss-language-improvements-1.1.1
-dbaeumer.vscode-eslint-2.1.14
+dbaeumer.vscode-eslint-2.1.19
 dracula-theme.theme-dracula-2.22.3
 eamodio.gitlens-11.3.0
 editorconfig.editorconfig-0.16.4
@@ -15,7 +15,7 @@ hookyqr.beautify-1.5.0
 ikappas.phpcs-1.0.5
 iocave.customize-ui-0.1.51
 iocave.monkey-patch-0.1.12
-kamikillerto.vscode-colorize-0.10.0
+kamikillerto.vscode-colorize-0.11.0
 lehni.vscode-fix-checksums-1.1.0
 mikestead.dotenv-1.0.1
 mikey.vscode-fileheader-0.0.2
