@@ -48,6 +48,7 @@
   "css.validate": false,
   "less.validate": false,
   "scss.validate": false,
+  "doiuse.enable": true,
   "phpcs.enable": true,
   "phpcs.executablePath": "/usr/local/bin/phpcs",
   // "phpcs.standard": "${workspaceFolder}/content/themes/${workspaceFolderBasename}/phpcs.xml",
@@ -825,4 +826,5 @@
 "vscode-edge-devtools.browserFlavor": "Stable",
 "vscode-edge-devtools.defaultUrl": "https://localhost:3000",
 "vscode-edge-devtools.headless": true,
+"webhint.enableTelemetry": "disabled",
   }
