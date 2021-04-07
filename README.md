@@ -81,7 +81,7 @@ If you have some dark areas after this, uncomment them from your settings.json.
 
 ### Plugins
 
-See [this .extension file](https://github.com/ronilaukkarinen/vscode-settings/blob/master/.extensions) which is produced by this crontab entry: `* * * * * /bin/ls -1 /Users/rolle/.vscode/extensions/ > /Users/rolle/Projects/vscode-settings/.extensions`.
+See [this .extension file](https://github.com/ronilaukkarinen/vscode-settings/blob/master/.extensions) which is produced by this crontab entry: `* * * * * /bin/ls -1 /Users/rolle/.vscode-insiders/extensions/ > /Users/rolle/Projects/vscode-settings/.extensions`.
 
 ### Windows 10
 
