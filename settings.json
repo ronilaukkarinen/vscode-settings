@@ -278,7 +278,6 @@
     "eslint.format.enable": true,
     "eslint.lintTask.enable": true,
     "eslint.run": "onSave",
-    "workbench.sideBar.location": "left",
     "extensions.ignoreRecommendations": false,
     "tabnine.experimentalAutoImports": true,
       // "workbench.colorCustomizations": {  
@@ -828,10 +827,8 @@
   "vscode-edge-devtools.headless": true,
   "webhint.enableTelemetry": "disabled",
   "editor.accessibilitySupport": "off",
-  "workbench.colorTheme": "Dracula",
   "doiuse.run": "onSave",
   "editor.find.cursorMoveOnType": false,
-  "search.searchOnType": false,
   "javascript.suggest.enabled": false,
   "typescript.suggest.autoImports": false,
   "stylelint.validate": [
@@ -844,5 +841,10 @@
   "stylelint.syntax": "scss",
   "stylefmt.showErrorMessages": false,
   "editor.inlineHints.fontFamily": "'SF Mono', Menlo, Monaco, 'Courier New', monospace",
+  "workbench.colorTheme": "Dracula Soft Syntax Theme",
+  "VSCord.detailsEditing": "Line {currentline}:{currentcolumn} {problems}",
+  "VSCord.detailsViewing": "Line {currentline}:{currentcolumn} {problems}",
+  "VSCord.problemsText": "- Linter: {count} problems found",
+  "clockify.apiKey": "Yjg2NDgwMjItMjMwYi00YjQ3LTk3NzktNWVhNzRkMjVjODhi",
     }
   

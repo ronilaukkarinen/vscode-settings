@@ -29,6 +29,10 @@
         "command": "HookyQR.beautify"
     },
     {
+      "key": "shift+cmd+t",
+      "command": "clockify-projects.focus"
+    },  
+    {
         "key": "shift+cmd+i",
         "command": "cacher.insertSnippet",
         "when": "editorTextFocus"
@@ -49,5 +53,5 @@
         "key": "shift+cmd+j",
         "command": "extension.fileheader",
         "when": "editorTextFocus"
-    },
-]
+    }
+  ]
