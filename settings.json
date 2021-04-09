@@ -808,7 +808,7 @@
   ".search-view .search-widget .monaco-inputbox>.wrapper>textarea.input, .search-view .linematch *": "font-size: 11px",
   ".quick-input-list .quick-input-list-entry": "border: 0 !important; padding: 0 0 0 6px !important;",
   ".statusbar": "background: #1b1f27 !important",
-  "div[title='Open a Remote Window']": "display: none !important",
+  "div[title='Open a Remote Window'], .quick-input-titlebar": "display: none !important",
   },
   "window.zoomLevel": 1,
   "editor.linkedEditing": true,
