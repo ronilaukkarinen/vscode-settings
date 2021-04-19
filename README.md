@@ -40,7 +40,6 @@ Useful keybindings for different kind of tasks. Browse keybindings [here](https:
 * [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
 * [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
 * [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=coenraads.bracket-pair-colorizer)
-* [SCSS Language Improvements](https://marketplace.visualstudio.com/items?itemName=cssinate.scss-language-improvements)
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 * [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 * [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
