@@ -34,7 +34,7 @@ Useful keybindings for different kind of tasks. Browse keybindings [here](https:
 9. Restart
 10. Some of the addons make core changes so you will most probably get `Your Code installation appears to be corrupt. Please reinstall.`, for that install [Fix VSCode Checksums](https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums), <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> and select `Fix Checksums: Apply` and restart. If you get the notification again, just ignore it or select Don't show again behind cog igon. Fix Checksums apply should fix the problem though.
 11. Enable Dracula Soft Syntax Theme, <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> and select `Preferences: Color Theme`
-12. Install your preferred [plugins](#plugins), I recommend to have at least **all of the following**:
+12. Install your preferred [plugins](#plugins), I recommend to have at least **all of the following** (see up to date list in [.extensions](https://github.com/ronilaukkarinen/vscode-settings/blob/master/.extensions) file, updated via cronjob):
 
 * [stylefmt](https://marketplace.visualstudio.com/items?itemName=ronilaukkarinen.vscode-stylefmt)
 * [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
