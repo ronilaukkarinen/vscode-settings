@@ -43,8 +43,6 @@ Useful keybindings for different kind of tasks. Browse keybindings [here](https:
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 * [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 * [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
-* [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
-* [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 * [Helium Icon Theme](https://marketplace.visualstudio.com/items?itemName=helgardrichard.helium-icon-theme)
 * [phpcs](https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs)
 * [Customize UI](https://marketplace.visualstudio.com/items?itemName=iocave.customize-ui)
@@ -52,12 +50,14 @@ Useful keybindings for different kind of tasks. Browse keybindings [here](https:
 * [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
 * [SCSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss)
 * [Sublime Text Keymap and Settings Importer](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
-* [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
 * [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
 * [Highlight Matching Tag](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag)
 * [webhint](https://marketplace.visualstudio.com/items?itemName=webhint.vscode-webhint) 
 * [doiuse](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-doiuse)
 * [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+* [CSS var hint](https://marketplace.visualstudio.com/items?itemName=yanai101.css-var-hint)
+* [SVG](https://marketplace.visualstudio.com/items?itemName=jock.svg)
+* [VSCodeFileHeader](https://marketplace.visualstudio.com/items?itemName=jankincai.vscodefileheader)
 
 These plugins are fully supported by my vscode settings.json already.
 
