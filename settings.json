@@ -8,8 +8,8 @@
     // Font: Ligaturized version of SFMono: https://github.com/kube/sf-mono-ligaturized/tree/master/ligaturized
     "editor.fontFamily": "'SFMono', 'Roboto Mono', 'Fira Code', 'Victor Mono', 'Cascadia Code', 'JetBrains Mono', 'Dank Mono', 'Consolas', 'Liberation Mono', 'Menlo', 'Courier', 'monospace'",
     "editor.fontLigatures": true,
-    "editor.lineHeight": 21,
-    "editor.fontSize": 12,
+    "editor.lineHeight": 24,
+    "editor.fontSize": 14,
     "explorer.openEditors.visible": 100,
     "editor.renderLineHighlight": "none",
     "sync-rsync.exclude":[
@@ -122,7 +122,7 @@
     "editor.scrollbar.verticalScrollbarSize": 5,
     "editor.scrollbar.horizontalScrollbarSize": 5,
     "customizeUI.activityBar": "regular",
-    "window.titleBarStyle": "native",
+    "window.titleBarStyle": "custom",
     "customizeUI.titleBar": "frameless",
     "window.closeWhenEmpty": false,
     "editor.mouseWheelScrollSensitivity": 0,
@@ -176,6 +176,7 @@
       "html": [ "htm", "html", "php" ]
     },
     "editor.codeActionsOnSave": {
+      "source.format": true,
       "source.fixAll.eslint": true,
       "source.fixAll.tslint": true,
       "source.fixAll.stylelint": true
@@ -205,11 +206,11 @@
     },
     "phpSniffer.autoDetect": true,
     "[php]": {
-      "editor.defaultFormatter": "HookyQR.beautify",
+      "editor.defaultFormatter": "vscode.html-language-features",
       "editor.formatOnSave": false
     },
     "[html]": {
-      "editor.defaultFormatter": "HookyQR.beautify",
+      "editor.defaultFormatter": "vscode.html-language-features",
       "editor.formatOnSave": false
     },
     "[vue]": {
@@ -811,7 +812,7 @@
   "div[title='Open a Remote Window'], .quick-input-titlebar": "display: none !important",
   ".open-editors .monaco-list .monaco-list-row>.monaco-action-bar .action-label": "display: flex !important; align-items: center !important;",
   },
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0.4,
   "editor.linkedEditing": true,
   "workbench.activityBar.visible": false,
   "gitlens.codeLens.scopes": [
