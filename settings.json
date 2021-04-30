@@ -812,7 +812,7 @@
   "div[title='Open a Remote Window'], .quick-input-titlebar": "display: none !important",
   ".open-editors .monaco-list .monaco-list-row>.monaco-action-bar .action-label": "display: flex !important; align-items: center !important;",
   },
-  "window.zoomLevel": 0.4,
+  "window.zoomLevel": 0.3,
   "editor.linkedEditing": true,
   "workbench.activityBar.visible": false,
   "gitlens.codeLens.scopes": [
