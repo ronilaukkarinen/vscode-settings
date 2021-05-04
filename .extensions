@@ -9,9 +9,11 @@ editorconfig.editorconfig-0.16.4
 fmoronzirfas.open-in-marked-1.0.8
 helgardrichard.helium-icon-theme-1.0.0
 ikappas.phpcs-1.0.5
+iocave.customize-ui-0.1.53
+iocave.monkey-patch-0.1.13
 jankincai.vscodefileheader-0.9.0
-jock.svg-1.4.5
-kamikillerto.vscode-colorize-0.11.0
+jock.svg-1.4.6
+kamikillerto.vscode-colorize-0.11.1
 lehni.vscode-fix-checksums-1.1.0
 leonardssh.vscord-3.2.3
 mikestead.dotenv-1.0.1
@@ -25,6 +27,6 @@ softwaredotcom.swdc-vscode-2.5.12
 stylelint.vscode-stylelint-0.86.0
 usernamehw.errorlens-3.2.6
 vincaslt.highlight-matching-tag-0.10.0
-wakatime.vscode-wakatime-5.0.1
-yanai101.css-var-hint-0.2.12
+wakatime.vscode-wakatime-6.0.1
+yanai101.css-var-hint-0.2.14
 yomed.theme-dracula-soft-1.0.4
