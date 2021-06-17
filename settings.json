@@ -163,7 +163,7 @@
     "html.format.preserveNewLines": true,
     "html.format.wrapLineLength": 600,
     "html.format.wrapAttributes": "auto",
-    "phpcbf.executablePath": "/Users/rolle/Projects/PHP_CodeSniffer/bin/phpcbf",
+    "phpcbf.executablePath": "/usr/local/bin/phpcbf",
     "phpcbf.enable": true,
     "phpcbf.documentFormattingProvider": true,
     "phpcbf.onsave": false,
@@ -851,5 +851,8 @@
   "svg.minify.removeViewBox": false,
   "editor.renderControlCharacters": true,
   "helium-icon-theme.folders.theme": "specific",
+  "discord.lowerDetailsDebugging": "Debugging: {file_name} ",
+  "discord.lowerDetailsEditing": "Line/Col: {current_line}:{current_column}",
+  "security.workspace.trust.enabled": false,
     }
   
