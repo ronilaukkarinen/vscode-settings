@@ -46,7 +46,7 @@
     "editor.tabCompletion": "on",
     "codestats.apikey": "SFMyNTY.Y205c2JHVT0jI05qWXhPQT09.ORJkNVcSU9GrW5x1Q5Tw2Y_8s2HTAjd4We8-BFLqgEE",
     "codestats.username": "rolle",
-    "css.validate": false,
+    "css.validate": true,
     "less.validate": false,
     "scss.validate": false,
     "doiuse.enable": true,
@@ -191,6 +191,14 @@
       "editor.wordWrap": "bounded",
       "files.trimTrailingWhitespace": false
     },
+    "markdown.styles": ["file:///Users/rolle/Library/Application%20Support/Code%20-%20Insiders/User/github-markdown.css"],
+    "[css]": {
+      "editor.defaultFormatter": "ronilaukkarinen.vscode-stylefmt",
+      "editor.formatOnSave": true,
+      "editor.lineNumbers": "on",
+      "editor.wordWrap": "bounded",
+      "files.trimTrailingWhitespace": true
+    },    
     "[scss]": {
       "editor.defaultFormatter": "ronilaukkarinen.vscode-stylefmt",
       "editor.formatOnSave": true,
@@ -854,5 +862,12 @@
   "discord.lowerDetailsDebugging": "Debugging: {file_name} ",
   "discord.lowerDetailsEditing": "Line/Col: {current_line}:{current_column}",
   "security.workspace.trust.enabled": false,
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false
+  },
     }
   
