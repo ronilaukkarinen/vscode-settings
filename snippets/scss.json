@@ -31,6 +31,12 @@
       "}",
     ],
   },
+  "Grid Template Columns": {
+    "prefix": "gridtemplate",
+    "body": [
+      "grid-template-columns: 605px minmax(0, 1fr);",
+    ],
+  },
   "CSS Grid": {
     "prefix": "grid",
     "body": [
