@@ -867,7 +867,7 @@
     "*": true,
     "yaml": false,
     "plaintext": false,
-    "markdown": false
+    "markdown": true
   },
     }
   
