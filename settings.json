@@ -866,4 +866,5 @@
     "plaintext": false,
     "markdown": true
   },
+  "svg.minify.removeViewBox": false,
 }
