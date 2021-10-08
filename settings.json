@@ -10,6 +10,8 @@
   "editor.fontLigatures": true,
   "editor.lineHeight": 21,
   "editor.fontSize": 12,
+  "editor.mouseWheelZoom": true,
+  "workbench.sideBar.location": "left",
   "explorer.openEditors.visible": 100,
   "editor.renderLineHighlight": "none",
   "sync-rsync.exclude": [
@@ -143,7 +145,7 @@
   "editor.scrollbar.verticalScrollbarSize": 5,
   "editor.scrollbar.horizontalScrollbarSize": 5,
   "customizeUI.activityBar": "regular",
-  "window.titleBarStyle": "native",
+  "window.titleBarStyle": "custom",
   "customizeUI.titleBar": "frameless",
   "window.closeWhenEmpty": false,
   "editor.mouseWheelScrollSensitivity": 0,
@@ -823,7 +825,6 @@
     "div[title='Open a Remote Window'], .quick-input-titlebar": "display: none !important",
     ".open-editors .monaco-list .monaco-list-row>.monaco-action-bar .action-label": "display: flex; padding: 0; align-items: center; justify-content: center; margin-right: 2px;"
   },
-  "window.zoomLevel": 1,
   "editor.linkedEditing": true,
   "gitlens.codeLens.scopes": [
     "containers",
@@ -867,4 +868,8 @@
     "markdown": true
   },
   "svg.minify.removeViewBox": false,
+  "security.workspace.trust.banner": "never",
+  "security.workspace.trust.enabled": false,
+  "terminal.integrated.gpuAcceleration": "off",
+  "window.zoomLevel": 1,
 }
