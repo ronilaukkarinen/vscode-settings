@@ -10,7 +10,7 @@
   "editor.fontLigatures": true,
   "editor.lineHeight": 21,
   "editor.fontSize": 12,
-  "editor.mouseWheelZoom": true,
+  "editor.mouseWheelZoom": false,
   "workbench.sideBar.location": "left",
   "explorer.openEditors.visible": 100,
   "editor.renderLineHighlight": "none",
