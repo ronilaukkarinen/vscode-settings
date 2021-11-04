@@ -201,6 +201,7 @@
       "php"
     ]
   },
+  "stylelint.customSyntax": "postcss-scss",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.fixAll.tslint": false,
