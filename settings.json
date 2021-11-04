@@ -105,7 +105,6 @@
   "fileheader.Author": "Roni Laukkarinen",
   "fileheader.Email": "roni@dude.fi",
   "fileheader.LastModifiedBy": "Roni Laukkarinen",
-  "fileheader.body": false,
   "fileheader.save": false,
   "fileheader.ignore": [
     "*.txt",
@@ -204,7 +203,7 @@
   },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
-    "source.fixAll.tslint": true,
+    "source.fixAll.tslint": false,
     "source.fixAll.stylelint": true
   },
   "[javascript]": {
@@ -841,7 +840,6 @@
   "webhint.enableTelemetry": "disabled",
   "editor.accessibilitySupport": "off",
   "doiuse.run": "onSave",
-  "editor.find.cursorMoveOnType": false,
   "javascript.suggest.enabled": false,
   "typescript.suggest.autoImports": false,
   "stylelint.validate": [
@@ -872,4 +870,6 @@
   "security.workspace.trust.enabled": false,
   "terminal.integrated.gpuAcceleration": "off",
   "window.zoomLevel": 1,
+  "search.forceSearchProcess": true,
+  "search.quickOpen.includeSymbols": true,
 }
