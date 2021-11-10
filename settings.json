@@ -101,11 +101,15 @@
   "fileheader.file_suffix_mapping": {
     ".php": "PHP"
   },
+  "fileheader.is_header_exists": "@Date:",
   "fileheader.author": "Roni Laukkarinen",
+  "fileheader.email": "roni@dude.fi",
   "fileheader.Author": "Roni Laukkarinen",
+  "fileheader.open": false,
+  "fileheader.save": true,
+  "fileheader.dateformat": "YYYY-MM-DD HH:mm:ss",
   "fileheader.Email": "roni@dude.fi",
   "fileheader.LastModifiedBy": "Roni Laukkarinen",
-  "fileheader.save": false,
   "fileheader.ignore": [
     "*.txt",
     "*.scss",
