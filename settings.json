@@ -6,7 +6,8 @@
   // Valid values: particles, fireworks, flames, magic, clippy, simple-rift, exploding-rift
   "powermode.presets": "magic",
   // Font: Ligaturized version of SFMono: https://github.com/kube/sf-mono-ligaturized/tree/master/ligaturized
-  "editor.fontFamily": "'SFMono', 'Roboto Mono', 'Fira Code', 'Victor Mono', 'Cascadia Code', 'JetBrains Mono', 'Dank Mono', 'Consolas', 'Liberation Mono', 'Menlo', 'Courier', 'monospace'",
+  // Even better: https://github.com/shaunsingh/SFMono-Nerd-Font-Ligaturized
+  "editor.fontFamily": "'Liga SFMono Nerd Font', 'SFMono', 'Roboto Mono', 'Fira Code', 'Victor Mono', 'Cascadia Code', 'JetBrains Mono', 'Dank Mono', 'Consolas', 'Liberation Mono', 'Menlo', 'Courier', 'monospace'",
   "editor.fontLigatures": true,
   "editor.lineHeight": 21,
   "editor.fontSize": 12,
@@ -105,6 +106,9 @@
   "fileheader.author": "Roni Laukkarinen",
   "fileheader.email": "roni@dude.fi",
   "fileheader.Author": "Roni Laukkarinen",
+  "fileheader.other_config": {
+    "email": "roni@dude.fi",
+  },  
   "fileheader.open": false,
   "fileheader.save": true,
   "fileheader.dateformat": "YYYY-MM-DD HH:mm:ss",
