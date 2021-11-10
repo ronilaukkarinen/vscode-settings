@@ -1,6 +1,7 @@
 alefragnani.project-manager-12.4.0
 coenraads.bracket-pair-colorizer-2-0.2.1
 dbaeumer.vscode-eslint-2.2.1
+dbaeumer.vscode-eslint-2.2.2
 eamodio.gitlens-11.6.1
 editorconfig.editorconfig-0.16.4
 helgardrichard.helium-icon-theme-1.0.0
@@ -8,14 +9,17 @@ ikappas.phpcs-1.0.5
 iocave.customize-ui-0.1.54
 iocave.monkey-patch-0.1.15
 jankincai.vscodefileheader-0.9.1
-jock.svg-1.4.12
 jock.svg-1.4.13
+jock.svg-1.4.14
 kamikillerto.vscode-colorize-0.11.1
 lehni.vscode-titlebar-less-macos-1.10.2
 ms-vscode.sublime-keybindings-4.0.10
 ronilaukkarinen.vscode-stylefmt-2.9.1
+ronilaukkarinen.vscode-stylefmt-2.9.3
 softwaredotcom.swdc-vscode-2.5.27
+softwaredotcom.swdc-vscode-2.6.9
 stylelint.vscode-stylelint-0.87.6
+stylelint.vscode-stylelint-1.1.0
 usernamehw.errorlens-3.4.0
 vincaslt.highlight-matching-tag-0.10.1
 wakatime.vscode-wakatime-17.1.0
