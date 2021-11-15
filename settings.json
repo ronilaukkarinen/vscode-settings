@@ -770,7 +770,7 @@
     ".monaco-editor-hover *": "font-size: 12px !important;",
     ".monaco-editor .monaco-editor-hover": "border-radius: 4px; padding: 8px;",
     // Suggest widget improvements
-    ".monaco-editor .suggest-widget .monaco-list .monaco-list-row.focused": "color: #ae81ff !important; outline: 1px solid #ae81ff !important",
+    ".monaco-editor .suggest-widget .monaco-list .monaco-list-row.focused, .monaco-editor .suggest-widget .monaco-list .monaco-list-row:hover": "color: #ae81ff !important; outline: 1px solid #ae81ff !important",
     ".suggest-widget .tree": "border-radius: 4px !important;font-size: 14px !important;padding: 0 !important;",
     ".suggest-widget *": "font-size: 14px !important;",
     ".suggest-widget": "font-size: 14px !important;",
