@@ -867,7 +867,6 @@
   "VSCord.problemsText": "- Linter: {count} problems found",
   "clockify.apiKey": "Yjg2NDgwMjItMjMwYi00YjQ3LTk3NzktNWVhNzRkMjVjODhi",
   "editor.inlineSuggest.enabled": true,
-  "workbench.activityBar.visible": false,
   "github.copilot.enable": {
     "*": true,
     "yaml": false,
@@ -881,4 +880,5 @@
   "window.zoomLevel": 1,
   "search.forceSearchProcess": true,
   "search.quickOpen.includeSymbols": true,
+  "workbench.activityBar.visible": false,
 }
