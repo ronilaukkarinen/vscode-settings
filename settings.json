@@ -66,7 +66,28 @@
   "css.validate": false,
   "less.validate": false,
   "scss.validate": false,
-  "doiuse.enable": true,
+  "doiuse.enable": true, 
+  "doiuse.messageLevel": "Error",
+  "doiuse.ignore": [
+    "minmax",
+  ],
+  "doiuse.run": "onType",
+  "doiuse.browsers": [
+    "last 1 edge version",
+    "safari 14",
+    "last 1 chrome version",
+    "last 1 firefox version",
+    "not firefox > 90",
+    "not dead",
+    "not ie > 0",
+    "not ucandroid > 0",
+    "not firefoxandroid > 0",
+    "not samsung > 0",
+    "not op_mob > 0",
+    "> 1% in FI",
+  ],
+  "caniuse.browser_scope": 
+    "last 1 edge version, safari 14, last 1 chrome version, last 1 firefox version, not firefox > 90, not dead, not ie > 0, not ucandroid > 0, not firefoxandroid > 0, not samsung > 0, not op_mob > 0, > 1% in FI",
   "phpcs.enable": true,
   "phpcs.executablePath": "/usr/local/bin/phpcs",
   // "phpcs.standard": "${workspaceFolder}/content/themes/${workspaceFolderBasename}/phpcs.xml",
@@ -254,7 +275,9 @@
   "search.exclude": {
     "**/*.bundle.js": true,
     "**/*.css": true,
-    "**/*all.js": true
+    "**/*all.js": true,
+    "**Library": true,
+    "~/Library**": true
   },
   "material-icon-theme.saturation": 0,
   "material-icon-theme.opacity": 0.8,
@@ -833,7 +856,8 @@
     ".quick-input-list .quick-input-list-entry": "border: 0 !important; padding: 0 0 0 6px !important;",
     ".statusbar": "background: #1b1f27 !important",
     "div[title='Open a Remote Window'], .quick-input-titlebar": "display: none !important",
-    ".open-editors .monaco-list .monaco-list-row>.monaco-action-bar .action-label": "display: flex; padding: 0; align-items: center; justify-content: center; margin-right: 2px;"
+    ".open-editors .monaco-list .monaco-list-row>.monaco-action-bar .action-label": "display: flex; padding: 0; align-items: center; justify-content: center; margin-right: 2px;",
+    ".monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-breadcrumbs .breadcrumbs-control .monaco-icon-label:before": "height: 23px !important"
   },
   "editor.linkedEditing": true,
   "gitlens.codeLens.scopes": [
@@ -850,9 +874,13 @@
   "vscode-edge-devtools.headless": true,
   "webhint.enableTelemetry": "disabled",
   "editor.accessibilitySupport": "off",
-  "doiuse.run": "onSave",
   "javascript.suggest.enabled": false,
   "typescript.suggest.autoImports": false,
+  "cssvar.files": ["content/themes/**/*.css"],
+  "cssvar.extensions": ["css", "scss", "sass"],
+  "cssvar.themes": ["dark"],
+  "cssvar.excludeThemedVariables": false,
+  "cssvar.disableSort": false,
   "stylelint.validate": [
     "scss"
   ],
@@ -872,7 +900,7 @@
   "github.copilot.enable": {
     "*": true,
     "yaml": false,
-    "plaintext": false,
+    "plaintext": true,
     "markdown": true
   },
   "svg.minify.removeViewBox": false,
@@ -883,4 +911,10 @@
   "search.forceSearchProcess": true,
   "search.quickOpen.includeSymbols": true,
   "workbench.activityBar.visible": false,
+  "discord.lowerDetailsDebugging": "Debugging: {total_lines} lines",
+  "discord.lowerDetailsEditing": "Current line: {current_line}",
+  "discord.largeImageIdling": "Thinking/Coding",
+  "discord.lowerDetailsIdling": "Thinking/Coding",
+  "discord.lowerDetailsNoWorkspaceFound": "Current line: {current_line}",
+  "discord.removeRemoteRepository": true,
 }
