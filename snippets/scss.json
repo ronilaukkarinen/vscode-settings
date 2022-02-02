@@ -40,7 +40,10 @@
   "CSS Grid": {
     "prefix": "grid",
     "body": [
-      "@include grid(${1:3}, \\$gutter_x: 50px, \\$gutter_y: 50px);",
+      "@media (min-width: $container-ipad-landscape) {",
+      "  display: grid;",
+      "  grid-template-columns: ${1:1fr 1fr};",
+      "}",
     ],
   },
   "Responsive font": {
