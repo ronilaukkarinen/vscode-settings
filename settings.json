@@ -135,10 +135,14 @@
   "fileheader.Email": "roni@dude.fi",
   "fileheader.LastModifiedBy": "Roni Laukkarinen",
   "fileheader.ignore": [
+    "*.vue",
+    "*.html",
     "*.txt",
     "*.scss",
+    "*.css",
     "*.xml",
     "*.svg",
+    "development.php",
     "style.css"
   ],
   "activitusbar.views": [
