@@ -8,14 +8,6 @@
     ],
   },
   "Media query for mobile": {
-    "prefix": "mobile",
-    "body": [
-      "@media (max-width: \\$container-mobile) {",
-      "  ${1:}",
-      "}",
-    ],
-  },
-  "Media query for mobile": {
     "prefix": "min",
     "body": [
       "@media (min-width: \\$container-mobile) {",
