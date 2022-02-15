@@ -135,6 +135,8 @@
   "fileheader.Email": "roni@dude.fi",
   "fileheader.LastModifiedBy": "Roni Laukkarinen",
   "fileheader.ignore": [
+    "config.js",
+    "air-light-demo-content.php",
     "*.vue",
     "*.html",
     "*.txt",

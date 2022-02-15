@@ -40,7 +40,7 @@
   "CSS Grid": {
     "prefix": "grid",
     "body": [
-      "@media (min-width: $container-ipad-landscape) {",
+      "@media (min-width: \\$container-ipad-landscape) {",
       "  display: grid;",
       "  grid-template-columns: ${1:1fr 1fr};",
       "}",
