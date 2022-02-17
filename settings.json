@@ -9,8 +9,9 @@
   // Even better: https://github.com/shaunsingh/SFMono-Nerd-Font-Ligaturized
   "editor.fontFamily": "'Liga SFMono Nerd Font', 'SFMono', 'Roboto Mono', 'Fira Code', 'Victor Mono', 'Cascadia Code', 'JetBrains Mono', 'Dank Mono', 'Consolas', 'Liberation Mono', 'Menlo', 'Courier', 'monospace'",
   "editor.fontLigatures": true,
-  "editor.lineHeight": 21,
-  "editor.fontSize": 12,
+  "editor.lineHeight": 24,
+  "window.zoomLevel": 0.4,
+  "editor.fontSize": 14,
   "editor.mouseWheelZoom": false,
   "workbench.sideBar.location": "left",
   "explorer.openEditors.visible": 100,
@@ -137,6 +138,7 @@
   "fileheader.ignore": [
     "config.js",
     "air-light-demo-content.php",
+    "nav-walker.php",
     "*.vue",
     "*.html",
     "*.txt",
@@ -913,7 +915,6 @@
   "security.workspace.trust.banner": "never",
   "security.workspace.trust.enabled": false,
   "terminal.integrated.gpuAcceleration": "off",
-  "window.zoomLevel": 1,
   "search.forceSearchProcess": true,
   "search.quickOpen.includeSymbols": true,
   "workbench.activityBar.visible": false,

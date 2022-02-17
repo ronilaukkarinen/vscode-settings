@@ -31,10 +31,18 @@ Useful keybindings for different kind of tasks. Browse keybindings [here](https:
 6. Install [Synthwave '84](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode) and [Customize UI](https://marketplace.visualstudio.com/items?itemName=iocave.customize-ui)
 7. Install [Dracula Soft](https://marketplace.visualstudio.com/items?itemName=yomed.theme-dracula-soft)
 8. Enable Synthwave with <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> and selecting `Synthwave '84: Enable Neon Dreams`
-9. Restart
-10. Some of the addons make core changes so you will most probably get `Your Code installation appears to be corrupt. Please reinstall.`, for that install [Fix VSCode Checksums](https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums), <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> and select `Fix Checksums: Apply` and restart. If you get the notification again, just ignore it or select Don't show again behind cog igon. Fix Checksums apply should fix the problem though.
-11. Enable Dracula Soft Syntax Theme, <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> and select `Preferences: Color Theme`
-12. Install your preferred [plugins](#plugins), I recommend to have at least **all of the following** (see up to date list in [.extensions](https://github.com/ronilaukkarinen/vscode-settings/blob/master/.extensions) file, updated via cronjob):
+9. Change these lines to your settings.json:
+
+```json
+"editor.lineHeight": 21,
+"editor.fontSize": 12,
+"window.zoomLevel": 1,
+```
+
+10. Restart
+11. Some of the addons make core changes so you will most probably get `Your Code installation appears to be corrupt. Please reinstall.`, for that install [Fix VSCode Checksums](https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums), <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> and select `Fix Checksums: Apply` and restart. If you get the notification again, just ignore it or select Don't show again behind cog igon. Fix Checksums apply should fix the problem though.
+12. Enable Dracula Soft Syntax Theme, <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> and select `Preferences: Color Theme`
+13. Install your preferred [plugins](#plugins), I recommend to have at least **all of the following** (see up to date list in [.extensions](https://github.com/ronilaukkarinen/vscode-settings/blob/master/.extensions) file, updated via cronjob):
 
 * [stylefmt](https://marketplace.visualstudio.com/items?itemName=ronilaukkarinen.vscode-stylefmt)
 * [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
@@ -63,6 +71,14 @@ These plugins are fully supported by my vscode settings.json already.
 
 15. If you want to import your Sublime Keymaps, [go through this documentation](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings).
 16. All done!
+
+If you don't want to use CSS customizations, make sure you have these lines set:
+
+```json
+"editor.lineHeight": 24,
+"window.zoomLevel": 0.4,
+"editor.fontSize": 14,
+```
 
 ### Dark neon theme (custom)
 
