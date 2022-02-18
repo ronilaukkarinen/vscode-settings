@@ -9,9 +9,9 @@
   // Even better: https://github.com/shaunsingh/SFMono-Nerd-Font-Ligaturized
   "editor.fontFamily": "'Liga SFMono Nerd Font', 'SFMono', 'Roboto Mono', 'Fira Code', 'Victor Mono', 'Cascadia Code', 'JetBrains Mono', 'Dank Mono', 'Consolas', 'Liberation Mono', 'Menlo', 'Courier', 'monospace'",
   "editor.fontLigatures": true,
-  "editor.lineHeight": 24,
-  "window.zoomLevel": 0.4,
-  "editor.fontSize": 14,
+  "editor.lineHeight": 21,
+  "editor.fontSize": 12,
+  "window.zoomLevel": 1,
   "editor.mouseWheelZoom": false,
   "workbench.sideBar.location": "left",
   "explorer.openEditors.visible": 100,
@@ -865,7 +865,8 @@
     ".statusbar": "background: #1b1f27 !important",
     "div[title='Open a Remote Window'], .quick-input-titlebar": "display: none !important",
     ".open-editors .monaco-list .monaco-list-row>.monaco-action-bar .action-label": "display: flex; padding: 0; align-items: center; justify-content: center; margin-right: 2px;",
-    ".monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-breadcrumbs .breadcrumbs-control .monaco-icon-label:before": "height: 23px !important"
+    ".monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-breadcrumbs .breadcrumbs-control .monaco-icon-label:before": "height: 23px !important",
+    ".monaco-workbench.mac:not(.web) .part.titlebar>.window-controls-container.show-layout-control": "display: none !important"
   },
   "editor.linkedEditing": true,
   "gitlens.codeLens.scopes": [
