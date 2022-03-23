@@ -23,6 +23,12 @@
       "}",
     ],
   },
+  "Full width CSS Grid column": {
+    "prefix": "fullwidth",
+    "body": [
+      "grid-column: 1 / -1;",
+    ],
+  },
   "Grid Template Columns": {
     "prefix": "gridtemplate",
     "body": [
