@@ -152,7 +152,8 @@
     "gulp/tasks",
     "*newsletter/index.php",
     "config/",
-    "gulpfile.js"
+    "gulpfile.js",
+    "co2esto"
   ],
   "activitusbar.views": [
     {
