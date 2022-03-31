@@ -873,7 +873,9 @@
     ".monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-breadcrumbs .breadcrumbs-control .monaco-icon-label:before": "height: 23px !important",
     ".monaco-workbench.mac:not(.web) .part.titlebar>.window-controls-container.show-layout-control": "display: none !important",
     // Align cross horizontally center
-    ".monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab>.tab-actions": "margin-bottom: 1px"
+    ".monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab>.tab-actions": "margin-bottom: 1px",
+    // Fix tab icon
+    ".monaco-workbench .part.editor>.content .editor-group-container>.title .monaco-icon-label:before": "height: unset !important"
   },
   "editor.linkedEditing": true,
   "gitlens.codeLens.scopes": [
