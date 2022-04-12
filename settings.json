@@ -149,10 +149,11 @@
     "style.css",
     "air-light/js/src/front-end.js",
     "eslintrc.js",
-    "gulp/tasks",
+    "gulp",
     "*newsletter/index.php",
     "config/",
-    "gulpfile.js"
+    "gulpfile.js",
+    "keskiaikafestivaali"
   ],
   "activitusbar.views": [
     {
