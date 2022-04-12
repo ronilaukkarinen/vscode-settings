@@ -64,7 +64,7 @@ Useful keybindings for different kind of tasks. Browse keybindings [here](https:
 * [doiuse](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-doiuse)
 * [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
 * [CSS var hint](https://marketplace.visualstudio.com/items?itemName=yanai101.css-var-hint)
-* [SVG](https://marketplace.visualstudio.com/items?itemName=jock.svg)
+* [svgo](https://marketplace.visualstudio.com/items?itemName=1000ch.svgo)
 * [VSCodeFileHeader](https://marketplace.visualstudio.com/items?itemName=jankincai.vscodefileheader)
 
 These plugins are fully supported by my vscode settings.json already.
