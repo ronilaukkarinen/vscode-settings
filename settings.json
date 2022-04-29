@@ -153,7 +153,8 @@
     "*newsletter/index.php",
     "config/",
     "gulpfile.js",
-    "keskiaikafestivaali"
+    "keskiaikafestivaali",
+    "bin/tasks"
   ],
   "activitusbar.views": [
     {
