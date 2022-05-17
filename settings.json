@@ -11,7 +11,7 @@
   "editor.fontLigatures": true,
   "editor.lineHeight": 21,
   "editor.fontSize": 12,
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0.8,
   "editor.mouseWheelZoom": false,
   "explorer.openEditors.visible": 100,
   "editor.renderLineHighlight": "none",
@@ -154,7 +154,11 @@
     "config/",
     "gulpfile.js",
     "keskiaikafestivaali",
-    "bin/tasks"
+    "newicon",
+    "mps",
+    "bin/tasks",
+    "alive",
+    "rescuetime"
   ],
   "activitusbar.views": [
     {
