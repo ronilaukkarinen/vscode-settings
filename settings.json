@@ -11,7 +11,7 @@
   "editor.fontLigatures": true,
   "editor.lineHeight": 21,
   "editor.fontSize": 12,
-  "window.zoomLevel": 0.8,
+  "window.zoomLevel": 1,
   "editor.mouseWheelZoom": false,
   "explorer.openEditors.visible": 100,
   "editor.renderLineHighlight": "none",
