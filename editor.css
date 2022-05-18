@@ -509,3 +509,8 @@ div[title='Open a Remote Window'],
 .monaco-workbench .part.editor>.content .editor-group-container>.title .monaco-icon-label:before {
   height: unset !important;
 }
+
+/* Separator in top right */
+.monaco-action-bar .action-item .action-label.separator {
+  background-color: rgb(255 255 255 / .2);
+}
