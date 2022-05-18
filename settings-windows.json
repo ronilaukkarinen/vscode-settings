@@ -190,7 +190,7 @@
   "[css]": {
     "editor.defaultFormatter": "ronilaukkarinen.vscode-stylefmt",
     "editor.formatOnSave": true,
-    "editor.lineNumbers": "off",
+    "editor.lineNumbers": "on",
     "editor.wordWrap": "bounded",
     "files.trimTrailingWhitespace": true
   },
@@ -792,5 +792,7 @@
 },
 "window.zoomLevel": 1,
 "workbench.colorTheme": "Dracula Soft Syntax Theme",
-"editor.inlineSuggest.enabled": true
+"editor.inlineSuggest.enabled": true,
+"gitlens.codeLens.enabled": false,
+"discord.lowerDetailsEditing": "Current line: {current_line}"
 }
