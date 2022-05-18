@@ -1,9 +1,7 @@
 .obsolete
 1000ch.svgo-2.7.0
-2425370633.1-0.0.1
 alefragnani.project-manager-12.5.0
 be5invis.vscode-custom-css-6.0.2
-cssinate.scss-language-improvements-1.1.1
 dbaeumer.vscode-eslint-2.2.2
 eamodio.gitlens-12.0.6
 ecmel.vscode-html-css-1.12.2
@@ -16,7 +14,6 @@ jankincai.vscodefileheader-0.9.1
 lehni.vscode-fix-checksums-1.1.0
 mikestead.dotenv-1.0.1
 mrmlnc.vscode-doiuse-1.6.0
-mrmlnc.vscode-duplicate-1.2.1
 mrmlnc.vscode-scss-0.10.0
 ms-vscode.js-debug-1.66.1
 ms-vscode.js-debug-companion-1.0.17
