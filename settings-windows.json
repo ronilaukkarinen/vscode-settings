@@ -12,6 +12,7 @@
   "editor.fontSize": 13,
   "explorer.openEditors.visible": 100,
   "editor.renderLineHighlight": "none",
+  "vscode_custom_css.imports": ["file:///C:\\Users\\Rolle\\Projects\\vscode-settings\\editor.css"],
   "sync-rsync.exclude":[
     "node_modules",
     "acf-json",
