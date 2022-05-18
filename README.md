@@ -7,40 +7,18 @@ Used when coding [Digitoimisto Dude Oy's Projects](https://github.com/digitoimis
 **Updates regurarly.**<br>
 **Aims to be minimal and usable.**<br>
 
-## Table of contents
-
-* [Features](#features)
-* [Installation & usage](#installation--usage)
-* [Extensions](#extensions)
-* [Interface](#interface)
-* [Keymaps](#keymaps)
-* [Windows 10-11 support](#windows-10-11-support)
-
 ## Features
 
-### 🎨 Beautiful
+**🎨 Beautiful** - I'm a highly visual perfectionist-person so and that means my editor must look perfectly minimal, distract-free and beautiful. There are not a lot themes out there that please me, so I decided to build my own.
 
-I'm a highly visual perfectionist-person so and that means my editor must look perfectly minimal, distract-free and beautiful. There are not a lot themes out there that please me, so I decided to build my own.
+**🧠 Useful extensions** - Contains lots of extensions that will not slow down VSCode. Browse extensions [here](#extensions).
 
-### 🧠 Useful extensions
+**✂ Snippets** - Useful snippets like `media + tab` for media queries. Browse snippets [here](https://github.com/ronilaukkarinen/vscode-settings/tree/master/snippets).
 
-Contains lots of extensions that will not slow down VSCode. Browse extensions [here](#extensions).
+**⌨ Key bindings** - Useful keybindings for different kind of tasks. Browse keybindings [here](https://github.com/ronilaukkarinen/vscode-settings/blob/master/keybindings.json).
+**⚡ Fast** - VSCode has not always been the fastest but I select my extensions wisely. No excessive extensions that don't get updated.
 
-### ✂ Snippets
-
-Useful snippets like `media + tab` for media queries. Browse snippets [here](https://github.com/ronilaukkarinen/vscode-settings/tree/master/snippets).
-
-### ⌨ Key bindings
-
-Useful keybindings for different kind of tasks. Browse keybindings [here](https://github.com/ronilaukkarinen/vscode-settings/blob/master/keybindings.json).
-
-### ⚡ Fast
-
-VSCode has not always been the fastest but I select my extensions wisely. No excessive extensions that don't get updated.
-
-### 👨‍💻 Customizable
-
-Feel free to fork this repository and modify settings to your liking. Let me know what you have done!
+**👨‍💻 Customizable** - Feel free to fork this repository and modify settings to your liking. Let me know what you have done!
 
 ## Installation & usage
 
@@ -58,7 +36,11 @@ Feel free to fork this repository and modify settings to your liking. Let me kno
 
 ### Extensions list
 
-See [this .extension file](https://github.com/ronilaukkarinen/vscode-settings/blob/master/.extensions) which is produced by this crontab entry: `* * * * * /bin/ls -1 /Users/rolle/.vscode-insiders/extensions/ > /Users/rolle/Projects/vscode-settings/.extensions`.
+See [this .extension file](https://github.com/ronilaukkarinen/vscode-settings/blob/master/.extensions) which is produced by this crontab entry:
+
+```shell
+* * * * * /bin/ls -1 /Users/rolle/.vscode-insiders/extensions/ > /Users/rolle/Projects/vscode-settings/.extensions
+```
 
 ## Interface
 
