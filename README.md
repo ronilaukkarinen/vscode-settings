@@ -9,40 +9,49 @@ Aims to be minimal and usable.
 
 ## Features
 
-### Useful extensions
+### 🎨 Beautiful
 
-Contains lots of extensions that will not slow down VSCode. Browse extensions [here](#plugins).
+I'm a highly visual perfectionist-person so and that means my editor must look perfectly minimal, distract-free and beautiful. There are not a lot themes out there that please me, so I decided to build my own.
 
-### Snippets
+### 🧠 Useful extensions
+
+Contains lots of extensions that will not slow down VSCode. Browse extensions [here](#extensions).
+
+### ✂ Snippets
 
 Useful snippets like `media + tab` for media queries. Browse snippets [here](https://github.com/ronilaukkarinen/vscode-settings/tree/master/snippets).
 
-### Key bindings
+### ⌨ Key bindings
 
 Useful keybindings for different kind of tasks. Browse keybindings [here](https://github.com/ronilaukkarinen/vscode-settings/blob/master/keybindings.json).
 
-# Usage
+### ⚡ Fast
+
+VSCode has not always been the fastest but I select my extensions wisely. No excessive extensions that don't get updated.
+
+### 👨‍💻 Customizable
+
+Feel free to fork this repository and modify settings to your liking. Let me know what you have done!
+
+# Installation & usage
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/) or [Visual Studio Code Insiders](https://code.visualstudio.com/insiders/) (Preferred, much faster)
 2. Open Visual Studio Code and type <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> (or <kbd>ctrl</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> on Windows system) and select `Preferences: Open Settings (JSON)`
 3. Copy [settings.json](https://raw.githubusercontent.com/ronilaukkarinen/vscode-settings/master/settings.json) of this repository and paste it to your settings.json (if you have made settings in this point, backup them, or cherry pick the preferred settings from this repo). By default this settings.json
 4. Get [Ligaturized version of SFMono font](https://github.com/lemeb/a-better-ligaturizer/blob/master/output-fonts/SFMono.ttf) and [Liga SFMono Nerd Font](https://github.com/shaunsingh/SFMono-Nerd-Font-Ligaturized) (works for iTerm2 as well)
 5. Find all `rolle` from [settings.json](https://raw.githubusercontent.com/ronilaukkarinen/vscode-settings/master/settings.json) and replace with your username (or fix paths if you are on different systems than macOS), remove possible leftover API keys or stuff that you don't want to use. In short: Tweak to your likings!
-6. Install [Synthwave '84](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode) and [Customize UI](https://marketplace.visualstudio.com/items?itemName=iocave.customize-ui)
-7. Install [Dracula Soft](https://marketplace.visualstudio.com/items?itemName=yomed.theme-dracula-soft)
-8. Enable Synthwave with <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> and selecting `Synthwave '84: Enable Neon Dreams`
-9. Change these lines to your settings.json:
 
-```json
-"editor.lineHeight": 21,
-"editor.fontSize": 12,
-"window.zoomLevel": 1,
-```
+## Extensions
 
-10. Restart
-11. Some of the addons make core changes so you will most probably get `Your Code installation appears to be corrupt. Please reinstall.`, for that install [Fix VSCode Checksums](https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums), <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> and select `Fix Checksums: Apply` and restart. If you get the notification again, just ignore it or select Don't show again behind cog igon. Fix Checksums apply should fix the problem though.
-12. Enable Dracula Soft Syntax Theme, <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> and select `Preferences: Color Theme`
-13. Install your preferred [plugins](#plugins), I recommend to have at least **all of the following** (see up to date list in [.extensions](https://github.com/ronilaukkarinen/vscode-settings/blob/master/.extensions) file, updated via cronjob):
+## Interface
+
+After installing extensions, you need to apply some settings to get everything working.
+
+Enable Dracula Soft Syntax Theme, <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> and select `Preferences: Color Theme`.
+
+Enable Custom CSS and JS, <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> and select `Enable Custom CSS and JS`.
+
+Some of the addons make core changes so you will most probably get `Your Code installation appears to be corrupt. Please reinstall.`, for that install [Fix VSCode Checksums](https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums), <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> and select `Fix Checksums: Apply` and restart. If you get the notification again, just ignore it or select Don't show again behind cog igon. Fix Checksums apply should fix the problem though.
 
 * [stylefmt](https://marketplace.visualstudio.com/items?itemName=ronilaukkarinen.vscode-stylefmt)
 * [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
@@ -69,7 +78,8 @@ Useful keybindings for different kind of tasks. Browse keybindings [here](https:
 
 These plugins are fully supported by my vscode settings.json already.
 
-15. If you want to import your Sublime Keymaps, [go through this documentation](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings).
+## Keymaps
+If you want to import your Sublime Keymaps, [go through this documentation](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings).
 16. All done!
 
 If you don't want to use CSS customizations, make sure you have these lines set:
