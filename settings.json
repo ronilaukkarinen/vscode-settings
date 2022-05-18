@@ -576,6 +576,32 @@
       //       "foreground": "#66d9ef"
       //     }
       //   },
+      // color: #66d9ef;
+      // color: #5ae5ff;
+      {
+        "scope": "entity.name.function.scss",
+        "settings": {
+          "foreground": "#66d9ef"
+        }
+      },
+      {
+        "scope": "meta.property-name-custom-unique.scss",
+        "settings": {
+          "foreground": "#66d9ef",
+        }
+      },      
+      {
+        "scope": "meta.property-list.scss entity.name.tag.css",
+        "settings": {
+          "foreground": "#66d9ef",
+        }
+      },
+      {
+        "scope": "meta.property-list.scss entity.name.tag.css",
+        "settings": {
+          "foreground": "#e289bc",
+        }
+      },          
       {
         "scope": "string.quoted.double.json.comments",
         "settings": {
@@ -767,12 +793,6 @@
         "scope": "support.constant.property-value.css",
         "settings": {
           "foreground": "#ae81ff"
-        }
-      },
-      {
-        "scope": "entity.name.function.scss",
-        "settings": {
-          "foreground": "#66d9ef"
         }
       },
       {
