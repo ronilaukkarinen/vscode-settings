@@ -1,11 +1,11 @@
-# The ultimate Visual Studio Code setup
+# 🚀 The ultimate Visual Studio Code setup
 
 This repository contains a Visual Studio Code settings and theme.
 Used when coding [Digitoimisto Dude Oy's Projects](https://github.com/digitoimistodude).
 
-Strongly WIP.
-Updated regurarly.
-Aims to be minimal and usable.
+**Strongly WIP.**<br>
+**Updates regurarly.**<br>
+**Aims to be minimal and usable.**<br>
 
 ## Features
 
@@ -43,46 +43,32 @@ Feel free to fork this repository and modify settings to your liking. Let me kno
 
 ## Extensions
 
+You can decide which ones you want to install but I recommend to install them all to get the best experience. These extensions are carefully selected and fully supported by my VSCode settings.json already.
+
+[![codetime](https://user-images.githubusercontent.com/1534150/169009107-90463206-d916-435a-b1d2-08980ae9ffdb.jpg)](https://marketplace.visualstudio.com/items?itemName=softwaredotcom.swdc-vscode)
+
 ## Interface
 
-After installing extensions, you need to apply some settings to get everything working.
+### Dark neon dracula spacegray theme
 
-Enable Dracula Soft Syntax Theme, <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> and select `Preferences: Color Theme`.
+My "theme" is my own mix of Spacegray, Synthwave '84 and Dracula. Color overrides are achieved via settings.json so no actual theme extension is needed.
 
-Enable Custom CSS and JS, <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> and select `Enable Custom CSS and JS`.
+--- 
 
-Some of the addons make core changes so you will most probably get `Your Code installation appears to be corrupt. Please reinstall.`, for that install [Fix VSCode Checksums](https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums), <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> and select `Fix Checksums: Apply` and restart. If you get the notification again, just ignore it or select Don't show again behind cog igon. Fix Checksums apply should fix the problem though.
+#### How to install:
 
-* [stylefmt](https://marketplace.visualstudio.com/items?itemName=ronilaukkarinen.vscode-stylefmt)
-* [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
-* [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
-* [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=coenraads.bracket-pair-colorizer)
-* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-* [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-* [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
-* [Helium Icon Theme](https://marketplace.visualstudio.com/items?itemName=helgardrichard.helium-icon-theme)
-* [phpcs](https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs)
-* [Customize UI](https://marketplace.visualstudio.com/items?itemName=iocave.customize-ui)
-* [colorize](https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize)
-* [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
-* [SCSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss)
-* [Sublime Text Keymap and Settings Importer](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
-* [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
-* [Highlight Matching Tag](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag)
-* [webhint](https://marketplace.visualstudio.com/items?itemName=webhint.vscode-webhint) 
-* [doiuse](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-doiuse)
-* [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
-* [CSS var hint](https://marketplace.visualstudio.com/items?itemName=yanai101.css-var-hint)
-* [svgo](https://marketplace.visualstudio.com/items?itemName=1000ch.svgo)
-* [VSCodeFileHeader](https://marketplace.visualstudio.com/items?itemName=jankincai.vscodefileheader)
+1. Go through the [installation steps](#installation--usage)
+2. Install extensions: [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css), [Dracula Soft Syntax Theme](https://marketplace.visualstudio.com/items?itemName=yomed.theme-dracula-soft), [Fix VSCode Checksums](https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums)
+3. Fix path in settings.json: `"vscode_custom_css.imports": ["file:///Users/rolle/Projects/vscode-settings/editor.css"],`
+6. Install [Dracula Soft](https://marketplace.visualstudio.com/items?itemName=yomed.theme-dracula-soft)
+7. Enable Dracula Soft Syntax Theme, <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> and select `Preferences: Color Theme`.
+8. Enable Custom CSS and JS, <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> and select `Enable Custom CSS and JS`.
+9. Restart VSCode
+10. If you get the "corrupted" notification, ignore it or select Don't show again behind cog igon. Then, <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> and select `Fix Checksums: Apply` and restart.
 
-These plugins are fully supported by my vscode settings.json already.
+![Screen-Shot-2022-05-18-12-24-18 07](https://user-images.githubusercontent.com/1534150/169008168-ce74d88f-21fe-4b46-8896-912e1b9bc62a.png)
 
-## Keymaps
-If you want to import your Sublime Keymaps, [go through this documentation](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings).
-16. All done!
-
-If you don't want to use CSS customizations, make sure you have these lines set:
+If you don't want to use CSS customizations, everything may look a big big and clumsy. You'll fix this by changing font/UI size settings to this:
 
 ```json
 "editor.lineHeight": 24,
@@ -90,51 +76,14 @@ If you don't want to use CSS customizations, make sure you have these lines set:
 "editor.fontSize": 14,
 ```
 
-### Dark neon theme (custom)
+## Keymaps
 
-If you already did steps in [usage](#usage) above, you are already covered!
+If you want to import your Sublime Keymaps, [go through this documentation](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings).
 
---- 
-
-The old dark theme I have used is ported from [sublime-settings](https://github.com/digitoimistodude/sublime-settings). It's based on the combination of Monokai Extended, Spacegray and Synthwave '84. Color overrides are achieved via [settings.json (settings.backup-darkneon.json)](https://github.com/ronilaukkarinen/vscode-settings/blob/master/settings.backup-darkneon.json) so no actual theme is needed, just activate Monokai Extended, Synthwave '84 Neon Dreams and you are good to go.
-
-So, in summary, how to enable:
-
-1. Get [settings.json](https://raw.githubusercontent.com/ronilaukkarinen/vscode-settings/master/settings.json) modifications of this repository
-2. <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>7</kbd>, comment out synthwave84.css specific color settings from settings.json if not enabled already
-3. Install [Synthwave '84](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode) and [Customize UI](https://marketplace.visualstudio.com/items?itemName=iocave.customize-ui)
-4. Install [Dracula Soft](https://marketplace.visualstudio.com/items?itemName=yomed.theme-dracula-soft)
-5. Enable Synthwave with <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> and selecting `Synthwave '84: Enable Neon Dreams`
-6. Restart
-7. Install [Fix VSCode Checksums](https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums), <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> and select `Fix Checksums: Apply` and restart
-8. Enable Dracula Soft Syntax Theme, <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> and select `Preferences: Color Theme`
-
-#### With [Dracula Soft](https://marketplace.visualstudio.com/items?itemName=yomed.theme-dracula-soft):
-![Screenshot](https://i.imgur.com/yim4rNQ.png "Screenshot")
-
-#### With [Monokai Extended](https://marketplace.visualstudio.com/items?itemName=SuperPaintman.monokai-extended):
-![Screenshot](https://i.imgur.com/8m8ESKo.png "Screenshot")
-
-### Light GitHub theme (custom)
-
-Current active theme is GitHub with some fixes and overrides with [custom.css](https://github.com/ronilaukkarinen/vscode-settings/blob/master/custom.css) and [settings.json](https://github.com/ronilaukkarinen/vscode-settings/blob/master/settings.json). The theme is a combination of [GitHub theme for VS Vode](https://github.com/primer/github-vscode-theme), [Github Light Theme](https://github.com/chuling/vscode-theme-github-light) and [GitHub Theme for Visual Studio Code](https://github.com/thomaspink/vscode-github-theme).
-
-So, in summary, how to enable:
-
-1. Get [settings.json](https://raw.githubusercontent.com/ronilaukkarinen/vscode-settings/master/settings.json) modifications of this repository
-2. Uncomment `// GitHub light theme:` and comment out current active `"workbench.colorCustomizations": {`
-3. Install [thomaspink/vscode-github-theme](https://github.com/thomaspink/vscode-github-theme) (not GitHub Light or primer's GitHub theme)
-4. Comment out Github specific color settings with <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>7</kbd> from settings.json if not enabled already
-5. Enable Github
-
-If you have some dark areas after this, uncomment them from your settings.json.
-
-![Screenshot](https://i.imgur.com/X7NYkhm.png "Screenshot")
-
-### Plugins
+### Extensions list
 
 See [this .extension file](https://github.com/ronilaukkarinen/vscode-settings/blob/master/.extensions) which is produced by this crontab entry: `* * * * * /bin/ls -1 /Users/rolle/.vscode-insiders/extensions/ > /Users/rolle/Projects/vscode-settings/.extensions`.
 
-### Windows 10
+### Windows 10-11
 
 If you use Windows you need a bat file for executables, see [this](https://github.com/microsoft/vscode/issues/22391#issuecomment-310593201) and [this](https://www.reddit.com/r/bashonubuntuonwindows/comments/77idb8/where_is_the_executable_for_the_new_wsl_ubuntu_in/donn90c/?utm_source=reddit&utm_medium=web2x&context=3).
