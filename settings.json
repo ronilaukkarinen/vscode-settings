@@ -15,6 +15,7 @@
   "editor.mouseWheelZoom": false,
   "explorer.openEditors.visible": 100,
   "editor.renderLineHighlight": "none",
+  "vscode_custom_css.imports": ["file:///Users/rolle/Projects/vscode-settings/editor.css"],
   "sync-rsync.exclude": [
     "node_modules",
     "acf-json",
@@ -915,7 +916,6 @@
   "stylelint.syntax": "scss",
   "stylefmt.showErrorMessages": false,
   "editor.inlineHints.fontFamily": "'SF Mono', Menlo, Monaco, 'Courier New', monospace",
-  "workbench.colorTheme": "Dracula Soft Syntax Theme",
   "VSCord.detailsEditing": "Line {currentline}:{currentcolumn} {problems}",
   "VSCord.detailsViewing": "Line {currentline}:{currentcolumn} {problems}",
   "VSCord.problemsText": "- Linter: {count} problems found",
@@ -942,4 +942,5 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
   "workbench.activityBar.visible": false,
+  "workbench.colorTheme": "Dracula Soft Syntax Theme",
 }
