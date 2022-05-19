@@ -67,8 +67,19 @@ body.inline-title-bar:not(.activity-bar-at-bottom) .monaco-workbench:not(.fullsc
 
 /* Reset */
 [class="mtk1"]:first-of-type,
-[class="mtk7"] + [class="mtk1"],
-[class="mtk17"] + [class="mtk1"],
+.mtk1.bracket-highlighting-0,
+.mtk1.bracket-highlighting-1,
+.mtk1.bracket-highlighting-2,
+.mtk1.bracket-highlighting-3,
+.mtk1.bracket-highlighting-4,
+.mtk1.bracket-highlighting-5,
+.mtk1.bracket-highlighting-6,
+.mtk1.bracket-highlighting-7,
+.mtk1.bracket-highlighting-8,
+.mtk1.bracket-highlighting-9,
+.mtk1.bracket-highlighting-10
+/* [class="mtk7"] + [class="mtk1"],
+[class="mtk17"] + [class="mtk1"], */
 /* [class="mtkz"][style]:first-of-type + [class="mtk1"], */
 /* [class="mtkz"] + [class="mtkz"] + [class="mtk1"] + [class="mtk1"], */
 /* [class="mtkz"] + [class="mtkz"] + [class="mtk1"] */ {
