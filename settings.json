@@ -159,7 +159,8 @@
     "mps",
     "bin/tasks",
     "alive",
-    "rescuetime"
+    "rescuetime",
+    "auto"
   ],
   "activitusbar.views": [
     {
@@ -584,12 +585,18 @@
           "foreground": "#66d9ef"
         }
       },
-      {
+      {        
         "scope": "meta.property-name-custom-unique.scss",
         "settings": {
           "foreground": "#66d9ef",
         }
-      },      
+      },
+      // {
+      //   "scope": "meta.property-name-custom-unique.scss entity.other.attribute-name.class.css meta.property-list.scss source.css.scss",
+      //   "settings": {
+      //     "foreground": "#80d394",
+      //   }
+      // },      
       {
         "scope": "meta.property-list.scss entity.name.tag.css",
         "settings": {
