@@ -141,7 +141,7 @@
       true,
       {
         "importFrom": [
-          "css/dev/global.css"
+          "editor.css"
         ]
       }
     ],
