@@ -266,8 +266,14 @@
     "editor.wordWrap": "bounded",
     "files.trimTrailingWhitespace": false
   },
+  "[css]": {
+    "editor.formatOnSave": true,
+    "editor.lineNumbers": "on",
+    "editor.wordWrap": "bounded",
+    "files.trimTrailingWhitespace": true,
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },  
   "[scss]": {
-    "editor.defaultFormatter": "ronilaukkarinen.vscode-stylefmt",
     "editor.formatOnSave": true,
     "editor.lineNumbers": "on",
     "editor.wordWrap": "bounded",
@@ -935,6 +941,7 @@
   "cssvar.excludeThemedVariables": false,
   "cssvar.disableSort": false,
   "stylelint.validate": [
+    "css",
     "scss"
   ],
   "stylelint.snippet": [
