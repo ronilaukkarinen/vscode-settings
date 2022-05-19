@@ -71,13 +71,14 @@ body.inline-title-bar:not(.activity-bar-at-bottom) .monaco-workbench:not(.fullsc
 /* Synthwave '84-style intensive glows */
 .mtk5 {
   color: #cbb1fb;
-  text-shadow: 0 0 5px #0017556b, 0 0 0 #ae81ff75, 0 0 8px #6a19fbcc, 0 0 10px #dac5ffc4;
-  /* text-shadow: 0 0 7px #fff0, 0 0 5px #fff0, 0 0 10px #ffffff61, 0 0 15px #ae81ff5e, 0 0 0 #ae81ff60, 0 0 0 #ae81ff59, 0 0 5px #ae81ff63, 0 0 10px #ae81ff5c; */
+  /* stylelint-disable-next-line */
+  text-shadow: 0 0 5px #0017556b, 0 0 0px #ae81ff75, 0 0 8px #6a19fbcc, 0 0 10px #dac5ffc4;
 }
 
 [class="mtk1"] {
   color: #fff;
-  text-shadow: 0 0 7px #fff0, 0 0 5px #fff0, 0 0 10px #fff61, 0 0 15px #00ffaa5e, 0 0 0 #0fa6, 0 0 0 #00ffaa59, 0 0 5px #00ffaa63, 0 0 10px #00ffaa5c;
+  /* stylelint-disable-next-line */
+  text-shadow: 0 0 7px #fff0, 0 0 5px #fff0, 0 0 10px #ffffff61, 0 0 15px #00ffaa5e, 0 0 0 #0fa6, 0 0 0 #00ffaa59, 0 0 5px #00ffaa63, 0 0 10px #00ffaa5c;
 }
 
 /* Reset */

@@ -161,7 +161,8 @@
     "alive",
     "rescuetime",
     "auto",
-    "vscode"
+    "vscode",
+    "stylelint-"
   ],
   "activitusbar.views": [
     {
@@ -277,7 +278,8 @@
     "editor.formatOnSave": true,
     "editor.lineNumbers": "on",
     "editor.wordWrap": "bounded",
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "editor.defaultFormatter": "ronilaukkarinen.vscode-stylefmt"
   },
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features",
