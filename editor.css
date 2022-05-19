@@ -65,6 +65,16 @@ body.inline-title-bar:not(.activity-bar-at-bottom) .monaco-workbench:not(.fullsc
   text-shadow: 0 0 7px #fff0, 0 0 5px #fff0, 0 0 10px #ffffff61, 0 0 15px #00ffaa5e, 0 0 0 #0fa6, 0 0 0 #00ffaa59, 0 0 5px #00ffaa63, 0 0 10px #00ffaa5c;
 }
 
+/* Reset */
+[class="mtk1"]:first-of-type,
+[class="mtk7"] + [class="mtk1"],
+[class="mtk17"] + [class="mtk1"],
+/* [class="mtkz"][style]:first-of-type + [class="mtk1"], */
+/* [class="mtkz"] + [class="mtkz"] + [class="mtk1"] + [class="mtk1"], */
+/* [class="mtkz"] + [class="mtkz"] + [class="mtk1"] */ {
+  text-shadow: none;
+}
+
 /* Ensure glows are viewable */
 .view-lines,
 .view-line, 
