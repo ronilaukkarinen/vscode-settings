@@ -53,10 +53,27 @@ body.inline-title-bar:not(.activity-bar-at-bottom) .monaco-workbench:not(.fullsc
   padding-right: 4px !important;
 }
 
-/* synthwave84.css: */
+/* Synthwave '84-style intensive glows */
 .mtk5 {
-  color: #ae81ff;
-  text-shadow: 0 0 0 #001716, 0 0 0px #ae81ff75, 0 0 7px #ae81ff75, 0 0 9px #ae81ff75;
+  color: #cbb1fb;
+  text-shadow: 0 0 5px #0017556b, 0 0 0px #ae81ff75, 0 0 8px #6a19fbcc, 0 0 10px #dac5ffc4;
+  /* text-shadow: 0 0 7px #fff0, 0 0 5px #fff0, 0 0 10px #ffffff61, 0 0 15px #ae81ff5e, 0 0 0 #ae81ff60, 0 0 0 #ae81ff59, 0 0 5px #ae81ff63, 0 0 10px #ae81ff5c; */
+}
+
+[class="mtk1"] {
+  color: #fff;
+  text-shadow: 0 0 7px #fff0, 0 0 5px #fff0, 0 0 10px #ffffff61, 0 0 15px #00ffaa5e, 0 0 0 #0fa6, 0 0 0 #00ffaa59, 0 0 5px #00ffaa63, 0 0 10px #00ffaa5c;
+}
+
+/* Ensure glows are viewable */
+.view-lines,
+.view-line, 
+.lines-content,
+.monaco-scrollable-element,
+.editor-scrollable,
+.monaco-editor,
+.view-line span {
+  overflow: visible !important;
 }
 
 .search-container .synthetic-focus,
