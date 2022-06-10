@@ -127,6 +127,12 @@
   "editor.renderWhitespace": "all",
   "workbench.activityBar.visible": false,
   "editor.matchBrackets": "always",
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.bracketPairsHorizontal": "active",
+  "editor.guides.indentation": true,
+  "editor.guides.highlightActiveIndentation": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "bracket-pair-colorizer-2.showBracketsInRuler": true,
   "bracket-pair-colorizer-2.colors": [
     "Gold",
     "Orchid",
@@ -399,6 +405,21 @@
   //   }
   // ],
   "workbench.colorCustomizations": {
+
+    // Bracket Pair Colorizer
+    "editorBracketHighlight.foreground1": "#ae81ff",
+    "editorBracketHighlight.foreground2": "#ae81ff",
+    "editorBracketHighlight.foreground3": "#ae81ff",
+    "editorBracketHighlight.foreground4": "#ae81ff",
+    "editorBracketHighlight.foreground5": "#ae81ff",
+    "editorBracketHighlight.foreground6": "#ae81ff",
+    "editorBracketPairGuide.activeBackground1": "#ae81ff",
+    "editorBracketPairGuide.activeBackground2": "#ae81ff",
+    "editorBracketPairGuide.activeBackground3": "#ae81ff",
+    "editorBracketPairGuide.activeBackground4": "#ae81ff",
+    "editorBracketPairGuide.activeBackground5": "#ae81ff",
+    "editorBracketPairGuide.activeBackground6": "#ae81ff",
+
     // Disable shadows:
     "scrollbar.shadow": "#ffffff00",
     "widget.shadow": "#ffffff00",
@@ -503,6 +524,12 @@
       //       "foreground": "#66d9ef"
       //     }
       //   },
+      {        
+        "scope": "meta.property-name-custom-unique.scss",
+        "settings": {
+          "foreground": "#66d9ef",
+        }
+      },      
       {
         "scope": "string.quoted.double.json.comments",
         "settings": {
@@ -795,5 +822,11 @@
 "workbench.colorTheme": "Dracula Soft Syntax Theme",
 "editor.inlineSuggest.enabled": true,
 "gitlens.codeLens.enabled": false,
-"discord.lowerDetailsEditing": "Current line: {current_line}"
+"discord.lowerDetailsEditing": "Current line: {current_line}",
+"phpcs.executablePath": "C:\\wsl-tools\\phpcs.bat",
+"phpcs.showSources": true,
+"php.validate.executablePath": "C:\\UnxUtils\\php-7.3.29-nts-Win32-VC15-x86\\php.exe",
+//  "terminal.explorerKind": "external",
+//  "terminal.external.windowsExec": "C:\\Program Files\\Git\\bin\\bash.exe",
+//  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
 }
