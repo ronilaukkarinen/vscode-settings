@@ -162,7 +162,22 @@
   // "phpcbf.onsave": false,
   // "phpcbf.standard": "C:/Users/Rolle/Projects/airdev/content/themes/air-light/phpcs.xml",
   "showErrorMessages": false,
+  "cssvar.files": ["content/themes/**/*.css"],
+  "cssvar.extensions": ["css", "scss", "sass"],
+  "cssvar.themes": ["dark"],
+  "cssvar.excludeThemedVariables": false,
+  "cssvar.disableSort": false,  
   "stylefmt.showError": false,
+  "stylelint.validate": [
+    "css",
+    "scss"
+  ],
+  "stylelint.snippet": [
+    "css",
+    "scss"
+  ],
+  "stylefmt.showErrorMessages": false,
+  "stylelint.syntax": "scss",  
   "php-cs-fixer.formatHtml": false,
   "stylelint.customSyntax": "postcss-scss",
   "editor.codeActionsOnSave": {
@@ -170,14 +185,6 @@
     "source.fixAll.tslint": false,
     "source.fixAll.stylelint": true
   },
-  "stylelint.validate": [
-    "scss"
-  ],
-  "stylelint.snippet": [
-    "css",
-    "scss"
-  ],
-  "stylelint.syntax": "scss",
   "[javascript]": {
     "editor.formatOnSave": false,
     "editor.defaultFormatter": "vscode.typescript-language-features"
@@ -187,23 +194,24 @@
     "editor.wordWrap": "bounded",
     "files.trimTrailingWhitespace": false
   },
-  "[scss]": {
-    "editor.defaultFormatter": "ronilaukkarinen.vscode-stylefmt",
-    "editor.formatOnSave": true,
-    "editor.lineNumbers": "on",
-    "editor.wordWrap": "bounded",
-    "files.trimTrailingWhitespace": true
-  },
   "[css]": {
-    "editor.defaultFormatter": "ronilaukkarinen.vscode-stylefmt",
     "editor.formatOnSave": true,
     "editor.lineNumbers": "on",
     "editor.wordWrap": "bounded",
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },  
+  "[scss]": {
+    "editor.formatOnSave": true,
+    "editor.lineNumbers": "on",
+    "editor.wordWrap": "bounded",
+    "files.trimTrailingWhitespace": true,
+    "editor.defaultFormatter": "ronilaukkarinen.vscode-stylefmt"
   },
   "[json]": {
-    "editor.formatOnSave": false,
-    "editor.lineNumbers": "on",
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true,
+    "editor.lineNumbers": "off",
     "editor.wordWrap": "bounded",
     "files.trimTrailingWhitespace": false
   },
@@ -819,13 +827,13 @@
   ".open-editors .monaco-list .monaco-list-row>.monaco-action-bar .action-label": "display: flex; padding: 0; align-items: center; justify-content: center; margin-right: 2px;"
 },
 "window.zoomLevel": 1,
-"workbench.colorTheme": "Dracula Soft Syntax Theme",
 "editor.inlineSuggest.enabled": true,
 "gitlens.codeLens.enabled": false,
 "discord.lowerDetailsEditing": "Current line: {current_line}",
 "phpcs.executablePath": "C:\\wsl-tools\\phpcs.bat",
 "phpcs.showSources": true,
 "php.validate.executablePath": "C:\\UnxUtils\\php-7.3.29-nts-Win32-VC15-x86\\php.exe",
+"workbench.colorTheme": "Dracula Soft Syntax Theme",
 //  "terminal.explorerKind": "external",
 //  "terminal.external.windowsExec": "C:\\Program Files\\Git\\bin\\bash.exe",
 //  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
