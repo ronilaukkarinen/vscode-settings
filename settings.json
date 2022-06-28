@@ -138,7 +138,7 @@
   "fileheader.ignore": [
     "config.js",
     "air-light-demo-content.php",
-    "nav-walker.php",
+    "nav-walker",
     "*.vue",
     "*.html",
     "*.txt",
@@ -162,7 +162,11 @@
     "rescuetime",
     "auto",
     "vscode",
-    "stylelint-"
+    "node_modules",
+    "swiper",
+    "stylelint-",
+    "stylefmt",
+    "org.filezilla"
   ],
   "activitusbar.views": [
     {
