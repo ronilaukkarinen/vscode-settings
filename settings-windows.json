@@ -127,6 +127,12 @@
   "editor.renderWhitespace": "all",
   "workbench.activityBar.visible": false,
   "editor.matchBrackets": "always",
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.bracketPairsHorizontal": "active",
+  "editor.guides.indentation": true,
+  "editor.guides.highlightActiveIndentation": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "bracket-pair-colorizer-2.showBracketsInRuler": true,
   "bracket-pair-colorizer-2.colors": [
     "Gold",
     "Orchid",
@@ -156,7 +162,22 @@
   // "phpcbf.onsave": false,
   // "phpcbf.standard": "C:/Users/Rolle/Projects/airdev/content/themes/air-light/phpcs.xml",
   "showErrorMessages": false,
+  "cssvar.files": ["content/themes/**/*.css"],
+  "cssvar.extensions": ["css", "scss", "sass"],
+  "cssvar.themes": ["dark"],
+  "cssvar.excludeThemedVariables": false,
+  "cssvar.disableSort": false,  
   "stylefmt.showError": false,
+  "stylelint.validate": [
+    "css",
+    "scss"
+  ],
+  "stylelint.snippet": [
+    "css",
+    "scss"
+  ],
+  "stylefmt.showErrorMessages": false,
+  "stylelint.syntax": "scss",  
   "php-cs-fixer.formatHtml": false,
   "stylelint.customSyntax": "postcss-scss",
   "editor.codeActionsOnSave": {
@@ -164,14 +185,6 @@
     "source.fixAll.tslint": false,
     "source.fixAll.stylelint": true
   },
-  "stylelint.validate": [
-    "scss"
-  ],
-  "stylelint.snippet": [
-    "css",
-    "scss"
-  ],
-  "stylelint.syntax": "scss",
   "[javascript]": {
     "editor.formatOnSave": false,
     "editor.defaultFormatter": "vscode.typescript-language-features"
@@ -181,23 +194,24 @@
     "editor.wordWrap": "bounded",
     "files.trimTrailingWhitespace": false
   },
-  "[scss]": {
-    "editor.defaultFormatter": "ronilaukkarinen.vscode-stylefmt",
-    "editor.formatOnSave": true,
-    "editor.lineNumbers": "on",
-    "editor.wordWrap": "bounded",
-    "files.trimTrailingWhitespace": true
-  },
   "[css]": {
-    "editor.defaultFormatter": "ronilaukkarinen.vscode-stylefmt",
     "editor.formatOnSave": true,
     "editor.lineNumbers": "on",
     "editor.wordWrap": "bounded",
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },  
+  "[scss]": {
+    "editor.formatOnSave": true,
+    "editor.lineNumbers": "on",
+    "editor.wordWrap": "bounded",
+    "files.trimTrailingWhitespace": true,
+    "editor.defaultFormatter": "ronilaukkarinen.vscode-stylefmt"
   },
   "[json]": {
-    "editor.formatOnSave": false,
-    "editor.lineNumbers": "on",
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true,
+    "editor.lineNumbers": "off",
     "editor.wordWrap": "bounded",
     "files.trimTrailingWhitespace": false
   },
@@ -399,6 +413,21 @@
   //   }
   // ],
   "workbench.colorCustomizations": {
+
+    // Bracket Pair Colorizer
+    "editorBracketHighlight.foreground1": "#ae81ff",
+    "editorBracketHighlight.foreground2": "#ae81ff",
+    "editorBracketHighlight.foreground3": "#ae81ff",
+    "editorBracketHighlight.foreground4": "#ae81ff",
+    "editorBracketHighlight.foreground5": "#ae81ff",
+    "editorBracketHighlight.foreground6": "#ae81ff",
+    "editorBracketPairGuide.activeBackground1": "#ae81ff",
+    "editorBracketPairGuide.activeBackground2": "#ae81ff",
+    "editorBracketPairGuide.activeBackground3": "#ae81ff",
+    "editorBracketPairGuide.activeBackground4": "#ae81ff",
+    "editorBracketPairGuide.activeBackground5": "#ae81ff",
+    "editorBracketPairGuide.activeBackground6": "#ae81ff",
+
     // Disable shadows:
     "scrollbar.shadow": "#ffffff00",
     "widget.shadow": "#ffffff00",
@@ -503,6 +532,12 @@
       //       "foreground": "#66d9ef"
       //     }
       //   },
+      {        
+        "scope": "meta.property-name-custom-unique.scss",
+        "settings": {
+          "foreground": "#66d9ef",
+        }
+      },      
       {
         "scope": "string.quoted.double.json.comments",
         "settings": {
@@ -792,8 +827,14 @@
   ".open-editors .monaco-list .monaco-list-row>.monaco-action-bar .action-label": "display: flex; padding: 0; align-items: center; justify-content: center; margin-right: 2px;"
 },
 "window.zoomLevel": 1,
-"workbench.colorTheme": "Dracula Soft Syntax Theme",
 "editor.inlineSuggest.enabled": true,
 "gitlens.codeLens.enabled": false,
-"discord.lowerDetailsEditing": "Current line: {current_line}"
+"discord.lowerDetailsEditing": "Current line: {current_line}",
+"phpcs.executablePath": "C:\\wsl-tools\\phpcs.bat",
+"phpcs.showSources": true,
+"php.validate.executablePath": "C:\\UnxUtils\\php-7.3.29-nts-Win32-VC15-x86\\php.exe",
+"workbench.colorTheme": "Dracula Soft Syntax Theme",
+//  "terminal.explorerKind": "external",
+//  "terminal.external.windowsExec": "C:\\Program Files\\Git\\bin\\bash.exe",
+//  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
 }
