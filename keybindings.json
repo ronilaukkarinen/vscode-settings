@@ -1,57 +1,57 @@
-// Place your key bindings in this file to override the defaultsauto[]
+// Place your key bindings in this file to override the defaults
 [
-    {
-        "key": "shift+cmd+o",
-        "command": "-workbench.action.gotoSymbol"
-    },
-    {
-        "key": "shift+cmd+o",
-        "command": "projectManager.listProjects"
-    },
-    {
-        "key": "alt+cmd+p",
-        "command": "-projectManager.listProjects"
-    },
-    {
-        "key": "shift+cmd+a",
-        "command": "workbench.actions.view.problems"
-    },
-    {
-        "key": "shift+cmd+z",
-        "command": "extension.vscode-git-automator.addAndCommitAllFiles"
-    },
-    {
-        "key": "ctrl+alt+n",
-        "command": "nightlight.toggle"
-    },
-    {
-        "key": "shift+cmd+r",
-        "command": "HookyQR.beautify"
-    },
-    {
-      "key": "shift+cmd+t",
-      "command": "clockify-projects.focus"
-    },  
-    {
-        "key": "shift+cmd+i",
-        "command": "cacher.insertSnippet",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "cmd+[Minus]",
-        "command": "editor.action.fontZoomIn"
-    },
-    {
-        "key": "cmd+-",
-        "command": "editor.action.fontZoomOut"
-    },
-    {
-        "key": "cmd+0",
-        "command": "editor.action.fontZoomReset"
-    },
-    { 
-        "key": "shift+cmd+j",
-        "command": "extension.fileheader",
-        "when": "editorTextFocus"
-    }
-  ]
+  {
+      "key": "shift+cmd+o",
+      "command": "-workbench.action.gotoSymbol"
+  },
+  {
+      "key": "shift+cmd+o",
+      "command": "projectManager.listProjects"
+  },
+  {
+      "key": "alt+cmd+p",
+      "command": "-projectManager.listProjects"
+  },
+  {
+      "key": "shift+cmd+a",
+      "command": "workbench.actions.view.problems"
+  },
+  {
+      "key": "shift+cmd+z",
+      "command": "extension.vscode-git-automator.addAndCommitAllFiles"
+  },
+  {
+      "key": "ctrl+alt+n",
+      "command": "nightlight.toggle"
+  },
+  {
+      "key": "shift+cmd+r",
+      "command": "HookyQR.beautify"
+  },
+  {
+    "key": "shift+cmd+t",
+    "command": "clockify-projects.focus"
+  },  
+  {
+      "key": "shift+cmd+i",
+      "command": "cacher.insertSnippet",
+      "when": "editorTextFocus"
+  },
+  {
+      "key": "cmd+[Minus]",
+      "command": "editor.action.fontZoomIn"
+  },
+  {
+      "key": "cmd+-",
+      "command": "editor.action.fontZoomOut"
+  },
+  {
+      "key": "cmd+0",
+      "command": "editor.action.fontZoomReset"
+  },
+  { 
+      "key": "shift+cmd+j",
+      "command": "extension.fileheader",
+      "when": "editorTextFocus"
+  }
+]
