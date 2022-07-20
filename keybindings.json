@@ -53,5 +53,10 @@
       "key": "shift+cmd+j",
       "command": "extension.fileheader",
       "when": "editorTextFocus"
-  }
+  },
+  {
+      "key": "ctrl+shift+7",
+      "command": "editor.action.commentLine",
+      "when": "editorTextFocus"
+  },
 ]
