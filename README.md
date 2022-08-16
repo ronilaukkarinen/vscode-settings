@@ -56,20 +56,20 @@ See [this .extension file](https://github.com/ronilaukkarinen/vscode-settings/bl
 
 My "theme" is my own mix of Spacegray, Synthwave '84 and Dracula. Color overrides are achieved via settings.json so no actual theme extension is needed.
 
---- 
-
-#### How to install:
-
-1. Go through the [installation steps](#installation--usage)
-2. Install extensions: [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css), [Dracula Soft Syntax Theme](https://marketplace.visualstudio.com/items?itemName=yomed.theme-dracula-soft), [Helium Icon Theme](https://marketplace.visualstudio.com/items?itemName=helgardrichard.helium-icon-theme) and [Fix VSCode Checksums](https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums)
-3. Fix path in settings.json: `"vscode_custom_css.imports": ["file:///Users/rolle/Projects/vscode-settings/editor.css"],`
-6. Install [Dracula Soft](https://marketplace.visualstudio.com/items?itemName=yomed.theme-dracula-soft)
-7. Enable Dracula Soft Syntax Theme, <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> and select `Preferences: Color Theme`.
-8. Enable Custom CSS and JS, <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> and select `Enable Custom CSS and JS`.
-9. Restart VSCode
-10. If you get the "corrupted" notification, ignore it or select Don't show again behind cog igon. Then, <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> and select `Fix Checksums: Apply` and restart.
-
 ![Screen-Shot-2022-05-18-12-24-18 07](https://user-images.githubusercontent.com/1534150/169008168-ce74d88f-21fe-4b46-8896-912e1b9bc62a.png)
+
+## Add colored icons
+
+Change these to settings.json:
+
+```json
+"helium-icon-theme.saturation": 1,
+"helium-icon-theme.opacity": 1,
+```
+
+Then <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> and select `Preferences: File Icon Theme`, select any other than Helium. After this re-activate Helium icons.
+
+## Disable CSS customizations 
 
 If you don't want to use CSS customizations, everything may look a big big and clumsy. You'll fix this by changing font/UI size settings to this:
 
@@ -78,6 +78,8 @@ If you don't want to use CSS customizations, everything may look a big big and c
 "window.zoomLevel": 0.4,
 "editor.fontSize": 14,
 ```
+
+
 
 ## Keymaps
 
