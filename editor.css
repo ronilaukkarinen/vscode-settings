@@ -64,13 +64,13 @@ body.inline-title-bar:not(.activity-bar-at-bottom) .monaco-workbench:not(.fullsc
 .show-file-icons .esformatter-name-file-icon.esformatter-ext-file-icon.ext-file-icon.file-icon::before,
 .show-file-icons .cdp.pid-name-file-icon.pid-ext-file-icon.ext-file-icon.file-icon::before {
   background-size: 14px !important;
-  /* filter: brightness(70%) !important; */
   padding-right: 4px !important;
 }
 
-.monaco-list.list_id_2 .monaco-list-rows .monaco-list-row .monaco-icon-label::before {
+/* Works only with Seti icons */
+/* .monaco-list.list_id_2 .monaco-list-rows .monaco-list-row .monaco-icon-label::before {
   margin-left: 4px !important;
-}
+} */
 
 /* Synthwave '84-style intensive glows */
 .mtk5 {
