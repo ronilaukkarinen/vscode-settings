@@ -1,3 +1,7 @@
+:root {
+  --color-heliotrope: #ae81ff;
+}
+
 /* stylelint-disable selector-max-class, selector-max-specificity, selector-max-combinators, selector-max-pseudo-class, declaration-no-important, max-line-length, selector-max-compound-selectors, a11y/no-display-none, a11y/font-size-is-readable, property-disallowed-list, no-descending-specificity */
 body.inline-title-bar:not(.activity-bar-at-bottom) .monaco-workbench:not(.fullscreen) .split-view-container .activitybar:not(.right) .content {
   height: calc(100% - 6px) !important;
@@ -76,7 +80,7 @@ body.inline-title-bar:not(.activity-bar-at-bottom) .monaco-workbench:not(.fullsc
 .mtk5 {
   color: #cbb1fb;
   /* stylelint-disable-next-line */
-  text-shadow: 0 0 5px #0017556b, 0 0 0px #ae81ff75, 0 0 8px #6a19fbcc, 0 0 10px #dac5ffc4;
+  text-shadow: 0 0 5px #0017556b, 0 0 0px var(--color-heliotrope)75, 0 0 8px #6a19fbcc, 0 0 10px #dac5ffc4;
 }
 
 [class="mtk1"] {
@@ -114,18 +118,18 @@ body.inline-title-bar:not(.activity-bar-at-bottom) .monaco-workbench:not(.fullsc
 
 .search-container .synthetic-focus,
 .find-part .synthetic-focus {
-  outline: 1px solid #ae81ff !important;
+  outline: 1px solid var(--color-heliotrope) !important;
 }
 
 .search-container .synthetic-focus textarea::placeholder,
 .find-part .synthetic-focus textarea::placeholder {
-  color: #ae81ff !important;
+  color: var(--color-heliotrope) !important;
   opacity: 1 !important;
 }
 
 .search-container .synthetic-focus textarea,
 .find-part .synthetic-focus textarea {
-  color: #ae81ff !important;
+  color: var(--color-heliotrope) !important;
   opacity: 1 !important;
 }
 
@@ -155,6 +159,17 @@ body.inline-title-bar:not(.activity-bar-at-bottom) .monaco-workbench:not(.fullsc
 .monaco-workbench .part.panel > .composite.title > .panel-switcher-container > .monaco-action-bar .action-item .action-label {
   border-bottom-color: transparent !important;
   color: #657184 !important;
+}
+
+.panel.bottom .action-item.checked a,
+.panel.right .action-item.checked a,
+.monaco-workbench .part.panel > .title > .panel-switcher-container > .monaco-action-bar .action-item.checked:hover .action-label,
+.monaco-workbench .part.panel > .composite.title > .panel-switcher-container > .monaco-action-bar .action-item.checked .action-label,
+.panel.bottom .action-item.checked a,
+.panel.right .action-item.checked a,
+.monaco-workbench .part.panel > .title > .panel-switcher-container > .monaco-action-bar .action-item.checked:focus .action-label,
+.monaco-workbench .part.panel > .composite.title > .panel-switcher-container > .monaco-action-bar .action-item.checked.action-label {
+  color: var(--color-heliotrope) !important;
 }
 
 .action-item .action-label {
@@ -222,8 +237,8 @@ body.inline-title-bar:not(.activity-bar-at-bottom) .monaco-workbench:not(.fullsc
 .monaco-editor .suggest-widget .monaco-list .monaco-list-row:hover,
 .monaco-editor .suggest-widget .monaco-list .monaco-list-row.focused,
 .monaco-editor .suggest-widget .monaco-list .monaco-list-row:focus {
-  color: #ae81ff !important;
-  outline: 1px solid #ae81ff !important;
+  color: var(--color-heliotrope) !important;
+  outline: 1px solid var(--color-heliotrope) !important;
 }
 
 .suggest-widget .tree {
@@ -245,7 +260,7 @@ body.inline-title-bar:not(.activity-bar-at-bottom) .monaco-workbench:not(.fullsc
 .suggest-widget .docs:not(.codicon),
 .suggest-widget .header:not(.codicon),
 .suggest-widget span:not(.codicon) {
-  font-family: Liga SFMono Nerd Font, SFMono, Roboto Mono, Fira Code, Victor Mono, Cascadia Code, JetBrains Mono, Dank Mono, Consolas, Liberation Mono, Menlo, Courier, monospace !important;
+  font-family: 'Liga SFMono Nerd Font', 'SFMono', 'Roboto Mono', 'Fira Code', 'Victor Mono', 'Cascadia Code', 'JetBrains Mono', 'Dank Mono', 'Consolas', 'Liberation Mono', 'Menlo', 'Courier', 'monospace' !important;
   font-size: 11px !important;
 }
 
@@ -360,7 +375,7 @@ body.inline-title-bar:not(.activity-bar-at-bottom) .monaco-workbench:not(.fullsc
 .codicon.checked::before,
 .monaco-workbench .monaco-custom-checkbox.codicon.checked,
 .monaco-workbench .monaco-custom-checkbox.codicon.checked * {
-  color: #ae81ff !important;
+  color: var(--color-heliotrope) !important;
 }
 
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab .tab-label a,
