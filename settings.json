@@ -932,7 +932,6 @@
       "document"
     ],
     "editor.codeLens": true,
-    "gitlens.codeLens.enabled": true,
     "terminal.integrated.fontFamily": "'Liga SFMono Nerd Font', 'SFMono', 'Roboto Mono', 'Fira Code', 'Victor Mono', 'Cascadia Code', 'JetBrains Mono', 'Dank Mono', 'Consolas', 'Liberation Mono', 'Menlo', 'Courier', 'monospace'",
     "terminal.integrated.fontSize": 10,
     "terminal.integrated.lineHeight": 1,
@@ -990,4 +989,5 @@
     "workbench.iconTheme": "helium-icon-theme",
     "git.mergeEditor": false,
     "terminal.explorerKind": "external",
+    "gitlens.codeLens.enabled": false,
   }
