@@ -39,9 +39,21 @@
     "prefix": "grid",
     "body": [
       "display: grid;",
+      "gap: 5rem;",
       "",
       "@media (min-width: \\$container-ipad-landscape) {",
       "  grid-template-columns: repeat(${1:3}, minmax(0, 1fr));",
+      "}",
+    ],
+  },
+  "CSS Grid minmax columns": {
+    "prefix": "minmax",
+    "body": [
+      "display: grid;",
+      "gap: 5rem;",
+      "",
+      "@media (min-width: \\$container-ipad-landscape) {",
+      "  grid-template-columns: 605px minmax(0, 1fr);",
       "}",
     ],
   },
