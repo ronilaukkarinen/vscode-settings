@@ -14,6 +14,7 @@
     "window.zoomLevel": 1,
     "editor.mouseWheelZoom": false,
     "explorer.openEditors.visible": 100,
+    "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.renderLineHighlight": "none",
     "vscode_custom_css.imports": ["file:///Users/rolle/Projects/vscode-settings/editor.css"],
     "sync-rsync.exclude": [
