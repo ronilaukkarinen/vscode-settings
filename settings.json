@@ -93,6 +93,11 @@
     "phpcs.executablePath": "/usr/local/bin/phpcs",
     // "phpcs.standard": "${workspaceFolder}/content/themes/${workspaceFolderBasename}/phpcs.xml",
     "phpcs.showSources": true,
+    "phpcs.ignorePatterns": [
+      "*/index.php",
+      "wp-config.php",
+      "*/ignored-dir/*"
+    ],
     "auto-close-tag.SublimeText3Mode": true,
     "scssLint.runOnTextChange": false,
     "codesnap.backgroundColor": "#bea0fa",
@@ -157,6 +162,7 @@
       "gulpfile.js",
       "keskiaikafestivaali",
       "newicon",
+      "index.php",
       "mps",
       "bin/tasks",
       "alive",
@@ -171,7 +177,8 @@
       "macos-lemp-setup",
       "ruuvi-textdata",
       "browser-extension",
-      "*.vue"
+      "*.vue",
+      "*.sh"
     ],
     "activitusbar.views": [
       {
@@ -985,10 +992,96 @@
     "discord.removeRemoteRepository": true,
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": true,
-    "workbench.activityBar.visible": false,
     "workbench.colorTheme": "Dracula Soft Syntax Theme",
     "workbench.iconTheme": "helium-icon-theme",
     "git.mergeEditor": false,
     "terminal.explorerKind": "external",
     "gitlens.codeLens.enabled": false,
+    "TodoParser": {
+      "exclude": [
+        "**/vendor/**",
+        "**/wp/**",
+        "**/node_modules/**",
+        "**/bower_components/**",
+        "**/dist/**",
+        "**/out/**",
+        "**/build/**",
+        "**/prod/**",
+        "**/.*/**"
+      ],
+      "include": ["scss", "php", "js"],
+      "folderExclude": [
+        "node_modules",
+        ".vscode",
+        "vendor",
+        "wp",
+        "prod"
+      ],
+      "showInProblems": true,
+      "markers": [["TODO", "Information"], ["FIXME", "Warning"]],
+      "autoDefaultMarkers": false
+    },
+    "workbench.activityBar.visible": false,
+    "highlight.regexes": {
+      "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *TODO(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+        "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+        "decorations": [
+          {
+            "overviewRulerColor": "#ffcc00",
+            "backgroundColor": "#ffcc00",
+            "color": "#1f1f1f",
+            "fontWeight": "bold"
+          },
+          {
+            "backgroundColor": "#ffcc00",
+            "color": "#1f1f1f"
+          }
+        ]
+      },
+      "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:FIXME|FIX|BUG|UGLY|DEBUG|HACK)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+        "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+        "decorations": [
+          {
+            "overviewRulerColor": "#cc0000",
+            "backgroundColor": "#cc0000",
+            "color": "#1f1f1f",
+            "fontWeight": "bold"
+          },
+          {
+            "backgroundColor": "#cc0000",
+            "color": "#1f1f1f"
+          }
+        ]
+      },
+      "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:REVIEW|OPTIMIZE|TSC)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+        "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+        "decorations": [
+          {
+            "overviewRulerColor": "#00ccff",
+            "backgroundColor": "#00ccff",
+            "color": "#1f1f1f",
+            "fontWeight": "bold"
+          },
+          {
+            "backgroundColor": "#00ccff",
+            "color": "#1f1f1f"
+          }
+        ]
+      },
+      "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:IDEA)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+        "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+        "decorations": [
+          {
+            "overviewRulerColor": "#cc00cc",
+            "backgroundColor": "#cc00cc",
+            "color": "#1f1f1f",
+            "fontWeight": "bold"
+          },
+          {
+            "backgroundColor": "#cc00cc",
+            "color": "#1f1f1f"
+          }
+        ]
+      }
+    },
   }
