@@ -1084,4 +1084,15 @@
         ]
       }
     },
+    "simpleTodo.overrideFoldersToIgnore": [
+      "plugins",
+      "mu-plugins",
+      "vendor",
+      "wp",
+      "dev",
+      "prod",
+      "node_modules",
+      "dist",
+      "config"
+    ]
   }
