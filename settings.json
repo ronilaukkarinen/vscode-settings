@@ -1094,5 +1094,10 @@
       "node_modules",
       "dist",
       "config"
+    ],
+    "simpleTodo.overrideLanguagesToCheck": [
+      "js",
+      "php",
+      "scss"
     ]
   }
