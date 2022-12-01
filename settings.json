@@ -96,7 +96,10 @@
     "phpcs.ignorePatterns": [
       "*/index.php",
       "wp-config.php",
-      "*/ignored-dir/*"
+      "*/ignored-dir/*",
+      "*content/plugins/*",
+      "*content/plugins-legacy/*",
+      "*legacy*"
     ],
     "auto-close-tag.SublimeText3Mode": true,
     "scssLint.runOnTextChange": false,
@@ -169,6 +172,12 @@
       "rescuetime",
       "auto",
       "vscode",
+      "mastodon",
+      "seak",
+      "metallipajanieminen",
+      "memento-mori",
+      "pricing-estimate-calculator",
+      "aitomaaseutu",
       "node_modules",
       "swiper",
       "stylelint-",
@@ -970,7 +979,6 @@
     "VSCord.detailsEditing": "Line {currentline}:{currentcolumn} {problems}",
     "VSCord.detailsViewing": "Line {currentline}:{currentcolumn} {problems}",
     "VSCord.problemsText": "- Linter: {count} problems found",
-    "clockify.apiKey": "Yjg2NDgwMjItMjMwYi00YjQ3LTk3NzktNWVhNzRkMjVjODhi",
     "editor.inlineSuggest.enabled": true,
     "github.copilot.enable": {
       "*": true,
@@ -994,7 +1002,6 @@
     "editor.guides.bracketPairs": true,
     "workbench.colorTheme": "Dracula Soft Syntax Theme",
     "workbench.iconTheme": "helium-icon-theme",
-    "git.mergeEditor": false,
     "terminal.explorerKind": "external",
     "gitlens.codeLens.enabled": false,
     "TodoParser": {
@@ -1021,7 +1028,6 @@
       "markers": [["TODO", "Information"], ["FIXME", "Warning"]],
       "autoDefaultMarkers": false
     },
-    "workbench.activityBar.visible": false,
     "highlight.regexes": {
       "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *TODO(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
         "filterFileRegex": ".*(?<!CHANGELOG.md)$",
@@ -1093,11 +1099,24 @@
       "prod",
       "node_modules",
       "dist",
-      "config"
+      "config",
+      "media",
+      "scripts"
     ],
     "simpleTodo.overrideLanguagesToCheck": [
       "js",
       "php",
       "scss"
-    ]
+    ],
+    "simpleTodo.overrideActionKeywords": [
+      {
+        "actionName": "TODO:",
+        "severity": "Information"
+      },
+      {
+        "actionName": "Bug:",
+        "severity": "Warning"
+      },
+    ],
+    "workbench.activityBar.visible": false
   }
