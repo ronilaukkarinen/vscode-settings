@@ -1118,5 +1118,6 @@
         "severity": "Warning"
       },
     ],
-    "workbench.activityBar.visible": false
+    "workbench.activityBar.visible": false,
+    "editor.wordWrap": "on"
   }
