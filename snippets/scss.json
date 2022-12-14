@@ -40,10 +40,7 @@
     "body": [
       "display: grid;",
       "gap: 5rem;",
-      "",
-      "@media (min-width: \\$container-ipad-landscape) {",
-      "  grid-template-columns: repeat(${1:3}, minmax(0, 1fr));",
-      "}",
+      "grid-template-columns: repeat(${1:3}, minmax(0, 1fr));"
     ],
   },
   "CSS Grid minmax columns": {
@@ -57,10 +54,10 @@
       "}",
     ],
   },
-  "Responsive font": {
-    "prefix": "font",
+  "Clamp": {
+    "prefix": "clamp",
     "body": [
-      "@include responsive-font(22px, ${1:64}px);",
+      "font-size: clamp-calc(\\$container-mobile, 1600px, 26px, ${1:40}px);",
     ],
   },
 }
