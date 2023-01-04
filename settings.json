@@ -68,7 +68,7 @@
     "css.validate": false,
     "less.validate": false,
     "scss.validate": false,
-    "doiuse.enable": true, 
+    "doiuse.enable": true,
     "doiuse.messageLevel": "Error",
     "doiuse.ignore": [
       "minmax",
@@ -87,7 +87,7 @@
       "not op_mob > 0",
       "> 1% in FI",
     ],
-    "caniuse.browser_scope": 
+    "caniuse.browser_scope":
       "last 1 edge version, safari 14, last 1 chrome version, last 1 firefox version, not firefox > 90, not dead, not ie > 0, not ucandroid > 0, not firefoxandroid > 0, not samsung > 0, not op_mob > 0, > 1% in FI",
     "phpcs.enable": true,
     "phpcs.executablePath": "/usr/local/bin/phpcs",
@@ -138,7 +138,7 @@
     "fileheader.Author": "Roni Laukkarinen",
     "fileheader.other_config": {
       "email": "roni@dude.fi",
-    },  
+    },
     "fileheader.open": false,
     "fileheader.save": true,
     "fileheader.dateformat": "YYYY-MM-DD HH:mm:ss",
@@ -264,7 +264,7 @@
     "phpcbf.enable": true,
     "phpcbf.documentFormattingProvider": true,
     "phpcbf.onsave": false,
-    // "phpcbf.standard": "/Users/rolle/Projects/airdev/content/themes/air-light/phpcs.xml", 
+    // "phpcbf.standard": "/Users/rolle/Projects/airdev/content/themes/air-light/phpcs.xml",
     // When set to null, phpcbf will use, if it's set, the default_standard (phpcs -i), otherwise fallback to Pear. You set the default standard using phpcs --config-set
     "phpcbf.standard": null,
     "showErrorMessages": false,
@@ -297,7 +297,7 @@
       "editor.wordWrap": "bounded",
       "files.trimTrailingWhitespace": true,
       "editor.defaultFormatter": "stylelint.vscode-stylelint"
-    },  
+    },
     "[scss]": {
       "editor.formatOnSave": true,
       "editor.lineNumbers": "on",
@@ -389,7 +389,7 @@
     "eslint.run": "onSave",
     "extensions.ignoreRecommendations": false,
     "tabnine.experimentalAutoImports": true,
-    // "workbench.colorCustomizations": {  
+    // "workbench.colorCustomizations": {
     //     // Sidebar:
     //     "sideBar.background": "#465073",
     //     "sideBar.foreground": "#b5b9c7",
@@ -397,7 +397,7 @@
     //     "sideBarSectionHeader.border": "#465073",
     //     "sideBarSectionHeader.background": "#465073",
     //     "sideBar.dropBackground": "#465073",
-    //     "activityBar.background": "#465073", 
+    //     "activityBar.background": "#465073",
     //     "list.activeSelectionBackground": "#7b6ffb",
     //     "list.inactiveSelectionBackground": "#7b6ffb",
     //     "list.hoverBackground": "#7b6ffb",
@@ -424,7 +424,7 @@
     //     "tab.activeBorder": "#31395a",
     //     "editorGroup.emptyBackground": "#31395a",
     //     "editorPane.background": "#31395a",
-    //     "editorGroup.dropBackground": "#31395a", 
+    //     "editorGroup.dropBackground": "#31395a",
     //     // Statusbar
     //     "statusBar.background": "#31395a",
     //     "statusBar.border": "#31395a",
@@ -440,9 +440,9 @@
     //       }
     //     },
     //   ]
-    // },  
+    // },
     // GitHub light theme:
-    // "workbench.colorCustomizations": {  
+    // "workbench.colorCustomizations": {
     //   // Disable shadows:
     //   "scrollbar.shadow": "#ffffff00",
     //   "widget.shadow": "#ffffff00",
@@ -452,7 +452,7 @@
     //   "editor.findMatchHighlightBackground": "#fffd99",
     //   "editor.findRangeHighlightBackground": "#fffd99",
     //   "editor.selectionBackground": "#fffd99",
-    //   "activityBar.activeBorder": "#24292e", 
+    //   "activityBar.activeBorder": "#24292e",
     //   "activityBarBadge.background": "#d73a49",
     //   "list.highlightForeground": "#d73a49",
     //   "list.activeSelectionForeground": "#d73a49",
@@ -460,12 +460,12 @@
     //   "list.hoverForeground": "#d73a49",
     //   "list.focusForeground": "#d73a49",
     //   "button.background": "#d73a49",
-    //   "editorSuggestWidget.highlightForeground": "#d73a49",   
+    //   "editorSuggestWidget.highlightForeground": "#d73a49",
     //   "list.activeSelectionBackground": "#eeeeee",
     //   "list.inactiveSelectionBackground": "#eeeeee",
     //   "list.hoverBackground": "#eeeeee",
     //   "list.focusBackground": "#eeeeee",
-    // }, 
+    // },
     // "editor.tokenColorCustomizations": {
     //   "textMateRules": [
     //     {
@@ -473,7 +473,7 @@
     //       "settings": {
     //         "foreground": "#53a4b4"
     //       }
-    //     },      
+    //     },
     //     {
     //       "scope": "meta.property-value.scss",
     //       "settings": {
@@ -485,13 +485,13 @@
     //       "settings": {
     //         "foreground": "#005cc5"
     //       }
-    //     },      
+    //     },
     //     {
     //       "scope": "variable.scss",
     //       "settings": {
     //         "foreground": "#e36209"
     //       }
-    //     },      
+    //     },
     //   ]
     // },
     // Custom, bulletbroof modifications for Dracula/synthwave.css
@@ -505,7 +505,7 @@
     //       "backgroundColor": "#2b303c",
     //       "overviewRulerColor": "#2b303c"
     //   }
-    // ],  
+    // ],
     "workbench.colorCustomizations": {
       // Disable shadows:
       "scrollbar.shadow": "#ffffff00",
@@ -617,7 +617,7 @@
             "foreground": "#66d9ef"
           }
         },
-        {        
+        {
           "scope": "meta.property-name-custom-unique.scss",
           "settings": {
             "foreground": "#66d9ef",
@@ -628,7 +628,7 @@
         //   "settings": {
         //     "foreground": "#80d394",
         //   }
-        // },      
+        // },
         {
           "scope": "meta.property-list.scss entity.name.tag.css",
           "settings": {
@@ -640,7 +640,7 @@
           "settings": {
             "foreground": "#e289bc",
           }
-        },          
+        },
         {
           "scope": "string.quoted.double.json.comments",
           "settings": {
@@ -851,7 +851,7 @@
       ".label-name": "transition: all .22s !important",
       // Fuzzy commands
       ".monaco-list-row *,.monaco-icon-label>.monaco-icon-label-container *": "font-size: 11px !important;",
-      // Improvements to greyscale Helium/Material icon theme    
+      // Improvements to greyscale Helium/Material icon theme
       ".monaco-icon-label:before, .show-file-icons .javascript-lang-file-icon.file-icon::before, .show-file-icons .js-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .esx-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .mjs-ext-file-icon.ext-file-icon.file-icon::before,.show-file-icons .json-lang-file-icon.file-icon::before, .show-file-icons .jsonc-lang-file-icon.file-icon::before, .show-file-icons .json-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .tsbuildinfo-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .jscsrc-name-file-icon.jscsrc-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .jshintrc-name-file-icon.jshintrc-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .tsconfig.json-name-file-icon.json-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .tslint.json-name-file-icon.json-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .composer.lock-name-file-icon.lock-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .jsbeautifyrc-name-file-icon.jsbeautifyrc-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .esformatter-name-file-icon.esformatter-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .cdp.pid-name-file-icon.pid-ext-file-icon.ext-file-icon.file-icon::before": "filter: brightness(70%) !important;background-size: 14px !important; padding-right: 4px !important;",
       // synthwave84.css:
       ".mtk5": "color: #ae81ff; text-shadow: 0 0 0 #001716, 0 0 0px #ae81ff75, 0 0 7px #ae81ff75, 0 0 9px #ae81ff75;",
@@ -914,14 +914,14 @@
       ".monaco-split-view2>.split-view-container, .monaco-split-view2, .sash-container, .separator-border": "--separator-border: transparent !important; border: 0 !important;",
       ".monaco-editor .find-widget": "border: 0 !important",
       ".monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab .tab-label a": "font-size: 10px !important;",
-      // ".monaco-editor .margin-view-overlays .line-numbers": "color: #51596e;", 
+      // ".monaco-editor .margin-view-overlays .line-numbers": "color: #51596e;",
       ".mtk3": "color: #696e7a;",
       ".monaco-button,.monaco-text-button": "background: #232830 !important;",
       ".extension-list-item .monaco-action-bar .action-item .action-label.extension-action.label.prominent,.extension-editor .monaco-action-bar .action-item .action-label.extension-action.label.prominent": "color: #fff !important;",
       ".monaco-breadcrumb-item .label-name": "color: rgb(123, 127, 139) !important;",
       ".monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.active .tab-label a": "color: #ddd !important;",
       ".monaco-icon-label > .monaco-icon-label-container > .monaco-icon-name-container > .label-name": "font-size: 11px;",
-      // ".monaco-workbench .activitybar > .content .monaco-action-bar .badge .badge-content": "background: linear-gradient(to bottom, #fff951 25%, #fc28a8);", 
+      // ".monaco-workbench .activitybar > .content .monaco-action-bar .badge .badge-content": "background: linear-gradient(to bottom, #fff951 25%, #fc28a8);",
       ".monaco-workbench .activitybar > .content .monaco-action-bar .badge .badge-content": "background: #f92fac; !important; border-color: #232830 !important; font-size: 8px !important; color: #fff !important",
       // ".monaco-workbench .activitybar>.content :not(.monaco-menu)>.monaco-action-bar .action-label.codicon, .monaco-workbench .activitybar>.content .monaco-action-bar .action-label": "background-color: #232830 !important;",
       ".monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.sizing-fit.active": "box-shadow: inset 0 -5px 25px #fc28a825;position: relative;box-shadow: none !important; background-color: #232830 !important;",
@@ -1000,7 +1000,6 @@
     "discord.removeRemoteRepository": true,
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": true,
-    "workbench.colorTheme": "Dracula Soft Syntax Theme",
     "workbench.iconTheme": "helium-icon-theme",
     "terminal.explorerKind": "external",
     "gitlens.codeLens.enabled": false,
@@ -1119,5 +1118,13 @@
       },
     ],
     "workbench.activityBar.visible": false,
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "emptyIndent.removeIndent": true,
+    "emptyIndent.highlightIndent": true,
+    "emptyIndent.highlightColor": "rgba(246,36,89,0.6)",
+    "emptyIndent.exclude": [
+      ".md"
+    ],
+    "indenticator.inner.showIndentGuide": true,
+    "workbench.colorTheme": "Dracula Soft Syntax Theme",
   }
