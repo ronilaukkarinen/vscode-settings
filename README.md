@@ -42,10 +42,6 @@ These extensions are not related to my settings so you can choose whether you wa
 
 [![custom](https://user-images.githubusercontent.com/1534150/169010107-47b0a358-7107-4097-b152-ee3c0676aec2.jpg)](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css) [![codetime](https://user-images.githubusercontent.com/1534150/169009107-90463206-d916-435a-b1d2-08980ae9ffdb.jpg)](https://marketplace.visualstudio.com/items?itemName=softwaredotcom.swdc-vscode) [![codestats](https://user-images.githubusercontent.com/1534150/169009947-e6cb5fa8-5d67-475d-9201-0fb26316e5e4.jpg)](https://marketplace.visualstudio.com/items?itemName=riussi.code-stats-vscode) [![wakatime](https://user-images.githubusercontent.com/1534150/169014037-30ad9dda-a503-482b-b58b-4c9f1f115b56.jpg)](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime) [![rescuetime](https://user-images.githubusercontent.com/1534150/169013232-f7fc4b82-d290-4ab4-a954-cbfd8024f1fc.jpg)](https://marketplace.visualstudio.com/items?itemName=RescueTime.rescuetime) [![fixchecksums](https://user-images.githubusercontent.com/1534150/169012114-32d71a14-45d3-446c-944f-727f468cbbbc.jpg)](https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums)
 
-### Extensions list
-
-See [this .extension file](https://github.com/ronilaukkarinen/vscode-settings/blob/master/.extensions) which is produced by this crontab entry:
-
 ```shell
 * * * * * /bin/ls -1 /Users/rolle/.vscode-insiders/extensions/ > /Users/rolle/Projects/vscode-settings/.extensions
 ```
