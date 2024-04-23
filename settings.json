@@ -181,7 +181,7 @@
       "scrollbar.shadow": "#ffffff00",
       "widget.shadow": "#ffffff00",
       // "editorSuggestWidget.selectedBackground": "#666666",
-      "editor.selectionBackground": "#da70d6",
+      "editor.selectionBackground": "#da70d655",
       "editor.selectionHighlightBackground": "#da70d6FC",
       "editor.wordHighlightBackground": "#6940c5FC",
       "editor.wordHighlightStrongBackground": "#6940c5FC",
@@ -193,6 +193,10 @@
       "sideBar.foreground": "#777777",
       "sideBar.border": "#444444",
       "scrollbarSlider.background":"#444444",
+      "minimap.findMatchHighlight":"#4b2e51FC",
+      "editor.wordHighlightTextBackground":"#4b2e51FC",
+      "editor.findMatchBackground":"#4b2e51FC",
+      "editor.findMatchHighlightBackground":"#4b2e51FC"
     },
     "editor.linkedEditing": true,
     "gitlens.codeLens.scopes": [
