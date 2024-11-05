@@ -55,10 +55,21 @@
       "wp-config.php",
       "*/ignored-dir/*",
       "*/content/plugins/*",
-      "*kuntokompassi/*",
       "*content/plugins-legacy/*",
       "*legacy*"
     ],
+    "phpCodeSniffer.autoExecutable": true,
+    // https://github.com/ObliviousHarmony/vscode-php-codesniffer/issues/101
+    "phpCodeSniffer.autoloadPHPCSIntegration": false,
+    "phpCodeSniffer.standard": "Automatic",
+	  "phpCodeSniffer.exclude": [
+	    "**/vendor/**",
+        "**/languages**"
+	  ],    
+    "[php]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "obliviousharmony.vscode-php-codesniffer"
+    },  
     "scssLint.runOnTextChange": false,
     "codesnap.backgroundColor": "#bea0fa",
     "codesnap.showWindowTitle": true,
