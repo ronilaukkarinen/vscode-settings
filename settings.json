@@ -4,14 +4,16 @@
     "workbench.colorTheme": "Github Purple",
     "workbench.iconTheme": "sweet-vscode-icons",
     "window.zoomLevel": 0,
-    "editor.fontSize": 14,
-    "editor.fontFamily": "'Liga SFMono Nerd Font', 'SFMono', 'Roboto Mono', 'Fira Code', 'Victor Mono', 'Cascadia Code', 'JetBrains Mono', 'Dank Mono', 'Consolas', 'Liberation Mono', 'Menlo', 'Courier', 'monospace'",
+    "editor.fontSize": 15,
+    "editor.fontFamily": "'Monaspace Neon', monospace",
+    "editor.inlineSuggest.fontFamily": "'Monaspace Krypton', monospace",
+    "editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09'",
     "editor.cursorWidth": 3,
     "editor.cursorStyle": "line",
     "editor.mouseWheelZoom": false,
 
     // Terminal
-    "terminal.integrated.fontFamily": "'Liga SFMono Nerd Font', 'SFMono', 'Roboto Mono', 'Fira Code', 'Victor Mono', 'Cascadia Code', 'JetBrains Mono', 'Dank Mono', 'Consolas', 'Liberation Mono', 'Menlo', 'Courier', 'monospace'",
+    "terminal.integrated.fontFamily": "'Monaspace Krypton', monospace",
     "terminal.integrated.fontSize": 10,
     "terminal.integrated.lineHeight": 1,
 
@@ -95,6 +97,29 @@
     "editor.scrollbar.verticalScrollbarSize": 6,
     "editor.scrollbar.horizontalScrollbarSize": 6,
 
+    // Change desired syntax colors
+    // Inspect: Ctrl/Cmd + P and `Developer: Inspect Editor Tokens and Scopes`
+    "editor.tokenColorCustomizations": {
+      "[Github Purple]": {
+        "textMateRules": [
+          {
+            "scope": [
+              "variable.css",
+              "meta.property-list.css",
+              "meta.at-rule.media.body.css",
+              "variable.argument.css",
+              "meta.function.variable.css",
+              "meta.property-value.css",
+              "meta.property-list.css"
+            ],
+            "settings": {
+              "foreground": "#fdff70"
+            }
+          }
+        ]
+      }
+    },
+
     // UI Fixes
     "workbench.colorCustomizations": {
       // Disable shadows
@@ -121,7 +146,10 @@
       // Scrollbar color customization - makes scrollbars more subtle and minimal
       "scrollbarSlider.background": "#42424220",
       "scrollbarSlider.hoverBackground": "#4f4f4f40",
-      "scrollbarSlider.activeBackground": "#68686860"
+      "scrollbarSlider.activeBackground": "#68686860",
+
+      // CSS variable color overrides - force modern colors
+      "editor.foreground": "#8B9DC3",
 
       // Pop out background
       // "editorSuggestWidget.selectedBackground": "#666666",
