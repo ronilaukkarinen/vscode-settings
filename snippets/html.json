@@ -6,6 +6,13 @@
     ],
     "description": "Include SVG icon"
   },
+  "Lazyload image": {
+    "prefix": "lazy",
+    "body": [
+      "<?php vanilla_lazyload_tag( $$image['ID'] ); ?>",
+    ],
+    "description": "Echo HTML"
+  },
   "Title": {
     "prefix": "title",
     "body": [
@@ -35,7 +42,6 @@
       "$0",
       "  </div>",
       "</section>",
-
     ]
   },
   "Posts loop": {
