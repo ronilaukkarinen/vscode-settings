@@ -145,6 +145,8 @@
 
       // Minimap hilight color
       "minimap.findMatchHighlight":"#9b7ae770",
+      "minimapSlider.hoverBackground": "#9b7ae723",
+      "minimapSlider.activeBackground": "#9b7ae749",
 
       // Bracket match (previouisly Highlight Matching Tag extension, now built-in)
       "editorBracketMatch.border": "#bd93f9",
@@ -178,5 +180,7 @@
       // "editor.background": "#111",
       // "sideBar.background": "#1a1a1a",
     },
-    "codestats.apikey": "SFMyNTY.Y205c2JHVT0jI01UUXdNak09.9SZ-WknsNiEXXeL63eW2m9h6dAG4eMivTVSY-VA4abE",
+
+    // Enable minimap
+    "editor.minimap.enabled": true,
   }
