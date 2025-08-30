@@ -85,6 +85,16 @@
       "editor.formatOnSave": false
     },
 
+    // File explorer and tree view settings
+    "workbench.tree.indent": 16,
+    "workbench.tree.renderIndentGuides": "always",
+
+    // Scrollbar behavior and sizing
+    "editor.scrollbar.vertical": "visible",
+    "editor.scrollbar.horizontal": "visible",
+    "editor.scrollbar.verticalScrollbarSize": 6,
+    "editor.scrollbar.horizontalScrollbarSize": 6,
+
     // UI Fixes
     "workbench.colorCustomizations": {
       // Disable shadows
@@ -93,7 +103,6 @@
 
       // Sidebar colors
       "sideBar.foreground": "#777777",
-      "scrollbarSlider.background":"#444444",
       // "sideBar.border": "#444444",
 
       // Minimap hilight color
@@ -108,6 +117,11 @@
       "editor.wordHighlightBackground": "#6940c5FC",
       "editor.wordHighlightStrongBackground": "#6940c5FC",
       "quickInputList.focusBackground": "#6940c5FC",
+
+      // Scrollbar color customization - makes scrollbars more subtle and minimal
+      "scrollbarSlider.background": "#42424220",
+      "scrollbarSlider.hoverBackground": "#4f4f4f40",
+      "scrollbarSlider.activeBackground": "#68686860"
 
       // Pop out background
       // "editorSuggestWidget.selectedBackground": "#666666",
