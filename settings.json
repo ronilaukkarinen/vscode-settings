@@ -3,7 +3,7 @@
     "window.commandCenter": true,
     "workbench.iconTheme": "sweet-vscode-icons",
     "window.zoomLevel": 0,
-    "editor.fontSize": 18,
+    "editor.fontSize": 16,
     "editor.fontFamily": "'Monaspace Neon', monospace",
     "editor.inlineSuggest.fontFamily": "'Monaspace Krypton', monospace",
     "editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09'",
@@ -172,4 +172,5 @@
       // "editor.background": "#111",
       // "sideBar.background": "#1a1a1a",
     },
+    "codestats.apikey": "SFMyNTY.Y205c2JHVT0jI01UUXdNak09.9SZ-WknsNiEXXeL63eW2m9h6dAG4eMivTVSY-VA4abE",
   }
