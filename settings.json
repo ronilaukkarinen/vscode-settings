@@ -3,18 +3,24 @@
     "window.commandCenter": true,
     "workbench.iconTheme": "sweet-vscode-icons",
     "window.zoomLevel": 0,
-    "editor.fontSize": 16,
-    "editor.fontFamily": "'Monaspace Neon', monospace",
-    "editor.inlineSuggest.fontFamily": "'Monaspace Krypton', monospace",
-    "editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09'",
     "editor.cursorWidth": 3,
     "editor.cursorStyle": "line",
     "editor.mouseWheelZoom": false,
 
-    // Terminal
-    "terminal.integrated.fontFamily": "'Monaspace Krypton', monospace",
+    // Fonts
+    "editor.fontFamily": "'Monaspace Neon', monospace",
+    "editor.inlineSuggest.fontFamily": "'Monaspace Krypton', monospace",
+    "terminal.integrated.fontFamily": "'Monaspace Neon', monospace",
+    "debug.console.fontFamily": "'Monaspace Krypton', monospace",
+    "errorLens.fontFamily": "'Monaspace Krypton', monospace",
+    "editor.codeLensFontFamily": "'Monaspace Krypton', monospace",
+
+    // Font sizes and features
+    "editor.fontSize": 16,
+    "editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09'",
     "terminal.integrated.fontSize": 10,
     "terminal.integrated.lineHeight": 1,
+    "terminal.integrated.fontLigatures.enabled": true,
 
     // Theme
     "workbench.colorTheme": "Github Purple",
@@ -120,7 +126,7 @@
               "meta.property-list.css"
             ],
             "settings": {
-              "foreground": "#fdff70"
+              "foreground": "#eaaf73"
             }
           }
         ]
