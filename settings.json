@@ -1,10 +1,9 @@
 {
     // Editor
     "window.commandCenter": true,
-    "workbench.colorTheme": "Github Purple",
     "workbench.iconTheme": "sweet-vscode-icons",
     "window.zoomLevel": 0,
-    "editor.fontSize": 15,
+    "editor.fontSize": 18,
     "editor.fontFamily": "'Monaspace Neon', monospace",
     "editor.inlineSuggest.fontFamily": "'Monaspace Krypton', monospace",
     "editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09'",
@@ -17,6 +16,9 @@
     "terminal.integrated.fontSize": 10,
     "terminal.integrated.lineHeight": 1,
 
+    // Theme
+    "workbench.colorTheme": "Github Purple",
+
     // Linters for Dude
     // PHP_CodeSniffer
     // See docs: https://app.gitbook.com/o/PedExJWZmbCiZe4gDwKC/s/VVikkYgIZ9miBzwYDCYh/linting
@@ -26,21 +28,15 @@
     "phpCodeSniffer.standard": "Automatic",
     "phpCodeSniffer.lintAction": "Save",
     "phpCodeSniffer.exclude": [
-        "**/vendor/**",
-          "**/languages",
-          "content/languages",
-          "vendor",
-          "content/languages/*.php"
+      "**/vendor/**",
+      "**/languages",
+      "content/languages",
+      "vendor",
+      "content/languages/*.php"
     ],
     "[php]": {
-        "editor.formatOnSave": false,
-        "editor.defaultFormatter": "obliviousharmony.vscode-php-codesniffer"
-    },
-    "stylelint.customSyntax": "postcss-scss",
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": "explicit",
-      "source.fixAll.tslint": "never",
-      "source.fixAll.stylelint": "explicit"
+      "editor.formatOnSave": false,
+      "editor.defaultFormatter": "obliviousharmony.vscode-php-codesniffer"
     },
 
     // ESlint/JS
@@ -55,7 +51,19 @@
       "files.trimTrailingWhitespace": false
     },
 
-    // Raw CSS
+    // Styles
+    "stylelint.validate": ["css", "scss"],
+    "css.validate": true,
+    "less.validate": true,
+    "scss.validate": true,
+
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.fixAll.eslint": "explicit",
+      "source.fixAll.tslint": "never",
+      "source.fixAll.stylelint": "explicit"
+    },
+
     "[css]": {
       "editor.formatOnSave": true,
       "editor.lineNumbers": "on",
@@ -64,7 +72,6 @@
       "editor.defaultFormatter": "stylelint.vscode-stylelint"
     },
 
-    // SASS and stylelint
     "[scss]": {
       "editor.formatOnSave": true,
       "editor.lineNumbers": "on",
@@ -120,7 +127,7 @@
       }
     },
 
-    // UI Fixes
+    // UI tweaks
     "workbench.colorCustomizations": {
       // Disable shadows
       "scrollbar.shadow": "#ffffff00",
@@ -131,17 +138,20 @@
       // "sideBar.border": "#444444",
 
       // Minimap hilight color
-      "minimap.findMatchHighlight":"#4b2e51FC",
+      "minimap.findMatchHighlight":"#9b7ae770",
+
+      // Bracket match (previouisly Highlight Matching Tag extension, now built-in)
+      "editorBracketMatch.border": "#bd93f9",
 
       // Custom selection backgrounds
-      "editor.wordHighlightTextBackground":"#4b2e51FC",
-      "editor.findMatchBackground":"#9652a4fc",
-      "editor.findMatchHighlightBackground":"#4b2e51FC",
-      "editor.selectionBackground": "#da70d655",
-      "editor.selectionHighlightBackground": "#4b2e51FC",
-      "editor.wordHighlightBackground": "#6940c5FC",
-      "editor.wordHighlightStrongBackground": "#6940c5FC",
-      "quickInputList.focusBackground": "#6940c5FC",
+      "editor.wordHighlightTextBackground":"#9b7ae770",
+      "editor.findMatchBackground":"#9b7ae770",
+      "editor.findMatchHighlightBackground":"#9b7ae770",
+      "editor.selectionBackground": "#9b7ae770",
+      "editor.selectionHighlightBackground": "#9b7ae770",
+      "editor.wordHighlightBackground": "#9b7ae770",
+      "editor.wordHighlightStrongBackground": "#9b7ae770",
+      "quickInputList.focusBackground": "#9b7ae770",
 
       // Scrollbar color customization - makes scrollbars more subtle and minimal
       "scrollbarSlider.background": "#42424220",
@@ -162,4 +172,4 @@
       // "editor.background": "#111",
       // "sideBar.background": "#1a1a1a",
     },
-}
+  }
