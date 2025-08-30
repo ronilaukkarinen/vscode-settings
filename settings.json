@@ -148,7 +148,7 @@
       "minimapSlider.hoverBackground": "#9b7ae723",
       "minimapSlider.activeBackground": "#9b7ae749",
 
-      // Bracket match (previouisly Highlight Matching Tag extension, now built-in)
+      // Bracket match (previously Highlight Matching Tag extension, now built-in)
       "editorBracketMatch.border": "#bd93f9",
 
       // Custom selection backgrounds
