@@ -1,134 +1,38 @@
 {
-    "window.title": "${activeEditorFull}${separator}${rootName}",
-    "editor.cursorStyle": "line",
-    "editor.cursorWidth": 3,
-    "editor.fontFamily": "'Liga SFMono Nerd Font', 'SFMono', 'Roboto Mono', 'Fira Code', 'Victor Mono', 'Cascadia Code', 'JetBrains Mono', 'Dank Mono', 'Consolas', 'Liberation Mono', 'Menlo', 'Courier', 'monospace'",
-    "editor.fontLigatures": true,
-    "editor.lineHeight": 21,
+    // Editor
+    "window.commandCenter": true,
+    "workbench.colorTheme": "Github Purple",
+    "workbench.iconTheme": "sweet-vscode-icons",
+    "window.zoomLevel": 0,
     "editor.fontSize": 14,
-    "window.zoomLevel": 0.5,
+    "editor.fontFamily": "'Liga SFMono Nerd Font', 'SFMono', 'Roboto Mono', 'Fira Code', 'Victor Mono', 'Cascadia Code', 'JetBrains Mono', 'Dank Mono', 'Consolas', 'Liberation Mono', 'Menlo', 'Courier', 'monospace'",
+    "editor.cursorWidth": 3,
+    "editor.cursorStyle": "line",
     "editor.mouseWheelZoom": false,
-    "explorer.openEditors.visible": 100,
-    "editor.acceptSuggestionOnCommitCharacter": false,
-    "editor.renderLineHighlight": "none",
-    "editor.tokenColorCustomizations": {
-      "textMateRules": [
-        {        
-          "scope": "meta.property-name-custom-unique.scss",
-          "settings": {
-            "foreground": "#79B8FF",
-          }
-        }
-      ]
-    },    
-    "highlight-matching-tag.styles": {
-      "opening": {
-        "full": {
-          "surround": "#bd93f9"
-        },
-        "left": {
-          "surround": "#bd93f9"
-        },
-        "right": {
-          "surround": "#bd93f9"
-        },
-      },
-      "closing": {
-        "full": {
-          "surround": "#bd93f9"
-        }
-      }
-    },
-    "window.restoreWindows": "all",
-    "window.newWindowDimensions": "inherit",
-    "editor.autoIndent": "full",
-    "editor.tabCompletion": "on",
-    "css.validate": false,
-    "less.validate": false,
-    "scss.validate": false,
-    "phpcs.enable": true,
-    "phpcs.executablePath": "/usr/local/bin/phpcs",
-    // "phpsab.standard": "./phpcs.xml"
-    // "phpcs.standard": "${workspaceFolder}/content/themes/${workspaceFolderBasename}/phpcs.xml",
-    "phpcs.showSources": true,
-    "phpcs.ignorePatterns": [
-      "wp-config.php",
-      "*/ignored-dir/*",
-      "*/content/plugins/*",
-      "*content/plugins-legacy/*",
-      "*legacy*"
-    ],
+
+    // Terminal
+    "terminal.integrated.fontFamily": "'Liga SFMono Nerd Font', 'SFMono', 'Roboto Mono', 'Fira Code', 'Victor Mono', 'Cascadia Code', 'JetBrains Mono', 'Dank Mono', 'Consolas', 'Liberation Mono', 'Menlo', 'Courier', 'monospace'",
+    "terminal.integrated.fontSize": 10,
+    "terminal.integrated.lineHeight": 1,
+
+    // Linters for Dude
+    // PHP_CodeSniffer
+    // See docs: https://app.gitbook.com/o/PedExJWZmbCiZe4gDwKC/s/VVikkYgIZ9miBzwYDCYh/linting
     "phpCodeSniffer.autoExecutable": true,
     // https://github.com/ObliviousHarmony/vscode-php-codesniffer/issues/101
     "phpCodeSniffer.autoloadPHPCSIntegration": false,
     "phpCodeSniffer.standard": "Automatic",
-	  "phpCodeSniffer.exclude": [
-	    "**/vendor/**",
-        "**/languages**"
-	  ],    
+    "phpCodeSniffer.lintAction": "Save",
+    "phpCodeSniffer.exclude": [
+        "**/vendor/**",
+          "**/languages",
+          "content/languages",
+          "vendor",
+          "content/languages/*.php"
+    ],
     "[php]": {
-        "editor.formatOnSave": true,
+        "editor.formatOnSave": false,
         "editor.defaultFormatter": "obliviousharmony.vscode-php-codesniffer"
-    },  
-    "scssLint.runOnTextChange": false,
-    "codesnap.backgroundColor": "#bea0fa",
-    "codesnap.showWindowTitle": true,
-    "codesnap.realLineNumbers": true,
-    "codesnap.showWindowControls": false,
-    "editor.acceptSuggestionOnEnter": "off",
-    "files.exclude": {
-      "**/tmp/**": true,
-      "**/node_modules/**": true,
-      "**/bower_components/**": true
-    },
-    "files.watcherExclude": {
-      "**/tmp/**": true,
-      "**/node_modules/**": true
-    },
-    "files.autoSaveDelay": 0,
-    "search.enableSearchEditorPreview": true,
-    "editor.scrollbar.verticalScrollbarSize": 5,
-    "editor.scrollbar.horizontalScrollbarSize": 5,
-    "customizeUI.activityBar": "regular",
-    "window.titleBarStyle": "custom",
-    "customizeUI.titleBar": "frameless",
-    "window.closeWhenEmpty": false,
-    "editor.mouseWheelScrollSensitivity": 0,
-    "editor.wordSeparators": "./\\()\"':,.;<>~!@#%^&*|+=[]{}`~?",
-    "editor.formatOnPaste": false,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.snippetSuggestions": "top",
-    "search.collapseResults": "alwaysCollapse",
-    "git.autofetch": true,
-    "breadcrumbs.enabled": true,
-    "editor.renderWhitespace": "none",
-    "editor.matchBrackets": "always",
-    "editor.tabSize": 2,
-    "html.format.contentUnformatted": "pre,code,textarea",
-    "html.format.endWithNewline": true,
-    "html.format.extraLiners": "head, body, /html",
-    "html.format.indentHandlebars": false,
-    "html.format.indentInnerHtml": false,
-    "html.format.maxPreserveNewLines": null,
-    "html.format.preserveNewLines": true,
-    "html.format.wrapLineLength": 600,
-    "html.format.wrapAttributes": "auto",
-    "phpcbf.executablePath": "/Users/rolle/Projects/PHP_CodeSniffer/bin/phpcbf",
-    "phpcbf.enable": true,
-    "phpcbf.documentFormattingProvider": true,
-    "phpcbf.onsave": false,
-    // "phpcbf.standard": "/Users/rolle/Projects/airdev/content/themes/air-light/phpcs.xml",
-    // When set to null, phpcbf will use, if it's set, the default_standard (phpcs -i), otherwise fallback to Pear. You set the default standard using phpcs --config-set
-    "phpcbf.standard": null,
-    "showErrorMessages": false,
-    "stylefmt.showError": false,
-    "php-cs-fixer.formatHtml": false,
-    "beautify.language": {
-      "html": [
-        "htm",
-        "html",
-        "php"
-      ]
     },
     "stylelint.customSyntax": "postcss-scss",
     "editor.codeActionsOnSave": {
@@ -136,14 +40,20 @@
       "source.fixAll.tslint": "never",
       "source.fixAll.stylelint": "explicit"
     },
+
+    // ESlint/JS
     "[javascript]": {
       "editor.formatOnSave": false,
       "editor.defaultFormatter": "vscode.typescript-language-features"
     },
+
+    // Markdown files
     "[markdown]": {
       "editor.wordWrap": "bounded",
       "files.trimTrailingWhitespace": false
     },
+
+    // Raw CSS
     "[css]": {
       "editor.formatOnSave": true,
       "editor.lineNumbers": "on",
@@ -151,13 +61,17 @@
       "files.trimTrailingWhitespace": true,
       "editor.defaultFormatter": "stylelint.vscode-stylelint"
     },
+
+    // SASS and stylelint
     "[scss]": {
       "editor.formatOnSave": true,
       "editor.lineNumbers": "on",
       "editor.wordWrap": "bounded",
       "files.trimTrailingWhitespace": true,
-      "editor.defaultFormatter": "ronilaukkarinen.vscode-stylefmt"
+      "editor.defaultFormatter": "stylelint.vscode-stylelint"
     },
+
+    // JSON
     "[json]": {
       "editor.defaultFormatter": "vscode.json-language-features",
       "editor.formatOnSave": true,
@@ -165,124 +79,45 @@
       "editor.wordWrap": "bounded",
       "files.trimTrailingWhitespace": false
     },
+
+    // Vue.js
     "[vue]": {
       "editor.formatOnSave": false
     },
-    "workbench.startupEditor": "newUntitledFile",
-    "search.exclude": {
-      "**/*.bundle.js": true,
-      "**/*all.js": true,
-      "**Library": true,
-      "~/Library**": true
-    },
-    "helium-icon-theme.saturation": 0,
-    "helium-icon-theme.opacity": 0.8,
-    "search.quickOpen.history.filterSortOrder": "recency",
-    "gitlens.menus": false,
-    "editor.minimap.enabled": true,
-    "workbench.editor.limit.value": 20,
-    "php.suggest.basic": false,
-    "eslint.format.enable": true,
-    "eslint.lintTask.enable": true,
-    "eslint.run": "onSave",
-    "extensions.ignoreRecommendations": true,
-    "tabnine.experimentalAutoImports": true,
+
+    // UI Fixes
     "workbench.colorCustomizations": {
-      // Disable shadows:
+      // Disable shadows
       "scrollbar.shadow": "#ffffff00",
       "widget.shadow": "#ffffff00",
-      // "editorSuggestWidget.selectedBackground": "#666666",
+
+      // Sidebar colors
+      "sideBar.foreground": "#777777",
+      "scrollbarSlider.background":"#444444",
+      // "sideBar.border": "#444444",
+
+      // Minimap hilight color
+      "minimap.findMatchHighlight":"#4b2e51FC",
+
+      // Custom selection backgrounds
+      "editor.wordHighlightTextBackground":"#4b2e51FC",
+      "editor.findMatchBackground":"#9652a4fc",
+      "editor.findMatchHighlightBackground":"#4b2e51FC",
       "editor.selectionBackground": "#da70d655",
       "editor.selectionHighlightBackground": "#4b2e51FC",
       "editor.wordHighlightBackground": "#6940c5FC",
       "editor.wordHighlightStrongBackground": "#6940c5FC",
       "quickInputList.focusBackground": "#6940c5FC",
-      "editorLineNumber.foreground": "#666666aa",
-      "editorLineNumber.activeForeground": "#ddd",
+
+      // Pop out background
+      // "editorSuggestWidget.selectedBackground": "#666666",
+
+      // Custom line number colors
+      // "editorLineNumber.foreground": "#666666aa",
+      // "editorLineNumber.activeForeground": "#ddd",
+
+      // Main color areas
       // "editor.background": "#111",
       // "sideBar.background": "#1a1a1a",
-      "sideBar.foreground": "#777777",
-      "sideBar.border": "#444444",
-      "scrollbarSlider.background":"#444444",
-      "minimap.findMatchHighlight":"#4b2e51FC",
-      "editor.wordHighlightTextBackground":"#4b2e51FC",
-      "editor.findMatchBackground":"#9652a4fc",
-      "editor.findMatchHighlightBackground":"#4b2e51FC"
     },
-    "editor.linkedEditing": true,
-    "gitlens.codeLens.scopes": [
-      "containers",
-      "document"
-    ],
-    "editor.codeLens": true,
-    "terminal.integrated.fontFamily": "'Liga SFMono Nerd Font', 'SFMono', 'Roboto Mono', 'Fira Code', 'Victor Mono', 'Cascadia Code', 'JetBrains Mono', 'Dank Mono', 'Consolas', 'Liberation Mono', 'Menlo', 'Courier', 'monospace'",
-    "terminal.integrated.fontSize": 10,
-    "terminal.integrated.lineHeight": 1,
-    "terminal.integrated.enablePersistentSessions": false,
-    "editor.accessibilitySupport": "off",
-    "javascript.suggest.enabled": false,
-    "typescript.suggest.autoImports": false,
-    "stylelint.validate": [
-      "css",
-      "scss"
-    ],
-    "stylelint.snippet": [
-      "css",
-      "scss"
-    ],
-    "stylefmt.showErrorMessages": false,
-    "editor.inlineSuggest.enabled": true,
-    "github.copilot.enable": {
-      "*": true,
-      "yaml": true,
-      "plaintext": true,
-      "markdown": true
-    },
-    "security.workspace.trust.banner": "never",
-    "security.workspace.trust.enabled": false,
-    "terminal.integrated.gpuAcceleration": "off",
-    "search.quickOpen.includeSymbols": true,
-    "editor.bracketPairColorization.enabled": true,
-    "editor.guides.bracketPairs": true,
-    "workbench.iconTheme": "sweet-vscode-icons",
-    "terminal.explorerKind": "external",
-    "gitlens.codeLens.enabled": false,
-    "simpleTodo.overrideFoldersToIgnore": [
-      "plugins",
-      "mu-plugins",
-      "vendor",
-      "wp",
-      "dev",
-      "prod",
-      "node_modules",
-      "dist",
-      "config",
-      "media",
-      "scripts"
-    ],
-    "simpleTodo.overrideLanguagesToCheck": [
-      "js",
-      "php",
-      "scss"
-    ],
-    "simpleTodo.overrideActionKeywords": [
-      {
-        "actionName": "TODO:",
-        "severity": "Information"
-      },
-      {
-        "actionName": "Bug:",
-        "severity": "Warning"
-      },
-    ],
-    "editor.wordWrap": "on",
-    "indenticator.inner.showIndentGuide": true,
-    "workbench.colorTheme": "Github Purple",
-    "[python]": {
-      "editor.formatOnType": true
-    },
-    "workbench.activityBar.location": "hidden",
-    "phpsab.executablePathCBF": "/usr/local/bin/phpcbf",
-    "phpsab.fixerEnable": true,
-    "phpsab.snifferShowSources": true
-  }
+}
