@@ -74,7 +74,7 @@ After this you can select GitHub Purple from the Theme Color navigation (Ctrl + 
 
 ![Screen-Shot-2023-04-03-11-10-24 05](https://user-images.githubusercontent.com/1534150/229450660-3a8c26e6-2382-4f4a-bf66-560edd54edd4.png)
 
-## Add colored icons
+## Add colored icons for Helium icon theme
 
 Change these to settings.json:
 
@@ -84,20 +84,6 @@ Change these to settings.json:
 ```
 
 Then <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> and select `Preferences: File Icon Theme`, select any other than Helium. After this re-activate Helium icons.
-
-## Disable CSS customizations 
-
-If you don't want to use CSS customizations, everything may look a big big and clumsy. You'll fix this by changing font/UI size settings to this:
-
-```json
-"editor.lineHeight": 24,
-"window.zoomLevel": 0.4,
-"editor.fontSize": 14,
-```
-
-## Keymaps
-
-If you want to import your Sublime Keymaps, [go through this documentation](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings).
 
 ## Windows 10-11 support
 
