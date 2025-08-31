@@ -9,6 +9,10 @@
         "command": "projectManager.listProjects"
     },
     {
+        "key": "shift+ctrl+o",
+        "command": "projectManager.listProjects"
+    },
+    {
         "key": "alt+cmd+p",
         "command": "-projectManager.listProjects"
     },
