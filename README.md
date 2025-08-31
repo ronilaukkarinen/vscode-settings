@@ -41,6 +41,13 @@ Used when coding [Digitoimisto Dude Oy's Projects](https://github.com/digitoimis
 
 **You can decide which ones you want to install but I recommend to install them all to get the best experience. These extensions are carefully selected and fully supported by my VSCode settings.json already.**
 
+> [!NOTE]
+> For Cursor you need to enable VSCode marketplace by settings this in your settings.json (see [this](https://github.com/cursor/cursor/issues/2461#issuecomment-3023527935)):
+> ```json
+> "extensions.gallery.serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+> ```
+
+
 - [dotenv](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv) — `mikestead.dotenv`
 - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) — `EditorConfig.EditorConfig`
 - [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) — `usernamehw.errorlens`
