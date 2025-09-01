@@ -33,9 +33,8 @@ Used when coding [Digitoimisto Dude Oy's Projects](https://github.com/digitoimis
 
 1. Open editor and press <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> (or <kbd>ctrl</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> on Windows system) and select `Preferences: Open User Settings (JSON)`
 2. Copy [settings.json](https://raw.githubusercontent.com/ronilaukkarinen/vscode-settings/master/settings.json) of this repository and paste it to your settings.json (if you have made settings in this point, backup them, or cherry pick the preferred settings from this repo).
-3. Find all `rolle` from [settings.json](https://raw.githubusercontent.com/ronilaukkarinen/vscode-settings/master/settings.json) and replace with your username (or fix paths if you are on different systems than macOS). Save and restart VSCode when asked.
-4. Tweak to your likings, if you want to
-5. Install all [extensions and themes from below](https://github.com/ronilaukkarinen/vscode-settings#extensions)
+3. Tweak to your likings, if you want to
+4. Install all [extensions and themes from below](https://github.com/ronilaukkarinen/vscode-settings#extensions)
 
 ## Extensions
 
