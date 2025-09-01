@@ -56,8 +56,27 @@ Used when coding [Digitoimisto Dude Oy's Projects](https://github.com/digitoimis
 - [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager) — `alefragnani.project-manager`
 - [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) — `stylelint.vscode-stylelint`
 - [SVG](https://marketplace.visualstudio.com/items?itemName=jock.svg) — `1000ch.svgo`
+- [Indenticator](https://marketplace.visualstudio.com/items?itemName=SirTori.indenticator) - `SirTori.indenticator`
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - `esbenp.prettier-vscode`
 
 ## Interface
+
+### CSS property syntax hilighting fix
+
+Fix [this never fixed issue](https://github.com/atom/language-sass/issues/226#issuecomment-1129938430) by installing [SCSS Language Improvements](https://marketplace.visualstudio.com/items?itemName=ronilaukkarinen.scss-language-improvements) `ronilaukkarinen.scss-language-improvements` and then adding to settings.json if not already (already added if you use GitHub Purple and settings.json from this repo):
+
+```json
+"editor.tokenColorCustomizations": {
+  "textMateRules": [
+    {
+      "scope": "meta.property-name-custom-unique.scss",
+      "settings": {
+        "foreground": "#79b8ff",
+      }
+    },
+  ]
+},
+```
 
 ### GitHub Purple + Sweet icons
 

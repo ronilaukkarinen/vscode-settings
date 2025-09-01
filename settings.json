@@ -1,191 +1,205 @@
 {
-    // Editor
-    "window.commandCenter": true,
-    "workbench.iconTheme": "sweet-vscode-icons",
-    "window.zoomLevel": 0,
-    "editor.cursorWidth": 3,
-    "editor.cursorStyle": "line",
-    "editor.mouseWheelZoom": false,
+  // Editor
+  "window.commandCenter": true,
+  "window.zoomLevel": 0,
+  "editor.cursorWidth": 3,
+  "editor.cursorStyle": "line",
+  "editor.mouseWheelZoom": false,
 
-    // Fonts
-    "editor.fontFamily": "'Monaspace Neon Var', monospace",
-    "editor.inlineSuggest.fontFamily": "'Monaspace Krypton Var', monospace",
-    "terminal.integrated.fontFamily": "'Monaspace Neon Var', monospace",
-    "debug.console.fontFamily": "'Monaspace Krypton Var', monospace",
-    "errorLens.fontFamily": "'Monaspace Krypton Var', monospace",
-    "editor.codeLensFontFamily": "'Monaspace Krypton Var', monospace",
+  // Theme
+  "workbench.iconTheme": "sweet-vscode-icons",
+  "workbench.colorTheme": "Github Purple",
 
-    // Font sizes and features
-    "editor.fontSize": 16,
-    "editor.fontVariations": "'wght' 320",
-    "editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09'",
-    "terminal.integrated.fontSize": 10,
-    "terminal.integrated.lineHeight": 1,
-    "terminal.integrated.fontLigatures.enabled": true,
+  // Fonts
+  "editor.fontFamily": "'Monaspace Neon Var', monospace",
+  "editor.inlineSuggest.fontFamily": "'Monaspace Krypton Var', monospace",
+  "terminal.integrated.fontFamily": "'Monaspace Neon Var', monospace",
+  "debug.console.fontFamily": "'Monaspace Krypton Var', monospace",
+  "errorLens.fontFamily": "'Monaspace Krypton Var', monospace",
+  "editor.codeLensFontFamily": "'Monaspace Krypton Var', monospace",
 
-    // Theme
-    "workbench.colorTheme": "Github Purple",
+  // Font sizes and features
+  "editor.fontSize": 16,
+  "editor.fontVariations": "'wght' 320",
+  "editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09'",
+  "terminal.integrated.fontSize": 10,
+  "terminal.integrated.lineHeight": 1,
+  "terminal.integrated.fontLigatures.enabled": true,
 
-    // Linters for Dude
-    // PHP_CodeSniffer
-    // See docs: https://app.gitbook.com/o/PedExJWZmbCiZe4gDwKC/s/VVikkYgIZ9miBzwYDCYh/linting
-    "phpCodeSniffer.autoExecutable": true,
-    // https://github.com/ObliviousHarmony/vscode-php-codesniffer/issues/101
-    "phpCodeSniffer.autoloadPHPCSIntegration": false,
-    "phpCodeSniffer.standard": "Automatic",
-    "phpCodeSniffer.lintAction": "Save",
-    "phpCodeSniffer.exclude": [
-      "**/vendor/**",
-      "**/languages",
-      "content/languages",
-      "vendor",
-      "content/languages/*.php"
-    ],
-    "[php]": {
-      "editor.formatOnSave": false,
-      "editor.defaultFormatter": "obliviousharmony.vscode-php-codesniffer"
-    },
+  // Linters for Dude
+  // PHP_CodeSniffer
+  // See docs: https://app.gitbook.com/o/PedExJWZmbCiZe4gDwKC/s/VVikkYgIZ9miBzwYDCYh/linting
+  "phpCodeSniffer.autoExecutable": true,
+  // https://github.com/ObliviousHarmony/vscode-php-codesniffer/issues/101
+  "phpCodeSniffer.autoloadPHPCSIntegration": false,
+  "phpCodeSniffer.standard": "Automatic",
+  "phpCodeSniffer.lintAction": "Save",
+  "phpCodeSniffer.exclude": [
+    "**/vendor/**",
+    "**/languages",
+    "content/languages",
+    "vendor",
+    "content/languages/*.php"
+  ],
+  "[php]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "obliviousharmony.vscode-php-codesniffer"
+  },
 
-    // ESlint/JS
-    "[javascript]": {
-      "editor.formatOnSave": false,
-      "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
+  // ESlint/JS
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.lineNumbers": "on",
+    "editor.wordWrap": "bounded",
+    "files.trimTrailingWhitespace": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
-    // Markdown files
-    "[markdown]": {
-      "editor.wordWrap": "bounded",
-      "files.trimTrailingWhitespace": false
-    },
+  // Markdown files
+  "[markdown]": {
+    "editor.wordWrap": "bounded",
+    "files.trimTrailingWhitespace": false,
+    "editor.lineNumbers": "off"
+  },
 
-    // Styles
-    "stylelint.validate": ["css", "scss"],
-    "css.validate": true,
-    "less.validate": true,
-    "scss.validate": true,
+  // Styles
+  "stylelint.validate": ["css", "scss"],
+  "css.validate": true,
+  "less.validate": true,
+  "scss.validate": true,
 
-    "editor.codeActionsOnSave": {
-      "source.fixAll": "explicit",
-      "source.fixAll.eslint": "explicit",
-      "source.fixAll.tslint": "never",
-      "source.fixAll.stylelint": "explicit"
-    },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": "always",
+    "source.fixAll": "always",
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.tslint": "never"
+  },
 
-    "[css]": {
-      "editor.formatOnSave": true,
-      "editor.lineNumbers": "on",
-      "editor.wordWrap": "bounded",
-      "files.trimTrailingWhitespace": true,
-      "editor.defaultFormatter": "stylelint.vscode-stylelint"
-    },
+  "[css]": {
+    "editor.formatOnSave": true,
+    "editor.lineNumbers": "on",
+    "editor.wordWrap": "bounded",
+    "files.trimTrailingWhitespace": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
-    "[scss]": {
-      "editor.formatOnSave": true,
-      "editor.lineNumbers": "on",
-      "editor.wordWrap": "bounded",
-      "files.trimTrailingWhitespace": true,
-      "editor.defaultFormatter": "stylelint.vscode-stylelint"
-    },
+  "[scss]": {
+    "editor.formatOnSave": true,
+    "editor.lineNumbers": "on",
+    "editor.wordWrap": "bounded",
+    "files.trimTrailingWhitespace": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
-    // JSON
-    "[json]": {
-      "editor.defaultFormatter": "vscode.json-language-features",
-      "editor.formatOnSave": true,
-      "editor.lineNumbers": "off",
-      "editor.wordWrap": "bounded",
-      "files.trimTrailingWhitespace": false
-    },
+  // JSON
+  "[json]": {
+    "editor.formatOnSave": false,
+    "editor.lineNumbers": "off",
+    "editor.wordWrap": "bounded",
+    "files.trimTrailingWhitespace": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
-    // Vue.js
-    "[vue]": {
-      "editor.formatOnSave": false
-    },
+  // JSON with comments (like this settings.json)
+  "[jsonc]": {
+    "editor.formatOnSave": false,
+    "editor.lineNumbers": "off",
+    "editor.wordWrap": "bounded",
+    "files.trimTrailingWhitespace": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
-    // File explorer and tree view settings
-    "workbench.tree.indent": 16,
-    "workbench.tree.renderIndentGuides": "always",
+  // File explorer and tree view settings
+  "workbench.tree.indent": 16,
+  "workbench.tree.renderIndentGuides": "always",
 
-    // Scrollbar behavior and sizing
-    "editor.scrollbar.vertical": "visible",
-    "editor.scrollbar.horizontal": "visible",
-    "editor.scrollbar.verticalScrollbarSize": 6,
-    "editor.scrollbar.horizontalScrollbarSize": 6,
+  // Scrollbar behavior and sizing
+  "editor.scrollbar.vertical": "visible",
+  "editor.scrollbar.horizontal": "visible",
+  "editor.scrollbar.verticalScrollbarSize": 6,
+  "editor.scrollbar.horizontalScrollbarSize": 6,
 
-    // Change desired syntax colors
-    // Inspect: Ctrl/Cmd + P and `Developer: Inspect Editor Tokens and Scopes`
-    "editor.tokenColorCustomizations": {
-      "[Github Purple]": {
-        "textMateRules": [
-          {
-            "scope": [
-              "variable.css",
-              "meta.property-list.css",
-              "meta.at-rule.media.body.css",
-              "variable.argument.css",
-              "meta.function.variable.css",
-              "meta.property-value.css",
-              "meta.property-list.css"
-            ],
-            "settings": {
-              "foreground": "#eaaf73"
-            }
+  // Change desired syntax colors
+  // Inspect: Ctrl/Cmd + P and `Developer: Inspect Editor Tokens and Scopes`
+  "editor.tokenColorCustomizations": {
+    "[Github Purple]": {
+      "textMateRules": [
+        {
+          "scope": "meta.property-name-custom-unique.scss",
+          "settings": {
+            "foreground": "#79b8ff"
           }
-        ]
-      }
-    },
+        },
+        {
+          "scope": [
+            "variable.css",
+            "meta.property-list.css",
+            "meta.at-rule.media.body.css",
+            "variable.argument.css",
+            "meta.function.variable.css",
+            "meta.property-value.css",
+            "meta.property-list.css"
+          ],
+          "settings": {
+            "foreground": "#eaaf73"
+          }
+        }
+      ]
+    }
+  },
 
-    // UI tweaks
-    "workbench.colorCustomizations": {
-      // Disable shadows
-      "scrollbar.shadow": "#ffffff00",
-      "widget.shadow": "#ffffff00",
+  // UI tweaks
+  "workbench.colorCustomizations": {
+    // Disable shadows
+    "scrollbar.shadow": "#ffffff00",
+    "widget.shadow": "#ffffff00",
 
-      // Sidebar colors
-      "sideBar.foreground": "#777777",
-      // "sideBar.border": "#444444",
+    // Sidebar colors
+    "sideBar.foreground": "#777777",
+    // "sideBar.border": "#444444",
 
-      // Minimap hilight color
-      "minimap.findMatchHighlight":"#9b7ae770",
-      "minimapSlider.hoverBackground": "#9b7ae723",
-      "minimapSlider.activeBackground": "#9b7ae749",
+    // Minimap hilight color
+    "minimap.findMatchHighlight":"#9b7ae770",
+    "minimapSlider.hoverBackground": "#9b7ae723",
+    "minimapSlider.activeBackground": "#9b7ae749",
 
-      // Bracket match (previously Highlight Matching Tag extension, now built-in)
-      "editorBracketMatch.border": "#bd93f9",
+    // Bracket match (previously Highlight Matching Tag extension, now built-in)
+    "editorBracketMatch.border": "#bd93f9",
 
-      // Custom selection backgrounds
-      "editor.wordHighlightTextBackground":"#9b7ae770",
-      "editor.findMatchBackground":"#9b7ae770",
-      "editor.findMatchHighlightBackground":"#9b7ae770",
-      "editor.selectionBackground": "#9b7ae770",
-      "editor.selectionHighlightBackground": "#9b7ae770",
-      "editor.wordHighlightBackground": "#9b7ae770",
-      "editor.wordHighlightStrongBackground": "#9b7ae770",
-      "quickInputList.focusBackground": "#9b7ae770",
+    // Custom selection backgrounds
+    "editor.wordHighlightTextBackground":"#9b7ae770",
+    "editor.findMatchBackground":"#9b7ae770",
+    "editor.findMatchHighlightBackground":"#9b7ae770",
+    "editor.selectionBackground": "#9b7ae770",
+    "editor.selectionHighlightBackground": "#9b7ae770",
+    "editor.wordHighlightBackground": "#9b7ae770",
+    "editor.wordHighlightStrongBackground": "#9b7ae770",
+    "quickInputList.focusBackground": "#9b7ae770",
 
-      // Scrollbar color customization - makes scrollbars more subtle and minimal
-      "scrollbarSlider.background": "#42424220",
-      "scrollbarSlider.hoverBackground": "#4f4f4f40",
-      "scrollbarSlider.activeBackground": "#68686860",
+    // Scrollbar color customization - makes scrollbars more subtle and minimal
+    "scrollbarSlider.background": "#42424220",
+    "scrollbarSlider.hoverBackground": "#4f4f4f40",
+    "scrollbarSlider.activeBackground": "#68686860",
 
-      // CSS variable color overrides - force modern colors
-      "editor.foreground": "#8B9DC3",
+    // CSS variable color overrides - force modern colors
+    "editor.foreground": "#8B9DC3"
 
-      // Pop out background
-      // "editorSuggestWidget.selectedBackground": "#666666",
+    // Pop out background
+    // "editorSuggestWidget.selectedBackground": "#666666",
 
-      // Custom line number colors
-      // "editorLineNumber.foreground": "#666666aa",
-      // "editorLineNumber.activeForeground": "#ddd",
+    // Custom line number colors
+    // "editorLineNumber.foreground": "#666666aa",
+    // "editorLineNumber.activeForeground": "#ddd",
 
-      // Main color areas
-      // "editor.background": "#111",
-      // "sideBar.background": "#1a1a1a",
-    },
+    // Main color areas
+    // "editor.background": "#111",
+    // "sideBar.background": "#1a1a1a",
+  },
 
-    // Enable minimap
-    "editor.minimap.enabled": true,
+  // Enable minimap
+  "editor.minimap.enabled": true,
 
-    // Enable VSCode Marketplace in Cursor
-    // https://github.com/cursor/cursor/issues/2461#issuecomment-3023527935
-    "extensions.gallery.serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
-  }
+  // Enable VSCode Marketplace in Cursor
+  // https://github.com/cursor/cursor/issues/2461#issuecomment-3023527935
+  "extensions.gallery.serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery"
+}
