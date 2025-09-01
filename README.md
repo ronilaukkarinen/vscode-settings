@@ -46,8 +46,6 @@ Used when coding [Digitoimisto Dude Oy's Projects](https://github.com/digitoimis
 > "extensions.gallery.serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
 > ```
 
-
-- [dotenv](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv) — `mikestead.dotenv`
 - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) — `EditorConfig.EditorConfig`
 - [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) — `usernamehw.errorlens`
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) — `dbaeumer.vscode-eslint`
