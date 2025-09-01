@@ -23,7 +23,7 @@ Used when coding [Digitoimisto Dude Oy's Projects](https://github.com/digitoimis
 ## Installation
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/) or [Visual Studio Code Insiders](https://code.visualstudio.com/insiders/) or [VSCodium](https://vscodium.com) or [Cursor](https://cursor.com)
-2. Get [Monaspace Neon](https://github.com/githubnext/monaspace/releases/download/v1.300/monaspace-static-v1.300.zip) font
+2. Get [Monaspace variable fonts](https://github.com/githubnext/monaspace/releases/download/v1.300/monaspace-variable-v1.300.zip) (drag all to Font Book)
 3. Open editor and press <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> (or <kbd>ctrl</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> on Windows system) and select `Preferences: Open Keyboard Shortcuts (JSON)`. Copy the contents of [keybindings.json](https://github.com/ronilaukkarinen/vscode-settings/blob/master/keybindings.json) to the editor.
 3. Open editor and press <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> (or <kbd>ctrl</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> on Windows system) and select `Snippets: Configure Snippets`, select `html`. Copy the contents of [html](https://github.com/ronilaukkarinen/vscode-settings/blob/master/snippets/html.json) to the editor.
 4. Open editor and press <kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> (or <kbd>ctrl</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd> on Windows system) and select `Snippets: Configure Snippets`, select `php`. Copy the contents of [php](https://github.com/ronilaukkarinen/vscode-settings/blob/master/snippets/php.json) to the editor.

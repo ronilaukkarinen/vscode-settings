@@ -8,15 +8,16 @@
     "editor.mouseWheelZoom": false,
 
     // Fonts
-    "editor.fontFamily": "'Monaspace Neon', monospace",
-    "editor.inlineSuggest.fontFamily": "'Monaspace Krypton', monospace",
-    "terminal.integrated.fontFamily": "'Monaspace Neon', monospace",
-    "debug.console.fontFamily": "'Monaspace Krypton', monospace",
-    "errorLens.fontFamily": "'Monaspace Krypton', monospace",
-    "editor.codeLensFontFamily": "'Monaspace Krypton', monospace",
+    "editor.fontFamily": "'Monaspace Neon Var', monospace",
+    "editor.inlineSuggest.fontFamily": "'Monaspace Krypton Var', monospace",
+    "terminal.integrated.fontFamily": "'Monaspace Neon Var', monospace",
+    "debug.console.fontFamily": "'Monaspace Krypton Var', monospace",
+    "errorLens.fontFamily": "'Monaspace Krypton Var', monospace",
+    "editor.codeLensFontFamily": "'Monaspace Krypton Var', monospace",
 
     // Font sizes and features
     "editor.fontSize": 16,
+    "editor.fontVariations": "'wght' 320",
     "editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09'",
     "terminal.integrated.fontSize": 10,
     "terminal.integrated.lineHeight": 1,
@@ -186,5 +187,5 @@
 
     // Enable VSCode Marketplace in Cursor
     // https://github.com/cursor/cursor/issues/2461#issuecomment-3023527935
-    "extensions.gallery.serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",  
+    "extensions.gallery.serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
   }
