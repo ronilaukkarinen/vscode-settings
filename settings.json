@@ -63,6 +63,8 @@
   },
 
   // Styles
+  "stylelint.packageManager": "npm",
+  "stylelint.stylelintPath": "node_modules/stylelint",
   "stylelint.validate": ["css", "scss"],
   "css.validate": true,
   "less.validate": true,
