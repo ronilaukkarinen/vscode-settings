@@ -152,6 +152,12 @@
 
   // UI tweaks
   "workbench.colorCustomizations": {
+    // Disable some borders
+    "sideBarSectionHeader.border": "#00000000",
+    "sideBar.border": "#00000000",
+    "editorGroup.border": "#00000000",
+    "panel.border": "#00000000",
+
     // Disable shadows
     "scrollbar.shadow": "#ffffff00",
     "widget.shadow": "#ffffff00",
@@ -159,11 +165,6 @@
     // Sidebar colors
     "sideBar.foreground": "#777777",
     // "sideBar.border": "#444444",
-
-    // Minimap hilight color
-    "minimap.findMatchHighlight":"#9b7ae770",
-    "minimapSlider.hoverBackground": "#9b7ae723",
-    "minimapSlider.activeBackground": "#9b7ae749",
 
     // Bracket match (previously Highlight Matching Tag extension, now built-in)
     "editorBracketMatch.border": "#bd93f9",
@@ -184,7 +185,7 @@
     "scrollbarSlider.activeBackground": "#68686860",
 
     // CSS variable color overrides - force modern colors
-    "editor.foreground": "#8B9DC3"
+    "editor.foreground": "#8B9DC3",
 
     // Pop out background
     // "editorSuggestWidget.selectedBackground": "#666666",
@@ -196,6 +197,10 @@
     // Main color areas
     // "editor.background": "#111",
     // "sideBar.background": "#1a1a1a",
+
+    // Dimmer linenumber
+    "editorLineNumber.foreground": "#ffffff1e",
+    "editorLineNumber.activeForeground": "#ddd"
   },
 
   // Enable minimap
