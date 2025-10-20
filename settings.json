@@ -157,6 +157,8 @@
     "sideBar.border": "#00000000",
     "editorGroup.border": "#00000000",
     "panel.border": "#00000000",
+    "focusBorder": "#00000000",
+    "contrastActiveBorder": "#00000000",
 
     // Disable shadows
     "scrollbar.shadow": "#ffffff00",
