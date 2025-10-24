@@ -16,6 +16,7 @@ Used when coding [Digitoimisto Dude Oy's Projects](https://github.com/digitoimis
 **✂ Snippets** - Useful snippets like `media + tab` for media queries. Browse snippets [here](https://github.com/ronilaukkarinen/vscode-settings/tree/master/snippets).
 
 **⌨ Key bindings** - Useful keybindings for different kind of tasks. Browse keybindings [here](https://github.com/ronilaukkarinen/vscode-settings/blob/master/keybindings.json).
+
 **⚡ Fast** - VSCode has not always been the fastest but I select my extensions wisely. No excessive extensions that don't get updated.
 
 **👨‍💻 Customizable** - Feel free to fork this repository and modify settings to your liking. Let me know what you have done!
