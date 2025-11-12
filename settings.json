@@ -206,9 +206,9 @@
   },
 
   // Enable minimap
-  "editor.minimap.enabled": true,
+  "editor.minimap.enabled": true
 
   // Enable VSCode Marketplace in Cursor
   // https://github.com/cursor/cursor/issues/2461#issuecomment-3023527935
-  "extensions.gallery.serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery"
+  // "extensions.gallery.serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery"
 }
