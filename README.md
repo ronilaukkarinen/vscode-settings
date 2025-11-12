@@ -51,14 +51,17 @@ Used when coding [Digitoimisto Dude Oy's Projects](https://github.com/digitoimis
 - [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) — `usernamehw.errorlens`
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) — `dbaeumer.vscode-eslint`
 - [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) — `eamodio.gitlens`
-- [Helium Icon Theme](https://marketplace.visualstudio.com/items?itemName=helgardrichard.helium-icon-theme) — `helgardrichard.helium-icon-theme`
-  - or [Sweet vscode Icons](https://open-vsx.org/extension/Letgamer/sweet-vscode-icons) — `sweet-vscode-icons`
 - [PHP_CodeSniffer](https://marketplace.visualstudio.com/items?itemName=obliviousharmony.vscode-php-codesniffer) — `obliviousharmony.vscode-php-codesniffer`
 - [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager) — `alefragnani.project-manager`
 - [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) — `stylelint.vscode-stylelint`
 - [SVG](https://marketplace.visualstudio.com/items?itemName=jock.svg) — `1000ch.svgo`
 - [Indenticator](https://marketplace.visualstudio.com/items?itemName=SirTori.indenticator) - `SirTori.indenticator`
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - `esbenp.prettier-vscode`
+
+## My current favorite themes
+
+- [Catppuccin for VSCode](https://open-vsx.org/extension/Catppuccin/catppuccin-vsc) + [Catppuccin Noctis Icons](https://open-vsx.org/extension/alexdauenhauer/catppuccin-noctis-icons)
+- See below
 
 ## Interface
 

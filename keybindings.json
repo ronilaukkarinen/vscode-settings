@@ -1,4 +1,4 @@
-// Place your key bindings in this file to override the defaults
+// Place your keybindings in this file to override the defaults
 [
     {
         "key": "shift+cmd+o",
@@ -79,4 +79,8 @@
         "key": "cmd+y",
         "command": "redo"
     },
+    {
+        "key": "cmd+l",
+        "command": "claude-vscode.sidebar.open"
+    }
   ]
