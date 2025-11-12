@@ -2,28 +2,28 @@
   "SVG": {
     "prefix": "svg",
     "body": [
-      "<?php include get_theme_file_path( '/svg/$0.svg' ); ?>",
+      "<?php include get_theme_file_path( '/svg/$0.svg' ); ?>"
     ],
     "description": "Include SVG icon"
   },
   "Title": {
     "prefix": "title",
     "body": [
-      "<$1><?php echo esc_html( $2 ); ?></$1>",
+      "<$1><?php echo esc_html( $2 ); ?></$1>"
     ],
     "description": "Do a title"
   },
   "CTA button": {
     "prefix": "cta",
     "body": [
-      "<a href=\"$1\" class=\"button $2\" ><?php echo esc_html( $3 ); ?></a>",
+      "<a href=\"$1\" class=\"button $2\" ><?php echo esc_html( $3 ); ?></a>"
     ],
     "description": "Do a cta button"
   },
   "PHP wrap": {
     "prefix": "php",
     "body": [
-      "<?php $0 ?>",
+      "<?php $0 ?>"
     ],
     "description": "Wrap in php tags"
   },
@@ -34,7 +34,7 @@
       "  <div class=\"container\">",
       "$0",
       "  </div>",
-      "</section>",
+      "</section>"
     ]
   },
   "Posts loop": {
@@ -45,7 +45,7 @@
       "    $0",
       "  <?php endwhile; ?>",
       "  <?php wp_reset_postdata(); ?>",
-      "<?php endif; ?>",
+      "<?php endif; ?>"
     ]
   },
   "Posts loop with cols": {
@@ -64,7 +64,7 @@
       "  </div>",
       "  <?php wp_reset_postdata(); ?>",
       "",
-      "<?php endif; ?>",
+      "<?php endif; ?>"
     ]
   },
   "Cols loop": {
@@ -78,48 +78,48 @@
       "      </$2>",
       "",
       "    <?php endforeach; ?>",
-      "  </$1>",
+      "  </$1>"
     ]
   },
   "Get ACF field": {
     "prefix": "field",
     "body": [
-      "$$1 = get_field( '$1'$0 );",
+      "$$1 = get_field( '$1'$0 );"
     ],
     "description": "Get ACF field"
   },
   "Get ACF subfield": {
     "prefix": "sub",
     "body": [
-      "$$1 = get_sub_field( '$1'$0 );",
+      "$$1 = get_sub_field( '$1'$0 );"
     ],
     "description": "Get ACF subfield"
   },
   "Echo URL": {
     "prefix": "eurl",
     "body": [
-      "echo esc_url( $1 );",
+      "echo esc_url( $1 );"
     ],
     "description": "Echo URL"
   },
   "Echo HTML": {
     "prefix": "ehtml",
     "body": [
-      "echo esc_html( $1 );",
+      "echo esc_html( $1 );"
     ],
     "description": "Echo HTML"
   },
   "Echo attr": {
     "prefix": "eattr",
     "body": [
-      "echo esc_attr( $1 );",
+      "echo esc_attr( $1 );"
     ],
     "description": "Echo attr"
   },
   "Echo content": {
     "prefix": "econtent",
     "body": [
-      "echo wp_kses_post( $1 );",
+      "echo wp_kses_post( $1 );"
     ],
     "description": "Echo content"
   }

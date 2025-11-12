@@ -2,35 +2,35 @@
   "SVG": {
     "prefix": "svg",
     "body": [
-      "<?php include get_theme_file_path( '/svg/$0.svg' ); ?>",
+      "<?php include get_theme_file_path( '/svg/$0.svg' ); ?>"
     ],
     "description": "Include SVG icon"
   },
   "Lazyload image": {
     "prefix": "lazy",
     "body": [
-      "<?php vanilla_lazyload_tag( $$image['ID'] ); ?>",
+      "<?php vanilla_lazyload_tag( $$image['ID'] ); ?>"
     ],
     "description": "Echo HTML"
   },
   "Title": {
     "prefix": "title",
     "body": [
-      "<$1><?php echo esc_html( $2 ); ?></$1>",
+      "<$1><?php echo esc_html( $2 ); ?></$1>"
     ],
     "description": "Do a title"
   },
   "CTA button": {
     "prefix": "cta",
     "body": [
-      "<a href=\"$1\" class=\"button $2\" ><?php echo esc_html( $3 ); ?></a>",
+      "<a href=\"$1\" class=\"button $2\" ><?php echo esc_html( $3 ); ?></a>"
     ],
     "description": "Do a cta button"
   },
   "PHP wrap": {
     "prefix": "php",
     "body": [
-      "<?php $0 ?>",
+      "<?php $0 ?>"
     ],
     "description": "Wrap in php tags"
   },
@@ -41,7 +41,7 @@
       "  <div class=\"container\">",
       "$0",
       "  </div>",
-      "</section>",
+      "</section>"
     ]
   },
   "Posts loop": {
@@ -52,7 +52,7 @@
       "    $0",
       "  <?php endwhile; ?>",
       "  <?php wp_reset_postdata(); ?>",
-      "<?php endif; ?>",
+      "<?php endif; ?>"
     ]
   },
   "Posts loop with cols": {
@@ -71,7 +71,7 @@
       "  </div>",
       "  <?php wp_reset_postdata(); ?>",
       "",
-      "<?php endif; ?>",
+      "<?php endif; ?>"
     ]
   },
   "Cols loop": {
@@ -85,7 +85,7 @@
       "      </$2>",
       "",
       "    <?php endforeach; ?>",
-      "  </$1>",
+      "  </$1>"
     ]
   }
 }
