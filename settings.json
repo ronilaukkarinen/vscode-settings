@@ -1,14 +1,18 @@
 {
   // Editor
+  "window.title": "${activeEditorFull}${separator}${rootName}",
   "window.commandCenter": true,
   "window.zoomLevel": 0,
   "editor.cursorWidth": 3,
   "editor.cursorStyle": "line",
   "editor.mouseWheelZoom": false,
+  "workbench.startupEditor": "none",
 
   // Theme
-  "workbench.iconTheme": "sweet-vscode-icons",
-  "workbench.colorTheme": "Github Purple",
+  "workbench.iconTheme": "catppuccin noctis icons",
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "catppuccin-noctis-icons.hidesExplorerArrows": false,
+  "workbench.activityBar.location": "hidden",
 
   // Fonts
   "editor.fontFamily": "'Monaspace Neon Var', monospace",
@@ -63,8 +67,6 @@
   },
 
   // Styles
-  "stylelint.packageManager": "npm",
-  "stylelint.stylelintPath": "node_modules/stylelint",
   "stylelint.validate": ["css", "scss"],
   "css.validate": true,
   "less.validate": true,
