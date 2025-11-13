@@ -30,6 +30,62 @@
   "terminal.integrated.lineHeight": 1,
   "terminal.integrated.fontLigatures.enabled": true,
 
+    // File tree excludes
+  "files.exclude": {
+    "dev/*.css": true,
+    "prod/*.css": true,
+    "dev/**/*.css": true,
+    "prod/**/*.css": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/dist": true,
+    "**/vendor": true,
+    "**/plugins": true,
+    "**/*.min.js": true,
+    "**/*.min.css": true,
+    "**/.cache": true,
+    "**/.vscode": true,
+    "**/.next": true,
+    "**/.nuxt": true,
+    "**/out": true,
+    "**/*.log": true,
+    "**/yarn.lock": true
+  },
+
+  // Search excludes
+  "search.exclude": {
+    "dev/*.css": true,
+    "prod/*.css": true,
+    "dev/**/*.css": true,
+    "prod/**/*.css": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/dist": true,
+    "**/vendor": true,
+    "**/plugins": true,
+    "**/*.min.js": true,
+    "**/*.min.css": true,
+    "**/.cache": true,
+    "**/.vscode": true,
+    "**/.next": true,
+    "**/.nuxt": true,
+    "**/out": true,
+    "**/*.log": true,
+    "**/yarn.lock": true
+  },
+
   // Linters for Dude
   // PHP_CodeSniffer
   // See docs: https://app.gitbook.com/o/PedExJWZmbCiZe4gDwKC/s/VVikkYgIZ9miBzwYDCYh/linting
