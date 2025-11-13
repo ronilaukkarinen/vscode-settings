@@ -32,10 +32,10 @@
 
     // File tree excludes
   "files.exclude": {
-    "dev/*.css": true,
-    "prod/*.css": true,
-    "dev/**/*.css": true,
-    "prod/**/*.css": true,
+    "**/dev/*.css": true,
+    "**/prod/*.css": true,
+    "**/dev/**/*.css": true,
+    "**/prod/**/*.css": true,
     "**/node_modules": true,
     "**/bower_components": true,
     "**/.git": true,
@@ -60,10 +60,10 @@
 
   // Search excludes
   "search.exclude": {
-    "dev/*.css": true,
-    "prod/*.css": true,
-    "dev/**/*.css": true,
-    "prod/**/*.css": true,
+    "**/dev/*.css": true,
+    "**/prod/*.css": true,
+    "**/dev/**/*.css": true,
+    "**/prod/**/*.css": true,
     "**/node_modules": true,
     "**/bower_components": true,
     "**/.git": true,
