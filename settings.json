@@ -15,7 +15,7 @@
   "workbench.activityBar.location": "hidden",
 
   // Fonts
-  "editor.fontFamily": "'Monaspace Neon Var', monospace",
+  "editor.fontFamily": "'Liga SFMono Nerd Font', 'Monaspace Neon Var', monospace",
   "editor.inlineSuggest.fontFamily": "'Monaspace Krypton Var', monospace",
   "terminal.integrated.fontFamily": "'Monaspace Neon Var', monospace",
   "debug.console.fontFamily": "'Monaspace Krypton Var', monospace",
