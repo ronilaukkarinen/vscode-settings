@@ -231,6 +231,7 @@
     // "sideBar.border": "#444444",
 
     // Minimap hilight color
+    "minimapSlider.background": "#9b7ae723",
     "minimap.findMatchHighlight":"#9b7ae770",
     "minimapSlider.hoverBackground": "#9b7ae723",
     "minimapSlider.activeBackground": "#9b7ae749",
@@ -273,7 +274,8 @@
   },
 
   // Enable minimap
-  "editor.minimap.enabled": true
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.enabled": true,
 
   // Enable VSCode Marketplace in Cursor
   // https://github.com/cursor/cursor/issues/2461#issuecomment-3023527935
