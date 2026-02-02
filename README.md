@@ -4,17 +4,12 @@ This repository contains my Visual Studio Code settings and theme, used when cod
 
 ## Features
 
-**🎨 Beautiful** - I'm a visual perfectionist, so my editor must look clean, minimal, distraction-free, and beautiful.
-
-**🧠 Useful extensions** - Includes plenty of extensions that don't slow down VS Code.
-
-**✂ Snippets** - Handy snippets like `media + tab` for media queries.  
-
-**⌨ Key bindings** - Helpful key bindings for various tasks.  
-
-**⚡ Fast** - VS Code hasn’t always been the fastest, but I choose my extensions wisely.  
-
-**👨‍💻 Customizable** - Feel free to fork this repo and tweak the settings to suit your preferences.
+- **🎨 Beautiful** - I'm a visual perfectionist, so my editor must look clean, minimal, distraction-free, and beautiful.
+- **🧠 Useful extensions** - Includes plenty of extensions that don't slow down VS Code.
+- **✂ Snippets** - Handy snippets like `media + tab` for media queries.
+- **⌨ Key bindings** - Helpful key bindings for various tasks.
+- **⚡ Fast** - VS Code hasn’t always been the fastest, but I choose my extensions wisely.
+- **👨‍💻 Customizable** - Feel free to fork this repo and tweak the settings to suit your preferences.
 
 ## Installation
 
