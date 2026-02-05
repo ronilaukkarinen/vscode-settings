@@ -14,7 +14,7 @@ This repository contains my Visual Studio Code settings and theme, used when cod
 ## Installation
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/), [Visual Studio Code Insiders](https://code.visualstudio.com/insiders/), [VSCodium](https://vscodium.com), or [Cursor](https://cursor.com)  
-2. Download [Monaspace variable fonts](https://github.com/githubnext/monaspace/releases/download/v1.300/monaspace-variable-v1.300.zip) and add them to Font Book  
+2. Download [Maple Mono](https://font.subf.dev/en/), [Liga SFMono Nerd Font](https://github.com/shaunsingh/SFMono-Nerd-Font-Ligaturized), [Monaspace variable fonts](https://github.com/githubnext/monaspace/releases/download/v1.300/monaspace-variable-v1.300.zip) and add them to Font Book  
 3. Open the editor and press <kbd>⌘</kbd> + <kbd>⇧</kbd> + <kbd>P</kbd> (or <kbd>Ctrl</kbd> + <kbd>⇧</kbd> + <kbd>P</kbd> on Windows) and choose `Preferences: Open Keyboard Shortcuts (JSON)`. Copy the contents of [keybindings.json](https://github.com/ronilaukkarinen/vscode-settings/blob/master/keybindings.json).  
 4. Open `Snippets: Configure Snippets` and choose `html`, then copy [html.json](https://github.com/ronilaukkarinen/vscode-settings/blob/master/snippets/html.json).  
 5. Do the same for `php` and [php.json](https://github.com/ronilaukkarinen/vscode-settings/blob/master/snippets/php.json).  
