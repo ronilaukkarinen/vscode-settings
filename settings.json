@@ -121,9 +121,14 @@
 
   // Markdown files
   "[markdown]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null,
     "editor.wordWrap": "bounded",
     "files.trimTrailingWhitespace": false,
-    "editor.lineNumbers": "off"
+    "editor.lineNumbers": "off",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "never",
+    },
   },
 
   // Styles
