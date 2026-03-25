@@ -13,7 +13,7 @@
   "workbench.colorTheme": "Catppuccin Mocha",
   "catppuccin-noctis-icons.hidesExplorerArrows": false,
   "workbench.activityBar.location": "hidden",
-
+  
   // Fonts
   "editor.fontFamily": "'Maple Mono', 'Liga SFMono Nerd Font', 'Monaspace Neon Var', monospace",
   "editor.inlineSuggest.fontFamily": "'Monaspace Krypton Var', monospace",
@@ -119,6 +119,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
+  // Fix module not found -errors
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+  
   // Markdown files
   "[markdown]": {
     "editor.formatOnSave": false,
@@ -177,6 +180,9 @@
     "files.trimTrailingWhitespace": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+
+  // Disable "unabled to load schema" -errors
+  "json.schemaDownload.enable": false,  
 
   // File explorer and tree view settings
   "workbench.tree.indent": 16,
